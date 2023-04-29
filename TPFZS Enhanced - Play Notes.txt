@@ -1,0 +1,25 @@
+TPFZS Enhanced - Play Notes
+kaelynzim@gmail.com
+
+2023-05-25
+----------
+Start:  Hunting in Woods with My Dog.   Starting location has several skulls floating in midair, placed by 3DNPC, updated by Dynamic Things Alternative.   Alt Start: Hunter Cabin page https://www.nexusmods.com/skyrimspecialedition/mods/53589 says conflict is with Song of the Green:
+
+Compatibility
+
+Only one minor incompatibility I have found so far is with the follower mod Song of the Green.  There are two animal skulls that float slightly above the ground next to the cabin if that mod is installed.  They can be disabled from the console if you are using that mod.  Before smashing, batching, and merging I've got ~260 esp's in my load order and everything is working fine together with that one exception.
+
+
+LRSHunterCabinOutside:  whole thing is floating a foot in the air
+Moving obejct with Jaxonz Positioner:  (crafting bench) after lock/release, object shimmers
+on quest: wolves at cave were stuck, unamble to move, not animated
+opening note was in inventory already, not on table
+
+2023-04-28
+----------
+Currently on starting scenes of Rigmor of Bruma.  Moved her to boat, them camp, talked to Rose, on mission to go to Riverwood Trader to get supplies.
+
+Problem:  I have 2 companions, my dog and a high elf.  Neither were with me when I return on boat, though thay made it to the camp with me earlier.
+Problem:  CTD after talking to Camilla Vererius in Riverwood Trader.
+
+Issue:  Buxom Wench Yuriana posters in Riverwood are photos, and un-immersive.

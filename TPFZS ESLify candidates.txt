@@ -1,0 +1,203 @@
+TPFZS ESLify candidates
+
+2023-04-26
+==========
+
+_Fuse00_ArmorKellan.esp
+=== Mods dependent on _Fuse00_ArmorKellan.esp: 
+* 506  LeveledListAdditionArmour.esp
+* 50B  ZedPatch2.esp
+
+Alchemists Vestments.esp
+=== Mods dependent on Alchemist's Vestments.esp: None
+mod = The Alchemist's Vestments - CBBE Refit
+alt versions
+
+Aspens Ablaze.esp
+=== Mods dependent on Aspens Ablaze.esp: 
+* 42E  JKs Ragged Flagon - Aspens Ablaze patch.esp
+
+Better Dynamic Ash.esp
+=== Mods dependent on Better Dynamic Ash.esp: 
+* 50A  ZedPatch.esp
+
+Better Stealth AI for Followers.esp
+=== Mods dependent on Better Stealth AI for Followers.esp: 
+* 50A  ZedPatch.esp
+
+
+Blackened Steel Armor and Weapon set.esp
+=== Mods dependent on Blackened Steel Armor and weapon set.esp: 
+* 506  LeveledListAdditionArmour.esp
+* 507  LeveledListAdditionWeapon.esp
+* 50A  ZedPatch.esp
+
+Blowgun_by_Ruddy88.esp
+=== Mods dependent on Blowgun_by_Ruddy88.esp: 
+* 50B  ZedPatch2.esp
+
+dD - Enahnced Blood Main.esp
+=== Mods dependent on dD - Enhanced Blood Main.esp: 
+* E8  dD-Reduced Wound Size.esp
+* 306  Dynamic Impact - Slash Effects X-03EBT_ISC.esp
+* 50A  ZedPatch.esp
+
+DurnehviirResurrected.esp
+=== Mods dependent on DurnehviirResurrected.esp: 
+* 219  ForcefulTongue - Durnehviir Resurrected Patch.esp
+* 21A  DragonWar - Durnehviir Resurrected Patch.esp
+
+DunparMod.esp
+in Thanedom of Dunpar
+=== Mods dependent on DunparMod.esp: None
+scripts
+
+
+Halted Stream Mine.esp
+=== Mods dependent on HaltedStreamMine.esp: 
+* 50A  ZedPatch.esp
+* 50B  ZedPatch2.esp
+* 50C  DynDOLOD.esp
+
+Homes All in One.esp
+=== Mods dependent on Homes All in One.esp: 
+* 50A  ZedPatch.esp
+
+IHSS.esp
+=== Mods dependent on IHSS.esp: 
+* 50A  ZedPatch.esp
+
+KarstaagReborn.esp
+=== Mods dependent on KarstaagReborn.esp: 
+* 50A  ZedPatch.esp
+
+KD - Realistic Fireplaces SE.esp
+in KD - Realistic Fireplaces - Fixes
+=== Mods dependent on KD - Realistic Fireplaces SE.esp: 
+None
+in KD - Realistic Fireplaces - Fixes
+meshes and textures only
+EASY
+
+
+MaiqAnniversaryEdition.esp
+=== Mods dependent on MaiqAnniversaryEdition.esp: None
+voices
+
+
+mihailfleshatronach.esp
+=== Mods dependent on mihailfleshatronach.esp: None
+
+mihailgreychildren.esp
+=== Mods dependent on mihailgreychildren.esp: None
+CANNOT BE ESLIFIED.   See mod page - problem with seq files and dialog failing after eslification
+
+mihailharpy.esp
+=== Mods dependent on mihailharpy.esp: None
+
+mihailmourningsouls.esp
+=== Mods dependent on mihailmourningsouls.esp: None
+meshes, scripts, voices
+
+NoGrassINCaves.esp
+=== Mods dependent on NoGrassINCaves.esp: None
+esp only
+EASY
+
+
+
+NoRoadPredatorsRedone.esp
+=== Mods dependent on NoRoadPredatorsRedone.esp: None
+esp only
+EASY
+
+
+Open Face Guard Helmets.esp
+=== Mods dependent on Open Face Guard Helmets.esp: 
+* 50A  ZedPatch.esp
+
+PersonalWeddingGuests.esp
+=== Mods dependent on PersonalWeddingGuests.esp: 
+None
+mod = Better Wedding Guests
+scripts, voices
+
+
+Proper Crossbow Integration.esp
+=== Mods dependent on Proper Crossbow Integration.esp: 
+* 50A  ZedPatch.esp
+
+Quick Light.esp
+=== Mods dependent on QuickLight.esp: 
+* 1E6  SJG Quick Light Patch.esp
+
+RealBossesLight.esp
+=== Mods dependent on RealBossesLight.esp: 
+* 50A  ZedPatch.esp
+* 50B  ZedPatch2.esp
+
+Realistic Water Two.esp
+=== Mods dependent on RealisticWaterTwo.esp: 
+* 501  RealisticWaterTwo - Beyond Reach.esp
+* 502  RealisticWaterTwo - Beyond Skyrim Bruma.esp
+* 503  RealisticWaterTwo - Waves - Wyrmstooth.esp
+* 504  JKs Ragged Flagon - RW2 Patch.esp
+
+Saddlebags.esp
+in Iron Dusk's Laboratory - Saddlebags
+=== Mods dependent on Saddlebags.esp: None
+scripts
+
+sforzinda_imitations.esp
+=== Mods dependent on sforzinda_imitations.esp: 
+* 506  LeveledListAdditionArmour.esp
+
+Skyrim Weapons Expansion.esp
+=== Mods dependent on Skyrim Weapons Expansion.esp: 
+* 243  Skyrim Weapons Expansion - NWTA Patch.esp
+* 507  LeveledListAdditionWeapon.esp
+* 50A  ZedPatch.esp
+
+SMIM-SE-Merged-All.esp
+=== Mods dependent on SMIM-SE-Merged-All.esp: 
+* A9  LoS II - SMIM patch.esp
+* 35C  RTDocks - SMIM.esp
+
+Super Simple Lock Bash.esp
+=== Mods dependent on Super Simple Lock Bash.esp: None
+Scripts in BSA
+
+
+suspiciouscityguards.esp
+=== Mods dependent on suspiciouscityguards.esp: None
+Scripts in BSA
+
+
+Triple Triad Skyrim.esp
+=== Mods dependent on Triple Triad Skyrim.esp: None
+Music, Scripts
+
+
+Ulags Legacy.esp
+=== Mods dependent on Ulags Legacy.esp: None
+Armor pack, jsut meshes and textures assets.
+EASY
+
+
+WardsFunctionalitiesExtended.esp
+=== Mods dependent on WardsFunctionalitiesExtended.esp: * 50A  ZedPatch.esp
+
+ww_AlternateDBEnding.esp
+=== Mods dependent on ww_AlternateDBEnding.esp: 
+* 327  ww_AlternateDBEnding_SaveTheDBPatch.esp
+* 50A  ZedPatch.esp
+
+YourMarketStall.esp
+=== Mods dependent on YourMarketStall.esp: None
+
+ZIA_Complete Pack.esp
+=== Mods dependent on ZIA_Complete Pack.esp: 
+* 4AB  JKs White Phial - Zims Immersive Artifacts Patch.esp
+* 4B4  QRVAE_ZIA Patch.esp
+* 50A  ZedPatch.esp
+* 50B  ZedPatch2.esp

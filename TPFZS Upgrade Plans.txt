@@ -1,0 +1,218 @@
+TPFZS Upgrade Plans v1.01
+=========================
+by Kaelyn Zimmerman  kaelynzim@gmail.com  Kaelyn#9867 on Discord
+
+
+A list of mods I'm looking to install.  They may not all fit, and there may be conflicts or other issues.  This is just a candidate list to work from.
+
+changelog:
+	2023-04-28 kz first version
+	2023-04-28 v1.01 kz	added Anna NPCs, Fresh Start Series - Khajiit Will Follow
+	2023--4-29 v1.02 kz added Shirley, marked newly installed mods.  Added Followers for Alternate Start
+
+
+Immediate Addons:
+-----------------
+ADDED	Fresh Start Series - Khajiit Will Follow  - removes quest at startup.  https://www.nexusmods.com/skyrimspecialedition/mods/65435?tab=files
+
+New followers:
+--------------
+Adora
+Anna NPCs
+ASTRID REBORN Back from the Void SE
+Aurlyn Dawnstone
+Bear Foot Froa
+Bhruce Hammar
+Caesia
+Citizens of Tamriel - in ezPG
+Dzarkim -- in ezPG
+Eucleia - Voiced Mage Follower
+Flint The Custom Voiced Minotaur Follower
+Followers for Alternate Start - Fully voiced Forsworn Alik'r Thalmor Followers
+Gore
+Hoth
+Light and Shade --- in ezPG
+Lilissa
+Lucifer
+Mharphin
+Mirai
+Morgaine
+Mythos SE - in ezPG
+Nessa  -- in ezPG
+Nether's Eola
+Nether's Fantabulous Frea
+Nether's Jen and Kat
+Nether's Karliah
+Nether's Vex
+Pan  - works with EFF provide pan is loaded after EFF https://www.loverslab.com/files/file/18116-pan-custom-voiced-follower/
+Pandorable's Heroines
+Redcap the Reikling
+Rosa
+Shirley
+Skeever
+Tabiah
+Thogra gra-Mugur - Orc Follower and Quest
+Xelzaz
+Yazakh
+Slave Pack Riekling Porter
+Shoes Racists Slaves And The Sundered Keep A custom voiced follower pack  ???
+Nevamirr the Rogue- UUNP WoodElf Huntress Companion ?  will play duets with player https://www.nexusmods.com/skyrimspecialedition/mods/54781
+Gladys the Corgi
+Merlin the Corgi
+
+
+Big Mods:
+---------
+Agent of Righteous Might   https://www.nexusmods.com/skyrimspecialedition/mods/29067?tab=files
+Animated Traversal  -- already in TPFZS
+Bards Reborn Student of Song Become a Bard and Bards College Expansion - conflicts with JKs Bards College
+Clockwork (SSE)
+Cutting Room Floor (CRF)
+Darkend  -- already in TPFZS
+Death Consumes All  https://www.nexusmods.com/skyrimspecialedition/mods/41910
+Dragonborn Voiceover (DBVO)
+Glenmoril - already in TPFZS
+HDT Bodies and armor
+Helgen Reborn
+Land of Vominheim SE
+Legacy of the Dragonborn (LOTD)
+Midwood Isle
+Moon and Stars
+Moonpath to Elsweyr SSE
+OStim NG et al
+Project AHO   https://www.nexusmods.com/skyrimspecialedition/mods/15996
+Ravengate - Riften Underground   https://www.nexusmods.com/skyrimspecialedition/mods/12617
+Skyrim Extended Cut - Saints and Seducers
+Skyrim on Skooma
+Summerset Isle ?
+SunHelm survival
+The Brotherhood of Old - Dark Brotherhood Continued  https://www.nexusmods.com/skyrimspecialedition/mods/15322
+The Forgotten City   https://www.nexusmods.com/skyrimspecialedition/mods/1179
+The Gray Cowl of Nocturnal  https://www.nexusmods.com/skyrimspecialedition/mods/4509
+The Second Great War  https://www.nexusmods.com/skyrimspecialedition/mods/17204
+The Shire SE
+There is No Umbra
+Tools of Kagrenac
+Unslaad - already in TPFZS
+Vigilant - already in TPFZS
+Wintersun  ??? - conflicts with Pilgrim?
+
+
+NPC Appearance
+--------------
+Pride of Dibella- Dibellan Priestess Overhaul
+lilson's npc overhauls
+
+
+
+Quests:
+-------
+Boethiah for Good Guys
+Carved Brink
+Caught Red Handed - Quest Expansion -- UPDATED to v1.02
+College of Winterhold - Quest Expansion  -- in TPFZS
+Cutting Stone Corners
+Dark Brotherhood Reformation - Fully Voiced Alternative Quests to Spare Targets  ??
+Deceive Degaine
+Defeat the Dragon Cult
+Faction - Pit Fighter - Revamped
+Here There Be Monsters SSE
+Hestra's Nest ?
+House of Horrors - Quest Expansion -- in TPFZS
+Imperial Law - Lawbringer for Bruma ?
+Isobel and the Adventurers Guild
+Knight of the North - Divine Crusader Reworked - needs CC  https://www.nexusmods.com/skyrimspecialedition/mods/45869
+Konahrik's Accoutrements
+Leaps of Faith - A Misc Quest
+Less Tedious Thieves Guild
+Love Slaves
+Namira for Good Guys
+Nilheim - Misc Quest Expansion  -- in TPFZS
+Return to Pelagius' mind
+Search and Seizure - Quest Expansion ?
+Spooky Philter of the Phantom ?
+Teldryn Serious - A Teldryn Sero Backstory Quest SSE  https://www.nexusmods.com/skyrimspecialedition/mods/5541
+The Forgotten Island
+The Legend of Slender Man- Daunting Scars from Childhood (SE-AE uncensored ver.)
+The Lost Wonders of Mzark
+The Only Cure - Quest Expansion  -- in TPFZS
+The Shadow of Meresis
+Vittorias Alternate Wedding
+Your Choices Matter - A Dark Brotherhood Expansion SSE
+
+
+Dungeons and Locations
+----------------------
+Hammet's Dungeon Pack SE
+Dungeons - Revisited ?
+Unmarked Locations Pack
+Unmarked Locations Pack - Sovngarde
+Bards College Excavation   https://www.nexusmods.com/skyrimspecialedition/mods/36950
+
+
+Immersion
+---------
+Relationship Dialog Overhaul - 
+Immersive Citizens - AI Overhaul (ICAIO)
+Gildergreen Regrown
+Immersive Fallen Trees
+Misc Dialog Edits
+Tavern Games - Mini Games in Skyrim
+NPCs Wear Amulets of Mara PLUS
+Skyrim's Got Talent - Player Reactions Addon
+Dovahkiin can lean Sit Kneel Lay down and Meditate etc too
+Tidy Up
+
+
+
+Patch Collections
+-----------------
+aljos Apothecary Patches
+Swor's Valhalla Combat KillCam Patches
+
+
+Appearance
+----------
+Simple NPC Outfit Manager
+KS Hairdos non HDT wigs
+CBBE 3BA
+
+
+General Additions:
+------------------
+Skyrim for Good Guys modlist - https://www.nexusmods.com/skyrimspecialedition/mods/65567
+Creation Club patches
+Killer Rabbit of Caerbannog
+CBBE 3BA
+Positive Undressed Reactions
+Young Lovers - Expanded Voices (SE)
+Must be my Imagination -- Enemies no longer think its their imagination when stealth plinked by an arrow.
+
+
+QOL Stuff:
+----------
+MCM Loaders
+Wheelmenus
+Unread Books Glow
+Block Steal
+Even Better Quest Objectives (EBQO)
+Radiant Quest Marker SE
+
+
+
+Adult Mods
+----------
+Flower Girls + addons
+OStim NG + addons
+An Evening With Angi
+That Night on the Lake
+Scene Tweak - The Book of Love - Calcelmo and Faleen hug
+The Rift's Rest
+
+Armor and Clothing
+------------------
+DX Spartan Bard Outfit - SSE CBBE BodySlide (with Physics)
+
+Magic
+-----
+Bard Magic Overhaul - Cast Like a Bard

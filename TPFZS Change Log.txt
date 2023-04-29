@@ -1,0 +1,556 @@
+TPFZS Change Log
+
+
+2023-04-25
+
+Mods ESLified in Wyre Bash:
+
+Better Dynamic Snow SE.esp					-- set flag in Wrye Bash
+HandToHandLocksmith.esp						- Bash
+High Poly Head.esm							- Bash
+JKJ-Aetherius.esp
+LovelyLetter.esp							- in Bash
+MajesticMountains_Landscape.esm				- Bash
+ModernizeVanilla.esp						- done in Wrye Bash, just a flag set
+RaceMenuMorphsCBBE.esp
+RealisticWaterTwo - Waves - Wyrmstooth.esp	- Bash
+Sabrecat_Preview_MCO.esp
+Settlements Expanded SE - CFTO Patch.esp
+Settlements Expanded SE - The Great Village of Old Hroldan Patch.esp
+Stats Editor MCM Menu.esp
+
+-- Total 13 new ESPFEs
+
+2023-04-26
+==========
+
+Installed:
+	Recorder - Standalone Fully Voiced Follower
+	https://www.nexusmods.com/skyrimspecialedition/mods/4718
+	Mod: 		Recorder Follower BSA Ver. 3.0
+	Version:	3.0
+	Installs:	Recorder Follower Base.esp
+	LOOT order:	before nwsFollowerFramework.esp
+	Notes: 		Starts in Riverwood, inside the Sleeping Giant Inn.
+
+Installed:
+	Recorder - Bugfix Patch SSE
+	https://www.nexusmods.com/skyrimspecialedition/mods/17816
+	Mod: 		Recorder Bugfix Patch
+	Version:	3.0h
+	Fomod options:	page 1: all except Easter Egg  page 2: 3 hours comment frequency + JK's Skyrim
+	Installs:	Recorder Follower Patch.esp
+			Recorder - JKs Skyrim Patch.esp
+	Instructions:	Set the ESL flag on the JKs patch, using either Wrye Smash or xEdit.
+			Run SSEEdit on Recorder Follower Patch:  Run Script: __ESPFEFollower
+			If using Recorder Redux, use MO to hide meshes and textures folders
+			
+
+Installed:
+	Recorder Redux 2021
+	https://www.nexusmods.com/skyrimspecialedition/mods/45069
+	Mod: Recorder Redux 2021  v1.0
+	Installs:  Recorder Follower Base.esp
+	Notes: A High Poly Overhaul of the Beloved Recorder, complete with HD textures, 3BBB body with a matching outfit.
+		Overwrites main Recorder esp.  3BBB CBBE body with SMP physics enabled.   Nerfs default overpowered ebony weapons, gives a dwarven sword and hunting bow instead.  
+
+
+Disabled:	DXMCO - Creeatures
+	My dog companion wasnt animating when he walked, just gliding as a statue.  Disabling DXMCO - Creatures fixes problem
+
+Disabled:		Root Builder
+	Moved to a StockGame installation of SSE, kept within the base TPFZS MO2 folder.
+	Due to my MO2 crashing a lot on installing/removing mods, RB kept messing up, copying things to overwrite, hanging, etc.
+	Plus, there was always a 5 second delay starting or exiting the game.
+	So, for stability and speed, moved to a TPFDE-like 'StockGame' installation.
+	Create a 'StockGame' folder in the TPFZS main MO folder.
+	Fill it with a 1.5.97 game, including data, esms, bsas, and ESPECIALLY CC content.
+	Look at the 'Data/Root' folder inside MO right hand Data pane, and copy all files listed to the new StockGame folder
+	Edit all the MO executables (or create new ones) to point to new location in StockGame.
+	Nemesis needs a new ini, either reinstall or copy existing ini to a new mod folder.
+	Change Nemesis_Engine\nemesis.ini :  SkyrimDataDirectory=auto
+	Nemesis will update that to the new location after first run.
+	Add to SSEdit executable command line: -D:"<TPFDX folder>\\StockGame\\data"
+
+Installed:
+	The Wheel of Time - Fully Voiced Follower and Quests
+	https://www.nexusmods.com/skyrimspecialedition/mods/55404
+	Main: The Wheel of Time v2.02
+	Optional: Animated Armory Rapier Animations v1
+	LOOT Rule: Before nwsFollowerFramework.esp
+	Notes: Based on the fantasy book series "The Wheel of Time" this mod adds the follower Aviendha and Wheel of Time-related quests.
+		Fully voiced by a great cast of voice actors.
+		Find Aviendha on bridge in Riverwood.
+
+Installed:
+	SPID - NFF - Add Ignore Token to CustomAI Followers
+	https://www.nexusmods.com/skyrimspecialedition/mods/82945?tab=description
+	v1.0.13
+	Mod Order: N/A
+	Notes: Add NFF Ignore Tokens to custom followers that use their own AI (just another Quality of Life minifix)
+		This mod aims to supply with a vetted SPID distribution-list for followermods and/or NPCs that are NOT to be imported into NFF.  Blocking is done by means of using SPID to distribute the 'NFF Ignore Token' into the respective followers inventory, basically stopping the player from importing it into the NFF framework (at least not without explicitly cleaning the follower inventory first).
+		Handles all the cool follower mods, practically a list of the best ones around.
+
+Installed:
+	Sofia - The Funny Fully Voiced Follower
+	https://www.nexusmods.com/skyrimspecialedition/mods/2180
+	file: Sofia Follower v.2.51 (Loose)
+	installs: SofiaFollower.esp
+	LOOT Rule: Before nwsFollowerFramework.esp
+
+	Sofia Follower - Alternate Spawn for Compatibility
+	https://www.nexusmods.com/skyrimspecialedition/mods/36425
+	
+	Sofia Immersive Nakedness Recognition
+	https://www.nexusmods.com/skyrimspecialedition/mods/71288
+	
+	Immersive Sofia Start
+	https://www.nexusmods.com/skyrimspecialedition/mods/64063
+	This patch adds the tracking marker only after you talk to her for the first time.
+	
+	Daegon - Standalone Custom Fully Voiced High Elf Follower
+	https://www.nexusmods.com/skyrimspecialedition/mods/78745
+	Daegon is a fully custom voiced Altmer Princess, lost in Skyrim searching for secrets and adventure, with curses & swears. She has over 2,000+ lines of dialogue, nearly all of it location and quest aware. With dark humor and a taste for murder, she'll kill for you, she'd die for you, she's your best friend, ready for anything.
+	Your journey with Daegon begins in Riverwood, where she has drawn the attention of Witch Hunters.
+	NOTE: Needs Papyrus Tweaks to work properly.  Install Papyrus Tweaks at same time, if needed.
+	
+	Daegon - Apothecary Patch
+	https://www.nexusmods.com/skyrimspecialedition/mods/81129
+
+	Buxom Wench Yuriana -Tank Healer Support Follower- and Captured Wenches Quests
+	https://www.nexusmods.com/skyrimspecialedition/mods/598
+
+
+	The Erotic Adventures of Misty Skye
+	https://www.nexusmods.com/skyrimspecialedition/mods/16374
+	A comedy adventure of ample proportions! Fully voiced! A continuing quest series featuring a sassy stripper companion.
+	The first quest will begin when you approach the Drunken Huntsman in Whiterun and read one of the sexy new posters that have appeared outside the doors.
+	
+	Ai Voiced - The Erotic Adventures of Misty Skye
+	https://www.nexusmods.com/skyrimspecialedition/mods/84933?tab=files
+	Ai Voice Replacer for awesome mod that is The Erotic Adventures of Misty Skye
+
+
+; Arissa - The Wandering Rogue
+; https://www.nexusmods.com/skyrim/mods/53754/ (HARD REQUIREMENT, NEEDS MANUAL PORTING)
+; https://www.nexusmods.com/skyrimspecialedition/mods/39842
+	Comment: Please note that this follower is NOT on SE, and needs manual porting (it uses a custom follower framework, ala Inigo/Lucien)
+	Arissa is an Imperial with an independent, rebellious spirit and a gift for making expensive things disappear. She is a Skyrim companion character with over 600 lines of dialogue, professionally recorded and beautifully voiced by the talented Nikkita.
+	Visit the Dead Man's Drink in Falkreath. Arissa will be waiting for you there.
+
+	Rigmor of Bruma
+	https://www.nexusmods.com/skyrimspecialedition/mods/5271
+	Found between Standing Stones and Riverwood.
+	LOOT: before OCW_Obscure's_CollegeofWinterhold.esp
+	
+	Kaidan 2
+	https://www.nexusmods.com/skyrimspecialedition/mods/19075
+	Custom voiced follower with romantic plotline
+	Rebuilt and expanded, this romantic follower features over 1200 lines of dialogue, custom home, and mini quests.
+	On starting up you'll receive a quest prompting you to find Kaidan within the Abandoned Prison, and he can be made your follower once freed.
+	
+	Kaidan Extended Edition
+	https://kaidanmod.com/downloads/
+	BWB-HSF-Kaidan-2-Extended-Edition-V8.3.2
+	
+	Kaidan Immersive Features
+	https://kaidanmod.com/downloads/
+	LOOT: before Kaidan 2 Extra Dialog
+	
+	Kaidan-Inigo Banter
+	https://kaidanmod.com/downloads/
+	Kaidan-2-and-Inigo-Banter-Patch-v6.3
+	
+	Kaidan 3DNPC Patch
+	Kaidan Lux Patch
+	Kaidan IF Lux Patch
+	Kaidan Skyrim's Got Talent Patch
+	
+	M'rissi's Tails of Troubles SE
+	https://www.nexusmods.com/skyrimspecialedition/mods/9666
+	LOOT: before OCW_Obscure's_CollegeofWinterhold.esp
+	
+	M'rissi Tails of Troubles Replacer
+	https://www.nexusmods.com/skyrimspecialedition/mods/29241?tab=files
+	
+	M'rissi's Quest Tweaks (ESL)
+	https://www.nexusmods.com/skyrimspecialedition/mods/73713
+	Tweaks a few things about the quest and its rewards. A big change is that it tones down the very steep skill requirements in the text-based sequence during the nightmare quest. ESL
+	
+	M'rissi is more aware (ESL)
+	https://www.nexusmods.com/skyrimspecialedition/mods/73533
+	Makes M'rissi aware of things that seemed she should have been aware of, like Hulking Draugr, Elven Gilded Armor, some summons, creatures, races, etc. Makes some comments trigger in extra situations, whenever they seemed appropriate.
+	
+	Remiel-Custom Voiced Dwemer Specialist and Companion
+	https://www.nexusmods.com/skyrimspecialedition/mods/51874
+	Adds Remiel to your game, custom voiced with ~3500 lines of dialogue, a Breton engineer who will accompany you in your travels. She's travelled from Wayrest to explore dwemer ruins in Skyrim, but she needs your help. While she's not much of a fighter, she boasts a knack for machinery and will reprogram a dwemer spider to fight alongside you both.
+	You can find Remi staying at Markarth's Silverblood Inn
+
+
+===================
+2023-04-27
+
+Updated:
+	TPF - Zediious Sprinkles Modpack Files
+	https://www.nexusmods.com/skyrimspecialedition/mods/87783
+	ZedPatch-1 v0.9.3.6
+	ZedPatch-2 v0.9.3.6
+	
+Installed:
+	Katria
+	https://www.nexusmods.com/skyrimspecialedition/mods/59966?tab=description
+	Katria 2.0.6
+	Katria - Gwylim Annex Exterior Pathing Fixed
+	This mod is a complete overhaul for the vanilla Katria. Her vanilla voice has been completely replaced. Includes lots of additional dialogue and commentary plus a new additional quest. She's now a follower with her own personal custom Archer-Assassin class and combat style with marriage potential.
+	
+	INIGO
+	https://www.nexusmods.com/skyrimspecialedition/mods/1461
+	INIGO_V2.4C SE
+	Inigo is a fully voiced khajiit adventuring companion with over 7000 lines of unique dialogue - much of it about you. He'll level alongside you and avoid most traps. If you're sneaking he won't chatter and he'll whisper if you talk to him. He can run out of arrows. He's highly skilled in archery, one-handed, and sneak.
+	
+	INIGO 2.4C UPDATE ESP FILE
+	https://www.nexusmods.com/skyrimspecialedition/mods/89385
+	Inigo xedit cleaned esp File  v2.4C
+	With permission from Smartbluecat INIGO 2.4C esp has been updated and run through xedit to remove undeleted navmesh references and errors. I guess this file is for many that do not know 'how to' in regards to xedit.
+	
+	Ryn's Dragon Mounds Collection
+	https://www.nexusmods.com/skyrimspecialedition/mods/85647
+	All of my 22 Dragon Mound location overhauls, flagged as individual ESL files.
+	Ryn's Dragon Mounds Collection AIO 1.1.1
+	LOOT: after other ryn's mods
+			Ryn's Dragon Mounds Grass Fix   AFTER   Man Those Borders Landscape Fix
+	Notes:  originally wanted fomod, but AIO is more compatiple with 3rd party patches, e.g. Complementary Grass Fixes
+	
+	Radiance - Radiant Quest Enchancements - Locations
+	https://www.nexusmods.com/skyrimspecialedition/mods/45419?tab=files
+	Radiance - Radiant Quest Enhancements expands upon Skyrim's radiant quest system.
+	The Location plugin adds new markers to existing locations, and allows radiant quests to direct you to many of the smaller, unmarked places in the world.
+	Radiance - Locations 1 0 1
+	LOOT: before Realistic Water Two
+		before Locked Chests Have Keys
+	
+	
+	Complementary Grass Fixes
+	https://www.nexusmods.com/skyrimspecialedition/mods/71562?tab=description
+	Addon to LFFGM aimed at correcting clipping issues for particularly dense grass mods.
+	Complementary Grass Fixes  v1.1
+	FOMOD: install whatever it selects.  needs to be reinstalled as new mods added, e.g CRF and Ryn's Farms
+	LOOT: before Radiance - Locations
+		before NoBrokenWhiterunTower
+		before Landscape Fixes for Grass Mods
+	
+	Lucien - Immersive Fully Voiced Male Follower
+	https://www.nexusmods.com/skyrimspecialedition/mods/20035?tab=description
+	Lucien is a fully voiced Imperial follower with over 5000 lines of immersive, lore-friendly dialogue. Though he arrives in Skyrim as a cowardly scholar, he'll gradually gain strength and confidence by your side until he grows into a hero in his own right.
+	Lucien
+	Lucien - Beyond Skyrim - Bruma Patch
+	*Lucien - Moon and Star Patch 			*To be enabled after installing MaS
+
+	
+	Janquel's Arguably Needed Quixotically Unifying ESP Library
+	https://www.nexusmods.com/skyrimspecialedition/mods/57365?tab=files
+	FOMOD:  install whatever it selects.  REINSTALL as new mods added
+
+DISABLE:
+	Blank CC Plugins
+	Notes: Zed only installed this because he didnt have AE and all CC.  Disable to get real CC content
+	
+INSTALL:
+		
+	Axarien's Animations - Inigo (DAR)
+	https://www.nexusmods.com/skyrimspecialedition/mods/70423
+	A carefully curated collection of animations for the custom follower Inigo that are applied only to him via Dynamic Animation Replacer.
+	Axarien's Animations - Inigo (DAR)
+	Ax's Animations - Inigo Cat Sprint Patch (DAR)  Just for fun - gives Inigo a catlike sprint animation on all fours
+
+	Axarien's Animations - Lucien (DAR)
+	https://www.nexusmods.com/skyrimspecialedition/mods/76390
+	A carefully curated collection of animations for the custom follower Lucien Flavius, which apply only to him with Dynamic Animation Replacer.
+	
+	Sofia - At Your Own Pace Patch
+	https://www.nexusmods.com/skyrimspecialedition/mods/66802
+	Sofia is a popular follower mod. At Your Own Pace changes the main quest so that you are not automatically sent by Balgruff and Farengar to get the Dragonstone. This patch provides some compatibility between the two mods so Sofia doesn't say certain dialogue before you are sent to Bleak Falls Barrow.
+	
+	At Your Own Pace
+	https://www.nexusmods.com/skyrimspecialedition/mods/52704
+	At Your Own Pace - Inigo Patch
+	This disables some of Inigo's dialogue that no longer makes sense.
+	
+	INIGO - Map Marker to Miscellaneous Quests
+	https://www.nexusmods.com/skyrimspecialedition/mods/65960
+	This mod edits the quest which appears as a main quest in your menus to be a miscellaneous quest, like the way Sophia does her map marker.
+	
+	Lively's Dwemer Gates Don't Reset Patches
+	https://www.nexusmods.com/skyrimspecialedition/mods/84138?tab=files
+	Consistency patches for Dwemer Gates Don't Reset.
+	FOMOD:  select Inigo.  REINSTALL as needed
+	
+	Valhalla Combat - Race Addons
+	https://www.nexusmods.com/skyrimspecialedition/mods/73963
+	Race mapping patches for a selection of mods to make the races work with the execution system of Valhalla Combat.
+	Needed to patch Inigo
+	FOMOD: install selected.  REINSTALL as needed, e.g. bard's college update, the shire
+	only updates SKSE ini files, ordering unimportant
+	
+UPDATE:
+
+	Spell Perk Item Distributor (SPID)
+	https://www.nexusmods.com/skyrimspecialedition/mods/36869?tab=files
+	v6.6.1
+
+INSTALL:
+
+	Papyrus Tweaks NG
+	https://www.nexusmods.com/skyrimspecialedition/mods/77779?tab=files
+	Collection of fixes, tweaks and performance improvements for Skyrim's script engine. 100% configurable. Install/Uninstall anytime.  Needed to get Daegon follower to work properly.
+	Papyrus Tweaks 4.1.0
+	INI file for reference
+
+CREATE NEW MOD:
+	SSE Engine Fixes - INI file
+	Create a new empty mod, copy over SKSE/plugins/EngineFixes.toml from SSE Engine Fixes
+	change MaxStdio = 8192
+	Enable mod in MO
+	Needed to support Daegon follower
+	
+INSTALL:
+
+	Aniya - A Custom Voiced Follower
+	https://www.nexusmods.com/skyrimspecialedition/mods/63208
+	Aniya - A Custom Voiced Follower is a companion/quest mod. She is a Nord mage with various functions to use, a quest that will explore her background story and character development, and plenty of lines tailored to unique scenarios, many unexpected! Aniya is planned to have a Main story, detailed romance, spell learning, NPC encounters, and more!
+	located in The Bannered Mare
+	Has banter with Daegon
+
+DISABLE:
+	Dragonborn Presence - Discord Rich Presence
+	Reason:  uses and esp slot, and i don't want to be visible on Discord
+	
+INSTALL:
+
+	Immersive Wenches
+	https://www.nexusmods.com/skyrimspecialedition/mods/595
+	Immersive Wenches SE
+	Immersive Wenches -KS hairs- Patch_SE (KS hairs 1.61f)
+	Adds wenches to every inn in skyrim to "serve and chat" with the patrons of an inn using custom scenes, also some quests, adds barmaids that work as servers/innkeepers and maid wenches with a bodyguard that travel around skyrim. They can be turned into followers (they have custom spells/perks/classes/AI) and can be spouses.
+	
+	Immersive Wenches - Settings Loader
+	https://www.nexusmods.com/skyrimspecialedition/mods/64882
+	Created from scratch MCM for Immersive Wenches by lordkoz to support MCM Helper. Saves settings as you change them, automatically loads settings on startup or game load, imports settings from an existing save, so you don't have to spend time in MCM again with each game. Localization support. No plugin.
+	
+	Immersive Wenches - Player Dialogue Rewritten
+	https://www.nexusmods.com/skyrimspecialedition/mods/81991
+	A cringe-reducing overhaul of player dialogue in Immersive Wenches.
+	
+	High Quality Facetints for Immersive Wenches
+	https://www.nexusmods.com/skyrimspecialedition/mods/18355
+	
+	Immersive Wenches - Name Fix
+	https://www.nexusmods.com/skyrimspecialedition/mods/62021?tab=files
+	
+	IMMERSIVE WENCHES SOLITUDE WANTED POSTER REPLACEMENT (SE and VR)
+	https://www.nexusmods.com/skyrimspecialedition/mods/76987
+	Revised text and reduced size version 2 Sepia
+
+	JK's Interiors Patch Collection
+	https://www.nexusmods.com/skyrimspecialedition/mods/35910?tab=files
+	FOMOD:  Install what it selects.  REINSTALL as you add mods
+	LOOT:  before final master patches
+		before Luminosity
+		before Realistic Water Two
+		
+	
+	New posters for Immersive Wenches
+	https://www.nexusmods.com/skyrimspecialedition/mods/79490?tab=description
+	Replaces the 4 posters from nude ones to basic art
+	Immersive Wenches Posters  - main hi-res version
+	MO load order: before Immersive Wenches Solitude Wanted Poster Replacement (let that one win conflict)
+	
+	Modpocalypse NPCs - Immersive Wenches
+	https://www.nexusmods.com/skyrimspecialedition/mods/58239?tab=files
+	Modpocalypse NPCs (v3) Immersive Wenches
+	This is an appearance overhaul for the new NPCs added by the mod "Immersive Wenches".
+	
+	Modpocalypse NPCs - Resources
+	https://www.nexusmods.com/skyrimspecialedition/mods/54421
+	Modpocalypse NPCs - Resources
+	This file contains the meshes and textures required for the "Modpocalypse NPCs" series.
+	
+	Unofficial Skyrim Creation Club Content Patches
+	https://www.nexusmods.com/skyrimspecialedition/mods/18975
+	Unofficial Skyrim Creation Club Content Patch
+	FOMOD: Merged
+	LOOT: First esl slot after esms, as early as possible
+	
+	Unofficial Skyrim Modder's Patch - USMP SE
+	https://www.nexusmods.com/skyrimspecialedition/mods/49616?tab=files
+	Main file
+	LOOT:Load order with USMP should be:
+			Base Game
+			CC Content
+			USSEP
+			USCCCP
+			Vanilla Script (Micro)Optimizations
+			USMP
+			Navigator - Navmesh Fixes
+			all other esms
+			esps
+			patches
+	
+	Vanilla Script (micro)Optimizations
+	https://www.nexusmods.com/skyrimspecialedition/mods/54061
+	Mod Load Order: immediately after USCCCP
+			
+	Navigator - Navmesh Fixes
+	https://www.nexusmods.com/skyrimspecialedition/mods/52641
+	Mod Load Order: immediately after USMP
+	
+	Unofficial Skyrim Modders Patch - USMP - Patch Emporium
+	https://www.nexusmods.com/skyrimspecialedition/mods/50813?tab=files
+	Main file
+	WACCF Patch  - USMP - WACCF espfe updated with the newest 2.9.2 version
+	I made a number of patches for USMP and some other mods and decided that USMP patches really need their own page. I will be creating more patches for USMP as time goes by, however due to the sheer number of NPC overhauls, they don't have a high priority. and they will overwrite without issue.  Good for SE/AE
+	FOMOD:  whatever it selects.  
+	REINSTALL after addin new mods, e.g. CRF, LOTD, Left Hand Rings, ICAIO
+	LOOT: Before Realistic Water Two
+		Before Luminosity
+		
+	
+
+
+======================================================
+2013-04-28
+
+INSTALLED:
+
+	DLC2MiraakScript Fix
+	https://www.nexusmods.com/skyrimspecialedition/mods/89890
+	Main file v1.0
+	Fixes the DLC2MiraakScript to not take up all of the game's scripting resources and wrecking the scripting engine in the process, by reworking a very inefficient while loop. No ESP.
+	
+	DLC2dunSeekerInvisScript Fix
+	https://www.nexusmods.com/skyrimspecialedition/mods/89708
+	Main file v1.1.1
+	Reworks the DLC2dunSeekerInvisScript to improve performance and prevent FPS drops by replacing an inefficient while loop with RegisterForSingleUpdate. No ESP.
+
+	First Person Target Locking Fix
+	https://www.nexusmods.com/skyrimspecialedition/mods/87632
+	Main file v1.5
+	Fixed True Directional Movement Enemy locking issue in first person.  No ESP.  Safe to remove.
+
+	Dragonactorscript infinite loop fix
+	https://www.nexusmods.com/skyrimspecialedition/mods/87940
+	Main file v1.3.1
+	If a dragon dies and you never get close enough to its corpse to absorb its soul, the script for that dragon will be stuck in your save forever, polling every second. This mod fixes that.
+	FOMOD Options: fail silently, Dragon War patch
+	Notes:  Overwrites script from Dragon War.
+		I got MO2 CTD on install, had to Force-check updates on mod after MO2 restart
+		
+
+===================================================================================================================
+2023-04-28
+===========
+
+INSTALLED:
+	Fresh Start Series - Khajiit Will Follow
+	https://www.nexusmods.com/skyrimspecialedition/mods/65435?tab=files
+	Main: Fresh Start Series - Khajiit Will Follow
+	Hides "Main Quest" and removes book from inventory at startup (can still be added via console).
+	BUG:  MO2 CTD on install
+
+
+	Unread Books Glow SSE with MCM
+	https://www.nexusmods.com/skyrimspecialedition/mods/20679?tab=files
+	FOMOD:  Choose ESPFE version, for flexibility
+	LOOT: very early, just after esl files
+
+	
+	Unread Books Glow SSE with MCM Settings Loader
+	https://www.nexusmods.com/skyrimspecialedition/mods/68629
+
+	
+	Koralina's Daegon Replacer
+	https://www.nexusmods.com/skyrimspecialedition/mods/89365
+	Needs RaceCompatibility
+	LOOT:  immediately after k101Daegon.esp
+
+
+	RaceCompatibility for Skyrim Special Edition
+	https://www.nexusmods.com/skyrimspecialedition/mods/89365
+	RaceCompatibilty All-In-One Scripted Installer v2.16 2023-04-25
+	FOMOD Options: USSEP, Moonlight Tales, No Vampire Overhaul
+	LOOT: end of ESMs
+	
+
+2013-04-29
+==========
+
+INSTALLED:
+	
+	Caught Red-Handed - Quest Expansion
+	https://www.nexusmods.com/skyrimspecialedition/mods/65708
+	Mind your own business, Svana. Everyone should be allowed to practice the "Dibellan" arts free of shame! Expands this misc quest with some new... interesting outcomes.
+	Download:  Main - Caught Red Handed - Quest Expansion v1.02
+		Optional - USSEP Optional Patch
+	Note:  v1.02 is an update from the 1.01 version in TPFZS v9.3.5.  Optional USSEP patch already installed
+	
+	Narrative Gameplay Consistent Dialogue Tweaks
+	https://www.nexusmods.com/skyrimspecialedition/mods/64667?tab=description
+	This mod fixes some inconsistencies in gameplay and dialogue by NPCs.
+	Download:  Main - Narrative Gameplay Consistent Dialogue Tweaks  v1.4
+		Optional - Narrative Gameplay Consistent Dialogue Tweaks - Caught Red Handed - Quest Expansion Patch
+		Optional - NGCDT - The Choice Is Yours Patch v1.3
+	LOOT:  Patches section, Before Realistic Water Two.esp
+		Before nwsFollowerFramework.esp
+	
+	Relationship Dialogue Overhaul - RDO SE
+	https://www.nexusmods.com/skyrimspecialedition/mods/1187
+	Adds over 5,000 lines of completely voiced dialogue for NPCs using the original voices. Friends, followers, spouses, rivals, and others have much more to say. All default voices now have follower dialogue. Also fixes dialogue bugs and restores cut dialogue that has never been heard before!
+	Download:  Main - Relationship Dialogue Overhaul - RDO Final
+		Optional - RDO - CRF and USSEP Patches Final
+	BUG:  MO2 hung on installing RDO main.   Needed to kill process.   On restart and re-install replace, CTD.  Also CTD on reinstall merge.
+		All data seems to be installed, but MO2 version # is wrong; suspect problem occurs when updating metadata/accessing nexus.
+		Temp solution:  force-update version number.
+		MO2 CTD on installing patch.
+	MODIFY:  temporarily disable RDO - CRF + USSEP Patch.esp, as CRF is not yet installed
+		Both the new patches are ESLify candidates.  Open Wrye Smash, left click on them, set ESL flag
+	LOOT:  Before TCIY The Choice is Yours (preferred but not required)
+		After ICAIO (once it gets installed)
+		After FCO Follower Commentary Overhaul
+		After GDO Guard Dialog Overhaul
+		After Mirai - the Girl with the Dragon Heart (once it gets installed)
+		After Bijin AIO 2016 (if installed)
+		After Narrative Gameplay Consistent Dialog Tweaks
+		Recommend immediately BEFORE nwsFollowerFramework.esp
+		
+	Relationship Dialogue Overhaul - Update and MCM
+	https://www.nexusmods.com/skyrimspecialedition/mods/44601
+	Patch that adds MCM and all other stuff from 2.0 version of Relationship Dialogue Overhaul (Oldrim).
+	Download: Main - Relationship Dialogue Overhaul - Update and MCM 1.0.5
+		Optional - Relationship Dialogue Overhaul - UHDAP Patch
+	LOOT: After RDO
+
+
+	
+	
+		
+		
+		
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+	
+
+
