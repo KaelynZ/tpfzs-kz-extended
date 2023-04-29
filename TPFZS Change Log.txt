@@ -1,8 +1,8 @@
-TPFZS Change Log
+TPFZS - KZ Extended - Change Log
 
 
 2023-04-25
-
+==========
 Mods ESLified in Wyre Bash:
 
 Better Dynamic Snow SE.esp					-- set flag in Wrye Bash
@@ -529,7 +529,20 @@ INSTALLED:
 		Optional - Relationship Dialogue Overhaul - UHDAP Patch
 	LOOT: After RDO
 
+ESP Load Order fix:
+	USMP - WACCF - GDO patch.esp   AFTER   USMP - WACCF patch.esp
+	Katria.esp  AFTER PAN_NPCs_DG.   This also applies to mod install order.
+    MistySkye.esp   AFTER  Markarth Entrance and Farm Overhaul Light Plugin.esp
+	Ryn's Anise's Cabin    AFTER   Ryn's Standing Stones
+	Misc Dialog Edits - At Youur Own Pace + Save The Icerunner.esp    AFTER  ZedPatch.esp
+	At Your Own Pace - College Quest Expansion Patch    AFTER ZedPatch.esp
 
+	
+Mod Install Order Fix:
+	Rigmor of Bruma  BEFORE   NPC overhauls, esp Kalilies NPCs.    ---  Rigmor has numerous vanilla facegeoms
+	At Your Own Pace - College Quest Expansion Patch     AFTER  ZedPatch and anything else that might override its scripts
+	
+	
 	
 	
 		

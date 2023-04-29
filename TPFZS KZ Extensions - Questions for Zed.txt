@@ -1,0 +1,28 @@
+TPFZS KZ Extensions - Questions for Zed
+
+Since I'm not going to clog up a Discord forum or expect quick answers, I'm going to be a bit more detailed than I would be while chatting.  You may want to bring up SSEdit and get some coffee before delving in.
+
+2023-04-29
+----------
+1.  Book edits in ZedPatch.   Two books, 02004d5B DLC1LD_AetheriumWars and 000c1771 Book2CommonLegendOf RedEagle, are *mostly* amerge of Book Covers Skyrim and TheChoiceIsYours.  However, they're missing a couple of properties from TCIY.  Looks like TCIY got updated, and your patch didn't include the updates, so I fixed in in my consistency patch.   Is this a correct analysis?
+
+2.  Most of the time, ZedPatch copies cell lighting from Luminosity.  But every once in a while, it copies it from some other mod, making the Luminosity record red.  E.g. 0002529e MehrunesDagonShrine copies from Ryn's Mehrunes Dagon Shrine, and 00013a73 FalkreathLodsHouse copies from COTN - Falkreath.  Are these choices deliberate?
+
+3.  Why did you go with Serana Relationship Revamped in instead of Serana Dialog Addon?
+
+4. ZedPatch2 - Why did you remove some appearance edits from JKJ on some Khajiits?  I restored them in my consistency patch.
+
+5.  ZedPatch2 - Why did you not use the appearamce edits from JKJ - Vaharardo's Jaguar Khayla?
+
+6. ZedPatch - Why did you give so many starting skill boosts to Khajiits  (00013745 KhajiitRace), over Aetherius and JKJ? Are you a cat lover, by chance?  In any case, it's inconsistent with the other Khajiit races added by JKJ.  And why did you remove the Aetherius MAG_KhajiitRaceMonitor "Khajiit Race Monitor" [SPEL:FE0F4842] actor effect?
+
+
+
+
+
+
+
+
+
+
+
