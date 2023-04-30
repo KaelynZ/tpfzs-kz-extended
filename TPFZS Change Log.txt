@@ -602,10 +602,12 @@ INSTALLED:
 	Ryn's Bleak Falls Tower
 	https://www.nexusmods.com/skyrimspecialedition/mods/72659
 	A small group of changes/additions of the tower outside of Bleak Falls Barrow.
+	LOOT:  After LCO_BleakfallsTower.esp
 	
 	Ryn's Bleak Falls Tower - Bleak Falls Tower Lawbringer Module
 	https://www.nexusmods.com/skyrimspecialedition/mods/73729
 	A simple and quick patch between the above mods; they work almost perfectly together already, this just fixes what small issues there are
+	LOOT:  After LCO_BleakfallsTower.esp
 	
 	Bleak Falls Barrow - Animated Traversal
 	https://www.nexusmods.com/skyrimspecialedition/mods/70876?tab=files
@@ -659,25 +661,146 @@ INSTALLED:
 	Finding Helgi and Laelette - Grammar Fixes
 	https://www.nexusmods.com/skyrimspecialedition/mods/66725
 
+	Mistwatch Ending - More Options
+	https://www.nexusmods.com/skyrimspecialedition/mods/35888
+	A tweak to Mistwatch ending, that preserves your ability to lie even if you killed Fjola
+	
+PROBLEM SOLVED:
+	MO2 CTD when installing/removing certain mods.
+	Caused by correpted meta files, with a 'NUL' character in the fileTime= entry.
+	Solution:  remove meta file of mod that cause CTD, then re-generate it
 	
 
+2023-04-30
+==========
+
+UPGRADE:
+	Paarthurnax - Quest Expansion
+	https://www.nexusmods.com/skyrimspecialedition/mods/51711
+	Download:  v1.12
+	
+UPGRADE:
+	Ryn's Bleak Falls Tower
+	https://www.nexusmods.com/skyrimspecialedition/mods/72659
+	Download: v1.5
+	
+INSTALLED:
+	Silence is Golden
+	https://www.nexusmods.com/skyrimspecialedition/mods/50581
+	"Sorry, Lucan, I didn't find the Golden Claw."
+	Download:  v1.1
+	LOOT:  Before Realistic Water Two
+	DNI - Already in TPFZS
+
+	Lilly - A fully-voiced female courier replacer and follower
+	https://www.nexusmods.com/skyrimspecialedition/mods/4595
+	Lilly is a fully-voiced female courier replacer, who can also be recruited to be a follower.
+	Download: Lilly - Female Courier Replacer (Mainly Loose files) v1.1
+	Install:  Extract scripts from BSA.  Most easily done by altering MO2 Settings/Plugins/BSA Extractor, set only_alternate_source = false, then install
+	Install order:  AFTER follower overhauls
+	LOOT: AFTER follower overhauls
+		AFTER Windsong Immersive Character Overhaul (WICO) - http://www.nexusmods.com/skyrimspecialedition/mods/2136/?
+		AFTER EulogySC_NPCs
+		AFTER any other mod altering vanilla courier (use SSEEdit to find)
+		NOTE:  uses esp slot.  can be eslified
 	
 	
+	Replacer for Lilly the courier replacer
+	https://www.nexusmods.com/skyrimspecialedition/mods/51487
+	Requires assets from Mona Follower
+	Install: enable ONLY Lilly Replacer Default Equipment.esp.
+		Disable Lilly Replacer Custom Equipment.esp
+	ESLify:  Set ESL flag in File Header, uding either SSEEdit or Wrye Smash
+	SSEEdit:  Clean Masters
+		Set ESL Flag in File Header
 	
 	
+PATCH REQUIRED:
+	KZ ESP Replacer - Replacer for Lilly the Courier Replacer
+
+INSTALL:
+	Mona Follower SE
+	https://www.nexusmods.com/skyrimspecialedition/mods/13758
+	Download: Mona Follower SE - Naked Edition ESP-FE v1.3
+	Install:  Disable esp.   Only need assets for Lilly replacer.
 	
-	
+ESLify:
+	Lilly - A fully-voiced female courier replacer and follower
+	Notes:  only do this AFTER installing Appearance Replacer
+	Procedure: 
+		Highly recommend installing ESLifyEverything in MO2 folder, because you will need a different setup for each MO2 installation.
+		In MO2, create an empty mod named 'ESLifyEverything Output'.  Enable it.
+		In MO2 Excutables menu, add ESLifyEverything.  Check 'Create files in mod' option, point to 'ESLifyEverything Output'
+		Edit ESLifyEverything/AppSettings.json.  Update file paths to correct locations.  My version looks like:
+			"XEditFolderPath": "c:\\Portable Apps\\xEdit",
+			"DataFolderPath": "C:\\TPFZS\\Stock Game\\Data",
+			"OutputFolder": "c:\\TPFZS\\mods\\ESLifyEverything Output",
+			"MO2": {
+				"MO2Support": true,
+				"OutputPluginsToSeperateFolders": true,
+				"MO2ModFolder": "c:\\TPFZS\\mods"
+			}
+			
+		Start SSEEdit on Seraphim - PrettyCourier.esp and Lilly Replacer Default Equipment.esp
+		On Seraphim - Pretty Courier.esp, Compact FormIDs for ESL, then set ESL flag in File Header.
+		Exit SSEEdit, saving both altered esps
+		Run ESLifyEverything.exe.  This is most easily done from MO2, but can also be done externally.  It does not use MO's virtual file system.
 		
-		
-		
+INSTALLED:
+	Ryn's Halted Stream Camp
+	https://www.nexusmods.com/skyrimspecialedition/mods/73907
+	Download: v1.5
+	LOOT: with other Ryn's location mods
+	DO NOT INSTALL:  Major conflicts with Halted Stream Mine mod.
+	
+	Stronger Companions Giant
+	https://www.nexusmods.com/skyrimspecialedition/mods/31263
+	This mod makes the giant you fight when travelling to Whiterun for the first time stronger so your character gets a chance to fight it, instead of arriving when the giant is already slain. This is done by increasing the Giant's level.  Best played with combat mods on Adept difficulty.
+	Download: Stronger Companions Giant(Level 80) ESP flagged as ESL
+	LOOT:  Before Realistic Water Two
+	DO NOT INSTALL:  Functionality already in Improved Companions - Questline Tweaks
+	
+	Proving Honor Companions Quest Progression Fix
+	https://www.nexusmods.com/skyrimspecialedition/mods/66128
+	Makes sure that Vilkas will greet you when you return with the Fragment of Wuuthrad, even if you didn't enter Whiterun through the main gate, and allows you to continue the Companions questline normally.
+	Download: Main file: Proving Honor Companions Quest Progression Fix
+	LOOT: Before Realistic Water Two
+	
+	The Companions - Earn your stripes
+	https://www.nexusmods.com/skyrimspecialedition/mods/13965
+	Simple mod delaying progress in The Companions questline in order to make the Dragonborn a regular, well-established member before actually becoming part of The Circle or even Harbinger.
+	Download: v1.0
+	LOOT:  Before Realistic Water Two
+	NOTES:  Guaranteed compatible with Improved Companions - Questline Tweaks
+		Esp file, can be eslified by just setting flag, no compaction needed
+	INSTALL:  Use Wrye Smash to set ESL flag on Companions Radiant Quest Requirements.esp
+	DO NOT INSTALL:  Conflicts with More Radiant Quests for the Companions, which is merged into ZedPatch
+
+LOOT Order:
+	Ryn's Anise's Cabin   BEFORE  Realistic Water Two
+	
+New Patch:
+	KZ Patch - TPFZS + RaceCompatibility
+	Notes: forwards new Take Up Arms quest data RaceCompatibility.  REQUIRED to support RaceCompatibility, as it updates the CompanionsHousekeepingScript
+	Notes: Vampire effects of RaceCompatibility will not work, as Scion overrides them.
+	LOOT: after ZedPatch2
+	
+	
 	
 
 
+	
+
+	
+	
 
 
+	
+
+	
 
 
-
+	
 
 
 
