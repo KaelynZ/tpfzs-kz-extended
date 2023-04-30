@@ -73,7 +73,7 @@ Death Consumes All  https://www.nexusmods.com/skyrimspecialedition/mods/41910
 Dragonborn Voiceover (DBVO)
 Glenmoril - already in TPFZS
 HDT Bodies and armor
-Helgen Reborn
+Helgen Reborn  -- conflict with TPFZS alternate start
 Land of Vominheim SE
 Legacy of the Dragonborn (LOTD)
 Midwood Isle
@@ -109,7 +109,7 @@ Quests:
 -------
 Boethiah for Good Guys
 Carved Brink
-Caught Red Handed - Quest Expansion -- UPDATED to v1.02
+Caught Red Handed - Quest Expansion -- alreday in TPFZS -- UPDATED to v1.02 2023-04-29
 College of Winterhold - Quest Expansion  -- in TPFZS
 Cutting Stone Corners
 Dark Brotherhood Reformation - Fully Voiced Alternative Quests to Spare Targets  ??
@@ -122,7 +122,7 @@ House of Horrors - Quest Expansion -- in TPFZS
 Imperial Law - Lawbringer for Bruma ?
 Isobel and the Adventurers Guild
 Knight of the North - Divine Crusader Reworked - needs CC  https://www.nexusmods.com/skyrimspecialedition/mods/45869
-Konahrik's Accoutrements
+Konahrik's Accoutrements  -- in TPFZS
 Leaps of Faith - A Misc Quest
 Less Tedious Thieves Guild
 Love Slaves
@@ -144,7 +144,7 @@ Your Choices Matter - A Dark Brotherhood Expansion SSE
 Dungeons and Locations
 ----------------------
 Hammet's Dungeon Pack SE
-Dungeons - Revisited ?
+Dungeons - Revisited  --- already in TPFZS
 Unmarked Locations Pack
 Unmarked Locations Pack - Sovngarde
 Bards College Excavation   https://www.nexusmods.com/skyrimspecialedition/mods/36950
@@ -152,11 +152,11 @@ Bards College Excavation   https://www.nexusmods.com/skyrimspecialedition/mods/3
 
 Immersion
 ---------
-Relationship Dialog Overhaul - 
+Relationship Dialog Overhaul - INSTALLED 2023-04-29
 Immersive Citizens - AI Overhaul (ICAIO)
 Gildergreen Regrown
 Immersive Fallen Trees
-Misc Dialog Edits
+Misc Dialog Edits  -- INSTALLED 2023-04-29
 Tavern Games - Mini Games in Skyrim
 NPCs Wear Amulets of Mara PLUS
 Skyrim's Got Talent - Player Reactions Addon
@@ -182,7 +182,7 @@ General Additions:
 ------------------
 Skyrim for Good Guys modlist - https://www.nexusmods.com/skyrimspecialedition/mods/65567
 Creation Club patches
-Killer Rabbit of Caerbannog
+Killer Rabbit of Caerbannog  -- INSTALLED 2023-04-29
 CBBE 3BA
 Positive Undressed Reactions
 Young Lovers - Expanded Voices (SE)
@@ -193,7 +193,7 @@ QOL Stuff:
 ----------
 MCM Loaders
 Wheelmenus
-Unread Books Glow
+Unread Books Glow  -- INSTALLED 2023-04-29
 Block Steal
 Even Better Quest Objectives (EBQO)
 Radiant Quest Marker SE

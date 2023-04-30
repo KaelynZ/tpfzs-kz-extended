@@ -582,6 +582,87 @@ LOOT adjustments:
 	KZ Patch - Sofia + USSEP   BEFORE   KZ Patch - Sofia + AIOverhaul
 	KZ Patch - TPFZS + KZ Extension + Dibella's Blessing  AFTER   KZ Patch - TPFZS + Rigmor
 	
+INSTALLED:
+
+	The Killer Rabbit of Caerbannog- 2023 Easter Special (SE-AE version)
+	https://www.nexusmods.com/skyrimspecialedition/mods/88905
+	In a world of superstitious fools, and as silly as it sounds, blaming an innocent rabbit for bloody criminal executions might be a viable option. Or could it be that behind those round little eyes is a serial killer?
+	BUG:  MO2 CTD on install
+	LOOT:  with other mihail monsters
+		
+	Fluffy Killer Rabbit of Caerbannog
+	https://www.nexusmods.com/skyrimspecialedition/mods/88911
+	Mihail's Killer Rabbit of Caerbannog - now fluffy! He may be deadly, but he sure is cute!
+	BUG:  MO2 CTD on install
+	
+	Ryn's Bleak Falls Barrow
+	https://www.nexusmods.com/skyrimspecialedition/mods/70984
+	A group of additions to the exterior of Bleak Falls Barrow.
+	
+	Ryn's Bleak Falls Tower
+	https://www.nexusmods.com/skyrimspecialedition/mods/72659
+	A small group of changes/additions of the tower outside of Bleak Falls Barrow.
+	
+	Ryn's Bleak Falls Tower - Bleak Falls Tower Lawbringer Module
+	https://www.nexusmods.com/skyrimspecialedition/mods/73729
+	A simple and quick patch between the above mods; they work almost perfectly together already, this just fixes what small issues there are
+	
+	Bleak Falls Barrow - Animated Traversal
+	https://www.nexusmods.com/skyrimspecialedition/mods/70876?tab=files
+	Adds more rubble to a couple spots of Bleak Falls Barrow to make use of the traversal animations from Everglaid's Animated Traversal
+	Download:  Bleak Falls - Traversal - Dungeons Revisited  v1.1
+	LOOT:  AFTER  Dungeons Revisited
+		AFTER Animated Traversal
+
+NOT INSTALLED:
+
+	Frozen in Time - Definitely Not Another Snow Elf Waifu Mod
+	https://www.nexusmods.com/skyrimspecialedition/mods/39732
+	A quest to reanimate an ancient Snow Elf warrior and help her regain her past. It is also definitely (not) just a waifu mod :(
+	Download:  main file v0.26
+	FOMOD:  CBBE
+	Note:  uses an esp slot.  Not eslifiableE
+	Current Choice:  DO NOT INSTALL
+	
+	The Only Cure Quest Expansion - Patches
+	https://www.nexusmods.com/skyrimspecialedition/mods/58383
+	A number of patches for Jayserpa's The Only Cure Quest Expansion.
+	FOMOD:  USSEP, Real Bosses
+	BUG:  MO2 CTD on install
+	LOOT:  both patches late, but before Realistic Water Two
+	NOTES:  TOCQE - Real Bosses is already included in ZedPatch, and is redundant
+		TOCQ - USSEP  changes are NOT in ZedPatch or anywhere else in TPFZS, and integrate VMAD changes from USSEP
+	
+	Ruunvald Excavation Enabled
+	https://www.nexusmods.com/skyrimspecialedition/mods/58313
+	Allows you to enter the Ruunvald Excavation at any time, regardless of Dawnguard faction choice.
+	LOOT:  before Realistic Water Two
+	
+	Finding Derkeethus Duplicate FormID Fix
+	https://www.nexusmods.com/skyrimspecialedition/mods/46391
+	Finding Derkeethus has a duplicate FormID. This can cause problems. This patch corrects the issue by replacing the ESP file.
+	
+	Finding Derkeethus - compatibility patches
+	https://www.nexusmods.com/skyrimspecialedition/mods/60287
+	Finding Derkheetus patches resolving compatibility issues with Dawnguard and Unofficial Skyrim Special Edition Patch
+	Download:  Both Dawnguard and USSEP patches
+	LOOT: Immediately after Finding Derkeethus.esp
+	Notes:  The Dawnguard patch is a redundant trivial adjustment of the Tamriel worldspace, that is totally addressed by ZedPatch
+		However, the USSEP patch updates dialog VMAD changes from USSEP, which is not addressed anywhere else in TPFZS
+		
+Updated Patches:
+	KZ Patch - TPFZS + M'rissi
+	KZ Patch - TPFZS + MistySkye
+		both now include the correct Tamriel location record from Dawnguard
+
+INSTALLED:
+	Finding Helgi and Laelette - Grammar Fixes
+	https://www.nexusmods.com/skyrimspecialedition/mods/66725
+
+	
+
+	
+	
 	
 	
 	
