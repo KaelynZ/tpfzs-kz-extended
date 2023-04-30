@@ -541,6 +541,47 @@ ESP Load Order fix:
 Mod Install Order Fix:
 	Rigmor of Bruma  BEFORE   NPC overhauls, esp Kalilies NPCs.    ---  Rigmor has numerous vanilla facegeoms
 	At Your Own Pace - College Quest Expansion Patch     AFTER  ZedPatch and anything else that might override its scripts
+
+Existing Patches I previously haven't mentioned:
+	*KZ Patch - TPFZS Consistency.esp
+	*KZ Patch - TPFZS Cells.esp
+	*KZ Patch - TPFZS + Inigo.esp
+	*KZ Patch - Kaidan Consistency.esp
+	*KZ Patch - TPFZS + Radiance-Locations.esp
+	*KZ Patch - TPFZS + Rigmor.esp
+	*KZ Patch - TPFZS + YurianaWench.esp
+
+Created Patches:
+	*KZ Patch - RDO + Immersive Wenches.esp
+	*KZ Patch - RDO + JK Dragonreach.esp
+	*KZ Patch - RDO + MiscDialogEdits.esp
+	*KZ Patch - Sofia + AIOverhaul.esp
+	*KZ Patch - Sofia + GDO.esp
+	*KZ Patch - Sofia + RDO.esp
+	*KZ Patch - Sofia + USSEP.esp
+	*KZ Patch - Sofia + WhisperingDoorQE.esp
+	*KZ Patch - TPFZS + Immersive Wenches.esp
+	*KZ Patch - TPFZS + M'rissi.esp
+	*KZ Patch - TPFZS + MistySkye.esp
+	*KZ Patch - TPFZS + Recorder.esp
+	*KZ Patch - TPFZS + USMP.esp
+	
+INSTALLED:
+	Dibella's Blessing  (lilson NPC Overhaul)
+	https://www.nexusmods.com/skyrimspecialedition/mods/82606?tab=files
+	Apparance overhaul for 233 female characters from Skyrim.
+	Download: main v Final  (1.2 GB)
+	FOMOD: CBBE, Elisif 3, Aela 1, AIOverhaul 1.5.97, USSEP + AIOverhaul
+	LOOT:  After ZedPatch2
+	
+Created Patch:
+	KZ Patch - TPFZS + Dibella's Blessing
+	KZ Patch - TPFZS + KZ Extension + Dibella's Blessing
+
+LOOT adjustments:
+	KZ Patch - Sofia + USSEP   BEFORE   KZ Patch - Sofia + AIOverhaul
+	KZ Patch - TPFZS + KZ Extension + Dibella's Blessing  AFTER   KZ Patch - TPFZS + Rigmor
+	
 	
 	
 	

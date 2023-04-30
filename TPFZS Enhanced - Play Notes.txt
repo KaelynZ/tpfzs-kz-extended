@@ -23,3 +23,10 @@ Problem:  I have 2 companions, my dog and a high elf.  Neither were with me when
 Problem:  CTD after talking to Camilla Vererius in Riverwood Trader.
 
 Issue:  Buxom Wench Yuriana posters in Riverwood are photos, and un-immersive.
+
+2023-04-29
+----------
+Installed RDO.
+Restarted save, fast travel to riverwood, go to traders.
+Followed camilla out to street.  CTD after arriving on street.
+restart of game shows it autosaved as soon as i exited door.  disabling autosaves.

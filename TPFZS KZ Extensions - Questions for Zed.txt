@@ -16,6 +16,18 @@ Since I'm not going to clog up a Discord forum or expect quick answers, I'm goin
 
 6. ZedPatch - Why did you give so many starting skill boosts to Khajiits  (00013745 KhajiitRace), over Aetherius and JKJ? Are you a cat lover, by chance?  In any case, it's inconsistent with the other Khajiit races added by JKJ.  And why did you remove the Aetherius MAG_KhajiitRaceMonitor "Khajiit Race Monitor" [SPEL:FE0F4842] actor effect?
 
+Answers:
+Thank you for checking out the patches and giving me another set of eyes :)
+
+1) This was entirely in error as you describe. Fixed for the next version
+
+2) This is intentional. If another mod modifies those records (like Ryn's, or JKs overhauls), I will carry over their changes instead. My assumption is that they changed those values because they believe it fits their overhaul of the area generally better, so that's what I go with. There very well may be a couple Luminosity records I have simply not copied over by mistake, I'll check through the plugin to confirm that.
+
+3) Personal preference. I prefer Laura Baily as Serana's voice actor. I have not installed Serana Dialogue Addon at any point, so I can make no comments on compatibility.
+
+4-5) Looks like I did not do a very good job patching Khajiit NPCs. That was definitely an accident, and has been fixed for the next version.
+
+6) I've observed those bad starting skills a few times but always forget to actually fix that. Is fixed! Regarding the KhajiitRaceMonitor effect, I wasn't sure if that was left out by the JKJ-Aetherius patch for a reason, so I followed suite with it. In hindsight looking at the record now, that was more than likely an error or it was made on an older version. That actor effect is now carried over. 
 
 
 
