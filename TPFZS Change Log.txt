@@ -776,7 +776,7 @@ INSTALLED:
 	INSTALL:  Use Wrye Smash to set ESL flag on Companions Radiant Quest Requirements.esp
 	DO NOT INSTALL:  Conflicts with More Radiant Quests for the Companions, which is merged into ZedPatch
 
-LOOT Order:
+LOOT Order update:
 	Ryn's Anise's Cabin   BEFORE  Realistic Water Two
 	
 New Patch:
@@ -784,6 +784,68 @@ New Patch:
 	Notes: forwards new Take Up Arms quest data RaceCompatibility.  REQUIRED to support RaceCompatibility, as it updates the CompanionsHousekeepingScript
 	Notes: Vampire effects of RaceCompatibility will not work, as Scion overrides them.
 	LOOT: after ZedPatch2
+	
+INSTALLED:
+	Male Giant Variety- Mihail Monsters and Animals (SE-AE version)
+	https://www.nexusmods.com/skyrimspecialedition/mods/83530
+	Have you ever noticed that all the Giants in the game have absolutely identical faces? Well, not anymore! With this mod each variant is now unique, adding a touch of realism to this gargantuan race native to Skyrim. ESP free.
+	Download: Male Giant Variety (SE-AE) (complete version) v1
+	Mod Order:  After Realistic Skin and Hair Shaders - Giants
+	
+	Even Better Quest Objectives SE - EBQO SE
+	https://www.nexusmods.com/skyrimspecialedition/mods/159
+	Enhances the quest descriptions in the vanilla game. A now an officially endorsed update to whickus's Better Quest Objectives.
+	Download: Even Better Quest Objectives SE v1.9.2
+	FOMOD:  USSEP, Move Dark Brotherhood to Misc, go with selected options for rest
+	LOOT:  BetterQuestObjectives.esp  -- EARLY, right after esls
+		patches - late, just before Realistic Water Two
+	Note:  NEEDS TO BE REINSTALLED after adding LOTD, CRF, and some other major mods
+	Mod Order:  BEFORE  At Your Own Pace - College of Winterhold
+		BEFORE Improved College Entry - Questline Tweaks
+		BEFORE House of Horrors - Quest Expansion
+		EARLY
+	
+	Even Better Quest Objectives - Quests Are In Skyrim Patch
+	https://www.nexusmods.com/skyrimspecialedition/mods/33659
+	A patch to resolve quest conflicts between Even Better Quest Objectives and Quests Are In Skyrim.
+	Download: Even Better Quest Objectives - Quests Are In Skyrim USSEP Patch v1.01
+	
+	A Selection of EBQO Patches
+	https://www.nexusmods.com/skyrimspecialedition/mods/47430
+
+	House of Horrors Quest Expansion - Patches
+	https://www.nexusmods.com/skyrimspecialedition/mods/57584?tab=files
+	Download: v1.3
+	FOMOD: HOHQE + BQO option v1.3
+	Note: Needs to be REINSTALLED if Wintersun or SRC Skyrim Realistic Conquering installed
+	INSTALL NOTE:  Installed Mod shows v1.1 in MO2; update version in mods pane to 1.3
+		
+	Nilheim - Misc Quest Expansion - Patches
+	https://www.nexusmods.com/skyrimspecialedition/mods/53802
+	Download: v1.2.1
+	FOMOD: BQO option
+	INSTALL NOTE:  Installed mod shows v1.2 in MO2.  Update version in mods pane to 1.2.1
+	
+LOOT Load Order Change:
+	USMP - AI Overhaul.esp  immediately after AI Overhaul.esp,  BEFORE any NPC Overhauls
+	
+New Patches
+	+KZ Patch - arnima + USMP
+	+KZ Patch - AYOP + TacticalValtheim + EBQO
+	+KZ Patch - AYOP Main + EBQO
+	+KZ Patch - Book Covers Skyrim + USMP
+	+KZ Patch - EBQO + USMP
+	+KZ Patch - HIMBO + USMP
+	+KZ Patch - ISC + USMP
+	+KZ Patch - Mortal Enemies + USMP
+	+KZ Patch - Paarthunax Quest Expansion + EBQO
+	+KZ Patch - Reasonable Quest Rewards + EBQO
+	+KZ Patch - Roggvir's Amulet + EBQO
+	+KZ Patch - Settlements Expanded + USMP
+	+KZ Patch - TPFZS + EBQO
+	+KZ Patch - USMP Forwards
+	+KZ Patch - VisualAnimatedEnchants + USMP
+	LOOT:  alphabetical and end of list is fine, must be after KZ Patch - TPFZS Consistency
 	
 	
 	
