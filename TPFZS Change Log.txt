@@ -847,9 +847,319 @@ New Patches
 	+KZ Patch - VisualAnimatedEnchants + USMP
 	LOOT:  alphabetical and end of list is fine, must be after KZ Patch - TPFZS Consistency
 	
+MOD EDIT:
+	Even Better Quest Objectives
+	Goal: Put scripts in a BSA.   Use BSArchPro.exe from https://www.nexusmods.com/fallout4/mods/63243.  Hide loose scripts.
+	Why:  EBQO scripts must override those in USSEP, but I want the overridden my scripts in other mods, such as Alternative College Entry.  Unfortunately, scripts in ACE are in a BSA file, while the EBQO scripts are loose, which means they will *always* override the ACE versions.  Rather than unpacking the ACE scripts, the proper thing to do is put the EBQO scripts into a BSA, which is how the mod should have been packaged in the first place.
+	This means that if EBQO gets reinstalled, this BSA packing will have to be done again.
+	
+INSTALLED:
+	Ashlander's Vestments - An Unofficial Thaumaturgy Addon
+	https://www.nexusmods.com/skyrimspecialedition/mods/88592
+	Adds a set of enchanted light armor and matching weapon geared towards spellsword characters, as well as a small scavenger hunt to gather said equipment.  Found In Glacial Cave in Solstheim.
+	Download: main file v1.1
+	NOTES:  esp file, Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header.  Only meshes and textures, no voices or scripts.
+	EDIT:  using xEdit, Compact FormIDs for ESL, then set ESL flag.
+	LOOT:  Before Realistic Water Two
+	
+	Cover your head - Sacrosanct or Sacrilege or Scion
+	https://www.nexusmods.com/skyrimspecialedition/mods/53466
+	Prevents sun damage while wearing a helmet or armor based hood with Sacrosanct, Sacrilege or Scion.
+	Download: Cover Your Head - Scion v1.0
+		Cover Your Head - Sun Affect NPC Vampires v1.0
+	LOOT: After Scion
+		After Sun Affects NPC Vampires
+	DO NOT INSTALL - Sun Affects NPC Vampires 2.0 already handles this
+	
+	Sun Affects NPC Vampires
+	https://www.nexusmods.com/skyrimspecialedition/mods/47277
+	Download:  Sun Affects NPC Vampires v2.0
+	LOOT:  After Scion
+
+UPDATE:
+	Project ja-Kha'jay- Khajiit NPC Diversity Overhaul
+	https://www.nexusmods.com/skyrimspecialedition/mods/57610?tab=files
+	HOTFIX - Better Claws and Gauntlets for Ohmes Patch
+	INSTALL: into own mod
+	DO NOT INSTALL - only needed for Better Claws and Gauntlets
+	
+INSTALLED:
+	Apothecary Anniversary Update
+	https://www.nexusmods.com/skyrimspecialedition/mods/82164
+	Combines the patches for the free Creation Club content available on Apothecary's modpage into two separate ESPs for easy management. One is for the main plugin, the other is for the food and drink addon.
+	Download: both main files
+	LOOT:  Before Realistic Water Two
+
+Install:
+	Sofia - CBBE Body Replacer
+	https://www.nexusmods.com/skyrimspecialedition/mods/15318?tab=files
+	Replace Sofia's Body To Use CBBE Without A Freakin 100GB File Size
+	Download:  1. CBBE - Curvy Body
+	Issues:  Fixes Sofia's skin in TPFZS, but major wrist seam
+	DO NOT INSTALL - bad wrist seam
+
+Install:
+	Sofia Customizer SSE
+	https://www.nexusmods.com/skyrimspecialedition/mods/7582
+	Download: Sofia Customizer SSE- CBBE - 3.0
+	FOMOD: Whatever you like.
+	
+
+2023-05-01
+==========
+
+Install:
+	Ryn's Goldenglow Estate v1.6
+	https://www.nexusmods.com/skyrimspecialedition/mods/72926
+	An overhaul to the exterior of the Goldenglow Estate location.
+	Download:  Main File  v1.6
+	Install:  Replaces v1.0 in TPFZS.  Create a new mod in MO2 for it, don't overwrite existing one.
+	
+	Ryn's White River Watch v1.6
+	https://www.nexusmods.com/skyrimspecialedition/mods/74311
+	An overhaul of the White River Watch Location
+	Download:  Main file v1.6
+	DO NOT INSTALL : Direct conflict with Dungeons Revisited, which overhauls the same location
+	
+	Katria's Lingerie v1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/59966?tab=files
+	Katria's wardrobe lingerie has some NIFs that need fixing. Those items will appear to be missing textures, they are not, the textures are already on your machine. This file will fix the problem. If you're pc savvy Install manually or with Vortex or MO2.
+	Download:  Optional Files:  Katria's Lingerie
+	Install:  Just some new textures, load immediately after main Katria mod 
+
+	Dragon Bridge 2.0.6
+	https://www.afkmods.com/index.php?/files/file/1979-dragon-bridge/
+	A small village expansion for Dragon Bridge.
+	Notes:  No longer on Nexus, download from ARK Mods.  By Arthmoor.  Much smaller that The Great Cities - Dragon Bridge.   TGC-DB can be installed later, there is a patch that integrates this mod.
+	Note:  esp file, cannot be eslified safely due to adding new cells
+	DO NOT INSTALL - not worth the esp slot
+	
+	HS Dragon Bridge - Four Shields Tavern
+	https://www.nexusmods.com/skyrimspecialedition/mods/73017
+	Overhauls the Four Shields Tavern in Dragon Bridge.
+	Download: Main file v1.0.1
+	LOOT:  Before Realistic Water Two
+	Notes:  requires HS Resources
+	
+	HS Resources
+	https://www.nexusmods.com/skyrimspecialedition/mods/72307
+	Modding Resources that will be used across the multiple mods I will be releasing in the future.
+	Download: main file v2.3.0
+	LOOT: esl file, MO2 will auto-sort it with other esls if you try to move it at all
+	Load Order: before any other HS file.  can be very early.
+	
+	Ryn's Standing Stones Patch Collection
+	https://www.nexusmods.com/skyrimspecialedition/mods/76913
+	A collection of patches allowing Ryn's Standing Stones to work alongside various other mods
+	Download:  main file v1.0
+	FOMOD: whatever it selects
+	LOOT: before Realistic Water Two
+	
+Update:
+	Cities of the North - Falkreath v1.3
+	https://www.nexusmods.com/skyrimspecialedition/mods/56731?tab=files
+	Download:  Update Files - UPDATE 1.3
+	Install - install to new mod, do *NOT* merge with 1.2
+	Mod Order: immediately after COTN Falkreath 1.2 mod
+	
+	Cities of the North - Falkreath Patch Collection v1.19.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/56734?tab=files
+	Notes: update from v1.12, which is what was in TPFSZ before May 2023
+	Download: Main file v1.19.2
+	FOMOD:  Whatever it selects + JK-Clockwork + JK-LAWF
+	Notes:  does not seems to have Immersive Patrols II patch any more.
+	Note:  renames COTN - Identity Crisis.esp to COTN - Identity Crisis patch.esp
+	Note:  TPFZS version of this (1.12) hides COTN Falkreath - JK's Skyrim - LoS II Patch.esp.mohidden
+	Note:  REINSTALL after adding LOTD
+	LOOT: after other COTN - Falkreath patches
+	
+INSTALL:
+	Skaal Village Overhaul Patch Collection
+	https://www.nexusmods.com/skyrimspecialedition/mods/53803
+	A collection of patches for Elianora's Skaal Village Overhaul
+	Download: Main file V1.4
+	FOMOD:  Whatever it selects
+	LOOT: Before Realistic Water Two
+	Note: REINSTALL after adding LOTD
+	
+	Lanterns Of Skyrim II - Settings Loader
+	https://www.nexusmods.com/skyrimspecialedition/mods/69227
+	Created from scratch MCM for Lanterns Of Skyrim II by WiZkiD to support MCM Helper. Saves settings as you change them, automatically loads settings on startup or game load, imports settings from an existing save, so you don't have to spend time in MCM again with each game. Localization support. No plugin.
+	Mod order:  immediately after Lanterns of Skyrim II
+	
+	Magpie's Immersion Books AIO -- with ESL version and book list
+	https://www.nexusmods.com/skyrimspecialedition/mods/50641
+	AIO mod adds well over 100 new books to Skyrim. Lore-friendly and prepared by a professional writer, the books include cookbooks, poetry, household manuals, kids' books, banned books about Talos, and brown-wrapper literature. ESL files available, text list included.
+	Download: main file v1.3
+	LOOT: Before Realistic Water Two
+		Very Early
+		Before UnreadBooksGlow.esp
+	
+	JKs Skyrim - Landscape and Water Fixes
+	https://www.nexusmods.com/skyrimspecialedition/mods/75805
+	Adds proper ownership to all harvestables modified and added by JKs Skyrim. (includes a patch for COTN Falkreath)
+	Download:  Main files: JKs Skyrim - Landscape and Water Fixes v1.0
+		JKs Skyrim COTN Falkreath - Landscape and Water Fixes v1.0
+	LOOT: JKs Skyrim - Landscape and Water Fixes.esp  AFTER  JKs Skyrim - Immersion Patch.esp
+		JKs Skyrim COTN Falkreath - Landscape and Water Fixes.esp  immediately AFTER   COTN - Falkreath.esp
+		
+	Clockwork (SSE)
+	https://www.nexusmods.com/skyrimspecialedition/mods/4155
+	Clockwork is a quest mod involving a castle high in the Velothi Mountains, lost to the world for over a hundred years. Once found, you may call Clockwork Castle home... but if you want to leave, you'll need to discover how to escape.
+	Download: Clockwork_SSE_v1-0
+	LOOT: with other quests, e.g. before DarkEnd
+	
+	Clockwork Cleaned Textures
+	https://www.nexusmods.com/skyrimspecialedition/mods/55677
+	Cleaned textures of Clockwork. Properly cleaned textures lets Skyrim use less memory loading it so means more FPS for you!
+	Download: Optional Files: Clockwork BSA v1.0
+	Mod Order:  Immediately after Clockwork
+	Notes:  This is a total BSA replacer
+	
+	Creation Club Anniversary Cleaned and Upscaled
+	https://www.nexusmods.com/skyrimspecialedition/mods/58801
+	I clean textures. (Bethesda you have DTX11. Why use BC1 in 2021?) Upscaled armor and weapons from 2k -> 4k. FOMOD installer. ONLY 5.7GB for the whole package. Read more inside :)
+	Download: Main Files: CC_Content_Anniversary_Cleaned v1.0
+		Update: CC_Content_Anniversary_Cleaned_Update v1.1
+	Mod Order: very very early
+	Notes:  This is cleaned textures only, not cleaned esps
+	Notes:  upgrade to upscaled version if you're not on a potato
+	
+	Pilgrim - Cleaned and Upscaled Textures for A Religion Overhaul
+	Cleaned, Upscaled, and Optimized Textures for Pilgrim - A Religion Overhaul, by Simon Magus
+	https://www.nexusmods.com/skyrimspecialedition/mods/72403
+	Download: Optional: 1k-512 Textures for Mashed Potatoes
+	
+	Lawbringer - Guardsman
+	https://www.nexusmods.com/skyrimspecialedition/mods/67003
+	Using the function of the Lawbringer mod by EpicCrab, this mod allows the player to claim new locations.
+	Download:  Main: Lawbringer - Guardsman 1.0.31
+		Optional: Lawbringer - Guardsman - Atlas version 1.0.28-V2
+		Optional: Lawbringer - Guardsman - Fellglow Keep Fix V2 1.0.28
+		Optional: Lawbringer - Guardsman - KAIDAN2  1.0.31
+		Optional: Lawbringer - guardsman - rune fix 1.0.30
+		Optional: lawbringer - guardsman - Ryn's Karthspire version 1.0.25
+	LOOT: with other LCO modules
+	
+	Lawbringer - Register and Claiming Fix
+	https://www.nexusmods.com/skyrimspecialedition/mods/64032
+	A quick fix for Lawbringer's MCM Location Registration, fixes the function signature in order to be compatible with Serenity/Halted Stream Mine, which also allows for registering Simple Locations as the script no longer short circuits.
+	
+	Harmugstahl for Lawbringer
+	https://www.nexusmods.com/skyrimspecialedition/mods/66442
+	This mod adds Lawbringer functionality (developed by EpicCrab) to the dungeon of Harmugstahl. A vanilla fort/cave system located directly in-between Druadach Redoubt and Bruca's Leap Redboubt in the Reach. (It's the one with the magic spiders)
+	Download:  main file v1.0
+	LOOT: with other LCO mods
+	
+	Atlas Map Markers SE - Updated with MCM
+	https://www.nexusmods.com/skyrimspecialedition/mods/24104
+	This is an update to Kronixx's classic mod, Atlas Map Markers. It adds MCM options with full control over the new markers, as well as all of the vanilla map markers.
+	Download: Main: Atlas Map Markers v2.7
+	LOOT: early
+		before CoMap - Author's Cut.esp
+	
+	Atlas Map Markers SE - Updated with MCM - Settings Loader  v1.0.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/68573
+	MCM Helper integration for Atlas Map Markers SE - Updated with MCM by kryptopyr. Saves settings as you change them, automatically loads settings on startup or game load, imports settings from an existing save, so you don't have to spend time in MCM again with each game. Localization support. No plugin.
+	Download: main file v 1.0.1
+	LOOT:  immediately after AMM
+	
+	Bruca's Leap Redoubt for Lawbringer  v1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/66120
+	Adds Lawbringer functionality (Created by EpicCrab) to the Forsworn Camp: Bruca's Leap Redoubt allowing you to claim it on behalf of the Druadach Forsworn, the Imperials, the Stormcloaks, or Markarth.
+	Download:  main file v1.1
+	LOOT: with other LCO mods
+	
+	Delphine's Map Reveals Dragon Mounds - Atlas Map Markers SE Patch
+	https://www.nexusmods.com/skyrimspecialedition/mods/26307
+	Delphine's Map reveals map marker references from Atlas Map Markers SE
+	Download: AMM DM Patch - kryptopyr v1.01
+	LOOT:  Load Order:
+		Atlas Map Markers (either "Atlas Map Markers.esp" or "Atlas Legendary.esp")
+		Delphine's Map Reveals Dragon Mounds.esp
+		patch_AtlasMM_DelphineMap.esp
+		(manual or bash patch if you're using Cutting Room Floor: Delphine's Map overwrites 1 location reference for Frost River Farm)
+
+	Lanterns of Skyrim II v4.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/30817?tab=files
+	Lanterns of Skyrim II is a completely redesigned version of the old MannyGT LoS. This new edition includes many improvements and additions, more compatibility, improved light sources, snow-covered lighposts and lanterns in snowy areas for a more immersive experience, all lanterns are moved by the wind and much much more........
+	Download: main file v4.1
+	Install:  create a new mod.  Do NOT merge or overwrite existing Lanterns of Skyrim mod.
+	FOMOD: defaults.  Add 3DNPC addon.  REINSTALL after adding CRF or LOTD
+	Note:  TPFZS had LOS II v3.0,which is kinda old.  This will undoubtedly need some patches.
+
+DISABLE:
+	Lanterns of Skyrim II v3.0
+	
+INSTALL:
+	Remote Interactions v1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/89676
+	Interact with friendly and enemy NPCs from afar, with different animations and results based on context and distance.
+	
+ESLify in Wrye Smash:
+	AK_RM_PubicStyles_All_In_One.esp
+	Kyoe_BanginBrows_Vanillamatch.esp
+	RaceMenuMorphsCBBE.esp - in CBBE 1.7.1
+
+INSTALL:
+	CBPC - Physics with Collisions for SSE and VR
+	https://www.nexusmods.com/skyrimspecialedition/mods/21224
+	CBPC - Physics with Collisions for SSE and VR.  Breast-Butt-Belly-Vagina collisions that work out of the box.
+	Download:  Main:  CBPC - Fomod installer - MAIN FILE 1.5.6
+		Optional: CBPC 3-Bone Breast Body Breast-Butt Bounce Configs for 3BA-BHUNP-COCO
+	FOMOD:  SSE 1.5.97 CBBE Curvy 60fps 5 normal/normal/normal gravity
+
+	CBBE 3BA (3BBB)
+	https://www.nexusmods.com/skyrimspecialedition/mods/30174
+	Install: Main:CBBE 3BA (3BBB) v2.47
+		Optional: CBBE 3BA Physics Config Reinstaller 1.33
+		Optional: CBBE 3BA Vagina Textures Set Reinstaller 1.02
+	FOMOD: CBPC only (no HDT)
+	
+	BnP - Female Skin
+	https://www.nexusmods.com/skyrimspecialedition/mods/65274
+	A semi-realistic, meticulously crafted high-quality skin texture replacer for females with insane attention to detail and characteristics. Fully support of RBT and RSV for maximum diversity! (UNP and CBBE)
+	Install: Main: BnP female skin 2k (CBBE replacer) 1.8
+	
+INSTALL TEST:
+	Cumulative fix for Eye Meshes
+	https://www.nexusmods.com/skyrimspecialedition/mods/71524
+	Fix underwater and black eyes issues when you use an enb. Cumulative fix, thank to theannagarcia & devpieron & Kyoni
+	Download: Main: 0. Main - Eye Mesh Underwater fix and Black Eye Fix
+	Reasons:  Eyes of all my characters are way too bright/pale, not good colors.  The TBFZS eye mod hasnt been updated since 2019
+	
+	Eye Normal Map Fix SSE
+	https://www.nexusmods.com/skyrimspecialedition/mods/5445
+	Makes the normal map read the iris as concave so it reflects light realistically.
+	Download: Main: Eye Normal Map Fix SSE v1SE
+
+INSTALL ORDER CHANGE:
+	All Eye Mods need to be installed AFTER new followers - specifically, Katria
+	Eyes of Beauty 					AFTER Authentic Eyes
+	Eye Normal Map Fix  			AFTER Eyes of Beauty
+	Cumulative Fix for Eye Meshes 	AFTER Eye Normal Map Fix
+	Reason:  My eyes brightness problem was due to the eyecubemap.dds texture.  We want the one from Eyes of Beauty to win.
+	Likewise, we want the Eye Normal Map Fix to win over Eyes of Beauty
+	
 	
 	
 
+
+	
+
+
+
+
+
+		
+	
+	
+	
+	
+	
+	
+	
+	
 
 	
 

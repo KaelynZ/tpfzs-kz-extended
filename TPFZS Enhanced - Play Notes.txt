@@ -30,3 +30,17 @@ Installed RDO.
 Restarted save, fast travel to riverwood, go to traders.
 Followed camilla out to street.  CTD after arriving on street.
 restart of game shows it autosaved as soon as i exited door.  disabling autosaves.
+
+2023-04-30
+----------
+Sofia's new location inside stable is inconvenient - there's a horse in the way.  And her old location doesn't have an awkward table without ICAIO
+Sofia's skin is off, since I'm using CBBE.
+Installed Sofia CBBE body.  Skin now better, but extreme seam at wrists.
+
+2023-04-01
+----------
+Installed lotsa stuff, most notably 3BA body with CBPC Physics
+Started save game, jiggle works, but sofia's skin much prettier than mine - my nipples are wrong.
+installing a new BnP skin didnt solve my nipple problem, i need a new mesh.
+exiting game to Main Menu takes me to desktop - CTD?
+
