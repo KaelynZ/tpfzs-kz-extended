@@ -1115,13 +1115,15 @@ INSTALL:
 		Optional: CBBE 3BA Physics Config Reinstaller 1.33
 		Optional: CBBE 3BA Vagina Textures Set Reinstaller 1.02
 	FOMOD: CBPC only (no HDT)
+	Notes: RaceMenuMorphsCBBE.esp is not an ESPFE, can be eslified
+	EDIT:  set ESL flag on RaceMenuMorphsCBBE.esp
 	
 	BnP - Female Skin
 	https://www.nexusmods.com/skyrimspecialedition/mods/65274
 	A semi-realistic, meticulously crafted high-quality skin texture replacer for females with insane attention to detail and characteristics. Fully support of RBT and RSV for maximum diversity! (UNP and CBBE)
 	Install: Main: BnP female skin 2k (CBBE replacer) 1.8
 	
-INSTALL TEST:
+INSTALL:
 	Cumulative fix for Eye Meshes
 	https://www.nexusmods.com/skyrimspecialedition/mods/71524
 	Fix underwater and black eyes issues when you use an enb. Cumulative fix, thank to theannagarcia & devpieron & Kyoni
@@ -1140,47 +1142,478 @@ INSTALL ORDER CHANGE:
 	Cumulative Fix for Eye Meshes 	AFTER Eye Normal Map Fix
 	Reason:  My eyes brightness problem was due to the eyecubemap.dds texture.  We want the one from Eyes of Beauty to win.
 	Likewise, we want the Eye Normal Map Fix to win over Eyes of Beauty
+
+
+2023-05-02
+==========
+INSTALL:
+
+	Remote Interactions - Settings Loader 1.0.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/90396
+	Created from scratch MCM for Remote Interactions by JaySerpa to support MCM Helper. Saves settings as you change them, automatically loads settings on startup or game load, imports settings from an existing save, so you don't have to spend time in MCM again with each game. Localization support. No plugin.
+	Install: Main file v1.0.1
+	Note: Do not use Taunt Your Enemies - Taunting Matters - Settings Loader with this loader. This loader cover all Taunt Your Enemies options too.
 	
+	BiR's Remiel RaceMenu Preset - HPH
+	https://www.nexusmods.com/skyrimspecialedition/mods/85972
 	
+	Female Makeup Suite - Face - RaceMenu Overlays of Eyeliner EyeShadow Contours and Highlights - Special Edition
+	https://www.nexusmods.com/skyrimspecialedition/mods/24495
+	Download: Main: Female Makeup Suite - Face - 2K
+	Notes:  esp file.  eslify candidate, no scripts or voices
+	EDIT:  set ESL flag using Wrye Smash or xEdit
 	
-
-
+	Skin Feature Overlays SE - Freckles Scars Birthmarks Stretch Marks Moles and More for Face and Body RaceMenu Overlays v1.6
+	Adds a slew of options for your characters skin, regardless of the texture you use, things from adding freckles to their body and face, adding some birthmarks, or adding some nasty scars to your characters body! Freckles come in a variety of patterns and coatings. Scars vary from large scratches, to other features such as stretch marks.
+	https://www.nexusmods.com/skyrimspecialedition/mods/20183
+	Download: SkFO SE - Skin Feature Overlays- 2K  1.6
+	Notes:  esp file.  eslify candidate, no scripts or voices
+	EDIT:  set ESL flag using Wrye Smash or xEdit
 	
+	Kalilies Brows
+	https://www.nexusmods.com/skyrimspecialedition/mods/40595
+	Adds 17 new eyebrows for female characters, including asymmetrical ones.
+	
+	Kalilies Brows for High Poly Head
+	https://www.nexusmods.com/skyrimspecialedition/mods/57115
+	This mod makes Kalilies Brows compatible with KouLeifoh's High Poly Head.
+	
+	Puffy Nipple Sliders for CBBE 3BBB and TitKit  2.06
+	https://www.nexusmods.com/skyrimspecialedition/mods/41380
+	Added 3 new sliders to the CBBE 3BBB body to be used in bodyslide and the in game race menu. 2 of the 3 sliders are designed to work with the big and blam textures included in the Titkit mod.
+	Download: main file v2.06
+	
+	Pubes Forever SSE
+	https://www.nexusmods.com/skyrimspecialedition/mods/19990
+	20 pubic hairstyles CBBE UNP
+	Download: 1 Pubic hairstyles all in one CBBE
 
+UPDATE:
+	Project ja-Kha'jay- Interesting NPCs Khajiit Addon 3.0.3
+	https://www.nexusmods.com/skyrimspecialedition/mods/60447
+	An extension of Project ja-Kha'jay to the Khajiit NPCs of Interesting NPCs
+	Download: Main: Project ja-Kha'jay - Interesting NPCs Addon v3.0.3
+	INSTALL:  create new mod, do not merge or overwrite existing version.  do NOT uninstall old version
+	NOTE: To those who are updating to 3.0 from a previous version:
+		You have to use Project ja-Kha'jay 4.0+, and you can NOT update midgame! You can also NOT use any patches built on a previous version. Sorry for the inconvenience!
+	DO NOT INSTALL - still using JKJ 3.0 in TPFZS
 
+	Inventory Interface Information Injector 1.0.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/85702
+	Inserts interesting information, including item icons, into inventory interface. Importantly, its innocuous injection implementation intrinsically ignores independently installed interface improvements.
+	Download: Main: Inventory Interface Information Injector (SE) 1.0.2
+		Optional: I4 Icon Colors - Dear Diary
+	LOOT: Early, before WACCF
 
+	Inventory Interface Information Injector for Skyrim 1.5
+	https://www.nexusmods.com/skyrimspecialedition/mods/87002
+	Port of Inventory Interface Information Injector by Parapets + Jelidity to Skyrim version 1.5.97
+	Note:  requires original.  only replaces dll
+	
+	Aura's Inventory Tweaks for SkyUI 2.2.3
+	https://www.nexusmods.com/skyrimspecialedition/mods/68557
+	Aura's Inventory Tweaks (AIT) is a project whose goal is to improve Skyrim's inventory and related menus, with a specific focus on quality of life. AIT improves inventory sorting, types, icons, column information, and more.
+	Requires: I4, KID,  Object Categorization Framework (A Keyword Resource)
+	Download: Main: main file v 2.2.3
+	FOMOD:  Dear Diary, Vanilla+Septims
+	LOOT: Early, with I4, before WACCF
+	
+	Object Categorization Framework (A Keyword Resource) 2.3.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/81469
+	OCF adds new injected keywords and applies those keywords to items from hundreds of mods using Keyword Item Distributer.
+	Download: main file v2.3.0
+	FOMOD:  default selections
+	Notes: required by Aura's Inventory Tweaks.  Now requires KID v3.0.2+.
+	Note:  Needs to be REINSTALLED after adding SunHelm, et al
+	LOOT: esm gets autosorted early with esms
+	
+	SPID for Footprints fix 2.2.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/70978
+	This is a simple esp replacement for SPID for Footprints﻿ by reza9892.  I corrected incorrect variable references and incorrect assignments to variables that no longer existed and DISTR file.
+	Download: main file v2.2.0
+	
+	Skyland Chests 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/89034
+	Skyland Chests retexturs the upper and nordic chests found throughout Skyrim. You have the option between 2k and 4k textures.
+	Download: Skyland Chests 2k v1.1
 
+UNINSTALL:
+	Katria
+	Reason:  Katria wants to overwrite tons of stuff it shouldn't, like chest textures, eyecubemap, etc.  Also core scripts.  It changes the game far too much, for no good reason.
 
+INSTALL:
+	Silver Armor and Weapons Retexture SE
+	https://www.nexusmods.com/skyrimspecialedition/mods/89109
+	Retextures the Silver sword and greatsword, Silver Armor, Silver crossbow, silver staff and silver bolts. Optional consistency patches for Oblivion Artifacts Pack SE and Leanwolf's Better shaped weapons.  Textures only - no meshes or plugins
+	Download: Silver Armor and Weapons Retexture SE - Half Res
+
+	Simonrim I4 Addons
+	https://www.nexusmods.com/skyrimspecialedition/mods/87608
+	Adds I4's vampire magic icons for Mysticism's Absorb Health spells and Scion's Vampiric Drain.
+	Download: Mysticism - I4 Patch
+		Scion - I4 Patch
 		
+	Male Player Animations (DAR)
+	https://www.nexusmods.com/skyrimspecialedition/mods/89225
+	12 new 50 seconds long idle animations for your male character. Additional empty folders to fill + optional mt_idle replacer. No esp/esl plugin, just DAR folders with homemade animations. Checking armor, rub shoulder, scratching head, folding hands in different ways, curiously looking around and shifting body weight from one leg to another...
 	
-	
-	
-	
-	
-	
-	
-	
+	Female Player Animations (DAR)
+	https://www.nexusmods.com/skyrimspecialedition/mods/85073
+	12 new 50 seconds long idle animations for your female character. Additional empty folders to fill + optional mt_idle replacer. No esp/esl plugin, just DAR folders with homemade animations. Checking armor, rub shoulder, scratching head, folding hands in different ways, curiously looking around and shifting body weight from one leg to another...
+	Download:  main
+		Optional: FPA DAR EVG Conditional Idles 1.42 patch
 
+	Gesture Animation Remix (DAR) 1.9.9
+	https://www.nexusmods.com/skyrimspecialedition/mods/64420
+	(aka "Dialogue Animation Remix") Adds over 40 dialogue gesture animation variants according to NPCs personality, role in society and by armor type. Works with custom followers and NPC from mods as well as vanilla. Dynamic Animation Replacer folders with .hkx animations - no esp/esl!
+	Download: Main: Gesture Animation Remix (DAR) - main archive v1.9.9
+
+	Conditional tavern cheering (DAR) 1.0.3
+	https://www.nexusmods.com/skyrimspecialedition/mods/63029
+	No esp/esl! 4 new applause animations and 3,5 new ways of cheering while bard sings. DAR folders by NPC demographic, voice types, worn armor to add personality to taverns guests. Sam Guevenne included!
+	Download: Main: Conditional tavern cheering (DAR) 1.0.3
+	Note:  may cause CTDs.  If so, install (no looped idles) version
+
+	Immersive folded hands (DAR) 1.4.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/62849
+	No esp/esl! Adds 5 short idles with folding hands for NPC and makes standard "folded hands" animation overlay (offsetarmscrossed.hkx) less probable by adding 12 new variants according to NPCs armor type, personality or role in society. Works with NPC from mods as well. Dynamic Animation Replacer folders with .hkx files
+	Download: Main: Immersive Folded Hands (DAR) - Main File 1.4.0
+	Note:  may cause CTDs.  If so, install (no looped idles) version
+
+	UNDERDOG - Animations 1.9.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/51811
+	Download: Main v1.9.1
+	FOMOD: sneak attacks main, both falling, death anims, no spin esl, all jumps, both torches, all ninja, all sneak idles, sneak move AIO, all injured idles, injured move, all regular movement, disable turn animation, 
+	Notes:  Underdog 1.9 is in TPFZS.  Disable after installing 1.9.1
+	INSTALL:  disable dD-No Spinning Death Animation.esp - TPFZS already has dD-No Spinning Death Animation Merged.esp
 	
+	Leaps of Faith - A Misc Quest 1.03
+	https://www.nexusmods.com/skyrimspecialedition/mods/53074
+	Simple mod that adds yet another fun activity for your character to do in the world: 12 epic "Leaps of Faith" across Skyrim for you to discover and complete as you play. Jumping from one of these places will play a custom jumping and falling animation and give you a small (well-earned) bonus.
+	Download: Main: Leaps of Faith 1.03
+	Install:  Only main.	
+	
+	UNDERDOG Falling Animations - Leaps of Faith Patch
+	https://www.nexusmods.com/skyrimspecialedition/mods/61519
+	Simple patch between UNDERDOG's falling animations and JaySerpa's Leaps of Faith mod.
+	Download: main file v1.0
+	
+	Underdog Animations - Guaranteed Death Animations
+	https://www.nexusmods.com/skyrimspecialedition/mods/71944
+	Confirms the death animations to play from Underdog 100% of the time. Also includes arrow kills, as well as killmoves (optional).
+	Download: Guarenteed Death Animation - Main File v FINAL
+	FOMOD: full activation.
+	Notes:  Full activation includes killmoves.  If they look silly, reinstall mod with no killmoves option
 
+	Underdog - Serana and all vampires Injury Animation fix
+	https://www.nexusmods.com/skyrimspecialedition/mods/65072?tab
+	Fixes Serana always feeling not okay outdoors. Improves Underdog's calculation performace a bit.
+	
+	UNDERDOG Death Animations Chance
+	Patch for Underdog Animations, so all death animations has the same chance to play equally.
+	https://www.nexusmods.com/skyrimspecialedition/mods/72802
+	
+	Scrolling Speed 2- adjust your running speed with mouse wheel (no conflict) 1.12
+	https://www.nexusmods.com/skyrimspecialedition/mods/70455
+	A complete re-development of my original Scrolling Speed mod, now fully configurable! The ability to change your character or mount's speed is now at your fingertips. Walk at a speed you choose - not what Bethesda chose for you.
+	Download: main v.1.12
+	Notes:  definitely read instructions.  Needs patches if using CACO and/or Ordinator, not issue with TPFZS.
+	
+	cookeh's conditional and random animations - CCARA DAR 2.0.7
+	https://www.nexusmods.com/skyrimspecialedition/mods/37783
+	This mod adds small hand animated, player character exclusive random and/or conditional Idles to your game like stroking your hair after taking a bath or holding your hand out for snowflakes.
+	Download: CCARA DAR 2.0.7
+	FOMOD: Mix and Match, use all selected - omits ones that need iNeed or RNaD
+	
+	EVG Conditional Idles - Settings Loader 2.0.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/57876
+	Created from scratch MCM for EVG Conditional Idles by Ria to support MCM Helper. Saves settings as you change them, automatically loads settings on startup or game load, imports settings from an existing save, so you don't have to spend time in MCM again with each game. Localization support. No plugin.
+	Download: Main v 2.0.0
+	
+	Gnomes- Mihail Monsters and Animals (SE-AE version) 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/80932
+	Gnomes are tiny humanoid nature spirits, looking like plump old men with long beards and pointed hats. Extremely shy, they can usually be found dancing ritualistically around pots full of gold coins, stolen from houses near their lairs in the woods.
+	
+	Mihail's Gnomes - Cleaned and Optimized Textures 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/81005
+	Textures cleaned of compression artifacts and compressed in BC7, with upscaled normal maps, and 2K and Potato Resolution Options
+	Download: Gnomes Textures 2K-1K
+	
+	Spaghetti's Towns - Riverwood 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/85356
+	This mod provides a lightweight, compatible, and FPS friendly overhaul to Riverwood!
+	Download:  main v1.1
+	Notes: just new clutter, no navmesh changes or moved objects.  Compatible with most other Riverwood upgrades.
+	LOOT: before Realistic Water Two
+	
+	Vocaris - Conjuration Sounds Overhaul
+	https://www.nexusmods.com/skyrimspecialedition/mods/90180
+	Full overhaul of Conjuration sound effects, intended for use with Immersive Sounds Compendium.
+	Download: main file 1.0
+	
+	Flame Atronach SE - My optimized textures  by Xtudo
+	https://www.nexusmods.com/skyrimspecialedition/mods/83755?tab=files
+	My optimized textures for this lovely mod. My version, 2K and 1K. No ESP.
+	Download: Flame Atronach SE - Optimized textures by Xtudo - 2K  v1.0
+
+	Skin-walkers
+	https://www.nexusmods.com/skyrimspecialedition/mods/82621
+	New skyrim werewolf mesh and textures.  Awesomely nasty Wendigo look.
+	Download: Skin-walkers replacement only 1.1
+	Notes:  default version of mod has esl that redirect werewolf texture path to new textures.  'Replacement only' is a straight mesh + texture replacer
+	Install Order:  late creatures, after other werewolf overhauls and retextures
+	
+	Night Mother  by Mandragorasprouts
+	https://www.nexusmods.com/skyrimspecialedition/mods/83527
+	Replaces Night Mother.  Very corpse-y, horror show stuff, not sexy
+	Already in TPFZS
+	
+	House Cats- Mihail Monsters and Animals (SE-AE version) (''pet'')
+	https://www.nexusmods.com/skyrimspecialedition/mods/30496
+	House cats are docile little felines, often kept as pets in towns and villages. Although initially domesticated to hunt rats that destroyed food and spread diseases, the excess of pampering and treats made most city cats have chubby bodies and lazy behavior. In Skyrim, you'll encounter them in almost every city and farm.
+	
+	Furpot the Kitty
+	https://www.nexusmods.com/skyrimspecialedition/mods/83576
+	A request mod for alaydianblue on Reddit whose kitty just passed away. This way they can continue to adventure together forever <3
+	Notes: In Dragonsreach you'll find a cute grey cat named Furpot. If you ask, he'll gladly accompany you across Skyrim and maybe even beyond. Just promise to give him his favorite wet food, and don't make him ask, have it ready.  REQUIRES House Cats- Mihail Monsters and Animals (SE-AE version) (''pet'')
+	Note:  full esp file.
+	DO NOT INSTALL until eslified.
+	
+	Havok-enabled Barrels (Physics) - Carry. Push. Roll. Throw.
+	https://www.nexusmods.com/skyrimspecialedition/mods/72908
+	Havok-enabled barrels(physics). You can roll them, toss them, whatever really, they will behave like any other physics object. Performance impact is negligible.
+	Download: Anniversary - EVE - Barrels with Physics (Havok-enabled)
+	Requires:  mucho AE CC Content
+	DO NOT INSTALL - bugs, not worth the headaches.  Wait for a fixed update version
+	
+	Clouds all over - All in one 1.4
+	https://www.nexusmods.com/skyrimspecialedition/mods/86848?tab=files
+	Download: Clouds AIO 1.4
+	Notes: No performance impact (winterhold is the heaviest).  Lod friendly.  Clouds are full lod - you do not need to generate or re-generate lod for this. You do not need to disable this mod to generate lod with dyndolod. They are visible from very far away.  Load order - Fully compatible. Use with any weather mod. Place this above water mods. Or you get water seams. Nothing else needs to be done. If in doubt, place this high (low priority) in your load order in regards with other mods that edit worldspaces. This is highly compatible, and I could not find anything else besides whats in the misc files.
+	LOOT:  before RW2.  preferably very early, make patches as needed.  Before WACCF
+
+	Convenient Dialogue UI - SE 1.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/57943
+	Quality of life improvements for the dialogue menu:  Better dialogue controls, number keys to select topics, more topics displayed, configurable list and NPC name position, different skins.  Ultrawide compatible.
+	Download: Main: Convenient Dialogue UI (Vanilla look) 1.2
+	
+	Dragonborn Voice Over 1.0.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/84329
+	This mod brings a new level of immersion to your Skyrim gameplay by allowing the player to voice over the dialogue lines.
+	Download: Main: v1.0.1
+		Optional: DBVO Convenient Dialogue UI - Vanilla look Patch
+	LOOT: Early
+	Notes: v1.0 changes the name of the esp and how it works, all voice packs built for pre-1.0 need to be updated.  Ciri voice packs have not been updated
+	DO NOT INSTALL
+	
+	Dragonborn Voice Over 0.0.7
+	https://www.nexusmods.com/skyrimspecialedition/mods/84329
+	This mod brings a new level of immersion to your Skyrim gameplay by allowing the player to voice over the dialogue lines.
+	Download: Old Files: (BASE) Dragonborn Voice Over 0.0.7
+		Old Files: (PATCH) Dragonborn Voice Over - Convenient Dialgoue UI PATCH 0.0.6
+	LOOT: Early
+	Notes: This old version is required to work with current 2023-05-02 Ciri voice packs.
+		
+	Ciri
+	https://www.nexusmods.com/skyrimspecialedition/mods/86759
+	DBVO packs voiced by Ciri from Witcher 3.
+	Download: Main: Ciri Witcher DBVO Pack 1.0
+		Optional: Everything.  Only disable stuff that doesn't have masters installed yet.
+	Note: As of 2023-05-02, Ciri voice pack only work with DBVO 0.0.7, not DBVO 1.0.0 and later
+	
+	Ciri DBVO Voicepack Patches
+	https://www.nexusmods.com/skyrimspecialedition/mods/88908
+	Hiya! These are patches to supplement the amazing Ciri voicepack mod and the Dragonborn Voice Over mod. Now your dragonborn can go on even more adventures with Ciri's voice!
+	
+	Jed the Guard 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/69627
+	Jed is a lazy, grumpy guard who is jaded by decades of guard duty and comes with a custom voice created with xVASynth. Contains some adult dialogue and humour which some may find offensive. ESL flagged.
+	Download: JedGuard 1.1
+	
+	Schlongs of Skyrim 1.1.4 for SE
+	https://www.loverslab.com/files/file/5355-schlongs-of-skyrim-se/
+	Schlongs of Skyrim SE is a SSE port of Schlongs of Skyrim by VectorPlexus, Smurf and b3lisario. All credit goes to the original mod authors.
+	Requirements: Skyrim SE v1.5.97
+		SKSE64 v2.0.17
+		SkyUI v5.2SE +
+		XPMSSE v4.51 + (optional but highly recommended)
+	Download: Schlongs_of_Skyrim_SE - v1.1.4.rar  35.62 MB / November 22, 2019
+	FOMOD: default body, hairy, Average, Install Male Skeletons (will overwrite with XPMSS)
+	Mod Order:  before HIMBO
+	
+	Schlongs of Skyrim SE - Settings Loader
+	https://www.nexusmods.com/skyrimspecialedition/mods/76678
+	Download: Schlongs of Skyrim SE - Settings Loader 1.1.0  (for SOS 1.1.4)
+	Note: will add 2 ESP files.  Believe they can be compacted and eslified.
+	
+	Tempered Skins for Males - Vanilla and SOS versions 2.06
+	https://www.nexusmods.com/skyrimspecialedition/mods/7902
+	Download: Tempered Skins for Males - SOS Full version v2.06
+	FOMOD:  Your choice.  I prefer B6 Dirty Light Haired, C2 Natural, D1 Younger, E2 Harsh, F1, F2 1K, F4 1K
+	Mod Order:  After HIMBO, after SOS, after SkySight Male Skins (TPFZS default male skin, does not support SOS)
+	Note:  Most facetints will be overwritten by later cosmetic mods.
+	
+	Trimmed Vitruvia
+	https://www.nexusmods.com/skyrimspecialedition/mods/61261
+	Vitruvia Skin body textures by Mandragorasprouts - without black body hair. SOS Light and SOS Full versions, both in 4K. Compatibility instructions for Tempered Skins for Males.
+	NOT YET.  DO NOT INSTALL.
 	
 	
+REINSTALL:
+	Highly Improved Male Body Overhaul -HIMBO- 4.4.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/46311
+	Download:  HIMBO 4.4.1  (should already be in TPFZS)
+	Install:  into new mod, do not merge or replece existing mod.  Install *AFTER* SOS is fully installed.
+	FOMOD: Morph Files=YES, Physics=CBPC, CoTR Custom Body=NO, Refits=YES, RaceMenu Morphs=YES, Underwear=Thong,
+	Note: instructions at https://www.nexusmods.com/skyrimspecialedition/articles/3727
 
-
+BodySlide Rebuild:
+	Select Groups: HIMBO Body for SOS (only)
+	Preset: HIMBO Zero for OBody
+	Select Batch Build.  Select 3 - HIMBO Body - SOS, HIMBO Body 1st, and either thong or briefs (I prefer thong).
+	Build button.
+	Can close Bodyslide.
 	
-
 	
-
-
 	
-
-
-
+INSTALL:
+	The Super Booty Body SE - 20 Plus CBBE 3BB 3BA Bodyslide Presets
+	https://www.nexusmods.com/skyrimspecialedition/mods/1329?tab=description
 	
-
-
-
+	Natural And Realistic Bodies - CBBE 3BA Bodyslide Presets
+	https://www.nexusmods.com/skyrimspecialedition/mods/13896
+	Download: Natural And Realistic Bodies - Main File ALL-IN-ONE 3.0
 	
+	The Legendary Booty Body - 50 Plus CBBE 3BB 3BA SE Bodyslide Presets
+	https://www.nexusmods.com/skyrimspecialedition/mods/30857
+	Download: Optional: The Legendary Booty Body v5 Collection Edition
+	
+	Pomona Amphora Bodyslide Preset for CBBE-3BA-3BBB and BHUNP
+	https://www.nexusmods.com/skyrimspecialedition/mods/56872
+	
+	The Sensual Lady CBBE 3BA 3BBB - BHUNP-3BBB and CBBE Bodyslide Presets.
+	https://www.nexusmods.com/skyrimspecialedition/mods/33452
+	DL: CBBE and CBBE-3BBB The Sensual Lady 22 Bodyslide Presets v4.0B
+
+	The Tinraa Body EDITS - CBBE 3BA BodySlide Presets (and first BHUNP attempt)
+	https://www.nexusmods.com/skyrimspecialedition/mods/59497
+	DL: The Tinraa Body EDITS all
+
+	OWrong Bodies - 3BA Bodyslide presets for OBody
+	https://www.nexusmods.com/skyrimspecialedition/mods/57880
+	DL: all 6.  
+	
+	Umbrael's Umbrage - 3BA Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/55037
+	
+	Lovely Lady - 3BA (3BBB) CBBE Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/81827
+	DL: Both
+	
+	My Tasteful Body - CBBE 3BA Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/67370
+	DL: Both
+	
+	The Exothicc Beauty - CBBE 3BA Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/60214
+	
+	Sylvie - CBBE and 3BA (3BBB) BodySlide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/27579
+	
+	My Lovely Body - Sexy Beauty - CBBE 3BA Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/78210
+	
+	The Shape of Warrior - CBBE 3BA Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/69468
+	
+	Laffy - CBBE and 3BA (3BBB) semi realistic bodyslide preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/22815
+	
+	Ceres Deluge BodySlide Preset for 3BA BHUNP CBBE COCO 3BBB
+	https://www.nexusmods.com/skyrimspecialedition/mods/66494
+	
+	Lust of the Gods - CBBE 3BA-BHUNP 3BBB Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/62679
+	
+	Beauty Body Preset - CBBE 3BA 3BBB Bodyslide
+	https://www.nexusmods.com/skyrimspecialedition/mods/59589
+	
+	My Sensual Body - CBBE 3BA Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/63698
+	
+	PB's 0-100 3ba Body Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/60067
+	
+	The Elegance Beauty - CBBE 3BA Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/60930
+	
+	D-sney Mommy - 3BA Edition - Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/83132
+	
+	The Concubine Body v3 - A CBBE 3BB 3BA SE Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/24678?tab=description
+	
+	Amazing Curves - A CBBE 3BA Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/70212
+	
+	Amazons - CBBE (3BA) Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/34593
+	
+	The Tinraa Body - a CBBE 3BA BodySlide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/50735
+	
+	Berry Mommy - 3BA BodySlide preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/80712
+	
+	Busty Babe - CBBE 3BA Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/63762
+	
+	Elise's Body - A CBBE 3BBB 3BA Bodyslide Preset for SE
+	https://www.nexusmods.com/skyrimspecialedition/mods/62646
+	
+	Fab to Fit CBBE 3BA Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/51683
+	
+	Strawberry Body - 3BA Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/70256
+	
+	Sapphires' Elegance (CBBE 3BA-Bodyslide Preset)
+	https://www.nexusmods.com/skyrimspecialedition/mods/51352
+	
+	Delightful body - CBBE 3BA Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/70965
+	
+	Realistic chubby and curvy body - 3BA Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/70624
+	
+	Teraru's Fit n' Thick Bodyslide Preset CBBE 3BA 3BBB
+	https://www.nexusmods.com/skyrimspecialedition/mods/50232
+	
+	Average Female CBBE and 3BA Bodyslide Presets
+	https://www.nexusmods.com/skyrimspecialedition/mods/44412
+	
+	Ordinary - CBBE 3BA BodySlide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/63321
+	
+	The Tinraa Body - Hips don't lie - CBBE 3BA BodySlide preset (and a bit BHUNP)
+	https://www.nexusmods.com/skyrimspecialedition/mods/72349
+	
+	Scandinavian Fitness body - 3BA Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/70578
+	
+	iiNBW - CBBE 3BBB 3BA Bodyslide Preset - Natural Barbarian Women
+	https://www.nexusmods.com/skyrimspecialedition/mods/29953
+	
+	Pocky's Quirk Eyes (heterochromia-reptile-unnaturals)
+	https://www.nexusmods.com/skyrimspecialedition/mods/62438?tab=files
+	
+	
+	
+	
+UPDATE:
+	Leaps of Faith - A Misc Quest
+	https://www.nexusmods.com/skyrimspecialedition/mods/53074
+	Download: Leap of Faith - Legacy of the Dragonborn Patch 1.02
 	
 
 

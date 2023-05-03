@@ -44,3 +44,14 @@ Started save game, jiggle works, but sofia's skin much prettier than mine - my n
 installing a new BnP skin didnt solve my nipple problem, i need a new mesh.
 exiting game to Main Menu takes me to desktop - CTD?
 
+2023-04-02
+----------
+Started a new game at Helgen.  Kinda cool, seeing the scene from outside perspective.
+Issue:  wrist seams on women in vanilla clothes.  Need to rebuild clothing meshes for new 3BA
+Problem with CTD on exit to Main Menu has disappeared.
+GUI confusion - my health/magika/stamina bars weren't showing up.  TrueHUD MCM is where to fix that.
+Issue:  being in 3rd person upon entering conversation often problematic - had lots of camera chaso when edge of a door blocked LOS
+Need to adjust conversation camera to always go first person.
+
+
+
