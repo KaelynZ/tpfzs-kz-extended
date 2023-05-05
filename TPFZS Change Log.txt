@@ -1608,12 +1608,914 @@ INSTALL:
 	https://www.nexusmods.com/skyrimspecialedition/mods/62438?tab=files
 	
 	
+2023-05-03
+==========
+UPDATE:
+	HS Resources v2.4.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/72307?tab=files
+	DL: v2.4.0
+	Install: create new mod.  Do not merge or overwrite existing version.
+
+INSTALL:
+	Ambriel - The Lost Princess (Fully Voiced and Quest) SE AQSE1.06
+	https://www.nexusmods.com/skyrimspecialedition/mods/969
+	- fully voiced companion by the brilliant PotasticPanda - unique interactions - aware of the environment and other NPC
+	DL: Ambriel Fully Voiced and Quest Version CBBE SE v AQSE1.06
+	Note:  started by courier finding you.  has dialogs with Recorder
+
+	Ambriel The Lost Patches
+	https://www.nexusmods.com/skyrimspecialedition/mods/90512
+	Makes Ambriel Marriable, Moves Her House a bit, Delays Courier until lvl 15, Improves Auriels Sword.
+	DL:  main AQSE1.06
+	Note: adds esp, no eslifiable
+	LOOT:  With other followers and new content
 	
+	Ambriel - The Lost Navmesh Patch
+	https://www.nexusmods.com/skyrimspecialedition/mods/89469
+	This is an esp replacer for the amazing mod "Ambriel" that fixes the deleted navmesh issue. Requires original mod.
+	DL: Latest version, last updated 02 May 2023
+	
+	JK's Skyrim - Ambriel the Lost Princess Compatibility Patch
+	https://www.nexusmods.com/skyrimspecialedition/mods/64189
+	Moves Ambriel's house further away from Winterhold to avoid collisions with JK's expanded town. ESL, cleaned, navmeshed and error free.
+	Note: adds esp, no eslifiable
+	Loot: after Ambriel.esp
+	
+	Ambriel - Customized Delayed Start
+	https://www.nexusmods.com/skyrimspecialedition/mods/72172
+	Allows you to select the minimum player level (default 20) from which the starting quest will begin.
+	LOOT:  After Ambriel the Lost Patches.esp
+	
+	Caesia Follower - Borne of Magic - Revamped
+	https://www.nexusmods.com/skyrimspecialedition/mods/13389
+	Meet Caesia, the cocky and mysterious mage. She will accompany you in your adventure and use her witty dialogue to entertain you. Discover her story as you progress your relationship with her.
+	DL: v2.0b
+	LOOT: with other followers
+	Notes: This mod can be seen as an immensely simplified version of Shezarrine: The Fate Of Tamriel﻿ (which, I desperate need level designers, scripters, and modelers, please help if you have the time). Caesia herself, however, is mutually exclusive with that mod, though theoretically they can be installed and used together, their stories are incompatible.  Fount in Morthal inn.  Uses default body and texture.
+	Note: adds esp, not eslifiable
+	
+	Caesia Slightly Enhanced 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/58417
+	This mod main goal is to adjust Caesia at least visually to be more up to snuff with more modern NPC overhauls. The two additions being a Conversion to the High Poly Head, and an HDT-SMP physics replacing her non-physics hair.
+	
+	Flower Girls SE and VR 3.0.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/5941
+	Provides adult themed content for the dragonborn. In a world beset by violence, Flower Girls aims to share love. It can be considered an all-in-one solution for those looking for both lighthearted entertainment, or the immersion of giving your character an active love life.
+	Notes:  This mod is REQUIRED for much adult content.  Adult mods generally uses either Flower Girls, OStim, or Sexlab for their adult animations; many mods have patches allowing you to choose which of those three frameworks the mod will use.  Any or all of those three frameworks can be installed simultaneously, though any given mod will use only one.   Flower Girls is the simplest and least customizable of those animation frameworks.
+	DL: FlowerGirls SE and VR Main File 3.0.2
+	LOOT: esm file, will autosort with other esms
+	
+	Seductress Faye - Custom voiced FG Follower 1.7
+	https://www.nexusmods.com/skyrimspecialedition/mods/20185
+	Based off the wonderful Faye created by Earth. Faye is a seductive vampire fully voiced by the talented Kikiapplus. This is an adult mod and uses the FlowerGirls SE framework and seduction features.
+	DL: Seductress Faye - SE - FG 1.7
+	Notes: custom follower system.  found in Falkreath inn.  CBBE Curvy body with CBP Physics enabled.  Do not recruit into NFF framework; automatically prevented by previously installed mod SPID - NFF - Add Ignore Token to CustomAI Followers.  Adds esp, not eslifiable.
+	LOOT:  with other followers
+	
+INSTALL NOTES:
+	My modlist has now reached its ESP limit, with the highest esp being at index FC.  In order to add more mods, we must disable, merge, or elsify existing mods.
+
+ESLIFY:
+	DBVO_Base.esp  - use Wrye Bash to set ESL Flag.  No editing or compaction needed.
+
+ESLIFY:
+	Alchemists Vestments.esp
+	mod: Alchemists Vestments - CBBE Refit
+	- can use xEdit to compact FormIDs, then set ESL flag in file header.  This mod has only textures and meshes, no scripts, voices, or faces.  In my load order, it has no dependencies (check with Wrye Bash, right click on esp, List Dependencies), so it does not need to be loaded with anything else in xEdit before eslifying.  *DO NOT* edit the existing esp in place; create a copy of the mod (or at least the esp) in another folder in MO2's mods folder, enable it, then edit the copy.  Note than in default TPFZS load order, the correct Alchemists Vestments.esp to edit is in the mod The Alchemist's Vestments - CBBE Refit.
+
+ESLIFY
+	NoRoadPredatorsRedone.esp
+	mod: No Road Predators Redone
+	-- esp-only mod, no dependents in my load order.  Copy mod, then compact formIDs and set ESL flag in xEdit new esp
+
+ESLIFY
+	NoGrassINCaves.esp
+	mod: No Grass in Caves
+	-- esp-only mod, no dependents in my load order.  Copy mod, then compact formIDs and set ESL flag in xEdit new esp
+	
+ESLIFY
+	Super Simple Lock Bash.esp
+	mod: Super Simple Lock Bash
+	-- mod has scripts in bsa, but scripts do not refer to any specific formIDs.  No other assets.  No dependents in my load order.   Copy esp into new mod, then compact formIDs and set ESL flag in xEdit new esp
+	
+ESLIFY
+	suspiciouscityguards.esp
+	mod: Suspicious City Guards
+	-- mod has scripts in bsa, but scripts do not refer to any specific formIDs.  No other assets.  No dependents in my load order.   Copy esp into new mod, then compact formIDs and set ESL flag in xEdit new esp
+
+ESLIFY
+	saddlebags.esp
+	mod: Iron Dusk's Laboratory - Saddlebags
+	-- mod has scripts in bsa, but scripts do not refer to any specific formIDs.  No other assets.  No dependents in my load order.   Copy esp into new mod, then compact formIDs and set ESL flag in xEdit new esp
+	--- note that this mod is for oldrim, Skyrim LE
+	--- fix esp by loading into Creation Kit, then re-saving.  will change to a form 44 esp
+
+ESLIFY
+	MaiqAnniversaryEdition.esp
+	mod: M'aiq The Liar Modders Edition
+	-- mod has voice files, no other assets.  No dependents in my load order.  No cells created.  Copy esp into new mod.  Activate new mod, disable original mod.  Open xEdit, select only your new mod.  Use the CTRL + ALT + E shortcut or the "Apply Script" command and select "__ESPFEFollower﻿" script (from ESPFE Follower - Eslify facegen and voices https://www.nexusmods.com/skyrimspecialedition/mods/56396 - read the instructions).  This script will compact the formIDs, set the ESL flag, and rename the voice files.  Copy new files from wherever xEdit put them (overwrite by default, or specified output directory in MO2 executable tab) into your new mod.  Don't worry about removing old fuz files - they won't hurt anything.
+	
+TESTING:
+	My last mod index is now F4, meaning I now have 9 free esp slots.  I could do more, except that the other mods I could eslify either have dependents (many just ZedPatch) or more complex assets.  Time to test.  Must start new game, cannot load old game with eslified esps, that's a sure path to countless problems.  Delete old saves first, for safety.  Run Nemesis.  Start game.
+
+INSTALL:
+	Extended Cut - Saints and Seducers 4K - Cleaned and Upscaled Textures
+	https://www.nexusmods.com/skyrimspecialedition/mods/80307
+	DL: Extended Cut - Saints and Seducers 2K 2.0 (1.6 GB)
+	Notes:  new textures only, safe to add/remove any time
+	
+	HD Vanilla Eyeliner
+	https://www.nexusmods.com/skyrimspecialedition/mods/52709
+	Notes: 2K texture replacer by Xtudo
+	
+	Community Overlays 2 (31-50) Bodypaints Warpaints Tattoos and more made for the Community (Special Edition)
+	https://www.nexusmods.com/skyrimspecialedition/mods/26224?tab=files
+	DL: (4) Community Overlays 2 - Main - CBBE and Male 1.0
+	DNI: esp file, needs to be eslified
+	
+DISABLE:
+	Sofia Follower - Alternate Spawn for Compatibility
+	Reason:  Don't like the location, inside the stable with (in my load order) a horse.  Makes first conversation bad, with a horse in the way.  Only reason to move her is that ICAIO spawns a table right on top of her, which looks stupid.  Better solution is to disable table spawn once ICAIO is installed.
+	
+TODO:
+REINSTALL:
+	Saints and Seducers Extended Cut
+
+GAMEPLAY NOTES:
+	2023-05-03  12:43pm
+	Started new game.
+	Issue: MCM recorder script could not find an option for EVG conditional Idles - Shield Cover
+	Issue: Hands of character are blue/purple, indicating missing texture.
+	try: Rebuilt 3BBB 3BA body parts in BodySlide
+	Result:  fixed hands!
+	Issue: my high elf companion is not in riverwood inn at startup.  Recorder is, though.  And Gorr.  No wenches, either.
+	No Alternate Conversation Camera in MCM
+	CTD on save while in Rigmor quest
+	edited Alternate Conversation Camera ini, always go to 1st person
+
+NEW PATCH:
+	KZ Bodyslide Output - 3BA nude body Zeroed
+
+INSTALL:
+	Recorder - Standalone Fully Voiced Follower - MCM
+	https://www.nexusmods.com/skyrimspecialedition/mods/76566
+	LOOT: immediately after Recorder Follower Patch.esp
+	Note: Recorder MCM.esp is the MCM addon for the RecorderFollower; McmRecorder.esp is the thing that records MCM interactions
+
+INSTALL:
+	Improved Alternate Conversation Camera 1.2.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/68210
+	Improved version of Alternate Conversation Camera by NasGorTelorCeplok with MCM, fixes and more.
+	DL: Improved Alternate Conversation Camera SE v1.2.0
+	LOOT: anywhere
+	Notes:  This totally replaces the dll used by Alternate Conversation Camera, which does not have an esp, so it is totally drop-in compatible.  It uses the same ini file as ACC, so if you have a personalized ACC ini file, copy that file into a new mod that loads later than ImprovedACC.
+
+DISABLE:
+	Alternate Conversation Camera
+	Reason:  now using Improved Alternate Conversation Camera
+	Notes:  Do not remove mod, just uninstall in in your profile, as vanilla TPFZS uses it
+	
+GAMEPLAY:
+	CTD in Rigmor quest, after delivering her to camp - CTD on entering boat (fast travel) to return to standing stones.
+	This did *not* occur on my last playthrough.  Time to hit xEdit.
+	
+Load Order:
+	mihailhousecats.esp  BEFORE RW2
+	Scrolling Speed 2.esp  BEFORE Thaumaturgy.esp
+	Scrolling Speed 2.esp  BEFORE EnchantingAdjustments.esp
+	Ryn's Anise's Cabin.esp   BEFORE RW2
+	College of Winterhold - Quest Expansion.esp  BEFORE OCW_Obscure's_College_of_Winterhold.esp
+	College of Winterhold - Quest Expansion.esp  AFTER  Improved College Entry - Questline Tweaks
+	College of Winterhold - Quest Expansion.esp  AFTER  College of Winterhold Entry Requirements
+	College of Winterhold - Quest Expansion.esp  BEFORE At Your Own Pace - College of Winterhold
+	
+
+===================================================
+2023-05-04  May the Fourth be with you!
+===================================================
+INSTALL:
+	House of Horrors - The Choice is Yours Patch
+	https://www.nexusmods.com/skyrimspecialedition/mods/90617
+	Patches House of Horrors - Quest Expansion and The Choice is Yours.
+	LOOT: immediately after House of Horrors Quest Expansion.esp and HoHQE - BQO.esp
+
+Load Order Change:
+	HoHQE - BQO.esp  IMMEDIATELY AFTER House of Horrors Quest Expansion.esp
 	
 UPDATE:
-	Leaps of Faith - A Misc Quest
-	https://www.nexusmods.com/skyrimspecialedition/mods/53074
-	Download: Leap of Faith - Legacy of the Dragonborn Patch 1.02
+	Caught Red Handed - Quest Expansion  1.03
+	https://www.nexusmods.com/skyrimspecialedition/mods/65708
+	Small update, safe to install mid-game.
+	Notes:  Create new mod, DO NOT merge or overwrite existing mod. Disable v1.02
+	
+INSTALL:
+	Tasty Holy Loading Screen Replacer 1.9
+	https://www.nexusmods.com/skyrimspecialedition/mods/84993
+	Notes:  1.3 GB.  Adult NSFW pics.
+	FOMOD: 16x9, no widescreen, Display Messages=YES, Replacer
+	
+UPDATE:
+	Aura's Inventory Tweaks for SkyUI 3.0.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/68557
+	FOMOD: Keep equipped items on top ON by default, Dear Diary,
+	Notes: Remember to keep Object Categorization Framework up to date. Updates to OCF will show up in the inventory even when AIT itself doesn't need an update.  Now requires T.H.I.C.C. and B.O.O.B.I.E.S. Check description for details. Safe to update mid-game.
+	Notes:  Create new mod.  DO NOT merge or replace existing mod.  Disable old version.  No esp
+
+INSTALL:
+	The Handy Icon Collection Collective 1.0.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/90508
+	The Handy Icon Collection Collective (T.H.I.C.C.) is a resource that provides icons packed into .swf files mainly for use with mods like Inventory Interface Information Injector.
+	Notes:  Required by AIT 3.0.  No esp
+	Mod Order:  immediately before Aura's Inventory Tweaks for SkyUI 3.0.0
+
+UPDATE:
+	Object Categorization Framework (A Keyword Resource) 3.0.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/81469?tab=files
+	Notes: Requires KID v3.0.2+ and FLM v1.6.0+. Safe to update mid-game.
+	Notes: create new mod.  DO NOT merge with or replace existing one.  Disable previous version.
+	FOMOD:  Full, Tomatoes are veggies, Mead with Green Pact=NO, Patches=whatever it autoselects,
+	Notes:  REINSTALL after installing SunHelm
+
+INSTALL:
+	FormList Manipulator - FLM 1.6.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/74037
+	SKSE plugin that allows you to add Forms to FormLists at game startup using configuration files In order to reduce the number of conflicts between mods. Created with CommonLibSSE-NG for Skyrim SE, AE, and VR.
+	Notes:  Required by Object Categorization Framework and many other mods.  CORE MOD
+	Mod Order:  Very early, with other core mods.
+	
+CREATE NEW MOD:
+	(KZ Config) powerofthree's Tweaks - INI file
+	Procedure:  copy existing powerofthree's Tweaks mod to new mod, named '(KZ Config) powerofthree's Tweaks - INI file'
+		Delete (do not just hide) all files in new mod *EXCEPT* SKSE/Plugins/po3_tweaks.ini.  This file is not in a fresh install, it is auto-generated by po3 tweaks the first time it is run.
+		Edit SKSE/Plugins/po3_tweaks.ini in new mod
+		insure Load EditorIDs = true (should be set to true by default)
+		Enable new mod.
+	Mod order: install immediately after powerofthree's Tweaks
+	Notes:  Form List Manipulator requires Load EditorIDs = true.  We are creating a new mod for the ini file so we do not touch TPFZS base version of mod if we ever need to change the ini.
+
+EDIT INI:
+	(KZ Config) powerofthree's Tweaks - INI file
+	Edit: SKSE/Plugins/po3_tweaks.ini, make the following changes:
+		Faction Stealing = true
+		Voice Modulation = 0.90
+		Dynamic Snow Material = true
+		
+INSTALL:
+	Immersive Baba Yaga and the Labyrinth 1.01
+	https://www.nexusmods.com/skyrimspecialedition/mods/85550
+	Some improvements and rebalancing for Baba Yaga and the Labyrinth.
+	LOOT:  immediately after ksws03_quest.esp (the Baba Yaga esp)
+	
+	Ryn's Karthspire Patches
+	https://www.nexusmods.com/skyrimspecialedition/mods/82657
+	Includes 2 patches for Ryn's Karthspire: (CC) Spell Knight Armor - Fixed the placement of many things around Karthspire so the quest is now doable
+	DL: (CC) Spell Knight Armor - Ryn's Karthspire v1.0
+	LOOT:  immediately after Ryn's Karthspire.esp
+	
+	Landscape and Water Fixes - The Great Villages and Towns
+	https://www.nexusmods.com/skyrimspecialedition/mods/78564
+	Adds proper ownership to all harvestables modified by The Great Villages/Towns series.
+	DL: Landscape and Water Fixes - Great Town of Karthwasten 1.00
+		Landscape and Water Fixes - Great Town of Shor's Stone 1.00
+	LOOT:  immediately after Great Town of Karthwasten.esp and Great Town of Shor's Stone.esp, respectively
+	
+	Immersive College NPCs - No Saarthal (Compatibility for Ryn's Saarthal)
+	https://www.nexusmods.com/skyrimspecialedition/mods/76270
+	Removes all entries to Saarthal from Immersive College NPCs to ensure compatibility with Ryn's Saarthal and potentially other Saarthal overhauls.
+	Notes:  This is an esp replacer for Immersive College NPCs.  You can disable orginal Immersive College NPCs if desired.
+	Mod Order:  immediately after Immersive College NPCs
+	
+	Modpocalypse NPCs - Immersive College NPCs
+	https://www.nexusmods.com/skyrimspecialedition/mods/56575
+	DL: Modpocalypse NPCs (v3) Immersive College NPCs 1.0 (version using only KS Hair)
+	Mod Order:  with other NPC Overhauls
+		AFTER BeastHHBB - Argonian Replacer and Hair
+		After Facegen (TPFZS specific mod)
+	LOOT: AFTER ZedPatch2.esp
+	Notes:  Requires Modpocalyse Resources, already installed
+	
+	Locked Chests Have Keys - Patches
+	https://www.nexusmods.com/skyrimspecialedition/mods/74718?tab=files
+	DL: Locked Chests Have Keys - Inigo 1.0
+		Locked Chests Have Keys - Cultured Orc Furniture
+	Mod Order:  with Locked Chests Have Keys
+	LOOT: Before Realistic Water Two.
+	Notes: May need custom patches for TPFZS
+	
+	Moon and Star 3.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/4301
+	A mysterious and powerful criminal has been spotted in Skyrim, his trail dogged by hunters from Morrowind. However, there may be more at stake than it seems, and this criminal may be familiar...
+	DL: Moon and Star 3.2
+		Immersion Patch 2.0
+	LOOT:  Early, with other quests.  Around Clockwork, DarkEnd, etc.
+	
+	Moon and Star (MAS) Fixes
+	https://www.nexusmods.com/skyrimspecialedition/mods/27434
+	A humble (ongoing) attempt to fix various visual bugs/issues I've noticed in Moon and Star SE.
+	DL: Moon and Star (MAS) Books Fix
+		Moon and Star (MAS) Landscapes Fixes
+	LOOT: with patches before RW2
+
+	Assorted 3DNPC Patches - Project AHO - Moon and Star - Vigilant - Hammet - Windhelm Docks Pathways - Treasure Hunter
+	https://www.nexusmods.com/skyrimspecialedition/mods/72309
+	DL: 3DNPC - Moon and Star Patch
+		3DNPC - Vigilant Patch
+	LOOT: before Realistic Water Two
+	
+	Moon and Star - Creation Club Consistency and Immersion Tweaks 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/67984
+	LOOT: immediately after Moon and Star.esp
+
+	Clockwork Plus Moon and Star Synergy Patch
+	https://www.nexusmods.com/skyrimspecialedition/mods/75851
+	
+	Lucien - Moon and Star Patch
+	in mod: Lucien - Immersive Fully Voiced Male Follower
+	https://www.nexusmods.com/skyrimspecialedition/mods/20035?tab=files
+	Note: esp file.  Should be eslified
+	LOOT: patches before RW2
+	
+ESLIFY:
+	Lucien - Moon and Star Patch
+	Notes:  Has dialog, scripts, and seq file.  Can be done in xEdit.  Must recreate SEQ file.
+	Procedure:  Copy/reinstall/rename mod to new folder, noting this is ESLified version.  (If new insallation, simply rename)
+		Insure xEdit output folder is empty.  (overwrite by default, or whatever you set as profile-specific output folder in MO2 Executables tab).
+		Extract contents of BSA file:
+			Open mod in Explorer
+			Left click on BSA file
+			Use BSABrowser to 'Extract Here'
+			you should now see scripts, seq, and sound folders
+		Hide (do NOT delete) BSA file using MO2
+		Follow instructions in https://www.nexusmods.com/skyrimspecialedition/mods/56396 :
+			load the plugin you want to convert to SSEEdit
+			select this plugin in the left tree menu
+			use the CTRL + ALT + E shortcut or the "Apply Script" command and select "__ESPFEFollower﻿" script.﻿
+			right click on plugin, use "Other -> Create SEQ File"
+			use CTRL + S to save the plugin
+			IF you use MO2 new files are in Overwrite directory﻿﻿﻿﻿ (meshes, textures and voice files, plugin is converted not copied)
+		Move outputs from xEdit Output folder (either Overwrite or the one you set) to Lucien - Moon and Start Patch mod folder
+
+ESLIFY:
+	Moon and Star Immersion Patch 2.0
+	Notes:  has dialog and scripts.  Use exact same preocedure as above, but without need to create SEQ file
 	
 
+	Landscape and Water Fixes - Moon and Star
+	https://www.nexusmods.com/skyrimspecialedition/mods/74512
+	
+	Ryn's Standing Stones - Moon and Star Patch
+	https://www.nexusmods.com/skyrimspecialedition/mods/64969?tab=files
+	DL: Moon and Star Patch
+	
+	Landscape Fixes For Grass Mods - Patch for Moon and Star
+	https://www.nexusmods.com/skyrimspecialedition/mods/9005
+	DL: Patch for Moon and Star v1
+	Note:  esp
 
+ESLIFY:
+	Landscape For Grass Mods - Moon and Star PATCH.esp
+	Notes:  very simple, use Wyre Smash to set ESL flag.  Remember to rename mod
+
+LOOT:
+	Ryns_Standing_Stones_-_Moon_and_Star_Patch.esp  AFTER  MAS Landscape Fixes.esp
+	Moon and Star - CC Consistency and Immersion Tweaks  AFTER  Landscape for Grass Mods - Moon and Star Patch.esp
+	Landscape for Grass Mods - Moon and Star Patch.esp  BEFORE  MAS Landscape Fixes.esp
+	
+UPDATE:
+	Caught Red Handed - Quest Expansion 1.04
+	https://www.nexusmods.com/skyrimspecialedition/mods/65708?tab=description
+	ESL. Safe to install and update mid-game.
+	Notes:  Install new version as a new mod.  DO NOT replace or merge with existing mod.
+
+INSTALL:
+	MergeMapper 1.4
+	https://www.nexusmods.com/skyrimspecialedition/mods/74689
+	SKSE/VR DLL that automatically allows Papyrus scripts to be aware and also allows other DLLs to support zmerge merges. Supports SE/AE/VR.
+	Notes: This was previously embedded in various versions of BaseObjectSwapper, SeasonsOfSkyrim, and SPID.  Non strictly required for this modlist, but doesn't hurt, especially if I ever do merges.
+	Mod Order:  With other core mods
+	
+INSTALL ORDER CHANGE:
+	BnP Female Skin (replacer Version) CBBE 1.8 - load mod BEFORE HD Vanilla Eyeliner SE by Xtudo (kz appearance section)
+	Note:  BnP female skin should still override Vanilla Makeup HD.  Should lose to CBBE 3BA Vagina Textures Set Reinstaller
+	
+NEW PATCHES:
+	KZ Patch - TPFSZ + USMP + Aetherius
+	KZ Patch - Elis Skaal Village Overhaul + TPSZS
+	KZ Patch - EBQO + USSEP + TPFZS
+	
+INSTALL/UPDATE:
+	More Thalmor Dossiers 1.12
+	https://www.nexusmods.com/skyrimspecialedition/mods/65059
+	DL: More Thalmor Dossiers 1.12
+		More Thalmor Dossiers - Bruma 1.12
+		More Thalmor Dossiers - BUVARP 1.12
+		More Thalmor Dossiers - Interesting NPCs 1.12
+		More Thalmor Dossiers - LoTD 1.12
+		More Thalmor Dossiers - Lucien 1.12
+		More Thalmor Dossiers - Mrissi 1.12
+	Notes: New version of several TPFZS installed mods, plus new ones.  Always create new mods, never replace or merge with existing ones.  LoTD and BUVARP ones does not require LoTD or BUVARP as master, can be installed now.
+	Mod Order: with existing More Thalmor Dossiers
+	LOOT: with patches before Realistic Water Two.  (Most need corresponding NPCs as masters)
+	
+INSTALL/UPDATE:
+	Skyrim Landscape and Water Fixes 7.9
+	https://www.nexusmods.com/skyrimspecialedition/mods/26138
+	Notes: TPFZS is at 7.7.  This updates and installs new patches.
+	DL: Skyrim Landscape and Water Fixes - FOMOD v7.9
+	FOMOD: Check Landscape Fixes for Grass Mods, Navigator, Northern Marsh Bridges, Lanterns of Skyrim II, Tundra Homestead, Alternative Armors - Elven Hunter, Hendraheim, Patches=None, Walkway Wall Fix=SMIM
+	Notes: disable 7.7 install.  This overwrites all of it, except that the Northern Marsh Bridges Patch has been renamed to remove an extra space.
+	LOOT: load new patches before Realistic Water Two
+	
+INSTALL/UPDATE:
+	Lanterns of Skyrim II v4.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/30817
+	Lanterns of Skyrim II is a completely redesigned version of the old MannyGT LoS. This new edition includes many improvements and additions, more compatibility, improved light sources, snow-covered lighposts and lanterns in snowy areas for a more immersive experience, all lanterns are moved by the wind and much much more........
+	DL: Lanterns Of Skyrim II - FOMOD v4.1
+	Note: 974 MB.  TPFZS is using LOS II v3.0.  This update will undoubtedly need patches, but is being installed since all new patches on nexus are being built for 4.1, not 3.0
+	FOMOD: 3DNPC Addon, SMIM Patch, USSEP Patch, whatever it selects for Patches (A), (B), (C)
+	Note:  REINSTALL after adding LotD, CRF, Midwood Isle, etc
+	
+	Axis' Thanedom Hamlet and Kingdoms Patches
+	https://www.nexusmods.com/skyrimspecialedition/mods/73776
+	A variety of ESL flagged patches for Axis's cool Thanedom mods.
+	DL: main file v0.934 23 Feb 2023
+	FOMOD: whatever it selects
+	DO NOT INSTALL.  Apparently, it decided I was up to date, and installed nothing.
+	
+	Arby's Various Compatibility Patches
+	https://www.nexusmods.com/skyrimspecialedition/mods/84611
+	DL: Arby's Compatibility Patches - FOMOD  v1.4 10 Apr 2023
+	DO NOT INSTALL - Yet.  It's mostly for Enhanced Lanscapes, which is not installed.  But it does have a fix for a floating LOS II lantern around Ryn's Loreius Farm.
+	
+	Better Lighting for Moon and Star - with Lanterns of Skyrim II Patch
+	https://www.nexusmods.com/skyrimspecialedition/mods/43702
+	Modified lighting of locations from Moon and Star with exterior support for Lanterns of Skyrim II. Optional file adds Dragonborn DLC contents to Moon and Star
+	DL: Better Lighting for Moon and Star - FOMOD 2.0 30 aug 2021
+		Moon and Star - DLC Integration 1.0 26 dec 2020
+	FOMOD: Main File=Interior and Exterior with Lantern, Dragonborn DLC Integration=checked
+	Note: DO NOT INSTALL DLC integration mod, already included in main mod
+
+ON THE RADAR:
+	Lanterns Of Falskaar (Unofficial LOS II addon for Falskaar)
+	https://www.nexusmods.com/skyrimspecialedition/mods/43697
+	Lanterns of Falskaar is an addon mod for Falskaar, using Lanterns Of Skyrim II, illumiinating all roads, settlements, and generally all map locations.  Makes also some minor bugfixes to object positions and light flickering in some cells.
+	DL: main file v1.01 27 dec 2020
+	Install Instructions:  oddly packaged.  Select 'data' folder, right click, 'Set as <data> directory'. 	optional folder installs a regular esp version, non-ESPFE
+	LOOT: Before Realistic Water Two
+	DO NOT ACTIVATE YET.  We haven't installed Falskaar yet!  Thought it was in TPFZS.
+
+INSTALL:
+	Lanterns Of Wyrmstooth (Unofficial LOS II addon for Wyrmstooth)
+	https://www.nexusmods.com/skyrimspecialedition/mods/47782
+	Wyrmstooth is an amazing mod with great landscapes and dungeons. But it lacked illumination outdoors and with darker nights it was hard to play it at night. So I decided to make a full addon that brings the lanterns of LOS II to Wyrmstooth. It includes a full lantern system for all roads and lighting in all locations with map.
+	DL: main file v1.0 30 mar 2021
+	Install Instructions:  oddly packaged.  Select 'data' folder, right click, 'Set as <data> directory'. 	optional folder installs a regular esp version, non-ESPFE
+	LOOT: Early.  Before Realistic Water Two.  Try before CoMAP - Wyrmstooth Fast Travel Patch.esp
+	
+	
+ON THE RADAR:
+	WiZkiD Wells with real water
+	https://www.nexusmods.com/skyrimspecialedition/mods/57208
+	This mod adds real water inside all skyrim wells.
+	DL: main mod v1.0 18 oct 2021
+	DO NOT ACTIVATE YET.  See if there is already water in wells, added by some other mod.
+
+INSTALL:
+	AddItemMenu ESLified Patch
+	https://www.nexusmods.com/skyrimspecialedition/mods/22958
+	This is a patch for AddItemMenu which makes the mod work as an ESL-flagged ESP.
+	Installation:  as new mod.  DO NOT replace or merge with existing mod.
+		
+	Bruma Misc Fixes
+	https://www.nexusmods.com/skyrimspecialedition/mods/70920?tab=description
+	Some small fixes for Beyond Skyrim Bruma.
+	DL: Bruma Misc Fixes v1.0 07 jul 2022
+	LOOT: Before RW2
+	
+	Ryn's Farms
+	https://www.nexusmods.com/skyrimspecialedition/mods/72305
+	An All-in-one version of my Farm mods.
+	DL: Ryn's Farms 1.2 31 mar 2023
+	Notes: I thought this was in TPFZS.  It may have many conflicts and be uninstallable.  Check with xEdit.
+	Notes: esp file. not eslifiable.
+	LOOT: Before RW2
+	
+	Ryn's Farms AIO - Landscape and Water Fixes
+	https://www.nexusmods.com/skyrimspecialedition/mods/72747?tab=files
+	Adds proper ownership to all harvestables added by Ryn's Farms.
+	DL: main file 1.00 05 aug 2022
+	LOOT: After Ryn's Farms AIO
+
+
+LOOT Reordering:
+	JK's Ragged Flagon - RW2 Patch.esp  AFTER Realistic Water Two.esp
+	This error was causing RW2 to be loaded *WAY* too early in xEdit, screwing up everything
+	
+INSTALL:
+	Grass Fixes for Creation Club Mods
+	https://www.nexusmods.com/skyrimspecialedition/mods/61777
+	DL: v1.2 25 jul 2022
+	LOOT:  Before RW2 for now
+	
+	Creation Club - Misc Patches
+	https://www.nexusmods.com/skyrimspecialedition/mods/30622
+	A collection of small patches for the Creation Club Content. Mainly for Weapons Armour Clothing Clutter Fixes, but other patches are available.
+	DL: v2.0.0 17 dec 2021
+	FOMOD: Everything, WACCF-SSO
+	LOOT:  Whew! Lots!  all before RW2
+	
+	CBBE 3BA Creation Club Outfits BodySlides
+	https://www.nexusmods.com/skyrimspecialedition/mods/62774?tab=files
+	BodySlides for ALL Creation Club armors, clothes, boots, gloves, jewlery converted to CBBE 3BA.
+	DL: main 1.2 25 apr 2023
+
+NEW MOD:
+	KZ Bodyslide Output - CBBE 3BA Creation Club Outfits 1.2 - zeroed sliders
+	Procedure:
+		Insure your Bodyslide Output folder is empty.
+		Open Bodyslide in MO2.
+		Group Filter: CBBE 3BA Creation Club
+		Outfit/Body: select one, doesn't matter which.
+		Preset: - Zeroed Sliders -  (for OBody)
+		Preview:  make sure everything looks ok.  preview as many outfits as you like.
+		Checkbox: Build Morphs = ON ( down by Batch Build... button in lower left)
+		Batch Build: leave everything selected.  Click 'Build' button.
+		Close Bodyslide.
+		Create new empty mod named KZ Bodyslide Output - CBBE 3BA Creation Club Outfits 1.2 - zeroed sliders
+		Open your bodyslide output folder in Explorer.  should be a meshes folder containing lotsa stuff.
+		Move meshes/ folder from Bodyslide output folder into new mod
+		(Alternative procedure: create new output folder before opening Bodyslide, then hold CTRL when pressing Batch Build, select new folder as output file)
+		Refresh MO2 Mods pane (use tool icon at top, on in right click context menu)
+
+INSTALL:
+	Wyrmstooth - Creation Club Ingredient Patches
+	https://www.nexusmods.com/skyrimspecialedition/mods/59459
+	Patches Wyrmstooth's ingredients for Rare Curios and The Cause.
+	DL: both main files, v1.0 03 dec 2021
+
+INSTALL:
+	Moderate Curvy - A Realistic-ish CBBE BodySlide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/64065
+	A subtle BodySlide preset with more curves than CBBE Thin and less curves than CBBE Curvy. Includes 3 presets (Nude, Clothes, and Push-Up) to fit many styles of clothing.
+	DL: main v1.0 22 feb 2022
+	Mod Order: with other bodyslide presets.
+	Notes: will work fine with OBody
+	
+	HIMBO Creation Club Refits for BodySlide
+	https://www.nexusmods.com/skyrimspecialedition/mods/58697
+	HIMBO BodySlide files for all Creation Club armors & clothing in Anniversary Edition.
+	DL: HIMBO Creation Club Refits v1.0 18 nov 2021
+		update: HIMBO Creation Club Refits - Slider Group Fix  1.0 03 dec 2021 - merge into main mod
+	
+NEW MOD:
+	KZ Bodyslide Output - HIMBO Creation Club Refits - zeroed sliders
+	Procedure:
+		Create new empty mod with above name.
+		Enable new mod.
+		Open Bodyslide
+		Group Filter: HIMBO Creation Club
+		Outfit/Body:  select one
+		Preset: HIMBO Zero for OBody
+		Preview:  make sure everything looks ok.  preview as many outfits as you like.
+		Checkbox: Build Morphs = ON ( down by Batch Build... button in lower left)
+		Batch Build + CTRL key:  
+			Leave everything selected.
+			Click 'Build' button.
+			select new mod as output folder (up to mods, sort by newest date first, should be near top)
+		Close Bodyslide.
+		Refresh MO2 Mods pane (use tool icon at top, on in right click context menu)
+	
+INSTALL:
+	3BA Vanilla Clothes and Armor 2.5
+	https://www.nexusmods.com/skyrimspecialedition/mods/51610
+	Most armor and clothing from the base game, Dawnguard, and Dragonborn converted to CBBE 3BA
+	DL: main v2.5 05 sep 2022
+	Mod Order: after TPFZS 
+
+NEW MOD:
+	KZ Bodyslide Output - 3BA Vanilla Clothes and Armor v2.5
+	Procedure:  Same as for HIMBO armors above, with changed names
+		Group Filter: 3BA Vanilla
+		Preset: - Zeroed Sliders - (should be first)
+
+INSTALL:
+	Creation Club Asset Patch 1.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/65084
+	Fixes several issues with the assets from Creation Club content.
+	DL: main v1.2 29 may 2022
+	FOMOD: everything it selects
+	Mod Order:  BEFORE KZ Bodyslide Output - CBBE 3BA Creation Club Outfits 1.2 - zeroed sliders
+	Notes: most of the meshes are already fixed in the Unofficial CCC Patch, but this mod has a few more
+
+	Saints and Seducers - Voiced Narrative (Creation Club)
+	https://www.nexusmods.com/skyrimspecialedition/mods/67117
+	Improved the narrative of Saints & Seducers questline with new voiced dialogues carefully generated by xVASynth2.
+	DL: main v1.4 21 may 2022
+	Notes:  This is probably totally useless with Saints and Seducers Extended Version.  Given that the CC original is unvoiced, I can see why the extended version was created.  
+	
+	Merlin the Corgi 2.0.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/56433?tab=files
+	Adds a magical corgi companion to join you on your adventures.
+	DL: main file v2.0.2 05 dec 2022
+	Note: Travel to the Summoning Circle﻿﻿ just north of Morthal to meet your new friend.  Merlin ﻿uses a custom follower framework and should NOT be imported into follower framework mods such as Amazing Follower Tweaks﻿, Extensible Follower Framework﻿, or Nether's Follower Framework.  Special interactions with Saints and Seducers Extended Cut.  Already managed by SPID - NFF - Add Ignore Token to CustomAI Followers.
+	LOOT: earlyish.  Right after Kaidan, long before nwsFollowerFramework.esp
+	
+ON THE RADAR:
+	Conditional Equipment
+	https://www.nexusmods.com/skyrimspecialedition/mods/85483
+	A flexible inventory manager for both NPCs and the player, where the player defines conditions and outfits that are equipped when those conditions are met. Supports armor, clothing and weapons.
+	DL: Conditional Equipment - 0.9 (Beta) (ESL)  v0.9-Beta 02 may 2023
+	Note: Not required, but strongly recommended: Nether's Follower Framework - Conditional Equipment will make storing items in a follower's vanilla inventory impossible. (Unless the follower is not being managed by CE.)  It's developed with NFF's additional inventory in mind.﻿
+	DO NOT ACTIVATE YET.  ON THE RADAR.
+
+INSTALL:
+	Nether's Follower Framework - Legacy Settings Loader
+	https://www.nexusmods.com/skyrimspecialedition/mods/57022
+	DL: main file v1.0 13 oct 2021
+	LOOT: immediately after nwsFollowerFramework.esp
+
+ON THE RADAR:
+	Gladys the Corgi
+	https://www.nexusmods.com/skyrimspecialedition/mods/50164
+	Adds a friendly corgi companion to join you on your adventures.
+	DL: v2.0.3.1 24 mar 2023
+	Notes:  Talk to the new merchant at the Solitude Docks to begin your adventures together!  Custom follower system.  Already managed by SPID - NFF - Add Ignore Token to CustomAI Followers.
+	Notes:  esp file.  not easily eslifiable, due to dependencies.  numerous bug reports of being unable to talk to merchant to purchase her.  Problematic mod, not worth the esp slot, since Merlin is an ESPFE.
+	DO NOT ACTIVATE.
+
+INSTALL:	
+	Kaidan REBORN - Commentary with More Dogs
+	https://www.nexusmods.com/skyrimspecialedition/mods/77818
+	Applies Kaidan's follower interaction commentary to more dogs.  (including Merlin the Corgi)
+	DL: Kaidan Commentary with More Dogs - Optional Dogs 1.1 02 nov 2022
+	FOMOD: select all but Gladys.
+	LOOT: before RW2
+	
+	Kyne's Temple Consequences
+	https://www.nexusmods.com/skyrimspecialedition/mods/38260
+	Increases the impact of the choice in The Blessings of Nature through 4 unique voiced NPCs and adaptive changes to Whiterun's Temple of Kynareth.
+	DL: main v1.1.1 27 aug 2020
+		JK's Temple of Kynareth - Kyne Consequences Patch 1.0.1 26 oct 2021
+	LOOT: before RW2.  After JK's Temple of Kynareth.
+
+	Whiterun Battle Brothers
+	https://www.nexusmods.com/skyrimspecialedition/mods/36036
+	Makes the guards who survive Dragon Rising into unique NPCs who recognize the player and continue to guard Whiterun.
+	DL: main v1.0 15 may 2020
+	LOOT: before RW2
+	
+	Gildergreen Regrown
+	https://www.nexusmods.com/skyrimspecialedition/mods/348
+	A mod to make the Gildergreen in Whiterun grow from the sapling back into a full tree over time. Takes approximately 6 months in-game time to grow from a sapling into a full adult.
+	DL: main v 2.0.1 08 may 2019
+	Notes:  esp file, easily eslifiable
+	LOOT: before RW2
+	
+NEW MOD:
+	Gildergreen Regrown - KZ eslified esp replacer
+	Procedure:  copy esp from Gildergreen Regrown into new mod.  activate.  xEdit.  run script __ESPFEFollower
+	
+INSTALL UPDATE:
+	Remote Interactions 1.01
+	https://www.nexusmods.com/skyrimspecialedition/mods/89676?tab=files
+	Notes: ESL-flagged. Safe to install midgame. Place AFTER Taunt your Enemies (both for the esp and files).
+
+ON THE RADAR:
+	Remiel Refined - COtR - ESL Flagged
+	https://www.nexusmods.com/skyrimspecialedition/mods/90614
+	Remiel NPC Overhaul changes Remiel's appearance and you can optionally change her armor to HDT-SMP Melony Armor (by Fuse00).
+	Note: This mod does not require COtR or CBBE! This mod overhauls Remiel using COtR and CBBE body texture. You can also optionally give HDT-SMP Melony Armor (by Fuse). You don't need to have COTR and CBBE installed because everything is already included in this mod. Also, COtR uses its own face textures for males and this means that there always be a slight neck seam or a bit unnatural transition between the neck and the body.
+	DO NOT INSTALL YET.  Want to see original Remiel before I start editing her.  This one is really cute, though - I'm a sucker for big round glasses.
+	
+ON THE RADAR:
+	HDT-SMP Melony Armor
+	https://www.patreon.com/posts/hdt-smp-melony-67711235
+	HDT-SMP light armor for female CBBE/UNP (also compatible with other CBBE/UNP variations like CBBE 3BA/BHUNP (since they share the same textures)).
+	Notes: Physics is enabled for belt props and body (breasts/buttocks). Includes: Body armor; Gauntlets; Boots; Faster HDT-SMP plugin is required to run the physics. The armor can be crafted on forge and tempered on workbench, or type "help melony" in the console to find related ARMO ID and spawn an item with "player.additem <ID> 1" command, or use mods like QUI or AddItemMenu.
+	DO NOT INSTALL YET.  HDT-SMP Physics is not yet installed.
+
+INSTALL:
+	Kaidan 2 - Autumnwatch Lodge and Dwarven Mail CC Patch
+	https://www.nexusmods.com/skyrimspecialedition/mods/64822
+	A small patch for Kaidan 2's Autumnwatch Lodge player home and the Alternative Armors - Dwarven Mail Creation Club.
+	DL: main v1.1 23 mar 2022
+	Notes: Kaidan's home overwrites and removes a unmarked campsite used by CC.  This mod removes those edits, re-enabling the vanilla campsite.
+	LOOT: shortly after 0Kaidan.esp
+
+	Immersive Kaidan Start
+	https://www.nexusmods.com/skyrimspecialedition/mods/64064
+	Kaidan 2 is a popular follower mod, but it always bugged me that you are given a quest to find him from the start of the game. This patch removes the objective to find him on the start of the game, and instead adds a few ways to find him in game in a more immersive way.
+	DL: main v 2.1.1 19 apr 2022
+	LOOT:  shortly after 0Kaidan.esp
+	
+	Immersive Sound Compendium - CC AE Patch
+	https://www.nexusmods.com/skyrimspecialedition/mods/60678
+	Add the Immersive Sounds - Compendium footsteps sounds to the AE - CC Armor.
+	DL: ISC - CC Patches v1.1.1 24 dec 2021
+	FOMOD: merged file
+	LOOT: shortly after Immersive Sound Compendium.esp
+	
+	CC Bone Colossus Skeleton Fix
+	https://www.nexusmods.com/skyrimspecialedition/mods/63167
+	Fix the T pose of the bone colossus skeleton from the creation club content "Necromantic Grimoire".
+	DL: main v1.0 06 feb 2022
+	Notes: Somehow the mod hdt-smp/ faster hdt-smp messed up the skeleton of the lurkers from the dragonborn dlc and caused them to keep having the infamous T-pose glitch. XPMSSE fixed the issue but the fix was not applied to the bone colossus added by cc, which used the skeleton of the lurkers. This mod simply replaces the bone colossus skeleton with the fixed lurker skeleton.
+	
+	(CC Fishing) Rubbish Retrieval Bugfix
+	https://www.nexusmods.com/skyrimspecialedition/mods/77453
+	Rubbish Retrieval radiant quest was supossed to send you to either Markarth, Riften, Dawnstar or Morthal. However, due to an implementation bug, the possibilities of being sent to Dawnstar or Morthal are very slim. Rejoice yourself, because with this mod you will be able to experience this epic quest as it was originally intended.
+	DL: main v1.0 21 oct 2022
+	
+	Obscure's College of Winterhold - Creation Club Patches (and a couple others too)
+	https://www.nexusmods.com/skyrimspecialedition/mods/71788?tab=files
+	Separate page for the creation club patches so people who search for them can find them
+	DL: Obscure's College of Winterhold - CC - Wild Horses Patch  v1.0 22 jul 2022
+		Obscure's College of Winterhold - CC - Arcane Archer Patch
+		Obscure's College of Winterhold - Interesting NPCs Patch
+	Notes:  redundant.  In Janquel's patch collection.
+	
+		
+	Rigmor of Bruma - Obscure's College of Winterhold patch
+	https://www.nexusmods.com/skyrimspecialedition/mods/67970
+	This litte patch removes the flag and bench in front of the door to Malesams Quarters.
+	DL: Rigmor OCW patch 1.0 13 may 2022
+	
+	Unofficial Beyond Skyrim Bruma Creation Club Camping Patch
+	https://www.nexusmods.com/skyrimspecialedition/mods/45694
+	This patch allows all features from the Camping creation to be used in the Beyond Skyrim: Bruma mod
+	DL: Unofficial Beyond Skyrim Bruma Creation Club Camping Patch 1.0.1 11 oct 2021
+	
+	Creation Club Integration - Armours
+	https://www.nexusmods.com/skyrimspecialedition/mods/29020
+	Better integrates most of the armours available from the Creation Club into the world.
+	DL: Creation Club Integration - Armours 4.0.0a 14 mar 2022
+	FOMOD: what it selects.
+	LOOT:  Before RW2.  Load order should be:
+		*Creation Club Integration - Anniversary Edition.esp
+		*Creation Club Integration - Anniversary Edition OWL.esp
+		*Creation Club Integration - Anniversary Edition OWL Randomized Special Loot.esp
+		*Creation Club Integration - Anniversary Edition ACE.esp
+		*Creation Club Integration - Anniversary Edition SSO.esp
+		*Open World Loot - Creation Club Full Integration.esp
+		*OWL Randomized Loot - Creation Club Addon.esp
+	Notes: will undoubtedly need patches.
+
+	Ghastly's Open World Loot Creation Club Patches
+	https://www.nexusmods.com/skyrimspecialedition/mods/59014
+	The pretty much official patch hub for Creation Club and OWL. I'll be adding the rest soon!
+	DL: OWL - Full Creation Club Integration v3.0.3 10 dec 2022
+	LOOT:  Before RW2.  After Creation Club Integration.  Load order should be:
+		*Creation Club Integration - Anniversary Edition.esp
+		*Creation Club Integration - Anniversary Edition OWL.esp
+		*Creation Club Integration - Anniversary Edition OWL Randomized Special Loot.esp
+		*Creation Club Integration - Anniversary Edition ACE.esp
+		*Creation Club Integration - Anniversary Edition SSO.esp
+		*Open World Loot - Creation Club Full Integration.esp
+		*OWL Randomized Loot - Creation Club Addon.esp
+		
+	Orcish Orc Strongholds - Creation Club Orcish Armors Integrated
+	https://www.nexusmods.com/skyrimspecialedition/mods/58662
+	Integrated Orcish Plate and Orcish Scaled from Creation Club by giving members of Orc Strongholds the appropriate equipment.
+	DL: Orcish Orc Strongholds 1.0a 29 apr 2022
+	Notes: The reasoning behind giving the armors to these specific NPCs was simply based on their vanilla equipment: whoever equipped vanilla Scaled set will receive the equivalent Orcish Scaled parts, and Orcish Plate for Steel. Currently, this integration only affects Orc Strongholds most, hence its name. I've no plan to integrate it to leveled list as it would be covered by Creation Club Integration - Armours
+	Notes: will need patches
+
+	Tournament of the Ten Bloods - Artifacts of Boethiah - Update.esm or Creation Club Patch
+	https://www.nexusmods.com/skyrimspecialedition/mods/66015
+	Shifts the entrance to the mountain pass slightly to not conflict with the Nchuanthumz: Dwarven Home creation changes included in Update.esm. Two versions provided - one for those using the creation, one for those not.
+	DL: TotTB - Artifacts of Boethiah - Creation Club Patch v1.0 04 apr 2022
+	
+	The Gray Cowl Returns - Voiced Narrative (Creation Club)
+	https://www.nexusmods.com/skyrimspecialedition/mods/67439
+	Improved the narrative of The Gray Cowl Returns quest with new voiced dialogues carefully generated by xVASynth2.
+	DL: main v1.2 26 may 2022
+	LOOT: before RW2
+	
+	Redguard Elite Armaments - Voiced Narrative (Creation Club)
+	https://www.nexusmods.com/skyrimspecialedition/mods/67532
+	Improved the narrative of Interception quest from Redguard Elite Armaments with new voiced dialogues carefully generated by xVASynth2.
+	DL: main v1.1 27 may 2022
+	
+	Aniversary Edition Creation Club USSEP fixes
+	https://www.nexusmods.com/skyrimspecialedition/mods/58577
+	Simple fixes for creation club mods with some changes forwarded from USSEP
+	DL: Creation-USSEP v1.2 25 nov 2021
+	Notes: ﻿Unofficial Skyrim Creation Club Content Patches was updated (November 21). I have updated this mod and removed what is fixed by that mod. You should now install that mod before mine. Mine still has some minor fixes. Survival mode fixes mod is now not needed, because those fixes are included in that mod too.
+	LOOT:  very early, after Unofficial Skyrim Creation Club Patches
+		Load order:
+			creation club mods
+			USSEP
+			Unofficial Skyrim Creation Club Content Patches
+			this mod
+	
+	Ghosts of the Tribunal - Voiced Narrative (Creation Club)
+	https://www.nexusmods.com/skyrimspecialedition/mods/67374
+	Improved the narrative of Ghosts of the Tribunal questline with new voiced dialogues carefully generated by xVASynth2.
+	DL: main v1.1 21 may 2022
+	
+	Tamrielic Distribution
+	https://www.nexusmods.com/skyrimspecialedition/mods/71372
+	An all-encompassing integration and distribution mod that includes modules for a wide array of different content.
+	DL: main v1.3.3 27 mar 2023
+	LOOT: For the best results load Tamrielic Distribution.esp and all its plugins as low in your load order as possible.
+		Tamrielic Distribution - Lucien.esp  immediately after Lucien.esp
+		Tamrielic Distribution - Moon Monk Robes and Lunar Guard Armor.esp  immediately after Kad_MoonMonkRobes.esp
+		Tamrielic Distribution - Unique Stros M'Kai Rum.esp immediately after StrosMKaiRum.esp
+		Tamrielic Distribution - Save the Icerunner Patch.esp immediately after SaveTheIcerunner.esp
+	FOMOD: what it auto-selects.
+	Notes:There are a handful of mods I recommend you pair with Tamrielic Distribution to further integrate content into your game. While this mod has a few modules for Alternative Armor content it doesn't actually add the armors into loot lists. I recommend you use On a Crimson Trail for this. Not only does it cleanly and naturally add all these armors to vanilla loot lists but it also overhauls the quests to feel more natural and interconnected. I provide optional plugins to disable the Alternative Armor quests for all the content not currently covered by Crimson Trail. If you use the Crossbow Collection Module it is recommended that you pair it with Thwack. I also recommend you pick up Kachuck to completely integrate Anniversary Edition's crossbows.
+	
+	Nix-Hound Eyes Fix (Creation Club Nixhound Patch)
+	https://www.nexusmods.com/skyrimspecialedition/mods/22480
+	If you thought the Creation Club's Nix-hound was beautiful except for that terrible case of walleye, here's the mod for you.
+	DL: main v1.0 09 jan 2019
+	Notes:  mesh edit.  this is clearly a metter of taste, not a bug.  I prefer the look of this mod.
+	
+	Creation Club Content - Properly Environment Mapped
+	https://www.nexusmods.com/skyrimspecialedition/mods/35298
+	Correct environment map of various Creation Club contents for better visual results
+	DL: all files.
+		Dead Man's Dread - Properly Environment Mapped
+		Dwarven Armored Mudcrab - Properly Environment Mapped
+		Iron Plate Armor - Properly Environment Mapped
+		Orcish Plate Armor - Properly Environment Mapped
+		Dwarven Mail - Texture Tweak
+		Orcish Plate Armor - Texture Tweak
+
+	Swearing Mudcrabs SSE
+	https://www.nexusmods.com/skyrimspecialedition/mods/35686
+	Foul mouthed mudcrabs are back.
+	DL: SwearingMudCrabsCCM - ESL version
+	Notes:  As before, a very immersive and silly mod.  very silly, but I love it
+
+ON THE RADAR:
+	The Mudcrab Merchant- Immersive Easter Eggs (SE-AE version) (''morrowind'')
+	https://www.nexusmods.com/skyrimspecialedition/mods/27272
+	That Tamriel is home to many unexpected creatures, no one doubts, but perhaps a wealthy and shrewd Mudcrab merchant is a little too much of an encounter for the unsuspecting traveler.
+	Notes: very silly and likely overpowered.  But I wanna see it.
+	DO NOT INSTALL YET.  esp file, needs to be eslified
+
+INSTALL:
+	B.O.O.B.I.E.S (aka Immersive Icons) 1.4.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/89241?tab=files
+	Introducing Beautifully Overhauled and Objectively Better Icons Enriched for SkyUI, (or BOOBIES for short) the ultimate icon experience enhancer! More item types, more colors, more icons... bring some personality to your inventory
+	Notes:  required by Aura's Inventory Tweaks.
+	
+	Aura's Scrumptious Supplement (A.S.S. for B.O.O.B.I.E.S.) 1.1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/89823
+	Aura's Scrumptious Supplement (A Food and Potions Addon for B.O.O.B.I.E.S.).  Adds item types, colors, and icons for food and other ingestible items!
+	DO NOT INSTALL. Lightweight Alternative to Aura's Inventory Tweaks.  Needs a different version of Object Categorization Framework.  Prefer Aura's Inventory Tweaks.
+
+INSTALL UPDATE:
+	Aura's Inventory Tweaks for SkyUI 3.0.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/68557
+	DL: main 3.0.1 04 may 2023
+	
+=====================
+OSTIM NG Installation
+=====================
+NOTES:
+	Read and follow https://www.nexusmods.com/skyrimspecialedition/articles/4550
+	The most stable and recommended OStim mods are featured in the OStim NG mod page.
+	OStim NG mod page: https://www.nexusmods.com/skyrimspecialedition/mods/76724
+	
+INSTALL:
+
+	No Numpad Hotkeys
+	https://www.nexusmods.com/skyrimspecialedition/mods/53390
+	Now you can use the numpad keys for useful stuff. You can also manually change every other Keybinding in the .txt file!
+
+	OSA for OStim 1.3
+	https://github.com/VersuchDrei/OSA-SE/releases/tag/1.3
+	DL: OSA.for.OStim.1.3.7z  1 feb 2023
+	Note: Required base mod for OStim NG
+	
+	OStim NG - OSA Overhaul and API Next Gen
+	https://www.nexusmods.com/skyrimspecialedition/mods/76724
+	DL: OStim 6.6f 22 mar 2023
+		Improved Camera OStim Configuration  PR5hotfix3-2 20 mar 2023
+	Notes: Important: when you install 3BA or BHUNP female body, these mods will have conflicting hotkeys with OStim. Go on the MCM menu for 3BA/BHUNP and unbind the keys by binding them to Esc.
+	
+	ImprovedCameraSE-PR 5
+	https://github.com/ArranzCNL/ImprovedCameraSE/releases/
+	Improved Camera SE, Preview Release 5.
+	DL: ImprovedCameraSE-1.0.0.PR5.7z
+	Notes: If you want to see the animations in first-person perspective, get Improved Camera. Then, get Improved Camera OStim configuration. Currently, Improved Camera only works for Skyrim version 1.5.97 and 1.6.353. You can configure Improved Camera in game by pressing Left Shift + Home.
+	
+	Open Animations Romance and Erotica (former OpenSex)
+	https://www.nexusmods.com/skyrimspecialedition/mods/61167
+	Bi-weekly updates. Open license. Respectful and immersive adult content.
+	DL: OpenAnimationsRE 1.30 24 apr 2023
+	
+	OPrivacy
+	https://www.nexusmods.com/skyrimspecialedition/mods/57013
+	OPrivacy allows you to ask NPC for privacy, launching an OStim scene. NPCs can also approach you and ask for privacy.
+	DL: OPrivacy 2.5b 05 feb 2023
+	Notes: Odds of success when hitting on an NPC with Enforce Vanilla Relationships enabled in the OPrivacy MCM:
+		100% Chance:
+		Is RelationshipRank 4 with the player
+		or Is actively following
+		or Is the player's spouse
+		or Is the player's housecarl
+	Notes:  esp file.  not eslifiable
+	

@@ -12,6 +12,7 @@ Alchemists Vestments.esp
 === Mods dependent on Alchemist's Vestments.esp: None
 mod = The Alchemist's Vestments - CBBE Refit
 alt versions
+DONE 2023-05-03
 
 Aspens Ablaze.esp
 === Mods dependent on Aspens Ablaze.esp: 
@@ -51,6 +52,7 @@ DunparMod.esp
 in Thanedom of Dunpar
 === Mods dependent on DunparMod.esp: None
 scripts
+CANNOT ESLIFY - defines new cells
 
 
 Halted Stream Mine.esp
@@ -83,10 +85,12 @@ EASY
 MaiqAnniversaryEdition.esp
 === Mods dependent on MaiqAnniversaryEdition.esp: None
 voices
+DONE 2023-05-03
 
 
 mihailfleshatronach.esp
 === Mods dependent on mihailfleshatronach.esp: None
+CANNOT BE ESLIFIED.   See mod page - problem with seq files and dialog failing after eslification
 
 mihailgreychildren.esp
 === Mods dependent on mihailgreychildren.esp: None
@@ -94,6 +98,7 @@ CANNOT BE ESLIFIED.   See mod page - problem with seq files and dialog failing a
 
 mihailharpy.esp
 === Mods dependent on mihailharpy.esp: None
+CANNOT BE ESLIFIED.   See mod page - problem with seq files and dialog failing after eslification
 
 mihailmourningsouls.esp
 === Mods dependent on mihailmourningsouls.esp: None
@@ -103,6 +108,7 @@ NoGrassINCaves.esp
 === Mods dependent on NoGrassINCaves.esp: None
 esp only
 EASY
+DONE 2023-05-03
 
 
 
@@ -110,6 +116,7 @@ NoRoadPredatorsRedone.esp
 === Mods dependent on NoRoadPredatorsRedone.esp: None
 esp only
 EASY
+DONE 2023-05-03
 
 
 Open Face Guard Helmets.esp
@@ -147,6 +154,8 @@ Saddlebags.esp
 in Iron Dusk's Laboratory - Saddlebags
 === Mods dependent on Saddlebags.esp: None
 scripts
+DONE 2023-05-03
+
 
 sforzinda_imitations.esp
 === Mods dependent on sforzinda_imitations.esp: 
@@ -164,17 +173,22 @@ SMIM-SE-Merged-All.esp
 * 35C  RTDocks - SMIM.esp
 
 Super Simple Lock Bash.esp
-=== Mods dependent on Super Simple Lock Bash.esp: None
+=== Mods dependent on Super Simple Lock Bash.esp:
+ None
 Scripts in BSA
+DONE 2023-05-03
 
 
 suspiciouscityguards.esp
-=== Mods dependent on suspiciouscityguards.esp: None
+=== Mods dependent on suspiciouscityguards.esp:
+ None
 Scripts in BSA
+DONE 2023-05-03
 
 
 Triple Triad Skyrim.esp
-=== Mods dependent on Triple Triad Skyrim.esp: None
+=== Mods dependent on Triple Triad Skyrim.esp:
+ None
 Music, Scripts
 
 
@@ -182,10 +196,13 @@ Ulags Legacy.esp
 === Mods dependent on Ulags Legacy.esp: None
 Armor pack, jsut meshes and textures assets.
 EASY
+=== Mods dependent on Ulags Legacy.esp:  2023-05-03
+* 66E  KZ Patch - TPFZS + Dibella's Blessing.esp
 
 
 WardsFunctionalitiesExtended.esp
-=== Mods dependent on WardsFunctionalitiesExtended.esp: * 50A  ZedPatch.esp
+=== Mods dependent on WardsFunctionalitiesExtended.esp:
+ * 50A  ZedPatch.esp
 
 ww_AlternateDBEnding.esp
 === Mods dependent on ww_AlternateDBEnding.esp: 
@@ -193,7 +210,10 @@ ww_AlternateDBEnding.esp
 * 50A  ZedPatch.esp
 
 YourMarketStall.esp
-=== Mods dependent on YourMarketStall.esp: None
+=== Mods dependent on YourMarketStall.esp:
+ None
+has scripts in bsa
+
 
 ZIA_Complete Pack.esp
 === Mods dependent on ZIA_Complete Pack.esp: 
