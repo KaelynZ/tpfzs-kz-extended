@@ -2518,4 +2518,200 @@ INSTALL:
 		or Is the player's spouse
 		or Is the player's housecarl
 	Notes:  esp file.  not eslifiable
+
+
+==========
+2023-05-05
+==========
+
+UPDATE:
+	Simply Order Summons 0.11
+	https://www.nexusmods.com/skyrimspecialedition/mods/66919?tab=files
+	DL: main v0.11 04 may 2023
+	Requires: Simply Squad 1.7
+
+UPDATE:
+	Swiftly Order Squad - Follower Commands UI v1.7
+	https://www.nexusmods.com/skyrimspecialedition/mods/63259
+	Swiftly give Orders to your entire Squad of followers, telling them all to wait, teleport to you or access their inventories with a single quick access custom Scaleform menu.
+	DL: Swiftly Order Squad - Simply Order Summons integration 1.7 24 apr 2023
+	Requires: Simply Order Summons 0.10+
 	
+INSTALL:
+	A Small Patch for Penitus Oculatus and JK's Skyrim
+	https://www.nexusmods.com/skyrimspecialedition/mods/57823
+	Penitus Oculatus adds new banners to the HQ but JK's Skyrim also adds a marker to this worldspace. This patch combines those edits.
+	DL: main v1 02 nov 21
+	LOOT: before RW2
+	
+	Don't Stay in The Water
+	https://www.nexusmods.com/skyrimspecialedition/mods/52164
+	A SKSE64 plug-in, fixes the bug that stupid enemies may stay in the water and look at you angrily but just don't come up.
+	DL: NPC Water AI Fix for SkyrimSE v5.1 05 may 2023
+
+xEdit Notes:
+	UNINSTALL: A Small Patch for Penitus Oculatus and JK's Skyrim.  All overwritten by other patches
+	LOOT: Grass Patch - All CC Mods.esp  BEFORE Landscape and Water Fixes Patch - Alternative Armors.esp
+	LOOT: Elis Skaal Village Overhaul - LOS II Patch.esp  AFTER  Landscape and Water Fixes - Patch - LOS II.esp
+	UNINSTALL: Alternative Perspective-HunterStart.esp
+	LOOT:  OPrivacy.esp (and all of OStim) BEFORE  nwsFollowerFramework.esp
+	LOOT: Man Those Borders Landscape Fix  BEFORE  Grass Patch - All CC Mods
+	LOOT: Man Those Borders Landscape Fix  BEFORE  Ryn's Dragon Mounds AIO
+	LOOT: Skyrim Extended Cut - Saints and Seducers AFTER  CC Misc Patches - Saints and Seducers
+	LOOT: Skyrim Extended Cut - Saints and Seducers AFTER  Saints and Seducers - Voiced
+	LOOT: AHZBetterDawnguardEntranceSE - BS Heartland Patch  AFTER  IdentityCrisis - BetterDGEntrance
+	
+	
+INSTALL:
+	Heathfire Extended - Base Object Swapper
+	in: Featherstone's Repository
+	https://www.nexusmods.com/skyrimspecialedition/mods/62447?tab=files
+	DL: Hearthfire Extended - Base Object Swapper v1.0 23 jan 2022
+	LOOT: Before RW2
+	
+	Hearthfire Extended - 3DNPC Compatiblity Patch
+	https://www.nexusmods.com/skyrimspecialedition/mods/45690
+	This patch fixes the removal of the altar at Ritual Site north of Lakeview Manor. It also disables the warlock from vanilla which gets added to the area. This warlock was originally disabled by 3DNPC in favor of Carmella and her skeletons. There's also some more mini-fixes here to ensure you get the best of both worlds.
+	DL: Hearthfire Extended 3DNPC Patch 1.0 13 feb 2021
+	Notes: This is the main version. The .esp is flagged as .esl and will not consume a plugin-slot in your load order. Load after both Hearthfire Extended and 3DNPC. If you use any water mods, load this patch before the water mod.
+	
+	Hearthfire Extended Display Case Fix
+	https://www.nexusmods.com/skyrimspecialedition/mods/89706
+	Adds activators to display cases in Hearthfire Extended.
+	DL: main v1.0 21 apr 2023
+	
+INSTALL UPDATE:
+	Relighting Skyrim 2.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/8586
+	Current TPFZS version is 1.2
+	FOMOD:  with USSEP, full version
+	
+UNINSTALL:
+	Saints and Seducers - Voiced
+	Reason:  Extended Cut - Saints and Seducers conflicts, extended cut is better
+	
+UNINSTALL:
+	JK's The Bard's College
+	Reason:  Conflicts with Bard Reborn, to be installed.  No Dependencies!
+
+INSTALL:
+	Bards Reborn Student of Song Become a Bard and Bards College Expansion
+	https://www.nexusmods.com/skyrimspecialedition/mods/47994
+	This mod give the Bards College a massive makeover, adds a new study quest, new bardic powers, and a new character to flesh out your experience as a Bard. It includes all the great features of Become a Bard and expands on their use in the game.
+	DL: Bards Reborn Student of Song Loose Version v4.4 26 oct 2022
+		Bards Reborn Student of Song Script Fix 1.0 27 oct 2022
+		Bards Reborn Student of Song AI Overhaul and USSEP Patch 3.4 18 apr 2022
+		Bards Reborn Student of Song Immersive Wenches Patch 3.0 5 dec 2021
+		
+
+	A Selection of EBQO Patches
+	https://www.nexusmods.com/skyrimspecialedition/mods/47430?tab=files
+	EBQO is a great mod, but it is, by its nature, incompatible with literally everything. So, here I'll be uploading patches for it and various mods in my load order.
+	DL: BR and USSEP and AIO Patch
+		BR and USSEP Patch
+	DO NOT INSTALL.  Patches were made for a different version of BR, with a different name.
+	
+	
+	Bards Reborn Patches
+	https://www.nexusmods.com/skyrimspecialedition/mods/50201
+	DL: BardsRebornPatches v1.0 21 may 2021
+		BardsRebornPatches - Skyrim Sewers Fixes
+	Edit Mod:  Move to optional folder (using 'Optional Files' tab after opening mod in MO):
+		SUT, Snazzy, SIC, LOTD, ELFX_ELE, Artifacts
+		
+	Cloud's Circle of Patches and Tweaks
+	https://www.nexusmods.com/skyrimspecialedition/mods/82534
+	DL: Cloud Patch EBQO AI Overhaul BardsReborn 1.0 11 jan 2023
+	
+	Skyrim's Got Talent - Bards Reborn Patch
+	https://www.nexusmods.com/skyrimspecialedition/mods/51740?tab=files
+	Bards Reborn Skyrim's Got Talent - Main File 3.5.1 09 feb 2023
+	Notes: Updated for Skyrim's Got Talent Version 1.61 as well as Bards Reborn Students of Song version 4.4
+	Note: esp file.  to be eslified
+
+NEW MOD - ESLIFY:
+	Skyrim's Got Talent - Bards Reborn Patch 3.5.1 - KZ eslified esp replacer
+	file: SkyrimsGotTalentBardStudentPatch.esp
+	in mod: Skyrim's Got Talent - Bards Reborn Patch
+	Procedure:  Already compacted.  Copy esp to new mod, use Wrye Bash to set ESL flag
+	
+ON THE RADAR:
+	The Eloquent Reader
+	Dialog Movement Enabler ?
+	Tidy Up ?
+	Bard's College Excavation
+	Open Your Mouth?
+
+
+	
+xEdit LOOT Changes:
+	Narrative Gameplay Consistent Dialog Tweaks	BEFORE Caught Red Handed - Quest Expansion
+	"											BEFORE LovelyLetter [FE 176]
+	"											BEFORE The Choice Is Yours [63]
+	Ryn's Dragon Mounds AIO [FE 43F]			AFTER  1Ogres [fe46d]
+	Ryn's Mistwatch Folly 						AFTER  Ryn's Standing Stones
+
+ESLIFY RADAR:
+	1Scamp.esp - only dependent is ZedPatch.  clean script.  no faces or voice or seq.  easy peasy.
+	
+INSTALL:
+	Outlaws and Revolutionaries 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/10991
+	https://www.nexusmods.com/skyrimspecialedition/articles/242/?
+	https://docs.google.com/document/d/1JzO_T-SrXZDRVruq6dDT0fAjMBYgmmxi27tDtqRFgm4/edit
+	https://drive.google.com/file/d/1AueKxj2vZEtrbywuhZtE0UKKoPT7xDbD/view
+	https://www.nexusmods.com/skyrimspecialedition/articles/239/?
+	Notes:  No longer on Nexus.  Looks cool.  Supposedly low footprint.
+	Notes: has a facegen, overwrites Dibella's Blessing.
+	LOOT:  Before RW2.
+	Mod Order:  Before Dibella's Blessing.
+
+NEW MODS - PATCHES:
+	KZ Patch - Elis Skaal Village Overhaul + TPSZS.esp
+	KZ Patch - EBQO + USSEP + TPFZS.esp
+	KZ Patch - 3DNPC + LCHK.esp
+	KZ Patch - Ambriel + USCCP.esp
+	KZ Patch - AOS + USCCP.esp
+	KZ Patch - AYOP College Quest Expansion + TPFZS.esp
+	KZ Patch - CC Bittercup + Skyrim Sewers.esp
+	KZ Patch - CC Bow of Shadows + USSEP.esp
+	KZ Patch - CC Misc Patches + USCCP.esp
+	KZ Patch - Elis Skaal Village Overhaul + TPFZS.esp
+	KZ Patch - Glenmoril + Clockwork.esp
+	KZ Patch - Grimmer Reaper + Navigator Navmesh Fixes.esp
+	KZ Patch - Lawbringer Faldar's Tooth + Navigator Navmesh Fixes.esp
+	KZ Patch - Lawbringer Serpent's Bluff + 3DNPC + LCHK.esp
+	KZ Patch - Lyn's Lund's Hut + CC Silver.esp
+	KZ Patch - MihailVigilant + MonsterPatch.esp
+	KZ Patch - Moon and Star + 3DNPC + TPFZS.esp
+	KZ Patch - Moon and Star + Ryn's Standing Stones + RW2.esp
+	KZ Patch - Radiance Locations + CC Netch Leather.esp
+	KZ Patch - Ryn's Farms + Landscape and Water Fixes.esp
+	KZ Patch - Tamrielic Distribution + BSBruma + DLC.esp
+	KZ Patch - Tamrielic Distribution Crossbows + CC Crossbow Pack.esp
+	KZ Patch - TPFZS + CC Misc Patches.esp
+	KZ Patch - TPFZS + CC Survival Mode.esp
+	KZ Patch - TPFZS + KZ Followers.esp
+	KZ Patch - TPFZS + USCCP.esp
+	KZ Patch - Apothecary AE + Extended Cut Saints and Seducers.esp
+	KZ Patch - Kaidan + CC Dwarven Mail.esp
+	KZ Patch - Lawbringer Brittleshin Pass + CC Hasedoki.esp
+	KZ Patch - Lawbringer Broken Fang Cave + LCHK + CC Dawnfang.esp
+	KZ Patch - Bards Reborn Student + AIOverhaul + EBQO + DibellasBlessing.esp
+	KZ Patch - Bards Reborn Student + Skyrims Got Talent + TPFZS.esp
+	KZ Patch - Bards Reborn Student + SkyrimsGot Talent + Wenches.esp
+	KZ Patch - Elis Skaal Village + Landscape and Water Fixes.esp
+	KZ Patch - Lawbringer Bleakfalls Tower + Ryn's Bleakfalls Tower + Radiance Locations.esp
+	KZ Patch - Lawbringer Bloodlet Throne + Alternate Perspective.esp
+	KZ Patch - Lawbringer Bloodlet Throne + Dwemer Gates No Relock.esp
+	KZ Patch - Lawbringer Driftshade Refuge + Dwemer Gates No Relock.esp
+	KZ Patch - Lawbringer Druadach Redoubt + Alternate Perspective.esp
+	KZ Patch - Lawbringer Faldar's Tooth + Dwemer Gates No Relock.esp
+	KZ Patch - Lawbringer Ilinalta's Deep + Dwemer Gates No Relock.esp
+	KZ Patch - Lawbringer Pinemoon Cave + Alternate Perspective.esp
+	KZ Patch - Lawbringer Red Eagle Redoubt + Dwemer Gates No Relock.esp
+	KZ Patch - Lawbringer Serpent's Bluff Ruins + Dwemer Gates No Relock.esp
+	KZ Patch - Misc Dialogue Edits + Alternate Perspective.esp
+	KZ Patch - USCCP + CC Misc Patches.esp
+	KZ Patch - SkyrimBounties + Inigo.esp
+	KZ Patch - Elisif - SkyrimBounties + Dibella's Blessing.esp
