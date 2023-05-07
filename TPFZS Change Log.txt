@@ -2901,10 +2901,65 @@ TEST
 IT LIVES!!!
 	Victory!  0.9.4 is now working in my old 0.9.3.5 MO, in a profile that has only the 0.9.4 stuff activated, with all the old stuff and all my new mods deactivated.  Continuing testing.
 
+OKAY, NOW WHAT?
 
+CREATE NEW PROFILES
+	Copy the Refined 0.9.4 profile to a new MO profile named KZ 0.9.4
+	KZ 0.9.4 will be the profile we will be working with now.
+	The old KZ profile (which worked) is now frozen, and not to be edited in the course of normal events.
+	Also copy the Refined 0.9.4 profile to tow other new profiles - Refined 0.9.4 Original, and Refined 0.9.4 Experimental.
+	The Refined 0.9.4 Original profile is a backup that will never be touched.
+	The Refined 0.9.4 Experimental profile is the one we're gonna use for experiments.
 
+FIX THE MOD LIST for KZ 0.9.4
+	This was a complex task requiring clever use of Meld to compare the old KZ profile to the new one, and insert old stuff where appropriate.
+	Not easily explained.
+	It worked, and I have a working load order.
 	
+FIX THE LOAD ORDER
+	This is trickier.  MO does not like anyone editing load orders except itself or a tool; I can't easily do it using Meld, at least not while MO is running.
+	Given that the load order from KZ is *mostly* correct - while new versions of mods were installed, they tended to use the same esps, it will be easiest to start with the KZ load order.
+	Procedure:
+		1. In MO right pane, create a backup the the current (KZ 0.9.4) load order, using the 'Create a Backup' button.
+		2. Close MO
+		3. Copy TPFZ/profiles/KZ/loadorder.txt to TPFZ/profiles/KZ 0.9.4.  Confirm overwrite.
+		4. Open MO.
+		5. The loadorder in the left pane should mostly look like the old KZ order, but with a bunch of new unchecked esps at the end.
+		6. Activate Wyre Smash.
+		7. Select all, then right click and Check ESL Qualifications.
+		8. About a dozen esps can be eslified - we did this for 0.9.3.5, now we need to do it again.  For each esp in the list (they'll be green in the esp list), right click and Set ESL Flag, until no more can be easily eslified.
+		9.  Close Wyre Smash.
+		10.  In right pane, right click, then Enable All.  Say yes when it confirms.
+		11.  If you scroll to end, the highest non-FE Mod Index should be FD or less.  If not, you got work to do to bring that count down - something will have to be disabled.
+		12.  Now put all the new mods (the ones that sort after the last mod in the old KX profile) in the right spots.
+		13.  In a text editor, outside of MO, open TPF/profiles/R4fined 0.9.4 Experimental/loadorder.txt.  We're just going to be viewing it, not editing, so set it readonly. (In Notepad++, open Edit menu.  At bottom is 'Set Read-Only')
+		14. For each new mod in the MO mod list, find it in the open loadorder.txt file.  See what's around it.  Move the mod in the MO list to the same location, or as close as possible.
+		15.  When done, use the button to Create a Backup of your load order
+		16. Now we need to check that all dependents are positioned after their masters.
+		17. Open Wrye Bash
+		18. Find "Bash Patch, 0.esp".
+		19.  Right click menu, select 'Rebuild Patch ...', down in lower half.
+		20.  You will probably get a popup window named 'Master Errors', with panels showing 'Missing Master Errors' (shouldn't be any) and 'Delinquent Master Errors' (may be a few).  If you have many, you'll want to write them down; due to stupidly of Wrye interface, you can't just copy-paste the error list into a new file.
+		21.  Close Wrye Bash.  DO NOT just unlock MO underneath it!
+		22. Go over to your MO load order, and move any file with a delinquent master (the top ones in the tree, with the required master underneath) to just after it's delinquent master.  Alternatively, move the master before the dependent.  Whatever works for you.  23.  Back up your load order.
+		24.  Open Wrye Bash again, try to rebuild bash patch again.  If you get the Missing Master Errors again, keep fixing until you don't.
+		25.  If you get the the 'Update Bashed Patch, 0.esp' popup window, just Cancel.  We don't actually want to build a patch, we just wanted to find delinquent and missing masters.
+		26.  Close Wrye Bash.
+		27.  Make sure every esp that should be enabled is, in fact, enabled.  Click on the column 'Mod Index'  it will show unchecked esps up top.  You may have a few, as TPFZS removed a few mods that you may have made patches for.  Make sure the only unchecked mods are the ones you WANT unchecked, probably because they're missing masters.  Probably best to disable their mods, but not strictly neccessary.  If you make any changes, backup your load order again.
+		28.  Make sure there is no little red error triangle in the upper right of MO, indicating Missing Masters.
+		28.  Your load order should now be functional!  Time to test it.
+		
+TESTING
+	1.  Start SKSE.  See if the game starts.  If so, you're golden!
+	2.  Create a new character.
+	3.  Wait for all MCM messages to finish.
+	4.  Equip your character with stuff in starting room, but do not choose a fate.
+	5.  Save game.
+	6.  Quit
+	7.  In MO Profile Manage, copy your now-working KZ 0.9.4 profile to a new profile named KZ 0.9.4 Baseline.  You will not edit the new profile, or even use it much.  But it's there to go back to a version known to load.
+	8.  Now restart the game, and get to playing!
 	
+		
 	
 	
 		
