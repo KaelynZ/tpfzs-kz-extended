@@ -25,6 +25,7 @@ Better Dynamic Ash.esp
 Better Stealth AI for Followers.esp
 === Mods dependent on Better Stealth AI for Followers.esp: 
 * 50A  ZedPatch.esp
+has scripts and seq file
 
 
 Blackened Steel Armor and Weapon set.esp
@@ -60,6 +61,7 @@ Halted Stream Mine.esp
 * 50A  ZedPatch.esp
 * 50B  ZedPatch2.esp
 * 50C  DynDOLOD.esp
+scripts, seq
 
 Homes All in One.esp
 === Mods dependent on Homes All in One.esp: 
@@ -127,16 +129,18 @@ PersonalWeddingGuests.esp
 === Mods dependent on PersonalWeddingGuests.esp: 
 None
 mod = Better Wedding Guests
-scripts, voices
+scripts, seq, voices
 
 
 Proper Crossbow Integration.esp
 === Mods dependent on Proper Crossbow Integration.esp: 
 * 50A  ZedPatch.esp
+scripts, no source
 
 Quick Light.esp
 === Mods dependent on QuickLight.esp: 
 * 1E6  SJG Quick Light Patch.esp
+scripts, no source
 
 RealBossesLight.esp
 === Mods dependent on RealBossesLight.esp: 
@@ -160,6 +164,7 @@ DONE 2023-05-03
 sforzinda_imitations.esp
 === Mods dependent on sforzinda_imitations.esp: 
 * 506  LeveledListAdditionArmour.esp
+scripts, seq file
 
 Skyrim Weapons Expansion.esp
 === Mods dependent on Skyrim Weapons Expansion.esp: 
@@ -203,6 +208,7 @@ EASY
 WardsFunctionalitiesExtended.esp
 === Mods dependent on WardsFunctionalitiesExtended.esp:
  * 50A  ZedPatch.esp
+ scripts, interface
 
 ww_AlternateDBEnding.esp
 === Mods dependent on ww_AlternateDBEnding.esp: 
@@ -212,7 +218,7 @@ ww_AlternateDBEnding.esp
 YourMarketStall.esp
 === Mods dependent on YourMarketStall.esp:
  None
-has scripts in bsa
+complicated scripts in bsa
 
 
 ZIA_Complete Pack.esp

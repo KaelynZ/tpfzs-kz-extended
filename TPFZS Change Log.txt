@@ -2989,6 +2989,11 @@ TEST
 	
 	Did the above, and things are looking good.  Now it's time to actually playtest the sucker more extensively, before diving into today's modifications.
 
+Cleanup
+	Remove saves/ folder from newly added profiles in my GIT repository.
+	Remove old saves from KZ 0.9.4 profile
+	Disable mod 'Nemesis Output 0.9.4 TPSFZ094' in KZ 0.9.4 profile
+	
 
 	
 	
