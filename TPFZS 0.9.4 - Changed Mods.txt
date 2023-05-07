@@ -1,0 +1,81 @@
+TPFZS 0.9.4 - Changed Mods
+KaelynZ 2023-05-06
+
+This file lists all the mods that I found changed between TPFZS 0.9.3.5 and TPFZS 0.9.4.  This list is based on changes on mon-metadata files, as metadata always changes.  However, it also includes a few mods that have notes, which are in metadata, even if there is no functional change.  The names listed here are *after* I added version numbers and 'TPFZS094' tags, from my new profile that contains both old 0.9.3.5 versions, and the new renamed 0.9.4 versions. 
+
+
+C:\SSE Temp\TPFZS 0.9.4 loadorder (72 hits)
+
+
+A Commoner's Saber TPFZS094
+A Lovely Letter - Alternate Routes v1.0 TPFZS094
+A Matter of Time - Custom Preset TPFZS094
+A Warrior's Axe TPFZS094
+Abyssal Gaoler TPFZS094
+ADXP - MCO Elden Rim Moveset Collection TPFZS094
+Apothecary - An Alchemy Overhaul v1.3.4 TPFZS094
+Armor and Clothing Extension v1.2 TPFZS094
+Armor of Intrigue v1.3 TPFZS094
+Armor Variants Expansion 2.0 TPFZS094
+Armors of the Velothi Pt. I v1.2.4 TPFZS094 v1.2.4 TPFZS094
+Armors of the Velothi Pt. II 1.0 TPFZS094
+Artesian Cloaks of Skyrim 1.3 TPFZS094
+Assassins Armor Set 1.0 TPFZS094
+At Your Own Pace - College of Winterhold v2.0.1MG TPFZS094
+Attack - MCO-DXP 1.6.0.6 TPFZS094
+Autorun 1.0 TPFZS094
+Better Dynamic Snow 3.5 TPFZS094
+Beyond Skyrim - Assets 1.6.1 TPFZS094
+Beyond Skyrim - Bruma 1.6.1 TPFZS094
+BodySlide and Outfit Studio 5.6 TPFZS094
+Caliente's Beautiful Bodies Enhancer 1.7.1 TPFZS094
+Casting Bar 2.1.1 TPFZS094
+Caught Red Handed - Quest Expansion 1.02 TPFZS094
+ConsolePlusPlus 1.2 TPFZS094
+Creatures - DXPMCO 0.2.2 TPFZS094
+Dark Knight Armor 5.0 TPFZS094
+Dragon War - A Dragon Overhaul 3.0.2 TPFZS094
+DynDOLOD Output 0.9.4 TPFZS094
+Eastern Dwemer Armour 1.1 TPFZS094
+Edgemaster Animations For MCO 1.0.13 TPFZS094
+For Honor Power Attack 1.5 TPFZS094
+Hand to Hand - An Adamant Addon - Locksmith Addon 1.2 TPFZS094
+Hand to Hand - An Adamant Addon 1.4.6 TPFZS094
+High Poly Head 1.4 TPFZS094
+Highly Improved Male Body Overhaul 4.4.1 TPFZS094
+Immersive Display Overhaul 1.3 TPFZS094
+Infinite Dragon Variants 2.0.1 TPFZS094
+Jump Behavior Overhaul 1.4 TPFZS094
+Lawless - A Bandit Overhaul - Patch Collection 1.2 TPFZS094
+Lawless - A Bandit Overhaul - Simonrim Addon 1.7 TPFZS094
+Lawless - A Bandit Overhaul 1.7 TPFZS094
+Leveled List Additions (Armors) 0.9.4 TPFZS094
+Leveled List Additions (Weapons) 0.9.4 TPFZS094
+Luminosity Lighting Overhaul - The Cathedral Concept 4.2 TPFZS094
+Majestic Mountains 4.0 TPFZS094
+Misc. College of Winterhold Tweaks 1.5.1 TPFZS094
+Modernize - HDT Clothing (With Hotfix) 2.7 TPFZS094
+MonsterPatch 0.9.4 TPFZS094
+Nemesis Output 0.9.4 TPFZS094
+Overwrite Misc 0.9.4 TPFZS094
+Pandorable's NPCs 1.4 TPFZS094
+Precision Creatures 2.3 TPFZS094
+Project ja-Kha'jay- Khajiit Diversity 3.0 TPFZS094
+Qwinn's Refined Visual Animated Enchants 1.0 TPFZS094
+Realistic Water Two 5.0 TPFZS094
+S3E Cyrodiilic Steel Armor 1.0 TPFZS094
+Scamps ew TPFZS094
+Settlements Expanded 1.0 TPFZS094
+Simply Order Summons 0.11 TPFZS094
+Skyrim 1.5.97 TPFZS094
+SkySight Male Skin 1.0 TPFZS094
+Snowy Surfaces Sound Collision and Aesthetics 1.6.3 TPFZS094
+Spell Perk Item Distributor 6.6.1 TPFZS094
+SSE Engine Fixes TPFZS094
+Stats Editor MCM Menu 1.0 TPFZS094
+Swiftly Order Squad - Follower Commands UI 1.7 TPFZS094
+Tactical Valtheim 1.12 TPFZS094
+Thaumaturgy - An Enchanting Overhaul 1.3.2 TPFZS094
+Wolf Cleaver 1.0 TPFZS094
+ZedPatch 0.9.4 TPFZS094
+ZedPatch's Offspring 0.9.4 TPFZS094
