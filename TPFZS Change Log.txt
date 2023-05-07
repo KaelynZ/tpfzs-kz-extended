@@ -2959,7 +2959,38 @@ TESTING
 	7.  In MO Profile Manage, copy your now-working KZ 0.9.4 profile to a new profile named KZ 0.9.4 Baseline.  You will not edit the new profile, or even use it much.  But it's there to go back to a version known to load.
 	8.  Now restart the game, and get to playing!
 	
-		
+==========================================
+2012-05-07  Cleaning up the KZ 0.9.4 Build
+==========================================
+Active Profile: KZ 0.9.4
+
+RUN Nemesis
+	Last night, I forgot to run Nemesis on my new build, so animations would definitely be off.
+	Time to do it now.
+	1. Insure we have an enabled mod named "(KZ 0.9.4) Nemesis Output".  If it doesn't exist, create it.
+	2. Open the mod "Nemesis Output 0.9.4 TPSFZ094" in Explorer (right click, Open in Explorer)
+	3. Select and copy everything in it, except meta.ini
+	4. Open the mod '(KZ 0.9.4) Nemesis Output in Explorer
+	5. Paste everything we just copied into it.  If there is an overwrite warning, say yes, we want to overwrite.
+	6.  Open the Modify Executables window.
+	7.  Select Nemesis.
+	8.  CHECK 'Create file in mod instead of overwrite (*)'
+	9.  Insure that the folder named for that option is "(KZ 0.9.4) Nemesis Output"
+	10.  Click OK to close the window.
+	11.  Run Nemesis.  Update Engine, then Launch Nemesis Behavior Engine.
+	12. It should end with the middle bar being a yellow-green, and saying something like "9151 animation(s)".  This number is substantially higher than the number in base TPFZS 0.9.4, because KZ 0.9.4 contains OStim NG, which adds lots of animations, plus some other animation packs.
+	13.  Close Nemesis.
+
+TEST
+	Start the game and load the save we made last night, with the character still in the starting cell.
+	Test things.
+	1.  Test if OBody actually changes the body shape (F10 in TPFZS default, F8 in KZ build)
+	2.  Test if iEquip works, by adding weapons to the right hand queue.
+	
+	Did the above, and things are looking good.  Now it's time to actually playtest the sucker more extensively, before diving into today's modifications.
+
+
+	
 	
 	
 		
