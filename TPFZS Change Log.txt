@@ -2699,7 +2699,7 @@ NEW MODS - PATCHES:
 	KZ Patch - Lawbringer Broken Fang Cave + LCHK + CC Dawnfang.esp
 	KZ Patch - Bards Reborn Student + AIOverhaul + EBQO + DibellasBlessing.esp
 	KZ Patch - Bards Reborn Student + Skyrims Got Talent + TPFZS.esp
-	KZ Patch - Bards Reborn Student + SkyrimsGot Talent + Wenches.esp
+	KZ Patch - Bards Reborn Student + Skyrims Got Talent + Wenches.esp
 	KZ Patch - Elis Skaal Village + Landscape and Water Fixes.esp
 	KZ Patch - Lawbringer Bleakfalls Tower + Ryn's Bleakfalls Tower + Radiance Locations.esp
 	KZ Patch - Lawbringer Bloodlet Throne + Alternate Perspective.esp
@@ -2715,3 +2715,200 @@ NEW MODS - PATCHES:
 	KZ Patch - USCCP + CC Misc Patches.esp
 	KZ Patch - SkyrimBounties + Inigo.esp
 	KZ Patch - Elisif - SkyrimBounties + Dibella's Blessing.esp
+
+TESTING:
+	CTD on start, before main menu.  Obviously missing a master somewhere.
+	CC Misc Patches SSO needs CC Misc Patches - Saints and Seducers.  Damn.  Need to re-enable and create patch.
+	Added patch. still CTD.  Damn.
+	Wrye Bash shows numerous Delinquent Master errors.  Fixing.
+	LOOT Errors:
+		LCO Framework  BEFORE all LCO mods
+		SkyrimSewersNavFix AFTER SkyrimSewersNavFix
+		Complementary Grass Fixes AFTER Landscape Fixes for Grass Mods
+		Enchanting Adjustments before all OWL/Own World Loot mods
+		Kaidan - Immesive Features IMMEDIATLY AFTER BWB - Kaidan Extra Dialog
+		CCO Misc Patches - Complete SSO  AFTER all other CC Misc Patches
+		Ryn's Mistwatch Tower Fix AFTER Ryn's Mistwatch Folly
+		SunAffectsNPCVampires - Hooded AFTER SunAffectsNPCVampires
+		LOS II - Obscure College of Winterhold Patch - AFTER OCW_Obscure's_CollegeofWinterhold
+		COTN Falkreath - JKs Skyrim - LoS II Patch - AFTER LoS II - JKs Skyrim patches
+		LCO_KarthspireCamp - AFTER Ryn's Karthspire
+		Ebony Damascus Blades - Weapons on Back Patch  AFTER Ebony Damascus Blades
+		Tamrielic Distribution - BS Wares of Tamriel AFTER Beyond Skyrim Merchant
+	Fixed Load order.  Still CTD!!!
+	After disabling esps and mods, culprit discovered - something in OStim.  Presumably Improved Camera.  TESTING
+	Yep.  Improved Camera.  Disabling and re-enabling other stuff.
+	OH ho!  CTD on game load - when previous i got into game after removing Improved Camera.
+	Disabling OStim.
+	Nope.  CTD onload - hear water, but am still on load screen when it CTDs, OStim not enabled.
+	Disabling Skyrim Bounties.
+	Nope.  Disabling Bards.
+	Nope.  Disabling Tamrielic Distribution.
+	I'm in!  Who knew?  Re-enabling bards, bounties, but not ostim.
+	still good.  re-enabling ostim, but not improved camera
+	hmm. ctd just before seeing world.  why? disabling half of ostim
+	nope. all of ostim now disabled again.  rebuild nemesis ... yet again.
+	still ctd!  but it was working earlier!  noted cts occures after sexy loadscreens.
+	disabling new load screens.
+	nope.  still ctd.  but it worked once! deleting all nemesis output, clean nemesis build.
+	no joy.
+	shit!  reloading old load orders re-enabled Tamrielic Distribution!  Trying Ostim again.
+	saving load order with ostim in, TD out.  Now it'll work!
+	wtf!  now nemesis is hanging!
+	worked now, 25 sec.  no idea what the problem was.  starting ...
+	YES!!!! I'm in!  And its so late i need to crash.  Tomorrow...
+	
+==========
+2023-05-06
+==========
+
+NEW RELEASE:
+	TPFZS 0.9.4
+	released today, numerous changes.
+	Use Wabbajck to find The Phoenix Flavor Zediious Sprinkles
+	Recommend:  BACKUP existing Wabbjack\downloaded_mod_lists\Zediious_@@_thephoenixflavor_zedsprinkles.wabbajack files before downloading new version.
+	
+	Download new wabbackajack file.
+	Run new wabbajack file.
+	Set Downloads folder to wherevere yove already put stuff (C:\SSE Downloads on my rig)
+	Set Output folder to a new folder (C:\TPFZS094 on my rig)
+	Installed in new c:\TPFZS094 folder, which is reference that will be used in later steps.
+	CLEAN your existing Steam Skyrim SE install (C:\Steam\steamapps\common\Skyrim Special Edition on my rig).  I mean, clean - straight from factory version, no extraneous dlls or xEdit or anything new in Data.  If need be, rename your existing SSE folder to SSE.old or something, then download a new copy using Steam using 'check files integrity option').  If you installed a new version, make sure you run it alt least once, to get the ini files set up.
+	Run your new TPFZS 0.9.4 game.  Start up c:\TPFSZ094\Mod Organizer.exe.  Insure the big button up right refers to SKSE, no a purge or some other tool.  Click it.
+	Have fun playing your new TPFZE 0.9.4!
+	
+	Now, it's time to get to work.  We're going to merge TPFZS 0.9.4 into the existing (highly modified) TPFZS 0.9.3.5, MO folder, while keeping working profile for th eold version, the old modified version, the new TPFZS 0.9.4 version, and 0.9.4 with all my new mods added.
+	
+	This will require about 300 GB of free space on your disk.
+	
+
+FIND DIFFERENCES:
+	Tool:  Meld 3.22.0
+	https://meld.app/
+	Procedure:
+		Preferences menu (3 bars in upper right header):
+			Folder Comparisons:
+				UNCHECK Apply text filters during folder comparisons
+			File Filters:
+				add new category 'MO Metadata', pattern 'meta.ini'.
+				CHECK Media
+				CHECK MO Metadata
+		File Filters:  (button in Upper right header)
+			UNCHECK Same
+			CHECK New				(was UNCHECK, that is an error)
+			CHECK Modified
+			CHECK Backups
+			CHECK OS-Specific Metadata
+			CHECK Version Control
+			CHECK Modified
+			CHECK Binaries
+			CHECK Media
+			CHECK Mo Metadata
+			UNCHECK Ignore filename case
+			UNCHECK Normalize Unicode paths
+			
+	Compare Folders:
+		mods/ folder in old installation (C:\TPFZ\mods, on my rig)
+		mods/ folder in new installation (C:\TPFZ094\mods, on my rig)
+		
+	- Produces a list of mods that contain different files between the two versions.  Should be only a few dozen.  Right click and collapse all folders, the open mods/, to see just the mods that are different, as opposed to filly expanded version showing the files.
+
+RENAME MODS:
+	- Now go into the new mods/ folder (C:\TPFSZ094\mods) and Rename all mods listed in the new mods folder that are different from their old version.   I added a version number and the string 'TPFZ094'.  E.g.  if mod 'foobar' is listed as changed, and MO says the new version is x.y, rename C:\TPFZS094\mods\foobar to 'foobar x.y TPFZS094'.  This will clearly label it by version number, and indicate that it came from the TPFZS 0.9.4 build.
+	
+	- Now re-run the comparison in Meld.  It should now list zero differences, as you have renamed all the folders with changes, so they now coult as 'new' folders rather than 'modified' ones.  If not zero, go and finish renaming all the TPFZS094 mods that are still showing up.
+	
+	- Now the TPFZ094/mods folder only contains two sorts of mods:
+		1. those that are identical to their old versions (the majority, though technically their metadata differs), and
+		2. new folders that have no equivalent name in the old install, either because they're new to 0.9.4, or because we just renamed them.
+
+BACKUP:
+	BACKUP the existing TPFZS mods/ folder, by creating a copy of it (I named mine 'mods 0.9.3.5 backup').  This will be a big folder; make sure you have enough disk space. (mine was 226.1 GB, and took over 15 minutes to back up).  We can eventually remove theis backup, but only after we're certain everything is working.
+
+CHECK FREE SPACE:
+	Make sure you have enough disk space, at least 190 GB free.  While we dont technically need enough for the entire mods/ folder, as most of it wont't get copied, Explorer wont do the copy if there's not enough space.
+
+	If you don't have enought space, the next step can be a MOVE rather a COPY, but that's riskier  If you have time, compress the backup copy of mods/ that you just made.  This will take a long while, nearly 2.5 hours on my SSD - go get lunch or something - but will compress 225 GB down to about 80, freeing up 150 GB.  However, it would be faster have have Wabbajack re-install the files you moved rather than do a compression.
+	
+
+COPY (or MOVE) NEW mods from 0.9.4 into existing MO folders:
+	COPY TPFZS094\mods folder to TPFZS, or MOVE if lacking enough free space.
+	This will result in overwrite warnings.  DO NOT replace/overwrite anything.  CHECK 'Do this for all future conflicts button'.  Wait.
+	
+OVERLOOKED FLAW:
+	The comparison I did omitted new files - so it overlooked those mods that changed by adding new files, or by hiding files, or moving esps to the optional/ folder.  These are real version changes that need to be handled by creating new mods, but at least no files got overwritten: the existing mods should still work just fine in existing profiles, though they need new versions to work with 0.9.4.  Fortunately, there aren't many.
+	
+	Future Note:  Show 'New' files in Meld comparison, and rename mods with new files, too.
+	
+COPY PROFILE:
+	Create a copy of the 'Refined' profile in TPFZS 0.9.4(and any new ones you've created), in C:\TPSFS\profiles
+	Rename to copy to 'Refined 0.9.4'.
+	Move that new profile (and any others you may have created) to C:\TPFZS\profiles.
+
+FIXING MY ERROR:
+	Start Wabbajack
+	click on middle button, Intall Downloaded
+	Should still be pointing to new TPFZS version.
+	Select same folders as used before:  C:\TPFZS094 and C:\SSE Downloads, for me
+	UNCHECK 'Overwrite Installation'.  We just want to update it, not throw it away and start over.  At least, st this point.
+	Click the bug green start arrow.
+	Enjoy the slide slow as it checks to see whats already there and downloads what's not, same as an interupted install.
+	It should only need to re-install about a dozen mods, less than 30 GB.  But one of those mods is DynDOLOD output, which is huge.
+	Close when done.
+	Boot up 0.9.4 to make sure it's ok.
+
+LOOK FOR MODS WITH NEW CONTENT:
+	Boot up Meld.  Same folders as before, will be in list of saved comparisons.
+	File Filters:  (button in Upper right header)
+			UNCHECK Same
+			CHECK New				(was UNCHECK, that is an error)
+			UNCHECK Modified		( we dont want to see the ones we renamed and copied before)
+	Now look at the right pane (TPFZS094).  Ignore crossed out mods.
+	Of the mods NOT crossed out, look over in the right pane, and see if there is already a TPFZS094 flagged version in TPFSZ.
+	Ignore those.
+	For the mods that do NOT have a TPFZS094 variant yet, open the TPFZS094 Mod Organizer, and rename them.  There should only be a handful.
+	I found:
+		Misc. College of Winterhold Tweaks
+		SkySight Male Skin
+		Tactical Valtheim
+	Rename them all in MO by adding a version numver and 'TPFZS094'
+	COPY the newly renamed mods over to TPFZS/mods.
+	Close TPFZS094 MO2.
+
+Update the Refine 0.9.4 Profile in old MO
+	Open the old MO, the one for TPFZS 0.9.3.5
+	It should have at least one new profile, Refined 0.9.4.
+	Switch to profile Refined 0.9.4
+	You should see what looks like a perfectly good profile, with lots and lots of mods (everything 0.9.4 doesnt use) unchecked at the end.
+	In the left pane filter box, enter 'TPFZS094'.
+	At the bottom, you should see the three new mods you added, unchecked.
+	Check them.
+	Clear the filter box.  Filter on <Active> mods.
+	For each of the 3 new mods you just added, move the mod to just after the mod with the same name that des not have the 'TPFZ094' tag, and uncheck the version that does not have the TPFZ094 tag
+
+ACTIVATE CC CONTENT IF NECCESSARY
+	If you have replaced the fake CC content used by TPFZS with the real stuff (as I did), then you need another step.
+	In the right pane, Plugins tab, sort by flags, click again if need be to get the paperclips up top.
+	You may see a couple of red triangles.  In my case, ZedPatch2 and HFE-CC Fishing Patch were both missing CC Fish (ccBGSSSE001-Fish.esm) as a master.
+	Find it in your Plugins list, and check it to activate it.
+	
+TEST
+	Keep the new Refined 0.9.4 profile active.
+	Start SKSE.
+	With any luck, the game should start with all the new mods, no problem.
+	Note:  if you have disabled Root Loader and are using a private version of Skyrim SE (as I did), this game will be using the ENB (or lack thereof) of your existing setup, not that of 0.9.4.
+
+IT LIVES!!!
+	Victory!  0.9.4 is now working in my old 0.9.3.5 MO, in a profile that has only the 0.9.4 stuff activated, with all the old stuff and all my new mods deactivated.  Continuing testing.
+
+
+
+	
+	
+	
+	
+		
+			
+			
+			
+			
