@@ -2982,7 +2982,7 @@ RUN Nemesis
 	13.  Close Nemesis.
 
 TEST
-	Start the game and load the save we made last night, with the character still in the starting cell.
+	Start the game and load the save I made last night, with the character still in the starting cell.
 	Test things.
 	1.  Test if OBody actually changes the body shape (F10 in TPFZS default, F8 in KZ build)
 	2.  Test if iEquip works, by adding weapons to the right hand queue.
@@ -2994,12 +2994,430 @@ Cleanup
 	Remove old saves from KZ 0.9.4 profile
 	Disable mod 'Nemesis Output 0.9.4 TPSFZ094' in KZ 0.9.4 profile
 	
+INSTALL:
+	DLC2dunFrostmoonTriggerScript Optimization
+	https://www.nexusmods.com/skyrimspecialedition/mods/90585
+	Reworks the DLC2dunFrostmoonTriggerScript to not check repeatedly if you're near the camp by replacing an inefficient event with RegisterForSingleUpdateGameTime. No ESP.
+	DL: main v1.0
+	
+INSTALL:
+	Naked Character Creation 2020 SSE
+	https://www.nexusmods.com/skyrimspecialedition/mods/43137
+	Create your character without that annoying prisoner's outfit. Compatible with alt. start mods.
+	DL: NCC2020SE v1.01 6 dec 2020
+	Notes: This mod uses some SKSE wizardry to strip you of your prisoner's outfit when the character creation menu opens. This makes it compatible with both vanilla start and all alternate start mods.
+	Notes: 	Numerous reports in forum of it not working.  Needs testing.
+	Notes:  esp file needs to be eslified
 
-	
-	
-	
+NEW MOD:
+	Naked Character Creation v1.01 - KZ eslified esp replacer
+	Procedure:  Copy NCC2020.esp to new mod with that name.  activate.  xEdit with just that mod.  Set ESL flag in file header - no compaction needed.  Exit xEdit.
 		
-			
-			
-			
-			
+TEST:
+	Nope, Naked Character Creation doesn't work for me.
+
+UNINSTALL:
+	Naked Character Creation 2020 SE
+	
+INSTALL:
+	CBBE 3BA (3BBB) - Settings Loader
+	https://www.nexusmods.com/skyrimspecialedition/mods/56875
+	Created from scratch MCM for CBBE 3BA (3BBB) by Acro748 to support MCM Helper. Saves settings as you change them, automatically loads settings on startup or game load, imports settings from an existing save, so you don't have to spend time in MCM again with each game. Localization support. No plugin.
+	DL: CBBE 3BA (3BBB) - Settings Loader v2.3.0 18 jul 2022
+	Notes: For CBBE 3BA (3BBB) v.2.42, v.2.43, v.2.44, v.2.45, v.2.46, v.2.47.
+	Mod Order: With other 3BA core files.  Order isn't technically relevant.
+	
+	
+INSTALL:
+	Easy Wheel Menu II SSE 1.5
+	https://www.nexusmods.com/skyrimspecialedition/mods/59799
+	A new conversion of Easy WheelMenu with extra features. Single multi taps hotkey operations. Colored wheel menus. Named layouts. Import/Export of menu layouts. Selective spells removal. Native support of popular mods. Load Order friendly (ESPFE).
+	DL: main file v1.5 20 jun 2022
+	FOMOD:  CHECK Sofia.  UNCHECK all other options.
+	
+	Kriana's Easy Wheel Menu Function Compilation 1.1.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/72534
+	Adds Easy Wheel Menu functions for Legacy of the Dragonborn, The Curator's Companion, Andromeda, Imperious, Kaidan, Auri, Shirley, Remiel and Xelzaz. Plus a special module for Dwemer Goggles and Scouter.
+	DL: Kri's EWM Custom Compilation v1.1.2 28 jan 2023
+	Notes: I CANNOT EMPHASIZE ENOUGH that this DOES NOT CHECK ANYTHING. If you give yourself access to these powers before you've earned them, it's cheating and that's on you.  This was made for my personal load order and is presented AS IS. However if you don't use one or more of these plugins, the mod will still work for you - and just fail with probably a papyrus error if you try to use the ability of a mod you don't have. The ESP itself has no requirements.
+	
+	EWM2 Bath Followers
+	https://www.nexusmods.com/skyrimspecialedition/mods/65318
+	An EasyWheelMenu II handler extension for "Bathing in Skyrim" or "Dirt and Blood". Send all your followers nearby to bath and optionally join them in soap.
+	DL: EWM2 Wash Followers 1.0b 22 mar 2022
+	Notes: EWM2 Handler for mod "Dirt and Blood - Dynamic Visual Effects" Nexus Id 38886, version 2.11. Updated release 1.0 to add layout "Wash & Rince".
+	Installation: Check and install all prerequisite mods. Follow installation instructions.  Use your Mod Manager to install and activate.  Once installed and EWM2 started, you should have a new handler active in EWM2 MCM as "Bath Followers" [BiS] or "DaB W&R Wash Follower" [Dab] and the layout "Bath" or "Wash & Rince" ready for import.  Invoke commands from the "Bath/Wash&Rince" layout or add commands to one of your existing layout.
+
+	Easy WheelMenu II SSE - Remote Interactions
+	https://www.nexusmods.com/skyrimspecialedition/mods/59799
+	Add spells from Remote Interactions﻿ and Taunt Your Enemies - Taunting Matters﻿ by Jayserpa﻿ to Easy WheelMenu II SSE﻿ by CommonDominator. ESPFE.
+	DL: Easy WheelMenu II SSE - Remote Interactions 1.0.0 30 apr 2023
+	Notes: Should work with any version too, but made for:
+		Remote Interactions v 1.0.
+		Taunt Your Enemies - Taunting Matters v 1.01.
+		Easy WheelMenu II SSE 1.5.
+	
+	Idle Animations WheelMenu SE V2.1.2 (Update File)
+	https://www.nexusmods.com/skyrimspecialedition/mods/31516?tab=files
+	DL: Idle Animations WheelMenu SE V2.1.2 (Update File)  15 jun 2020
+	INSTALL: as new mod.  DO NOT MERGE with existing mod, as 2.1.1 is used by TPFZS 0.9.4
+	
+	
+	
+TEST
+	All Working!
+	
+ESLIFY:
+	Idle Animations Wheel Menu SE v2.1.2 - KZ eslified esp replacer
+	How: Standard. no scripts or anything to worry about.  xEdit Compress FormIDs, then set ESL flag, or run script __ESPFEFollower
+	
+TEST
+	Helnen start.  All good until I have to jump out of tower.  Burning Inn has lots of walls that shouldn't be there, which i can pass through, and are invisible from other side.
+	Same thing happens in bruined building I have to run through with Hadvar, after Alduin takes off again - walls that I can pass through.
+	Console says they're from DynDOLOD.  When I disable DynDOLOD, the walls vanish, and when I re-enable it, they reappear.  They're definitely the inn walls from before the dragin attack.  And they're not there in vanilla 0.9.4.  I screwed up something, no idea what or how.
+	
+INSTALL:
+	Eli's Main Menu Replacer
+	https://www.nexusmods.com/skyrimspecialedition/mods/715
+	DL: main 1.0
+	Notes: overwrites standard TPFZS main menu screen and music.  I wanted something more interesting.
+	
+============
+2023-05-08
+============
+
+INSTALL:
+	DLC2dunNchardakDoorSeal Script Infinite Loop Fix 1.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/88843
+	Fixes the DLC2dunNchardakDoorSeal script to not enter an infinite loop when used by mods and stops currently stuck instances. No ESP.
+	DL: main v1.2 17 apr 2023
+	
+	DLC2TribalWerebearScript Fix
+	https://www.nexusmods.com/skyrimspecialedition/mods/88208
+	Fixes the DLC2TribalWerebearScript to not get stuck running in your save, optimizes it to not get constantly updated unless needed and retroactively stops currently stuck instances, if any exist. No ESP.
+	DL: main v1.0.1 05 apr 2023
+	
+	Beneath Bronze Waters Start Fix
+	https://www.nexusmods.com/skyrimspecialedition/mods/87760
+	Prevents the "Beneath Bronze Waters" quest from never starting in some circumstances. ESP-FE.
+	DL: v1.0.1 25 mar 2023
+	
+	Bone Wolf Shutdown Fix
+	https://www.nexusmods.com/skyrimspecialedition/mods/87339
+	Prevents the Bone Wolf quest from lingering in the background for 5 in-game days after the quest is done. No ESP.
+	DL: v1.0.0 19 mar 2023
+	
+DOWNLOAD FROM KOREAN SITE:
+	Little Red Riding Hood Outfit
+	Fairy Tale Outfit SE.7z
+	https://arca.live/b/tullius/74904315?category=%EC%9D%98%EC%83%81&p=1
+	Description:  
+		- A kinda lore friendly-ish dress outfit inspired by Little Red Riding Hood. 
+		- Modular and balanced. Updated to most recent bodies by SunJeong . 
+		- New optional HDT-SMP physics. The physics were greatly improved.
+	Requirements:
+		- Caliente's Beautiful Bodies Enhancer -CBBE-  or  BHUNP (UUNP Next Generation) SSE 
+		-  CBBE 3BA (3BBB)  (for 3BBB body and its physics)   
+		- BodySlide and Outfit Studio
+		- XP32 Maximum Skeleton Special Extended - XPMSSE
+		-  HDT-SMP (Skinned Mesh Physics) or CBPC - Physics with Collisions for SSE and VR
+	BodySlide:
+		- Please build the outfit under the name " Fairy Tale ".
+	How to get:
+		- Build in tanning rack with leather and leather strips.
+		-AddItemMenu _
+	
+	Korean maid follower and outfit
+	Monika Follower.7z
+	https://drive.google.com/drive/folders/19m9sleQhCtz6_z63wGy5GtE-3MqjMAUI	
+	https://arca.live/b/tullius/62361144?p=1
+		- The name of the previous version of the Chanrum version was Bonita, so it was called Monica with a similar feeling and attached a genuine certification mark. I also picked up the ear tag somewhere in Tulchan.
+		I'm wearing the outfit shown in the photo, including that ear tag.
+		My weight is less than 1.0, so I'm slender anyway ㅇㅇ
+		There may be a problem with the first Korean credit + first colleague costume issue. If you find it, please report it. I will try to fix it as soon as possible.
+		Location: Yobaska
+		
+	[NINI] Cat Maid
+	https://www.sunkeumjeong.com/post/nini-cat-maid
+	A modular cat maid outfit! What else is there to say? Comes with NEW SMP for items that need it.
+	Update September 16, 2022:
+	Notes:	- Increased poly for top of slutty version for all bodies
+			- Improved manual slider edits
+			- Modified foot step sounds of shoes from HeavyArmor to DefaultSteps
+			- Slutty version now also uses slot 52 to prevent equipping with non-slutty skirt
+			1. Meshes are made higher poly where needed
+			2. Supports latest CBBE, CBBE 3BAv2, BHUNPv3
+			3. Removes redundant FORMIDs
+			4. Uniboob physics and manual slider edits. Plugins are now ESL
+	Requirements:
+		Bodyslide and Outfit Studio
+		XP32 Maximum Skeleton Special Edition
+		HDT-SMP or CBPC
+		Choose One Body: CBBE, CBBE 3BAv2, BHUNP
+	BodySlide: Please build the outfit under the name "[NINI] Cat Mais". 
+	Obtain: Craft in smithing bench with tundra cotton. Or use AddItemMenu2.
+	
+	Karlov Manor Version 4.0
+	https://twitter.com/AlterNative_BP/status/1505095325903634442
+	https://drive.google.com/file/d/1UW-0_RTPAAi7LjEzFyf00d1iFwHD0C6d/view
+	https://www.loverslab.com/blogs/entry/9950-mod-release-karlov-manor-version-40-lese/
+	This mod adds a medium sized vampire castle to Skyrim and various screenshot locations (accessible via the carriage in the court or the location access room). It is located in north west of Solitude. 
+	Even though normal house usage and gameplay is possible, it is intended for taking screenshots. 
+
+INSTALL:
+	BlockSteal - Prevents accidentally pick up v0.10
+	https://www.nexusmods.com/skyrimspecialedition/mods/18732
+	This mod will prevent you from stealing items. When you try to steal, nothing happens. To steal an item, you have to go in sneak mode, and then you can steal all you like.
+	DL: Blocksteal_010_SKSE2017 0.10 22 feb 2020
+	Notes: Support for Runtime 1.5.97 (Requires SKSE64 v2.0.17).  Part of Skyrim for Good Guys
+	Notes.  ESP.  Already compacted, flag can be set using Wrye Bash.
+	
+	BlockSteal - Prevents accidentally pick up - Settings Loader 1.0.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/63826
+	DL: BlockSteal - Prevents accidentally pick up - Settings Loader 1.0.1 18 feb 2022
+	Notes: For v.0.10.
+	
+	Tidy Up 1.1.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/34021
+	Oh no, you've made a mess. Well, time to put everything right.
+	DL: Tidy Up 1.1.2 04 apr 2020
+	Notes: As you visit people's houses, maybe even your own house, things can become a bit of a mess. Plates are under the table. A cabbage is rolling down the hallway. How did that pair of gauntlets wind up over there?  This mod lets you sort it all out, one bit of clutter at a time.
+	When you launch the game with this mod installed, you'll have a new lesser power, "Tidy Up".  Simply cast it like any other lesser power, and once it's activated, anything that normally you'd be able to pick up now has the option to put back where it belongs; even (especially!) things that don't belong to you!  When you're finished righting everything that's taken a bit of a tumble, cast the power again, to go back to your normal bull-in-a-china-shop self.
+	﻿Installation: The archive contains a single ESP-FE plugin and BSA archive. It contains only new record and a few simple scripts.
+	Compatibility: It does not work with Block Steal Papyrus﻿.  You can tidy stuff that you do not own, which made me feel like it was going to work, but you always take stuff that has no owner or that you own.  It does work well, however, with BlockSteal - Prevents accidentally pick up﻿﻿.
+	
+ON THE RADAR - DOWNLOADED AND INSTALLED BUT NOT ACTIVATED YET
+	Nether's Eola 1.0.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/57250
+	A wickedly macabre, darkly humorous re-imagination of Skyrim's Eola. Features an enhanced, tweaked follower with plenty of options, an additional follower by the way of Nimphaneth (wood elf cannibal necromancer), extensive idle interactions between Eola and Nimph (if you use them both), harvesting of "tasty meat" from humanoids and MUCH MORE!
+	DL: Nether's Eola FOMOD Installer 1.0.2 22 nov 2021
+	Notes:  Needs patch to merge with preferred appearance overhaul.  ESP file to be eslified
+
+	Marvelous Mirabelle 1.01  (by Nether)
+	https://www.patreon.com/posts/54490902
+	
+	Hyrixia Follower Mod 1.1 (by Nether)
+	https://www.patreon.com/posts/hyrixia-follower-81819562
+	From Sanguine's bowels (ick!) comes Hyrixia, an oldie but a goodie. One of the first followers I created and released for SSE.
+	Notes: Works with SSE/AE, you need an XP32 compatible skeleton and a UNP or CBBE-based default body for females. The main zip had UNP bodies. If you need CBBE, also install the second file and overwrite when asked. You can find her in the Midden at Winterhold College, first large room.
+
+	Kinky and Quirky NPC Names (Mod)
+	https://www.patreon.com/posts/kinky-and-quirky-81620417
+	This is a just-for-fun modification for Real Names Rebuld by sinzzzz. It is a scripts replacement that generates first and last names for generic female NPCs and it leans heavily towards making them sound like stage names that could be used by Strippers or Dancers.
+	REQUIRES: Real Names Rebuild at Nexus Mods: https://www.nexusmods.com/skyrimspecialedition/mods/75564
+	(You also need SPID, SkyUI, SKSE -- UIExtensions is optional but allows you to rename people with your own text)
+	
+	Gals of Solstheim (by Nether)
+	https://www.patreon.com/posts/gals-of-81056996
+	I wanted to add some touches to places not really modded all that often in Skyrim. So, around the time I was getting ready to release Frea at Nexus Mods, I made up a pack of simple but effective followers that you can use to flesh out your adventuring party.
+	
+	Jenna 3.0 - RC 2 (SSE only)
+	https://www.patreon.com/posts/jenna-3-0-rc-2-55742725
+	- Capable follower with scaling abilities. - Intro quest and follow-up quests involving her backstory and family.
+	
+	Nether's Karliah (1.0.a)
+	https://www.patreon.com/posts/nethers-karliah-53842012
+	A complete overhaul to Karliah including new voiced dialogue, quest and location awareness, dynamic lines from player actions, npc interaction, combat enhancements, new abilities, non-combat bonuses, customized skin, sculpted face and more! A Karliah overhaul like you've never seen before. Includes Hybrid SSE/LE FOMOD Installer and MOD Sheet in PDF.
+	
+	Nether's Karliah 1.0.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/62127
+	A complete overhaul to Karliah including new voiced dialogue, quest and location awareness, dynamic lines from player actions, npc interaction, combat enhancements, new abilities, non-combat bonuses, customized skin, sculpted face and more! A Karliah overhaul like you've never seen before.
+	
+	Nether's Frea (1.0.1)
+	https://www.patreon.com/posts/nethers-frea-1-0-53393633
+	A complete overhaul to Frea including new voiced dialogue, quest and location awareness, dynamic lines from player actions, npc interaction, combat enhancements, new abilities, non-combat bonuses, customized skin, sculpted face and more! A Frea overhaul like you've never seen before.
+	
+	CVR Follower Voices 1.0.2
+	https://www.patreon.com/posts/cvr-follower-1-0-53276718
+	Three Voice Resources by Kikiapplus that can be plugged into new or existing followers as a single master, ready to go out of the box. Includes 3 variations for each voice. Works natively with the existing vanilla follower system. Credit:  Kikiapplus for original voices (https://www.nexusmods.com/skyrim/mods/96750) Delivered as a FOMOD installer for ease of installation, separate download for SSE and LE, below.
+	
+	Nether's Dark Elf Followers (0.9.0)
+	https://www.patreon.com/posts/nethers-dark-elf-53929103
+	Nether's Dark Elf Followers is a Mod for Skyrim LE and SSE that includes 9 strong (but fair) hero followers, each with unique abilities. They use vanilla voices, repurposed. Followers are acquired via quests that are randomly generated (enhanced radiant quests) but have a theme around their backstory or personality.
+	
+INSTALL:
+	3BA 3BBB CBPC Realistic Firm Breasts Butt Belly and Thighs (3BA RFBBBT)
+	https://www.nexusmods.com/skyrimspecialedition/mods/59123
+	A realistic firm preset for 3BA 3BBB CBPC body physics. No more ultra jiggly jello style breasts and butt.
+	DL: 3BA RFBBBT v3.0 09 jun 2022
+	Notes: Use with CBPC v1.5.2 and 3BA 2.31 or later. Not compatible with older versions.
+	Notes: recommended by either Coldsun or Nether
+	
+RADAR:
+	Fem-Tsun Armor 3BA And CBBE 1.2.1
+	FallenJudge-style plates, remade from scratch and enhanced.
+	https://www.nexusmods.com/skyrimspecialedition/mods/38525
+	DL: Fem-Tsun Armor 3BA 1.2.1 05 aug 2021
+	
+	RyanReos Bladedancer Mercenary
+	An original fantasy armor - mixed between Ancient Egypt and Oriental - by RyanReos. Ported to Skyrim SE by immyneedscake, SunJeong, and Cloudbird. Offers as less protection as possible.
+	https://www.immyneedscake.com/skyrim-se-mods/ryanreos-bladedancer
+	Notes: 
+	
+	Dragon Lilly -Definitive Edition-
+	https://www.sunkeumjeong.com/post/dragon-lilly-definitive-edition
+	Inspired by Optiuq's Zhuliya port, Dragon Lilly is a new outfit for the discrete and discerning adventurer. Reinforced with leather tanned from the hide of an abyssal dragon and hewn with the finest Tamriel silk, Dragon Lilly provides an elegant balance of style and practical defense, as well as..... I..... I can't, it's.....it's just not.
+	
+	[Christine] Wood Warden
+	https://www.sunkeumjeong.com/post/christine-wood-warden
+	A lore friendly forest guardian inspired light armor that comes in two colors and several SMP clothing physics parts. Normal and sluttier version included. Outfit has no crafting recipes. It must be found somewhere in Tamriel. This armor supports the normal CBBE physics, CBBE SMP by Ousnius, and CBBE 3BA by Acro. Please choose your options in the fomod installer.
+	
+	Paragon Sparrow Huntress
+	https://www.sunkeumjeong.com/post/paragon-sparrow-huntress
+	A lore friendly outfit that received an update. Supports CBBE, 3BAv2, and BHUNPv3. Better slider edits and NEW HDT-SMP on the skirt. The armor has been balanced for gameplay.
+	
+	[Christine] Queen Barbarian
+	https://www.sunkeumjeong.com/post/christine-queen-barbarian
+	A sexy heavy armor set for females only. Fully modular. Comes with cuirass, gauntlets, boots, pauldrons, lower, loin cloth, and circlet. HDT-SMP loin cloth physics only supported for 3BA and BHUNP. This armor supports the normal CBBE physics by Ousnius, CBBE 3BAv2 by Acro, and BHUNP by bakafactory. Please choose your options in the fomod installer.
+	
+	Outfit of Confessor + SE
+	https://www.patreon.com/posts/outfit-of-se-38634368
+	New armor for your female character.   You need to find a book somewhere in the riverwood to get the armor, and then create it in the forge. (the book will be useful to you if you are the daughter of darkness)
+	
+	BDOr Sorceress Papillo Outfit Skyrim SE-AE
+	https://www.patreon.com/posts/bdor-sorceress-73413622
+	
+	Hellblade Armour (WIP)
+	https://www.patreon.com/posts/hellblade-armour-62034271
+	
+	BDOr Guardian Kharoxia Clothes SE\AE
+	https://www.patreon.com/posts/bdor-guardian-se-61689418
+	
+	Secret Child of Talos SE+LE
+	https://www.patreon.com/posts/secret-child-of-50545877
+	
+	Witch Outfit from Dragon's Crown SSE HDT SMP
+	https://www.patreon.com/posts/witch-outfit-sse-44987326
+	
+	BDO Clothes Pack
+	https://www.patreon.com/posts/bdo-clothes-pack-26117011
+	
+INSTALLED:
+	Beyond Reach - Unofficial Fixes Hub
+	Various files uploaded to resolve issues reported on the Beyond Reach mod page.
+	https://www.nexusmods.com/skyrimspecialedition/mods/67765?tab=files
+	DL:	Arnima - Dragonstar Armor Fix
+		Arnima - Dunlain Falls Building Fix 1.1
+		Arnima - Female Witchman Armor Fix
+		Arnima - Infant Ogre Inventory Fix
+		Arnima - Shaman Mesh Fix
+		Arnima - Stroti Mill texture fix 2.0
+		Arnima - Wool Plate Armor Fixes 1.2
+		Dertasso's Tweaks
+	Install: let all mods overwrite Beyond Reach, both in mods and plugins panes
+
+
+=====
+2023-05-09
+=====
+
+NEW MODS - ESLIFICATIONS AND PATCHES FOR THEM
+	
+
+LOOT:
+	Move DynDOLOD.esp, WinterholdBridgeOcclusion.esp, and Occlusion.esp to very end of load order, after all KZ patches.
+
+INSTALLED:
+	Scamps - English ESP by Xtudo
+	https://www.nexusmods.com/skyrimspecialedition/mods/44505?tab=files
+	
+
+NEW MODS - ESLIFICATION AND Patch
+	Scamps - English ESP by Xtudo 1.0 - KZ eslified esp replacer
+	KZ Patch - Scamps v0 eslified + TPFZS v094
+	
+DISABLE:
+	iEquip
+	Reason:  it's slow, I don't like it, and another user is having problems with MCM recorder restarting after reloading a saved game.  No dependencies, don't need to change anything else.
+
+TESTING:
+	Start new game.  Default start.
+	Issues:  When trying to look at Alternative Perspectives note in startining cell, failed with error 'Blocksteal.dll could not be loaded'.
+	Issue:  Mouse very slow in inventory, despite high FPS
+	
+	Answer:  From Blocksteal forum: 'on 1.9.57, no animated looting mods, I still get the Blocksteal.dll could not be loaded error  Edit: it was due to eslifying the plugin'
+	
+DISABLE MOD:
+	Blocksteal KZ eslified esp.  Dammit.
+
+TESTING:
+	Blocksteal now working fine.
+	Wall problem is burning inn in Helgen now gone - moving DynDOLOD did it.
+	I got my 'Aldiun not taking off' bug in Helgen again.  It happened during a run where I had DynDOLOD disabled; also, Hadvar got stuck, and only caught up with me again after I ran the gauntlet myself and got into the scene where he and Hadvar exchange words.  When I loaded an earlier save, then enabled DynDOLOD (now working fine), then Aldun and Hadvar worked fine.  Not enough evidence to pin in on DynDOLOD yet, but it's a suspicion.
+
+xEDIT CLEANING TIME:
+	LOOT:
+		Arnima Tweaks  BEFORE [LM] Arnima - Plated Wool Fixes
+		Praedystaves - Beyond Reach Patch  AFTER Arnima Tweaks
+		Arnima Tweaks  BEFORE  RW2
+		[LM] Arnima * BEFORE RW2
+		Deibella's Blessing - LATER - just before patches, after TPFZS patches
+		Lilly Replacer Default Equipment  AFTER KZ NPC overhaul + TPFZS patches
+		Synthesis.esp  DEAD Last
+
+NEW MOD:
+	(KZ 0.9.4) Synthesis Output
+	Create and enable empty mod.
+
+DISABLE MOD:
+	Synthesis Output 0.9.4 TPFSZ094
+
+Microsoft .NET 7.0 SDK
+	https://dotnet.microsoft.com/en-us/download
+	DL: latest
+	Note: Restart computer after installing.
+	
+INSTALL TOOL:
+	Synthesis 0.25.4
+	https://github.com/Mutagen-Modding/Synthesis/releases
+	DL:  0.25.4  Synthesis.zip  4 apr 2023
+	Instructions:
+		1. Extract to its own folder.  I used C:\Portable Apps\Synthesis 0.25.4
+		2. Add as MO2 Executable.  Set output folder to "(KZ 0.9.4) Synthesis Output"
+		3. Go to Windows Defender, create Antivirus Exclusion for new Synthesis folder
+		4. Run Synthesis in MO2
+		5. It will say 'Blocking Error'.  This is because we're using a non-standard Skyrim
+		6.  Open Settings (gear icon in upper right).  It will edit the default Skyrim SE profile.
+		7. Rename the profile to 'Skyrim SE TPFZS'
+		8. Set the Data Folder to the correct patch for your install, e.g. C:\TPFZS\Stock Game\Data
+		9. Close Settings by clicking back arrow button in upper left.
+		10. Click on the 'Git Repository' button, the one that looks life a tree diagram.
+		11. Select 'HighPolyHead-RaceMenuPatcher'
+		12. Now in left pane, click on the arrow to run Synthesis.
+		13. Wait.  With just the HPH Patcher, it took 37.4 seconds on my rig, and I got an error - Too Many masters 294 > 254
+		
+	
+SET UP SYNTHESIS to HANDLE A HUGE LOAD Order
+	Ok, this is tricky.   A single esp can only have 254 masters, so to get Synthesis to fix 285+ esps, I need it to generate 2 different patches, each handling only a fraction of my load order.  Fortunately, this is easy to do.
+	1.  Click on the 'Synthesis' entry in the laft pane.  This will being up a right pane with the name 'Synthesis' up top, and a selection window for 'Blacklisted Mods'
+	2.  Rename that patcher!  Click on 'Synthesis' in the right pane, and change 'Synthesis' to 'Synthesis HPH RaceMenuPatcher 1'.
+	3.  Create a *second* Synthesis patcher group, by clicking on the indented tree icon in the upper left.  This will create a new unnamed group.
+	4.  Name the new group 'Synthesis HPH RaceMenuPatcher 2'.
+	5.  Add the HPH RaceMenu Patcher to the new group, same as you did before.  You will be a popup saying 'Duplicate Patcher Name'.  Rename the new patcher by adding a '2' to the end.
+	6.  Re-enable TPFZS 0.9.4 Synthesis output mod.  This is just for a while.
+	7.  Click on the arrow at the bottom left to run both your Synthesis groups.
+	8.  Close Synthesis
+	9.  You should now have two new esps in your Synthesis output:  'Synthesis RaceMenuPatcher 1.esp' and 'Synthesis RaceMenu Patcher 2.esp'.  Bith should be relatively small, under 2 megs, because they only contain patches that aren't already in the TPFZS Synthesis.esp.
+	10.  Disable the TPFZS 0.9.4 Synthesis Output mod.
+	11.  In the left plugins pane, enable both new mods.
+	12.  Move 'Synthesis HPH RaceMenuPatcher 1.esp' *much* earlier in your load order.  I recommend trying just before LCO_Framework.esp, to start.   
+	13.  Rerun Synthesis.  Open it, click on the blue arrow down on the bottom left.
+	14.  If you get an error saying 'Too Many Masters' when generating, then you need to move the 'Patcher 1' esp either up or down in your load order.  If the error was while generating patcher 1, then you need to move it lower.  If the error was generating pather 2, then move patcher 1 later.  Leave patcher 2 at the very end of your load order.  Keep re-running Synthesis until you get a good run with no errors.
+	15.  Close Synthesis.
+	16.  DO NOT bother setting the ESL flag on either of the two generated synthesis patches.  Yes, they can be easily eslified.  But the next time they're generated, Synthesis will create regular ESPs again.  Don't waste your time.
+	17.  Start Skyrim, and test your new patches.  With any luck, all your NPCs will look exactly like they did before, and you will see no difference whatsoever.  Magic!
+	
+	Why are we going to all this trouble?  What does the HPH RaceMenu patcher do?  All it does it change the main race records to use High-Poly heads by default, rather than standard low-poly ones.  This is done *SOLELY* to ease character generation in a new game, as new characters will start with HP heads rather than ugly old low-poly ones.  But in order to get all the head meshes of the existing NPCs to still use the old low poly heads that they were built with, their records need to be patched, to explicitly add low-poly head parts that were previously assumed by default.
+	
+	Needless to say, this means patching virtually every NPC record in the game, save for those that were overwritten by HPH NPC overhauls. Which means patching a huge number of plugins - possibly more than 254, which is the maximum number of masters a single esp can have.  TPFZS is patching less than 254 esps, so it can get away with standard Synthesis generation.  By my load order adds lots of mods with new NPCs, and goes over the 254 limit.  (Note this had nothing to do with the limit of 254 esps; this is a limit on the number of *masters* listed in the header of a single esp, whether those masters are esps, esls, or espfes.)
+
+	So, the get the master count down in the Synthesis-generated patches, we need to create multiple patches, each affecting only a fraction of the esps that need to be patched.   Fortunately, Synthesis makes this easy, in two ways.  First, a synthesis patch will ONLY look at plugins that precede it in the load order; thus, our patch 1 is somewhere in the middle, so it only patches the first N plugins, where N < 254.  Second, a synthesis patch will NOT patch things that don't need to be patched; thus, our patch 2 will ignore all the plugins already patched by patch 1.
+
+	Yes, we need to create 2 different Synthesis patches, with two different names.  But this is easily done by creating two 'groups' of patchers, where each group creates a different patch.
+	
+	If you want to add more patchers in the future, then you almost certainly want to add them to patch group 2, which is at the end of the load order, and can affect every plugin in the load order.  Feel free to rename either patch group if you like; you can put patch group 2 back to simply 'Synthesis' if you want.  Whatever you name a group, that will be the name of the generated esp.  Definitely use as few groups as possible, so as not to use precious esp slots.
+	
+	Do we even *need* this Synthesis patch at all?  Not really.  If you're like me, and never create new characters from scratch, but simply use HPH presets downloaded from Nexus that look *way* better than anything I could create myself, then this whole HPH RaceMenuPatcher thing is totally pointless, and can be safely removed.  Recall, most of the work is patching NPCs so they *don't* look any different, despite the Race records being changed to use HighPoly heads by default, for convenience during character generation.  Peronsally, I plan to chuck the things, because I want the esp slots and don't care if HP heads are default.  But if you like creating lots of new characters from scratch, and want them all to use high-poly heads by default, your feelings may differ.   
+
+		
+
