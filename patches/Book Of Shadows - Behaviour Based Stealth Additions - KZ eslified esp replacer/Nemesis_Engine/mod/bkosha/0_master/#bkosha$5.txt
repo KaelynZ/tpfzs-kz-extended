@@ -1,0 +1,6 @@
+		<hkobject name="#bkosha$5" class="hkbBehaviorReferenceGenerator" signature="0xfcb5423">
+			<hkparam name="variableBindingSet">null</hkparam>
+			<hkparam name="userData">0</hkparam>
+			<hkparam name="name">BOS_ToolBehaviorREF</hkparam>
+			<hkparam name="behaviorName">behaviors\BOS_toolbehavior.hkx</hkparam>
+		</hkobject>

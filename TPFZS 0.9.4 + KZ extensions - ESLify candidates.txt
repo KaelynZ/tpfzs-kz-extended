@@ -69,6 +69,8 @@ KD - Realistic Fireplaces SE.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on KD - Realistic Fireplaces SE.esp: 
 		None
+	Assets:  meshes and textures only
+	DONE: 2023-05-11
 		
 dD - Enhanced Blood Main.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
@@ -113,6 +115,8 @@ Book Covers Skyrim - Lost Library.esp
 		* 548  BA_LostLibrary.esp
 		* 6C5  ZedPatch.esp
 		* 6C6  ZedPatch2.esp
+	Assets: script with source, clean
+	
 
 Open Face Guard Helmets.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
@@ -145,7 +149,8 @@ HandtoHandJump.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on HandtoHandJump.esp: 
 		None
-
+	DONE: 2023-05-11
+	
 Manbeast.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on Manbeast.esp: 
@@ -198,7 +203,13 @@ AVExpansion.esp
 Common Clothes and Armors.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on Common Clothes and Armors.esp: 
-
+		* 16A  Armor Variants Expansion - CCAA Patch.esp
+		* 17A  Open World Loot - AVExpansion - Common Clothes and Armors Patch.esp
+		* 7BE  LeveledListAdditionArmour.esp
+		* 7C2  ZedPatch.esp
+		* 828  KZ Patch - USCCP + CC Misc Patches.esp
+	Assets: meshes and textures in bsa
+	
 AdamantSmithing.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on AdamantSmithing.esp: 
@@ -217,6 +228,7 @@ FCO - Follower Commentary Overhaul.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on FCO - Follower Commentary Overhaul.esp: 
 		None
+	scripts, seq, voices
 
 Guard Dialogue Overhaul.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
@@ -295,7 +307,8 @@ QuickLight.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on QuickLight.esp: 
 		* 1FE  SJG Quick Light Patch.esp
-
+	Assets: scripts w/o source, interface
+	
 BriDraugrOverhaul.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on BriDraugrOverhaul.esp: 
@@ -316,7 +329,9 @@ Ish's Respec Mod.esp
 	=== Mods dependent on Ish's Respec Mod.esp: 
 		* 6C5  ZedPatch.esp
 		* 6C6  ZedPatch2.esp
-
+	1 script, no source, but highly unlikely to be a problem
+	DONE 2023-05-11
+	
 SimplyKnock.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on SimplyKnock.esp: 
@@ -352,13 +367,14 @@ Proper Crossbow Integration.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on Proper Crossbow Integration.esp: 
 		* 6C5  ZedPatch.esp
-	scripts
+	scripts in BSA, no source
 	
 Blowgun_by_Ruddy88.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on Blowgun_by_Ruddy88.esp: 
 		* 6C6  ZedPatch2.esp
-	scripts
+	scripts, no source
+	DONE 2023-05-11
 	
 Cloaks.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
@@ -393,7 +409,9 @@ Ulags Legacy.esp
 	=== Mods dependent on Ulags Legacy.esp: 
 		* 6C7  Synthesis.esp
 		* 6E5  KZ Patch - TPFZS + Dibella's Blessing.esp
-		
+	Assets: meshes and textures only.
+	DONE: 2023-05-11
+	
 Blackened Steel Armor and weapon set.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on Blackened Steel Armor and weapon set.esp: 
@@ -406,13 +424,15 @@ KarstaagReborn.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on KarstaagReborn.esp: 
 		* 6C5  ZedPatch.esp
-	no assets
+	Assets: none
 	DONE 2023-05-09
 
 Ambriel The Lost Patches.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on Ambriel The Lost Patches.esp: 
 		None
+	Assets:  None
+	DONE: 2023-05-11
 		
 CaesiaFollower.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
@@ -432,7 +452,8 @@ FayeFG.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on FayeFG.esp: 
 		None
-		
+	scripts, seq, voice
+	
 Audio Overhaul Skyrim.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on Audio Overhaul Skyrim.esp: 
@@ -461,7 +482,7 @@ Immersive Sounds - Compendium.esp
 		* 6EE  KZ Patch - ISC + USMP.esp
 
 IHSS.esp
-Mod: Improved Horse Step Sounds
+	Mod: Improved Horse Step Sounds
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on IHSS.esp: 
 		* 6C5  ZedPatch.esp
@@ -501,6 +522,7 @@ SaveTheBrotherhood.esp
 
 ww_AlternateDBEnding.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Assets:  voices, scripts, seq, interface
 	
 XPMSE.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
@@ -509,7 +531,8 @@ MaximumCarnage.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on MaximumCarnage.esp: 
 		None
-		
+	Assets: scripts, interface
+	
 ImmersiveInteractions.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on ImmersiveInteractions.esp: 
@@ -531,6 +554,7 @@ mihailmourningsouls.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on 1Scamp.esp: 
 		* 6C5  ZedPatch.esp
+	DONE 2023-05-10
 		
 SkyrimsGotTalent-Bards.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
@@ -577,6 +601,7 @@ KaliliesNPCs.esp
 		* 6C6  ZedPatch2.esp
 		* 6C7  Synthesis.esp
 		* 6D0  KZ Patch - TPFZS + Rigmor.esp
+	DONE 2023-05-11
 
 PAN_NPCs.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header

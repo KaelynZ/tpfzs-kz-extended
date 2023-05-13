@@ -3419,5 +3419,745 @@ SET UP SYNTHESIS to HANDLE A HUGE LOAD Order
 	
 	Do we even *need* this Synthesis patch at all?  Not really.  If you're like me, and never create new characters from scratch, but simply use HPH presets downloaded from Nexus that look *way* better than anything I could create myself, then this whole HPH RaceMenuPatcher thing is totally pointless, and can be safely removed.  Recall, most of the work is patching NPCs so they *don't* look any different, despite the Race records being changed to use HighPoly heads by default, for convenience during character generation.  Peronsally, I plan to chuck the things, because I want the esp slots and don't care if HP heads are default.  But if you like creating lots of new characters from scratch, and want them all to use high-poly heads by default, your feelings may differ.   
 
-		
 
+========================
+Legacy of the Dragonborn
+========================
+	Finally decided to bite the bullet and do it.  This section follows the LotD section of Lexy's LotD Guide, https://lexyslotd.com/guide/mod-installation-part-1/
+	
+INSTALL:
+	Legacy of the Dragonborn 5.6.5
+	https://www.nexusmods.com/skyrimspecialedition/mods/11802
+	Legacy of the Dragonborn will forever change how you play Skyrim. Not just a display mod, not just a quest mod, not just a new guild mod, but a complete foundational flagship mod to build an entire load order around. This DLC expansion sized mod adds hundreds of new items, dozens of new quests and hundreds of extra hours of play.
+	DL: main file v 5.6.5 08 jan 2023
+	MOD ORDER: after other New Content
+	
+	
+	Legacy of the Dragonborn Patches (Official) 2.9.8
+	https://www.nexusmods.com/skyrimspecialedition/mods/30980
+	This is the official page for all Legacy of the Dragonborn SSE patches and the central home of the Legacy FOMOD patcher which will include all the latest patches in an easy to use installer.
+	DL: main file 2.9.8 09 mar 2023
+	Notes: Official Patches for Legacy of the Dragonborn, v5.5+ (REQUIRED)
+		All patches are ESL Flagged ESP's (Light Plugins).
+		Completely remove the old version before updating.
+		Official notes say 'run AFTER activating all other mods in your load order'
+		We're gonna ignore that, and REINSTALL after adding new mods later.
+	FOMOD:Whatever it auto-selects.
+
+ON THE RADAR:
+	Forgotten City - DONE
+	Project AHO - DONE
+	Falskaar
+	The Gray Cowl of Nocturnal
+	Helgen Reborn
+	Moonpath to Elsweyr
+	Teldryn Serious - old mod, creator says needs work
+	Undeath
+	Barely Used Vanilla Actors Recycle Project (BUVARP)
+	Cutting Room Floor
+	Dark Brotherhood for Good Guys
+	Do As You Say Redux
+	Namira for Good Guys
+	Relics of Hyrcule
+
+INSTALL:
+	Legacy of the Dragonborn Cleaned Textures 1.0.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/42975
+	Mostly as a resource, these are the textures of LOTD cleaned of compression artifacts and some bad overwrites.
+	DL: Main Files: LOTDCT_BC7
+		Update Files: Blue Fabric Fix
+	
+	Better Wine Labels - Vanilla and Legacy of the Dragonborn 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/34698
+	HD wine label textures for the vanilla wine label and ones added by Legacy of the Dragonborn.
+	DL: Main Files: LOTD Version 1.0
+		Optional Files: San's Spiced Wine 1.1
+	
+	Legacy of The Dragonborn - Dwemer Compass Replacer 0.3.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/55663
+	Replaces the Dwemer Compass from Legacy of The Dragonborn with higher quality model
+	DL: Legacy of The Dragonborn - Dwemer Compass Replacer 0.3.1
+	FOMOD: 4K ancient dwemer metal
+	
+	Legacy of the Dragonborn Plaques Retexture
+	https://www.nexusmods.com/skyrimspecialedition/mods/45904
+	Retexture for LotD museum plaques - only models and textures, no .esps.  Now also for Creation Club Hall of Wonders!
+	DL: LotD Plaques Retexture 1.0
+		LotD Plaques Retexture - Creation Club Add On 1.0
+	
+	Legacy of the Dragonborn - Mementos
+	https://www.nexusmods.com/skyrimspecialedition/mods/45829
+	This mod is an add-on to Legacy of the Dragonborn. It replaces the skulls you find on Dark Brotherhood Targets with mementos of the target. The displays will still work the same.
+	DL: main v1.0 17 feb 2021
+	
+	Legacy of The Dragonborn - Museum Exterior Fixes 0.7
+	https://www.nexusmods.com/skyrimspecialedition/mods/47321
+	Fixes some visual issues with the museum's exterior such as road blending and UV maps
+	D: main v0.7 11 apr 2023
+	FOMOD: CHECK Erikur House fix
+	
+	Legacy of The Dragonborn Perk Menus 0.6
+	https://www.nexusmods.com/skyrimspecialedition/mods/47028
+	Perk Tree Menus for Legacy of The Dragonborn Archaeology skills
+	DL: main v0.6 15 mar 2022
+	
+	Legacy of The Dragonborn museum dome improved 0.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/45655
+	Improves museum interior and exterior dome with meshes that reduce distortion.
+	DL: main v0.2 13 feb 2021
+	
+	Legacy of the Dragonborn dome retexture 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/46452
+	Retexture of LotD glass dome window. Only textures, no .esps
+	DL: main 1.0 02 mar 2021
+	
+	Legacy of the Dragonborn - Player Homes Displays 1.01
+	https://www.nexusmods.com/skyrimspecialedition/mods/63706
+	Adding player homes displays (Breezehome, Lakeview Manor, etc) to Legacy of the Dragonborn museum!
+	DL: Legacy of the Dragonborn - Vanilla Player Homes Displays  Version:1.01
+		Optional Files: Legacy of the Dragonborn - Vanilla Player Homes Displays -TCC Patch v1.0
+	
+	Paintings Remade - Legacy of The Dragonborn - Interesting NPCs - Wyrmstooth 0.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/76823
+	Replaces paintings and fixes some bugs
+	DL: main v02. 19 nov 2022
+	
+	Legacy of the Dragonborn - Quick Museum Shortcuts 2.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/38898
+	Shortens two secret passages in Legacy of the Dragonborn, adds Hall of Secrets to the Curator's Guide. Light plugin (obviously)
+	DL: main 2.0 02 sep 2020
+	
+	Legacy of The Dragonborn - SMIM Chests 0.3
+	https://www.nexusmods.com/skyrimspecialedition/mods/55720
+	Replaces Legacy of The Dragonborn chests with SMIM models
+	DL: main 0.3 09 jul 2022
+	
+	Legacy Safehouse Plus 3.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/39278
+	Adds additional room configuration options for purchase for the Legacy of the Dragonborn safehouse as well as a cabinet display for Dwemer dishware.
+	DL: main v3.2 22 nov 2021
+	
+	Quest and Reward Delay for Legacy of the Dragonborn 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/44923
+	Delays the various rewards and quests in Legacy of the Dragonborn to higher display count numbers.
+	DL: main v1.1 23 apr 2021
+	
+	Legacy of the Dragonborn Visual Overhaul
+	https://www.nexusmods.com/skyrimspecialedition/mods/64477
+	This mod overhauls of most of the major NPCs from Legacy of the Dragonborn.
+	DL: main v1.0 20 apr 2022
+		Update: Legacy of the Dragonborn Visual Overhaul - updated esp 1.1 08 mar 2023
+	Install: merge update into main mod
+	
+	Vibrant Explorers Guild banner (LOTD)
+	https://www.nexusmods.com/skyrimspecialedition/mods/37233
+	A vibrant version of the Explorers Guild banner from Legacy of the Dragonborn
+	DL: v1.0 13 jun 2020
+	
+	Fate Cards Remade - Legacy of The Dragonborn 0.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/76418
+	Make each fate card unique with cool artwork
+	DL: main v0.1 04 oct 2022
+	
+	Fate Cards New Style 1.1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/77694
+	A new Style for the Fate Cards of Legacy of the Dragonborn
+	DL: Optional Files: Fate Cards new Style Xtudo Version  Version:1.1.1
+	
+	Fate Cards Remade - My version SE
+	https://www.nexusmods.com/skyrimspecialedition/mods/76575
+	Less saturation, an ancient paper version and replaced some icons for a more "medieval" style. For the wonderful lovely mod made by wankingSkeever.
+	DL: Optional Files: Fate Cards Remade - My version by Xtudo - Ancient paper patch  Version:1
+	
+	Fossil Mining 3.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/14107
+	Adds fossils that you can find while mining to make mining more profitable and interesting, brought to you with the help of the creator of Legacy of the Dragonborn with built-in Legacy support!
+	DL: main v3.2 11 sep 2021
+	Notes:  esp file.
+	DO NOT INSTALL until eslified
+	
+	Fossil Mining Map Markers (SSE Port) 1.11
+	https://www.nexusmods.com/skyrimspecialedition/mods/33596
+	Adds 10 map markers to the excavation sites added by Fossil Mining located in the hot springs area.
+	DL: main 1.11 12 may 2020
+	DO NOT INSTALL until Fossil Mining installed
+	
+	Legacy of the Dragonborn - Creation Club Patch Hub 5.2.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/31563
+	This is the central hub for Legacy of the Dragonborn support patches for Creation Club content.
+	DL: main v5.2.1 03 dec 2022
+	FOMOD: whatever it selects
+	Notes:  REINSTALL as needed
+	
+	Legacy of the Dragonborn - Fixes and Tweaks 1.3.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/58517
+	Several fixes for general positioning, lighting, mesh and texture enhancement, and some performance improvement for the Legacy of the Dragonborn museum and safehouse.
+	DL: Main Files: LotD Tweaks - Main  Version:1.31
+		Optional Files: LotD Tweaks - Stripped Nifs  Version:1.0
+		Optional Files: LotD Tweaks - Stucco Texture A  Version:1.0
+		Optional Files: LotD Tweaks - Wood Textures  Version:1.0
+	
+	Legacy of the Dragonborn - Interesting NPCs Patch
+	https://www.nexusmods.com/skyrimspecialedition/mods/39834
+	At long last, two of the most expansive and beloved mods in the game coming together in one glorious museum display room! This patch adds over 90 unique displays from Interesting NPCs to the Hall of Oddities in the Legacy of the Dragonborn museum.
+	DL: main 1.31 06 jan 2022
+	
+	Legacy of the Dragonborn - Followers Patch (Inigo-Auri-Kaidan-Hoth-Lucien-Vilja-Remiel-Redcap)
+	https://www.nexusmods.com/skyrimspecialedition/mods/40816
+	You love your special followers as much as your Safehouse? This mod adds new custom follower room designs, new unique item models and textures, and more museum displays to help your important followers feel at home in the Legacy of the Dragonborn Safehouse Follower Room!
+	DL: main v3.0.1 03 mar 2023
+	Notes:  REINSTALL after new followers added, e.g Vilja, Redcap, Auri
+	FOMOD: KWF None, A1 Kaidan, A2 Inigo, A3 None (Hoth), A4 Lucien, B1 Empty (Redcap), B2 empty (auri), B3 empty (Vilja), B4 Remiel, B5 Hot Tub
+	
+	Legacy of the Dragonborn - Your Choices Matter Dark Brotherhood Unofficial Patch 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/54899
+	Unofficial patch for 'Legacy of the Dragonborn' and 'Your Choices Matter: A Dark Brotherhood Expansion' by WhiteWolf424242.
+	DL: main Legacy of the Dragonborn - YCM Dark Brotherhood Patch 1.0 31 aug 2021
+		Optional: Curator's Companion Patch 1.0 13 feb 2022
+	
+	Shirley - A Skyrim Follower Mod 1.0.6
+	https://www.nexusmods.com/skyrimspecialedition/mods/45956
+	Shirley Curry, the beloved Skyrim Grandma, finally comes to the game as a follower you can recruit! She'll join you on your adventures, but don't expect her to simply carry your burdens! She's got more personality than all the vanilla followers combined, and we're sure she'll be a great companion, and a friend. And a grandma!
+	DL: main v1.0.6 14 jul 2021
+	
+	Legacy of the Dragonborn - Shirley Follower Display Patch 1.6
+	https://www.nexusmods.com/skyrimspecialedition/mods/49438
+	Adds displays for Shirley, the beloved Skyrim Grandma's follower mod in the Legacy of the Dragonborn Safehouse.
+	DL: Shirley Follower Display Patch Room B
+	Notes:  This puts her in B-1, rather than A-1 (which is what the main version does)
+	
+	Redcap the Riekling - A Fully Voice-Acted Immersive Follower and Quest 1.3.4
+	https://www.nexusmods.com/skyrimspecialedition/mods/73441
+	Redcap is a unique, voice-acted, immersive follower mod with over 2150 lines of dialogue, a ton of fun and useful features, several new quests, new locations, full main quest commentary (and several other questlines) and a pet boar named Bigpig who he can summon in battle! Redcap has a big personality and a lot to offer!
+	DL: main v1.3.4 09 may 2023
+		Redcap CC Goblins Commentary and Follower Interactions Patch
+		Redcap EVG Animated Traversal Addon (ESL flagged)
+	Note: has interactions with Xelzaz and Remiel
+	
+	Vilja in Skyrim 4.3
+	https://www.nexusmods.com/skyrimspecialedition/mods/6722
+	The young bard Vilja has her own mission in Skyrim - but she needs your help! Will you let her tag along? Will you let your Skyrim life be changed by a talkative, curious and unpredictable girl who might be a nuisance at times, but who also will offer a strong, indepth friendship, and later on also optional romance.
+	DL: 1_Vilja in Skyrim version 4.3
+		2_ViljaInSoltheimAddOn1
+		3_FixForCorruptFormLists
+
+	Song of the Green (Auri Follower)
+	https://www.nexusmods.com/skyrimspecialedition/mods/11278
+	A standalone, custom-voiced follower&Quest mod.
+	DL: main v1.4 05 jan 2023
+		3DNPCs Banter Patch
+		Inigo Banter patch - sfts fix
+		Kaidan Banter Patch
+		VIGILANT commentary patch
+
+	
+	The Forgotten City 1.8
+	https://www.nexusmods.com/skyrimspecialedition/mods/1179
+	The Forgotten City is the first mod in history to win a national Writers' Guild award for its script. It is a critically acclaimed expansion mod offering a unique 6 - 8 hour experience: a murder mystery investigation set in an ancient underground city. You'll need to solve it using your wits, and the ability to travel through time...
+	DL: main v1.8  30 aug 2017
+	LOOT: with other new content, before Ambriel.esp, after Khajiit Will Follow
+	
+	The Forgotten City - Delayed Start
+	https://www.nexusmods.com/skyrimspecialedition/mods/56958
+	Delays The Forgotten City starting quest from level 5 > 25.
+	DL: main v1 11 oct 2021
+	
+	Khajiit Will Follow - Patch - Forgotten City 2.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/2227?tab=files
+	Adds support for The Forgotten City, including 1000+ lines of dialogue, 20+ scenes, and 3 different endings. Patch should be below KWF and The Forgotten City in your load order.
+	DL: Patch - The Forgotten City v2.1 11 oct 2019
+
+	Forgotten City - Softlock Protection
+	https://www.nexusmods.com/skyrimspecialedition/mods/66952
+	Fixes a potential softlock when using the excellent The Forgotten City quest mod.  In my most recent playthrough of The Forgotten City, one of my mods that interfered with spellcasting cost prevented a certain NPC from casting a spell required to complete one of the endings. This patch simply gives the NPC in question substantially more magicka to prevent this softlock from taking place.
+	DL: main v1.0
+	
+	Slack Hidden Map Marker Compendium - The Forgotten City Hidden Markers
+	https://www.nexusmods.com/skyrimspecialedition/mods/89417?tab=description
+	Tired of map markers ruining your heckin' immersion by covering the map with locations that you'd rather discover yourself? Well, I sure am, which is why this mod page exists.
+	DL: The Forgotten City Hidden Markers 1.0 17 apr 2023
+	
+	The Forgotten City Entrance v1.0.4
+	https://www.nexusmods.com/skyrimspecialedition/mods/25730
+	A new entrance which conceals the Forgotten City Entrance rather than advertising its existence with a modern docks walkway.
+	DL: main v1.0.4 08 apr 2023
+	Notes: esp file, needs to be eslified
+	
+	Project AHO
+	https://www.nexusmods.com/skyrimspecialedition/mods/15996
+	Project AHO is a large quest modification, comparable in size to a medium-sized DLC. Designed in the best traditions of Bethesda Game Studios, this mod adds to Skyrim a hidden settlement of Great House Telvanni. Determine its fate for yourself!
+	DL: main (EN) v2.0 06 apr 2019
+		Project AHO ESM Flag Edition 2.0 06 apr 2019 - ESM flag for more stability
+	
+	Xelzaz - Custom Fully Voiced Argonian Telvanni Follower 1.8.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/62893
+	Xelzaz is a Custom Fully Voiced Argonian Lawman of House Telvanni with ~5550 lines. He is on his way to Rivenspire in High Rock, having traveled all the way from Port Telvannis in Morrowind. Xelzaz has just arrived in Skyrim and is looking for a traveling companion. In return he will keep you company, cook you warm meals and brew powerful potions.
+	DL: main v1.8.2 01 mar 2023
+		Xelzaz Anniversary Edition Plugin 1.8.0 01 feb 2023 - needs all CC content
+		Xelzaz Follower Wyrmstooth Patch 1.0 22 aug 2022
+	
+	Legacy of the Dragonborn - Xelzaz Follower Display Patch 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/70106
+	DL: main v1.1 22 jun 2022 - Contains the Xelzaz patch for room B5. You MUST download this file even if you plan to use one of the A slots.
+		Xelzaz A-2
+		Xelzaz A-4
+		
+NEW MOD:
+	The Forgotten City Entrance v1.0.4 - KZ eslified esp replacer
+	Steps:  no assets in mod.  xEdit mod, compact FormIDs, set ESL flag in header
+
+INSTALL:
+		
+	Legacy of the Dragonborn - The Curator's Companion 6.2.3
+	https://www.nexusmods.com/skyrimspecialedition/mods/38529
+	The all in one Legacy of the Dragonborn companion!
+	DL: main 6.2.3 09 mar 2023
+	Notes: Requires NEW GAME
+	FOMOD: whatever it selects
+	REINSTALL AS Needed
+	
+======================================================================
+2023-05-11 More Eslification, Patches, new Quests, and Reinstallations
+======================================================================	
+	
+NEW MODS - ESLIFICATION
+	KaliliesNPCs v2.4 - KZ eslified esp replacer + Keep Your Skin patch
+	Notes:  Simple eslification, compact and set ESL flag in xEdit, no changed assets
+	
+	KZ Patch - Kalilies NPCS v2.4 eslified + TPFZS v094
+	Notes: mostly adds AI Overhaul data, some NPCS have new armor or buffed boss stats
+	
+	KZ Patch - Kalilies NPCs v2.4 eslified + TPFSZ v094 + Rigmor
+	Notes: Rigmor buffs Angi.  Did not alter non-eslified earlier version of patch
+	LOOT: this patch AFTER old KZ Patch - TPFZS + Rigmor
+	
+	Ambriel The Lost Patches v1.06 - KZ eslified esp replacer
+	Notes:  no assets, no dependents.  Mostly navmesh forwards, plus buffing a few things.  Simple eslification.  Only changes were a few new snowdrifts and a dragon perch.
+
+UPDATE TOOL:
+	ESLifyEverything v4.5.2
+	https://github.com/Michael-wigontherun/ESLifyEverything/releases
+	https://www.nexusmods.com/skyrimspecialedition/mods/75248
+
+NEW MOD - ESLIFICATION:
+	Blowgun by Ruddy88 v1.0 - KZ eslified esp replacer
+		Notes:  dependents: ZedPatch2.  should be simple, but scripts have no source.  Use ESLifyEverything just to be safe.
+		1.  Run xEdit and compact what ever mods you want, THAT CAN BE ESLIFIED, and set the esl flag on the plugin.
+        If there is a SEQ file for the plugin, right click on the plugin in xEdit, at the bottom of the menu go to Other -> Create SEQ file.
+        How to determine if the plugin has a SEQ file it will be in your Data\seq\[Plugin file name].seq
+		2.  Close xEdit
+		3.  Run ESLifyEverything.exe
+		Notes:  EslifyEverything did NOT update the references in ZedPatch2.esp!  Need to redo by hand
+		
+	KZ Patch - Blowgun by Ruddy88 v1.0 eslified + TPFZS v094
+		Notes:  Forgot to do this when I eslified, had to do it later by hand.  Ick.
+	
+NEW MOD - ESLIFICATION:
+	Ish's Respec Mod v1.6 - KZ eslified esp replacer
+		Notes:  1 script, no source, unlikely to be a problem.  Numerous reports in forum that this mod causes CTDs, but resports seem sketchy.  Has ZedPatch and ZedPatch2 as dependents, presumably level lists.  Doing a standard xEdit eslification.
+	
+	KZ Patch - Ish's Repec Mods v1.6 eslified + TPFZS v094
+		Notes: adds repec potion to 1 merchant container (Riften) and 1 leveled list
+
+NEW MOD - Patch
+	KZ Patch - Alchemist's Vestments - CBBE Refit v1.0 eslified + TPFZS v094
+		Notes: Didn't need a patch for TPFZS 0.9.3.5, but now there's errors in ZedPatch2
+	
+NEW MOD - ESLIFICATION:
+	KD - Realistic Fireplaces v3.01 - KZ eslified esp replacer
+		Notes: no dependencies.  Only meshes and textures as assets.  Easy standard eslification.  only changed ID of an ENB addon node
+		
+NEW MOD - Eslification
+	Hand to Hand - An Adamant Addon - Jump Addon v1.0 - KZ eslified esp replacer
+		Notes:  no dependents, no assets, last updated january.  It just adds two magic effects.  Easy peasy.  Standard xEdit compact and set esl flag.
+		
+NEW MOD - Eslification
+	Ulag's Legacy Armor Pack v1.1.1 - KZ eslified esp replacer
+		Notes:  only textures and meshes.  Only dependent is a KZ patch.  Last updated 2018.  Easy peasy.  Standard xEdit eslification.
+
+INSTALLED:
+	Nether's Fantabulous Frea v2.0.4
+	https://www.nexusmods.com/skyrimspecialedition/mods/84661
+	A complete overhaul to Frea including greatly expanded dialogue, quest/location awareness, comments on player actions, npc interaction, combat enhancements and abilities, non-combat bonuses, sculpted face, multitude of appearance options, quest content, sexlab/flowergirls integration and much more! A Frea overhaul like you've never seen before.
+	FOMOD: Nether's Frea + CBBE + Toned + no icon + NFF
+	Notes: esp file, not easily eslifiable (SEQ)
+
+INSTALLED:
+	There is No Umbra - Chapter III 1.08
+	https://www.nexusmods.com/skyrimspecialedition/mods/89089
+	Includes Chapters I and II. Continue Daumbra's story, and obtain new gameplay mechanics (sword throwing, sword riding, mind control, teleportation, etc.) through a DLC-sized questline, professionally voiced. The story has many possible endings -your choices really do matter.
+	Notes:  Mod of the Month April 2023
+	DL: FloatingSwordFollower.zip 1.08 10 may 2023
+		Skeever Daumbra Patch.7z  1.6 12 apr 2023
+		XEDIT filter for finding suitable candidates for Daumbra's body (xEdit script)
+	NOT REQUIRED BUT STRONGLY SUGGESTED:
+		- Skeever﻿﻿﻿﻿ - Mod of the Month for April 2021, the follower with the most lines ever made (15 thousand and counting) adds a thousand lines more to comment and advice every step of the way for "There Is No Umbra" Chapters I and II (and Kerstyn herself recorded over a hundred new lines as well). It was an honor collaborating together for the patch. You can download it from the optional files section. See the video at: https://youtu.be/GkZQBq_3pcw﻿
+		- Vibrant Weapons﻿ - Combined with a patch already included in the FOMOD, this will make her produce real light. Very cool. Don't forget to use the Power from that mod to enable effects on NPCs (note: if the light from Vibrant Weapons is too strong for you, there is now an alternative ENB Light﻿ patch from PraedythXVI also in the FOMOD installer. ENB Light is not as bright and works whether the sword is sheathed or not).
+		- Disable Follower Collision﻿ - it's a beautiful piece of SKSE witchcraft so that you will never again be blocked by your own housecarl while backing out of a small room!
+		Equipment Enchantment Fix﻿ - This may help you if sometimes her flames don't turn on.
+		- Iconic's Azura's Star Dungeon Retexture﻿ - This will make your visuals match the Chapter II trailer. It's so gorgeous.
+		Praedy's Soul Cairn - SE﻿ - Speaking of gorgeous, this makes Umbriel look amazing.
+		- Combat Gameplay Overhaul﻿ - or any other similar mod that makes you lean in the direction in which you are moving. This will make the hoverboard riding look and feel gorgeous -and you can wield her one-handed.
+		- Better Jumping SE﻿ - This will allow you to jump while in 'hoverboard' mode. Combined with CGO it makes for smooooth shock-absorption motion -see the video.
+		- Your favorite camera mod - The combat custom animations are all 3rd person, but with some of these mods they can be 1st person too! 
+		- There is no (CC) Umbra﻿ - A kind soul made a patch that resolves the lore conflict between this mod and the Creation Club's version. 
+		- WIDeadBodyCleanupScript Crash Fix﻿ - Depending on your choices some vanilla NPCs may or may not die, and this mod addresses a vanilla bug that sometimes produced crashes when that happened.
+		- Dragonactorscript infinite loop fix﻿ - Similar to above, this will probably save you some headaches with script lag and Papyrus.
+	COMPATIBLITY
+		- The FOMOD already includes some patches for minor things, like book covers, or other quests which also touch certain vanilla points -nothing huge.
+		- PCEA: PCEA is fine, but make sure it doesn't overwrite 2hm_sprintforwardsword.hkx so that the DAR version wins over and you can sword-surf.
+		- SkySA: I don't use it, but people in my discord say it works fine as long as you delete the SkySA 2-handed attacks and 2-handed sprint animations so you can use the ones from this mod.
+		- MCO: I don't use it either, but a very friendly ape in the discord (he asked me to refer to him that way!) made an MCO patch which is included in the FOMOD, that uses Black's animation from mods Sswayed commissioned and gave persm for. Apologies I can't give technical support on it, since, again, I don't use MCO myself.
+		- AFT, NFF, etc.: DO NOT import her into any follower management system. She has her own. Of course, you can have your other followers in your favorite follower management system; that's just fine for them -but not her. The NFF patch is no longer required -uninstall it if you were using it before.
+		- The T'Skyrim patch is also no longer required -uninstall it if you were using it before. As of Chapter III, the mod no longer touches the Atronach Forge formlists, so it no longer needs that kind of patches. 
+		- Immersive Citizens or similar mods which change the AI packages of vanilla NPCs: make sure my mod loads last in the load order. I can't stress this enough.
+		- Synthesis Patcher﻿, Wyre Bash, Merges, etc: Do not include this mod. This mod doesn't merge well, it needs to be by itself.
+		- Immersive Equipment Displays﻿ -Make sure to use the "Daumbra Exclude" json settings, included in the FOMOD (thanks Waddles!).
+	FOMOD - BCS, IED, MCO, Finding Velehk Sain, BCS - Lost Library, TCIY, Vibrant Weapons, no texture replacer
+	Notes:  Move patches with non-installed masters to Optional, e.g. FloatingSword_VibrantWPN_Patch.esp
+	
+	There Is No (CC) Umbra 1.01
+	https://www.nexusmods.com/skyrimspecialedition/mods/69553
+	A patch intended to resolve story and lore conflicts between There Is No Umbra and the Creation Club's own Umbra, while maintaining the spirit of both.
+	DL: man v1.01 11 may 2023
+	
+ON THE RADAR - INSTALL but DO NOT ACTIVATE
+	Vibrant weapons - Fire Frost Shock
+	https://www.nexusmods.com/skyrimspecialedition/mods/40087
+	Enhances the basic destruction enchantments with new particle-based visuals, with support for illumination, combination enchantments and different weapon types.
+	Notes: looking as description, this may not look good with Enchanted Arsenal.  Hold off testing until I have some actual enchanted weapons to test with. 
+	
+INSTALLED:
+	Skeever 1.3.7
+	https://www.nexusmods.com/skyrimspecialedition/mods/56582
+	He will lead you anywhere you wish to go , scout for enemies by smelling and telling you while you sneak in caves and ruins. He knows your gender and race and prays in temples, he reads stuff that was not meant to be read and...well, read below.
+	DL: main 1.3.7
+	Notes:  Mod of the Month Apr 2021.  Huge number of lines and world comments.   
+
+	Skeever high poly head 1.2.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/71780
+	A simple high poly head replacer for Skeever the follower.
+	DL: Skeever and Ratmouth HPH  1.2.1 06 oct 2022
+	
+	Interesting NPCs (3DNPC) Script Optimisation - barbasdialoguedetect 1.3.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/87245
+	Reduces the script load introduced by the barbasdialoguedetect script in 3DNPC.
+	DL: main 1.3.1 11 may 2023
+	
+	PC Head Tracking and Voice Type SE v4.8
+	https://www.nexusmods.com/skyrimspecialedition/mods/11993
+	This file allows the player to change track head movement and change voice types allowing the player character to speak with just the push of a button.
+	DL: PC Head Tracking - MCM v4.8 SE  23 aug 2021
+	FOMOD: both main file and patch (for DG and DB)
+	Notes: 2 esp files!
+	
+	PC Head Tracking and Voice Type SE - Settings Loader 1.0.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/89133
+	Modified MCM for PC Head Tracking and Voice Type SE by HHaleyy and Tooneyman. Saves settings as you change them, automatically loads settings on startup or game load, so you don't have to spend time in MCM again with each game. No plugin.
+	DL: main v1.0 13 apr 2023
+	Notes: For PC Head Tracking and Voice Type SE v.4.7, v.4.8.
+	
+	Voice event script fix for PC Head Tracking and Voice Type 1.01
+	https://www.nexusmods.com/skyrimspecialedition/mods/90940
+	It's a simple script fix for PC Head Tracking and Voice Type to play correctly voiceline on performing killmove.
+	DL: main v1.01 09 may 2023
+	Notes: Q: Do I really need this fix?  A: Unless you are using framework for killmoves or custom killmoves then the answer is: NOT PARTICULARLY.
+	
+	PC Head Tracking and Voice Type MCM AE Update 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/72044
+	AE (1.6.x) update for the MCM of PC Head Tracking and Voice Type to enable saving and loading presets.
+	DL: main 
+	Requirements:  PapyrusUtil 4.3 AE, PCHTaVT 4.8 only!
+	Notes: DO NOT INSTALL YET.  My not be needed with SSE 1.5.97 and PapyrusUtil 3.9
+	
+	Crash On Save Fix for PC Head Tracking and Voice Type 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/63676
+	Script fixes for a couple of crashes I experienced with the head tracking from PC Head Tracking and Voice Type.
+	DL: main v1.0 15 feb 2022
+	Notes: for SSE 1.5.97 and SKSE 2.0.20, PCHTaVT 4.8
+	
+	Sunder and Wraithguard - Editable Vault Cell (Cell Bug Workaround)
+	https://www.nexusmods.com/skyrimspecialedition/mods/59083
+	Sunder and Wraithguard is unfortunately set up as an ESM flagged ESL, which means that any mod attempting to touch its new cell, or any of the linked references in Sightless Pit, cause the cell to break. This workaround creates a copy of the cell and repoints all necessary parts of the Creation, allowing other mods to edit the contents.
+	DL: main v1.0
+	Notes:  DO NOT ESLIFY!  The whole point of this mod is that it's not flagged ESL, thus allowing other mods to edit the cell.
+	Notes: Needed by LoTD: CC Patch Hub, but only if using Only if using the main Sunder and Wraithguard patch (Not the Tools of Kagrenac one)
+	Notes:  DO NOT INSTALL YET!  Install tools of Kagrenac, then reinstall LOTD CC Patch Hub to use Tools of Kagrenac
+	
+	The Tools of Kagrenac 1.59
+	https://www.nexusmods.com/skyrimspecialedition/mods/14168
+	Go on a quest to recover the legendary Tools of Kagrenac. Encounter new allies and enemies, explore sprawling dungeons, and add powerful new artifacts and spells to your arsenal in this fully-voiced quest mod!
+	DL: The Tools of Kagrenac V1.59 SSE  12 dec 2021
+		EVG Animated Traversal Add-On 1.0  16 jul 2022
+	LOOT: with other new content, before Ambriel.esp, after MoonAndStar_MAS.esp
+	
+REINSTALL:
+	Legacy of the Dragonborn - Creation Club Patch Hub v5.2.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/31563
+	FOMOD: whatever it selects.
+	
+REINSTALL:
+	Legacy of the Dragonborn Patches (Official) 2.9.8
+	FOMOD: whatever it selects
+	
+RADAR:
+	Sassy Teen Girls CBBE
+	https://www.loverslab.com/topic/127358-sassy-teen-girls-cbbe/
+	This is my version of follower mod Sassy Teen Girls for Skyrim Legendary Edition and Special Edition, CBBE slim, no neck seams.
+	Notes: I have permission from original author (triptherift) to post this version, provided I NEVER upload it to Nexus Mods. By downloading this version you must also agree to this condition, NEVER upload it to Nexus Mods. Also, nothing contained in the mod can be used for paid modding sites, ever.
+	- Special Edition Version (2016).  This version still receives updates when needed. There are a total of 24 girls. Compatible with Anniversary Edition.
+	
+INSTALL:
+	Kels the Insane vInsane2
+	https://www.nexusmods.com/skyrimspecialedition/mods/50151?tab=files
+	Adds a shell-shocked and totally insane former soldier to the game.
+	DL: main v Insane2 10 jul 2021
+	LOOT: with other followers, after Kaidan
+	Notes: Kels just wanders around Solitude, because she doesn't have any family to return home to. She goes to the tavern in the evening. She has no place to live, so some of her soldier friends that feel sorry for her let her sneak into Castle Dour at night. She sleeps by a fireplace in the dungeon.
+	- Use a mod manager. Any one will do. The esp is esl flagged (espfe), one of the very few added voice line followers built that way. The assets are packed into a compressed archive to keep the mod footprint low. She is CBBE Slim based, but for crying out loud, don't ruin my day and put her into some silly bikini boob armor. Seriously. You have thousands of hyper-inflated T&A smash dolls to choose from for that. This chick is unwashed, smelly, ugly, and obnoxious. Why would you even bother?
+
+	The Marrying Kind - Cinderella 1.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/55509
+	A mod loosely inspired by the story Aschenputtel, by the Brothers Grimm. Based on a folk tale that has roots in many cultures around the world - stories of a simple, poor girl that dreams of a better future.
+	DL: main 1.2 12 nov 2021
+	Notes:
+		- Cheap supermarket romance novel quality intro dialogue (You know - cringe-worthy 50 Shades stuff)
+		- Different dialogue paths for male versus female suitors (aye, she's looking for a Prince, so females will initially fail, and will have to convince her)
+		- The thrill of victory, or the agony of defeat (in love)
+		- You only get one shot at catching her fancy, so don't mess up your opportunity - make wise choices
+		- She can follow you, but has no skills or weapon, and is very timid, so you will have to protect her (this is by design, and no I won't change it)
+		- Custom hand sculpted UNP-based body and textures
+		- Custom outfit made just for her
+		- Mod is archived (compressed bsa format) to keep the mod footprint low
+		- Scripts are just small fire and forget fragments to move the story along (sources included)
+		- When in follower mode, she will stay at whatever location you dismiss her at, as she has no home
+		- As this uses the vanilla Marriage quest, when the option of where to live comes up, be sure to set YOUR home to live at, or you will have a big problem
+		- Never, ever, open up a mod like this in the CK. Any save you make will generate new (very ugly) facegen files. Use xEdit. Seriously.
+		- esp is flagged as esl (espfe)
+	
+	Wait Carriage in Inns - Fast Travel Improvement 1.3
+	https://www.nexusmods.com/skyrimspecialedition/mods/83044
+	Improves vanilla transport system by allowing the player to wait for a carriage driver in any inns located in Tamriel.
+	DL: main v1.3  30 jan 2023
+	Notes: Must have!  espfe.  Hugely compatible.
+	LOOT:  before RW2
+	
+	Wade In Water Redone 1.1.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/71418
+	SKSE plugin which slows actors in water at an engine level, with support for SSE and AE in one DLL.
+	Requires: Loki's Wade in Water
+	DL: main v1.1.2 25 oct 2022
+	Notes: Remade and enhanced Loki's Wade In Water which slows actors in water at an engine level, with support for SSE and AE in one DLL.
+	- This mod is functionally equivalent but with smooth transitions between different states, implementing slowing at an engine level rather than via spells. 
+	
+	Read the Room - Immersive and Animated Helmet Management 2.2.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/77605
+	Animated equip/unequip of helmet depending on player location (gifs in description). Through Immersive Equipment Displays, helmets are incorporated into animations and are carried on hip when not being worn. Compatible with any mod added armor.
+	Requires: Immersiev Equipment Displays (IED), Keyword Item Distributor (KID), Nemesis, Simple Dual Sheath 'XPMSSE Left Hand Sheath Rotation Fix' at minimum; see Immersive Equipment Display's install instructions, SPID
+	DL: main 2.2.1 02 jan 2023
+	
+	Read the Room - Immersive and Animated Helmet Management - Settings Loader 1.3.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/78689
+	Created from scratch MCM for Read the Room - Immersive and Animated Helmet Management by istayzoomin to support MCM Helper. Saves settings as you change them, automatically loads settings on startup or game load, imports settings from an existing save, so you don't have to spend time in MCM again with each game. Localization support. No plugin.
+
+ON THE RADAR:
+	SIRENROOT - Deluge of Deceit v1.04
+	https://www.nexusmods.com/skyrimspecialedition/mods/70917
+	You and a team of divers are hired to scour ruins at the bottom of Lake Honrich. A dialogue-heavy quest with puzzles, platforming, and a focus on water mechanics. But be wary of the siren’s call..
+	Notes:  very highly rated, very well done new quest mod.  find a spot for it!
+
+INSTALLED:
+	Spaghetti's Solstheim - Tel Mithryn 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/90779
+	This mod provides a lightweight, compatible, and FPS friendly overhaul to Tel Mithryn!
+	DL: main 1.0 06 may 2023
+	LOOT: Before RW2
+	
+	Dynamic Female Ledge Sitting 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/90252
+	Part 3 to my series of planned Female Interaction Themed Animation mods -DFLS
+	DL: Dynamic Female Ledge Sitting  1.0 28 apr 2023
+		zCOTN - Winterhold Ledge Sit Marker  1.1 06 may 2023
+
+ON THE RADAR:
+	Real Clouds - Special Edition 3.0.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/90566?tab=files
+	This is the official long-awaited SE Port of the popular Oldrim mod Real Clouds created by Soolie (with permission). This cloud mod simply adds 3D volumetric clouds to the world of Skyrim. Had the idea to port it after watching old MxR Mod Reviews. Nothing new added yet, just a direct port, bug fixes, and optimized for Special Edition, enjoy!
+	
+ON THE RADAR:
+	Spriggans SE
+	https://www.nexusmods.com/skyrimspecialedition/mods/90547
+	Very nice Spriggans redesign, no esp
+	
+ON THE RADAR:
+	Ranger Arrows - New Arrow Enhancements
+	https://www.nexusmods.com/skyrimspecialedition/mods/90418
+	
+ON THE RADAR:
+	Northern Farmhouses
+	https://www.nexusmods.com/skyrimspecialedition/mods/89628
+	A Combined Meshes Of Cities Of The North Dawnstar and Falkreath with Vanilla Farmhouses, give a new unique looking Farmhouses with Northern Vibes
+	Stunning remake of buildings!  Gorgeous!
+	
+ON THE RADAR:
+	Redbag's Falkreath https://www.nexusmods.com/skyrimspecialedition/mods/89631
+	Carriage Drivers - New Clothing SE by Xtudo https://www.nexusmods.com/skyrimspecialedition/mods/89508
+
+INSTALLED:
+	Ryn's Alvor and Sigrid's House 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/89187
+	FLAGGED AS ESL.  An extensive overhaul of the interior of Alvor and Sigrid's house in Riverwood.
+	DL main v1 13 apr 2023
+	
+	Ryn's Hod and Gerdur's House 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/89297
+	DL main 1.0 15 apr 2023
+	
+	Ryn's Sven's and Hilde's House 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/89236
+	DL main 1.0 14 apr 2023
+	
+	Ryn's Faendal's House 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/89222
+	DL main 1.1 17 apr 2023
+	
+	Rudy HQ - More dramatic Red Mountain Plume
+	https://www.nexusmods.com/skyrimspecialedition/mods/89103
+	A simple upgrade for Red Mountain Plume. Improved mesh, shaders, textures. Four versions to choose from, Two similar to vanilla, two with flame effect. Three texture resolutions, 2K, 1K and 512px. Take a look at the screenshots, everything will become clear. Plume now reacts to sunlight, is more three-dimensional.
+	DL: main 1.0 12 apr 2023
+	Notes:  Gorgeous!
+	FOMOD:
+	
+	Strongholds - Narzulbur 2.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/88809
+	DL: main 2.1 28 apr 2023
+	
+	Dynamic Female Hand Warming 1.3
+	https://www.nexusmods.com/skyrimspecialedition/mods/88506
+	Part 2 to my series of planned Female Interaction Themed Animation mods - DFHW
+	DL main 1.3 18 apr 2023
+	Requires: Warming Hands
+	
+	Warming Hands 2.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/73581
+	Warm your hands like NPCs near a warming source.
+	DL main 2.1 14 apr 2023
+	Requires: FormList Manipulator (FLM), MCM Helper
+	
+
+=========================================================
+2023-05-12  Testing and eslification and more mods, oh my
+=========================================================
+	
+TESTING
+	Ok, I'm full up with mods util I eslify some more.  Time to see if the game starts.
+	Start new game!
+	Starts fine.  Getting weird stuff showing up in Helgen, on arch overlooking execution courtyard by seated argonian, pre-Alduin, with DynDOLOD enabled.  vanishes when DynDOLOD disabled.
+	
+ON THE RADAR:
+	Dancers and Dragons
+		https://www.nexusmods.com/skyrimspecialedition/mods/81725
+		Looks like an interesting mechanic and animations.
+	Dance for Septims
+		https://www.nexusmods.com/skyrimspecialedition/mods/31424
+	Fix For Invisible Hud After Helgen Intro with TrueHUD and Alternate Perspective
+		https://www.nexusmods.com/skyrimspecialedition/mods/79479
+		Keeps you from having to close and re-enter the game after Helgen.
+	Recursion Monitor
+		https://www.nexusmods.com/skyrimspecialedition/mods/76867
+		Detects broken papyrus scripts stuck in recursion and prevents huge framerate lag
+	Skyrim Priority SE AE - skse plugin
+		https://www.nexusmods.com/skyrimspecialedition/mods/50129
+	Lightened Skyrim
+		https://www.nexusmods.com/skyrimspecialedition/mods/50755
+		Gain FPS across Skyrim with no visual difference!
+	TrueHUD skins collection - Horizons UI
+		https://www.nexusmods.com/skyrimspecialedition/mods/65752
+		This is a skin for TrueHUD, with many (many) options for the shout widget logo. These are made to compliment Horizons UI, but these will all work completely standalone as skins for TrueHUD.
+	Tools not weapons DAR animations
+		https://www.nexusmods.com/skyrimspecialedition/mods/70117
+	Don't sheathe bound weapons DAR animations
+		https://www.nexusmods.com/skyrimspecialedition/mods/70354
+	Better tomboys (wide spread arms fix) DAR animations
+		https://www.nexusmods.com/skyrimspecialedition/mods/90569
+	EVG Conditionals extended
+		https://www.nexusmods.com/skyrimspecialedition/mods/85691
+	Drunk or drugged animations (DAR)
+		https://www.nexusmods.com/skyrimspecialedition/mods/62191
+	Wounds injury animations DAR add-on
+		https://www.nexusmods.com/skyrimspecialedition/mods/54870
+	Ghosts float DAR animations
+		https://www.nexusmods.com/skyrimspecialedition/mods/70574
+	Wildcat and Vigor injury animations (DAR)
+		https://www.nexusmods.com/skyrimspecialedition/mods/69563
+	Vigor a la SOT
+		https://www.nexusmods.com/skyrimspecialedition/mods/11944
+	Bound hands - Helgen attack DAR animations
+		https://www.nexusmods.com/skyrimspecialedition/mods/89247
+	Runa- Transgender Vampire- Destruction Mage- Follower- Companion- HPH- ESL Flagged
+		https://www.nexusmods.com/skyrimspecialedition/mods/91203
+	Faerie Follower.7z
+		https://www.loverslab.com/topic/167003-faerie-follower/#comment-3361705
+
+INSTALLED:
+	Runa- Transgender Vampire- Destruction Mage- Follower- Companion- HPH- ESL Flagged
+	https://www.nexusmods.com/skyrimspecialedition/mods/91203
+	This is Runa; A Happy-Go-Lucky Sort of Vampire Who is Quite Capable of Decimating Your Enemies Should You Ask Her to. She can be found hanging around The Winking Skeever, in Solitude.
+	DL: Runa- Hair Option 1- No BV Requirement 1.0 12 may 2023
+	
+	SIRENROOT - Deluge of Deceit 1.04
+	https://www.nexusmods.com/skyrimspecialedition/mods/70917
+	You and a team of divers are hired to scour ruins at the bottom of Lake Honrich. A dialogue-heavy quest with puzzles, platforming, and a focus on water mechanics. But be wary of the siren’s call..
+	DL: main 1.0 05 may 2023
+		Update - Patch 1.04 08 may 2023
+	FOMOD: 	The Cause - Ayleid Enemies Patch, Wade in Water - Timer Patch, Main
+	
+	3BA 'MILF' CBBE Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/59455
+	
+	3BA 'DESTROYER' CBBE Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/65164
+	
+	3BA Nubile CBBE Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/58729
+	
+	3BA Cougar CBBE Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/53540
+	
+	3BA Nymph CBBE Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/52484
+	
+	3BA AMAZON CBBE Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/52480
+	
+	3BA Bimbo CBBE Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/47003
+	
+	3BA BBW Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/84152
+
+INSTALL UPDATE:
+	Destination Weddings 1.4.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/78127
+	DL: main 1.4.1 12 may 2023
+		patches 1.4  5 may 2023 (should alreday be in TPFZS, but reinstall anyway)
+	Patches FOMOD: COTN Winterhold, TGV Kynesgrove, JK's PotK, JK's Sky Haven Temple, COTN Falkreath (NOT TGC). whatever it auto-selects on second page.
+	Note: We have COTN Falkreath AND The Great Cities - Minor Towns and Cities installed, which may be a problem in Falkreath.
+	LOOT:  Destination Weddings - COTN Falkreath  AFTER  Destinatiuon Weddings - TGC
+
+NEW MODS - Patches
+	KZ Patch - CC Gallows Hall + CC Misc Patches + DBM
+	KZ Patch - CC The Contest + CC Misc Patches + DBM
+	KZ Patch - DBM + WheelsOfLull + RW2
+	KZ Patch - DBM_3DNPC_Patch + TPFZS v094
+	KZ Patch - DBM_CC_Gold_AoBSynergy + TPFZS v094
+	KZ Patch - DBM_KA_Patch + TPFZS v094
+	KZ Patch - DBM_Serenity_Patch + TPFZS v094
+	KZ Patch - DBM_TradeBarter_Patch + TPFZS v094
+	KZ Patch - DBM_VanillaPlayerHomes_Patch + TPFZS v094
+	KZ Patch - FloatingSword - BCS Lost Library Patch + TPFZS v094
+	KZ Patch - FloatingSword_BookCovers_Patch + TPFZS v094
+	KZ Patch - Kaidan + LCO Abandoned Prison + SkyrimBounties
+	KZ Patch - LOTD Cells + TPFZS v094 + KZE
+	KZ Patch - Men of Winter 5.3 eslified + DBM + TPFZS v094
+	KZ Patch - Sofia + GDO + FloatingSwordFollower
