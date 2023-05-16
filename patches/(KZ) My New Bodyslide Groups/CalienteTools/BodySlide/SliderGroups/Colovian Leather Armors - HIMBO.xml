@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderGroups>
+    <Group name="Colovian Leather Armors - HIMBO">
+        <Member name="Colovian Leather Armors HIMBO Boots 1"/>
+        <Member name="Colovian Leather Armors HIMBO Boots 2"/>
+        <Member name="Colovian Leather Armors HIMBO Gauntlets 1"/>
+        <Member name="Colovian Leather Armors HIMBO Gauntlets 2"/>
+        <Member name="Colovian Leather Armors HIMBO Gloves"/>
+        <Member name="Colovian Leather Armors HIMBO Hood 1 (Physics)"/>
+        <Member name="Colovian Leather Armors HIMBO Leather Cuirass 1 (Physics)"/>
+        <Member name="Colovian Leather Armors HIMBO Leather Cuirass 2 (Physics)"/>
+    </Group>
+    <Group name="HIMBO">
+        <Member name="Colovian Leather Armors HIMBO Boots 1"/>
+        <Member name="Colovian Leather Armors HIMBO Boots 2"/>
+        <Member name="Colovian Leather Armors HIMBO Gauntlets 1"/>
+        <Member name="Colovian Leather Armors HIMBO Gauntlets 2"/>
+        <Member name="Colovian Leather Armors HIMBO Gloves"/>
+        <Member name="Colovian Leather Armors HIMBO Hood 1 (Physics)"/>
+        <Member name="Colovian Leather Armors HIMBO Leather Cuirass 1 (Physics)"/>
+        <Member name="Colovian Leather Armors HIMBO Leather Cuirass 2 (Physics)"/>
+    </Group>
+</SliderGroups>

@@ -9,7 +9,7 @@ SOS - Smurf Average Addon.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on SOS - Smurf Average Addon.esp: 
 		None
-	DONE 2023-05-09
+	DONE 2023-05-13
 
 Schlongs of Skyrim.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
@@ -37,6 +37,7 @@ iHUD.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on iHUD.esp: 
 		None
+	DONE: 2023-05-12
 
 AMatterOfTime.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
@@ -64,6 +65,9 @@ EmbersHD.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on EmbersHD.esp: 
 		* 3F4  COTN Winterhold - Embers HD Patch.esp
+	Assets:  meshes, textures
+	DONE: 2023-05-13
+	
 
 KD - Realistic Fireplaces SE.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
@@ -155,11 +159,13 @@ Manbeast.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on Manbeast.esp: 
 		* 6C5  ZedPatch.esp
+	Assets: scripts !!! CONTAIN getformfromfile calls!!!
 
 WardsFunctionalitiesExtended.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on WardsFunctionalitiesExtended.esp: 
 		* 6C5  ZedPatch.esp
+	Assets: scripts (clean sources, no getformfromfile), meshes, textures
 
 ForcefulTongue.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
@@ -251,7 +257,9 @@ AHZBetterDGEntranceSE.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on AHZBetterDGEntranceSE.esp: 
 		* 370  IdentityCrisis - BetterDGEntrance.esp
-
+	Assets: script, does NOT contain getformfromfile
+	DONE: 2023-05-13
+	
 TimingIsEverything.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on TimingIsEverything.esp: 
@@ -341,7 +349,9 @@ Unique Dragon Aspect.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on Unique Dragon Aspect.esp: 
 		* 22E  DragonAspectOverhaul - Unique Dragon Aspect Patch.esp
-
+	Assets:  meshes, textures, scripts (clean source, no getformfromfile)
+	DONE 2023-05-13
+	
 DurnehviirResurrected.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on DurnehviirResurrected.esp: 
@@ -362,6 +372,7 @@ Skyrim Weapons Expansion.esp
 		* 25F  Skyrim Weapons Expansion - NWTA Patch.esp
 		* 6C2  LeveledListAdditionWeapon.esp
 		* 6C5  ZedPatch.esp
+	DONE: 2023-05-13
 
 Proper Crossbow Integration.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
@@ -403,7 +414,8 @@ _Fuse00_ArmorKellan.esp
 	=== Mods dependent on _Fuse00_ArmorKellan.esp: 
 		* 6C1  LeveledListAdditionArmour.esp
 		* 6C6  ZedPatch2.esp
-
+	DONE: 2023-05-13
+	
 Ulags Legacy.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on Ulags Legacy.esp: 
@@ -419,6 +431,8 @@ Blackened Steel Armor and weapon set.esp
 		* 6C2  LeveledListAdditionWeapon.esp
 		* 6C5  ZedPatch.esp
 		* 6C6  ZedPatch2.esp
+	Assets:  meshes, textures
+	DONE: 2023-05-13
 
 KarstaagReborn.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
@@ -439,7 +453,8 @@ CaesiaFollower.esp
 	=== Mods dependent on CaesiaFollower.esp: 
 		* 327  CaesiaSLE.esp
 		* 70E  KZ Patch - TPFZS + KZ Followers.esp
-		
+	lotsa scripts, seq
+	
 BWB - Kaidan 2 Extra Dialogue.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on BWB - Kaidan 2 Extra Dialogue.esp: 
@@ -526,6 +541,7 @@ ww_AlternateDBEnding.esp
 	
 XPMSE.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Scripts with source - !!! CONTAIN getfromfromfile !!!
 	
 MaximumCarnage.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
@@ -537,19 +553,27 @@ ImmersiveInteractions.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on ImmersiveInteractions.esp: 
 		None
-		
+	Scripts with source - !!! CONTAIN getfromfromfile !!!
+
+	
 HaltedStreamMine.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 
 mihailgreychildren.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	SEQ, scripts.
+	Mihail says DO NOT ESLify
 	
 mihailfleshatronach.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	SEQ, scripts.
+	Mihail says DO NOT ESLify
 	
 mihailmourningsouls.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
-
+	SEQ, scripts.
+	Mihail says DO NOT ESLify
+	
 1Scamp.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on 1Scamp.esp: 
@@ -611,6 +635,7 @@ PAN_NPCs.esp
 		* 6C5  ZedPatch.esp
 		* 6C6  ZedPatch2.esp
 		* 6C7  Synthesis.esp
+	DONE
 
 PAN_NPCs_Males.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
@@ -634,6 +659,7 @@ PAN_NPCs_DG.esp
 		* 56B  AI Overhaul - PAN_NPCs_DG Patch.esp
 		* 6C5  ZedPatch.esp
 		* 6C7  Synthesis.esp
+	DONE
 		
 PAN_NPCs_DB.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
@@ -642,6 +668,7 @@ PAN_NPCs_DB.esp
 		* 6C5  ZedPatch.esp
 		* 6C6  ZedPatch2.esp
 		* 6C7  Synthesis.esp
+	DONE
 
 BeastHHBB.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
@@ -674,6 +701,7 @@ JaxonzEnhGrab.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on JaxonzEnhGrab.esp: 
 		None
+	scripts, interface
 		
 EVGATAIO.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
@@ -685,6 +713,7 @@ Spellsiphon.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on Spellsiphon.esp: 
 		* 598  Spellsiphon - Patch - Adamant.esp
+	Assets:  meshes, textures, many scripts no source
 		
 Attack_DXP.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
@@ -727,7 +756,494 @@ RealisticWaterTwo.esp
 		* 6B9  RealisticWaterTwo - Beyond Skyrim Bruma.esp
 		* 6BA  RealisticWaterTwo - Waves - Wyrmstooth.esp
 		* 6BB  JKs Ragged Flagon - RW2 Patch.esp
-
+	DONE 2023-05-14  - no patches were altered by eslification, only changes were to new objects in landscape
+	
 IdlePlayWheelMenu.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	DONE: 2023-05-07
+
+
+===================
+UPDATE 2023-05-13
+===================
+
+[00:00] Start: Applying script "Find ESP plugins which could be turned into ESL"
+
+[06] cceejsse001-hstead.esm
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[10] Unofficial Skyrim Modders Patch.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[11] RealisticWaterTwo - Resources.esm
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[12] Resources - The Great Cities.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[17] BS_DLC_patch.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[21] RFM.esm
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[22] FISS.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[23] Penitus_Oculatus.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[26] Better Dynamic Snow SE - DisableRefs.esm
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[2A] RaceCompatibility.esm
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[2B] Schlongs of Skyrim - Core.esm
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	
+[2D] OSA.esm
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[31] DBM_CC_HallOfWonders.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[32] SOS - Smurf Average Addon.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	=== Mods dependent on SOS - Smurf Average Addon.esp: 
+		None
+		
+[33] Schlongs of Skyrim.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	=== Mods dependent on Schlongs of Skyrim.esp: 
+		None
+
+[34] UIExtensions.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	=== Mods dependent on UIExtensions.esp: 
+		* 39C  AddItemMenuSE.esp
+
+[35] Weapons Armor Clothing & Clutter Fixes.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[36] SMIM-SE-Merged-All.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[37] Landscape Fixes For Grass Mods.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	=== Mods dependent on Landscape Fixes For Grass Mods.esp: 
+		* CD  Complementary Grass Fixes.esp
+		* CE  Landscape For Grass Mods - Military Camps.esp
+		* CF  Landscape and Water Fixes - Patch - LFfGM.esp
+		* 3D4  JKs Skyrim Selective Patch.esp
+		* 681  Landscape For Grass Mods - Moon and Star PATCH.esp
+		* 7D8  Markarth Outskirts Grass Fix.esp
+		* 7D9  Ryn's Dragon Mounds Grass Fix.esp
+
+[39] AMatterOfTime.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[3A] Atlas Map Markers.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[3B] Cathedral Weathers.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[3D] dD - Enhanced Blood Main.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[3E] S3DSigns.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[3F] Book Covers Skyrim.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[40] Book Covers Skyrim - Lost Library.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[41] ArteFake.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[43] Pilgrim.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[44] Adamant.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	
+[45] HandtoHand.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[46] Scion.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[47] Manbeast.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[48] ForcefulTongue.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[4A] Smart Automatic Attribute Leveling.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[4B] CFTO.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[4C] NewArmoury.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[4D] EnchantingAdjustments.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	=== Mods dependent on EnchantingAdjustments.esp: 
+		* 171  Open World Loot - AVL Iron and Steel Addon - Enchanting Adjustments Patch.esp
+		* 175  Open World Loot - AVL Morrowind Glass Addon - Enchanting Adjustments Patch.esp
+		* 178  Open World Loot - AVL Nordic Addon - Enchanting Adjustments Patch.esp
+		* 18A  EnchantingAdjustments - WACCF.esp
+		* 18C  EnchantingAdjustments - VAE.esp
+		* 7E1  ZedPatch.esp
+
+[4E] WACCF_Armor and Clothing Extension.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[4F] AVExpansion.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[50] Common Clothes and Armors.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[51] Simple Smithing Overhaul.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[52] Apothecary.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[53] ApothecaryFood.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[56] FCO - Follower Commentary Overhaul.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	=== Mods dependent on FCO - Follower Commentary Overhaul.esp: 
+		None
+
+[57] Guard Dialogue Overhaul.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[59] Immersive Patrols II.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	=== Mods dependent on Immersive Patrols II.esp: 
+		* 1C8  Immersive Patrols II Lite Simplified No Merchants.esp
+		* 401  COTN Falkreath - Immersive Patrols II Patch.esp
+		* 42C  ClefJFortDawnguard - ImmersivePatrols.esp
+		* 7E1  ZedPatch.esp
+
+[5A] TimingIsEverything.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[5B] TheChoiceIsYours.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[5D] Thieves Guild Requirements.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[5E] PersonalWeddingGuests.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[5F] DragonWar.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[60] SkyTEST-RealisticAnimals&Predators.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[61] Better Stealth AI for Followers.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	=== Mods dependent on Better Stealth AI for Followers.esp: 
+		* 7E1  ZedPatch.esp
+		* __  KZ Patch - TPFZS + EBQO.esp
+
+[62] QuickLight.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[64] BriDraugrOverhaul.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[65] Wildcat - Combat of Skyrim.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[66] SimplyKnock.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[67] DurnehviirResurrected.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[68] Proper Crossbow Integration.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[69] Cloaks.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[6A] Cloaks - Dawnguard.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[6D] Eli_Skaal Village Overhaul.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[6E] AK- Boethiah Alternate.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[71] ArtifactsOfBoethiah.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[79] KWFPatch_FC.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	=== Mods dependent on KWFPatch_FC.esp: 
+		None
+
+[7E] CaesiaFollower.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[84] BWB - Kaidan 2 Extra Dialogue.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[85] Kaidan - Immersive Features.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[87] Recorder Follower Base.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[8A] FayeFG.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[8F] 018Auri.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[90] 018AuriKaidanBanter.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[91] 018AuriVIGILANTpatch.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[92] 018InigoBanterPatch.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[93] NWS_Frea.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[94] SofiaFollower.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[98] BPUFXelzazFollowerAE.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[99] Audio Overhaul Skyrim.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[9A] Immersive Sounds - Compendium.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[9C] YourMarketStall.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[9D] HearthfireMultiKid.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[9E] HonedMetal.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[9F] Footprints.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[A0] OpulentThievesGuild.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[A3] Fortune's Trade House.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[A5] SaveTheBrotherhood.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[A6] ww_AlternateDBEnding.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[A9] TheEyesOfBeauty.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[AB] XPMSE.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[AC] MaximumCarnage.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[AD] ImmersiveInteractions.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[B1] Riften Docks Overhaul.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+	
+[B4] The Great Village of Old Hroldan.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+	
+[B5] The Great Village of Mixwater Mill.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+	
+[B6] The Great Town of Shor's Stone.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+	
+[B7] The Great Town of Ivarstead.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+	
+[B8] The Great Town of Karthwasten.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+	
+[BD] Raven Rock Reborn.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+	
+[BE] Tel Mithryn.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[BF] ThanedomDarkwater.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[C0] ThanedomNightgate.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[C1] DunparMod.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[C2] ThanedomTorvfjord.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[C3] ThanedomHaroldHold.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[CA] HaltedStreamMine.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	=== Mods dependent on HaltedStreamMine.esp: 
+		* 7E1  ZedPatch.esp
+		* 7E2  ZedPatch2.esp
+		* 864  DynDOLOD.esp
+	Assets: Scripts, no source, seq
+
+[CC] BeyondSkyrimMerchant.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[CD] mihailgreychildren.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[CE] mihailfleshatronach.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[CF] mihailmourningsouls.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[D0] mihailharpy.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[D1] SkyrimsGotTalent-Bards.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[D3] RealBossesLight.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[D5] ZIA_Complete Pack.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[D6] BeastHHBB.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[D7] Project ja-Kha'jay- Khajiit Diversity.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[D8] JaxonzEnhGrab.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[DC] EVGATAIO.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[DD] Spellsiphon.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[DF] AlternatePerspective-IUtBaDBlY.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+
+[E0] Attack_DXP.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[E1] ValhallaCombat.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[E2] Dragon_Preview.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[E3] DMCO.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[E4] Book Of Shadows.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[E5] True Prone System.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[E6] Lucien-AnniversaryEdition-Patch.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	=== Mods dependent on Lucien-AnniversaryEdition-Patch.esp: 
+		None
+	Assets: scripts, no source, seq
+
+[EF] DBM_RelicNotifications.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+
+[F0] BlockSteal.esp
+	Can be turned into ESL by adding ESL flag in TES4 header
+	Warning: Plugin has new CELL(s) which won't work when turned into ESL and overridden by other mods due to the game bug
+	
+[F2] SkeeverDaumbraPatch.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	
+[F3] PC Head Tracking - MCM.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	
+[F4] PC Head Tracking - Patch.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	=== Mods dependent on PC Head Tracking - Patch.esp: 
+		None
+	Assets: seq, sound, scripts, no source
+	
+[00:19] Done: Applying script "Find ESP plugins which could be turned into ESL", Elapsed Time: 00:19
+
+

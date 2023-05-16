@@ -4161,3 +4161,1910 @@ NEW MODS - Patches
 	KZ Patch - LOTD Cells + TPFZS v094 + KZE
 	KZ Patch - Men of Winter 5.3 eslified + DBM + TPFZS v094
 	KZ Patch - Sofia + GDO + FloatingSwordFollower
+	
+	
+==================================================================
+2023-05-13  more eslification, install OStim and other adult stuff
+==================================================================
+
+NEW MODS:
+	Leveled List Additions (Weapons) 0.9.4 TPFZS094 - KZ edited for eslified mods
+	Leveled List Additions (Armors) 0.9.4 TPFZS094 - KZ edited for eslified mods
+	
+NEW MOD - ESLIFICATION
+	Kellan HDT-SMP Armor 1.02 - KZ eslified esp replacer
+	Esp: _Fuse00_ArmorKellan.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	=== Mods dependent on _Fuse00_ArmorKellan.esp: 
+		* 6C1  LeveledListAdditionArmour.esp
+		* 6C6  ZedPatch2.esp
+	Assets:  meshes and textures
+
+NEW MOD - ESLIFICATION
+	Blackened Steel Armor - CBBE Refit v1.2 - No Bounce - KZ eslified esp replacer
+	ESP: Blackened Steel Armor and weapon set.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	=== Mods dependent on Blackened Steel Armor and weapon set.esp: 
+		* 6C1  LeveledListAdditionArmour.esp
+		* 6C2  LeveledListAdditionWeapon.esp
+		* 6C5  ZedPatch.esp
+		* 6C6  ZedPatch2.esp
+	Assets:  meshes, textures
+
+NEW MOD - ESLIFICATION
+	Skyrim Weapons Expansion 1.3 + NWTA Patch - KZ elsified esp replacer
+	ESP: Skyrim Weapons Expansion.esp
+		Skyrim Weapons Expansion - NWTA Patch.esp (from New Weapon Types and Animation)
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	=== Mods dependent on Skyrim Weapons Expansion.esp: 
+		* 25F  Skyrim Weapons Expansion - NWTA Patch.esp
+		* 6C2  LeveledListAdditionWeapon.esp
+		* 6C5  ZedPatch.esp
+
+NEW MOD - ESLIFICATION
+	Immersive Dawnguard Dayspring Pass SE 1.03 + Identity Crisis Patch - KZ eslified esp replacer
+	ESP: AHZBetterDGEntranceSE.esp
+		IdentityCrisis - BetterDGEntrance.esp (from Identity Crisis)
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	=== Mods dependent on AHZBetterDGEntranceSE.esp: 
+		* 370  IdentityCrisis - BetterDGEntrance.esp
+	Assets: script, does NOT contain getformfromfile
+	Note: Identity Crisis and BS Heartland patches do not refer to any changed formIDs, no change to them
+	
+NEW MOD - ESLIFICATION
+	Wards Functionalities Extended 1.1.2 - KZ eslified esp replacer
+	ESP: WardsFunctionalitiesExtended.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	=== Mods dependent on WardsFunctionalitiesExtended.esp: 
+		* 6C5  ZedPatch.esp
+	Assets: scripts (clean sources, no getformfromfile), meshes, textures
+
+	KZ Patch - Wards Functionalities Extended 1.1.2 eslified + TPFZS v094
+	Notes: only 4 leveled lists for spell books
+
+NEW MOD - ESLIFICATION
+	Embers HD 1.4.2 + COTN Winterhold patch - KZ eslified esp replacer
+	ESP: EmbersHD.esp
+		COTN Winterhold - Embers HD Patch.esp  (from Cities of the North - Winterhold - Patch Collection)
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	=== Mods dependent on EmbersHD.esp: 
+		* 3F4  COTN Winterhold - Embers HD Patch.esp
+	Assets:  meshes, textures
+	Notes:  no changes to COTN patch, it does not refer to any changed formIDs
+	
+NEW MOD - ESLIFICATION
+	Unique Dragon Aspect 1.3 + DragonAspectOverhaul patch - KZ eslified esp replacer
+	ESP: Unique Dragon Aspect.esp
+	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	=== Mods dependent on Unique Dragon Aspect.esp: 
+		* 22E  DragonAspectOverhaul - Unique Dragon Aspect Patch.esp
+	Assets:  meshes, textures, scripts (clean source, no getformfromfile)
+	
+NEW MOD - ESLIFICATION
+	SOS - Smurf Average Addon 1.1.4 - KZ eslified esp replacer
+	ESP from Mod: Schlongs of Skyrim
+	
+INSTALLING OStim Stuff
+----------------------
+	I now have 8 free esp slots, time to start installing OStim properly.
+	Reference page: https://www.nexusmods.com/skyrimspecialedition/articles/4550
+	
+	OStim Lovers 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/90053
+	Ever wanted to have a fling with Ralof/Hadvar or become the mistress of a Jarl? OStim Lovers is a lightweight, female-PC focused mod that adds fully-voiced lover dialogue for various NPCs.
+	DL: main v 1.1 27 apr 2023
+	Notes:  has Bella DBVO addon, but not Ciri
+	Notes: esp file.  scripts, no source, seq, voices
+	
+	OpenSex Addon Hub 3.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/81679
+	Adds a hub to OpenSex that other animation packs can hook into.
+	Notes: This mod needs to be loaded after OpenSex and before animation packs that require it!
+
+		Recommended load order of all known animation packs (you can simply copy this exact order and ignore the notes below):
+
+		Billy Lesbian 3P animation pack for OStim NG			BLUE MODS - OPTIONAL - ORDER THIS WAY
+		Billy Threesome animation pack for OStim NG
+		Billyy Group Animation Pack for OStim NG - Extended Version
+		Billyy Animations Pack Ostim Port
+		Lesbian Animation Pack for OStim NG
+		Nibbles Animation pack for OStim NG
+		OSex L'amour Rose Animation Pack
+		OStim Feet Animation Pack
+		NCK30 Animations Pack OStim Port
+
+		OpenSex Standalone - Adult Animations for OStim NG		RED MODS - REQUIRED - ORDER IMPORTANT
+		OpenSex Addon Hub										REQUIRED
+
+		OpenSex Anal Animations Add On							YELLOW MODS - OPTIONAL - ORDER IMPORTANT
+		Drago Foot Animation Add on for Opensex
+		Drago's Enchant Those Potions Opensex Add on
+
+		OpenSex Compatibility Patch - Addon Hub version			GREEN MODS - OPTIONAL - ANY ORDER
+		Billyy Furniture Pack for OStim NG
+		Moon Lovemaking Compendium for OStim NG
+		Night-blooming Violets for OStim NG
+		Fencing in the Dark for OStim NG
+
+		- The blue ones are optional, their order doesn't matter, except that the Billyy Group Animation Pack needs to go after the Billy Threesome animation pack and the NCK30 Animations Pack needs to go after the Billy Animations Pack. All of these have to come before anything else. If you have at least one of these you also need the Compatibility Patch.
+		- The red ones are hard requirements. You need these. Their order does matter.
+		- The yellow ones are optional, their order does matter and they need to go after OpenSex Standalone.
+		- The green ones are optional, their order doesn't matter, but they need to go after everything else.
+	
+	Night-blooming Violets for OStim NG 1.0
+	She had no idea her delinquent student was a succubus! A pirate captain caught by her law-abiding nemesis! Love is a cunning weaver of fantasies and fables.
+	DL: main v1.0 10 mar 2023
+	Notes: A 2-person lesbian animation pack for OStim NG, animated specifically for female-female.
+		- Only supports Nemesis.
+		- OSound + OSound expansion is spamming sounds on all oral scenes. Do not use it until an updated version comes out or mute your game.
+		- Load this mod after OpenSex Addon Hub, follow it's description for animation load order in case you have more animation packs.
+		- Run Nemesis
+		- To access the standing animations with OpenSex 1.22+ and Addon Hub 3.0+, choose No furniture -> NP9 to select the 4th menu for Addons -> Moon Sapphic Hub 
+		- To access wall animations, choose Wall at the start of the scene near the idle wall marker.
+	
+	Billy Lesbian 3P animation pack for OStim NG 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/79863
+	This is a revamp of the Billy Lesbian 3P Animation pack to be able to use the tagging system in use by OStim NG.  The xmls have been rewritten so that the excitement and facial expressions work.
+	
+	Lesbian Animation pack for OStim NG 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/79859
+	Revamp of the Billy Lesbian animation pack for use with OpenSex and OStim NG.
+	
+	Billyy Threesome Animation Pack for OStim 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/45082
+	A set of new Threesome sex animations for OStim. MMF and FFM included.
+	Notes: Finding the animations in Manual mode
+		To start a threesome scene in OStim, make sure you have OSex's Dual Wield plugin, then:
+		- Start a 2 person scene -> Select sub actor tab (hit "9" by default) -> page right, press your body against him/her -> tab bottom (9, again), Invite someone to join 
+		- These animations are sorted into 2 "trees", one for MMF animation and one for MFF animations.  The first bottom tab is the Sub actors menu, which is the MMF scenes. The second bottom tab is the third actor's menu, with the MFF scenes contained within it. You can list them all quickly by using OSearch and searching " " (an empty space) while a threesome scene is running. This will pull up a list of all threesome animations (make sure you are using the latest version of OStim and OSearch).
+		- Want the roles flipped around in FFM anims? go to Osa's "arrange" menu (press the enter key on your numpad) and flip the position between the sub and the male two actor (the one with the yellow circle). then proceed to the animations
+		
+	OCum Ascended - Cum and Orgasm Mechanics for OStim 2.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/77506
+	OCum Ascended is an overhaul and rewrite of OCum, an OStim addon which adds cum effects, physical cum projectiles, womb size, cum inflation mechanics, female squirting during orgasms, and many other orgasm features. Fully replaces the original OCum, as mods that require OCum will work with OCum Ascended out of the box.
+	DL: main 2.2 23 nov 2022
+	Notes: - OCum Ascended now has its own separate MCM menu with new and more options. Do NOT use the OCum MCM options in the OStim MCM Addons tab. They won't work! It's highly recommended to also use OCum Ascended - Cum and Orgasm Mechanics for OStim - Settings Loader, courtesy of MaskedRPGFan!
+	
+	Moon Lovemaking Compendium for OStim NG 1.3
+	https://www.nexusmods.com/skyrimspecialedition/mods/82540
+	An ancient manuscript covering sweet lovemaking techniques with a magic property of filling itself with knowledge over time and helping you with filling your loved ones.
+	DL: main 1.3 26 apr 2023
+	- A 2-person hetero animation pack for OStim NG, animated specifically for male-female.
+	- Only works with Nemesis starting from version 1.2.
+	- Recommended SOS size 4-6, if you use racemenu SoS sliders, adjust as needed, if you hate those sliders like i do, just disable SOSRaceMenu.esp and use MCM for player character.
+	- Load this mod after OpenSex Addon Hub, follow it's description for animation load order in case you have more animation packs.
+	- To access the animations with OpenSex 1.22+ and Addon Hub 3.0+, choose No furniture -> NP9 to select the 4th menu for Addons -> Moon Lovemaking Hub
+	
+	Caesia Ostim Patch 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/64789
+	Replaces Caesia's fade to black romance scenes with Ostim scenes
+	DL main 1.0 10 mar 2023
+	
+NEW MOD - ESLIFICATION
+	Caesia Ostim Patch 1.0 - KZ eslified esp replacer
+	
+INSTALL:
+	OPubes 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/64151/
+	Addon for OBody that distributes female pubic hair textures from a number of packs. You can easily create patches in the form of JSON files too.
+	DL: 1.0 23 feb 2022
+	
+	Naughty Voices for OStim 1.4
+	https://www.nexusmods.com/skyrimspecialedition/mods/74765
+	This is the next-generation replacement for OVoice. It provides additional features and superior playback performance.
+	DL: main 1.4 29 nov 2022
+	- Like OVoice, Naughty Voices causes actors to use their natural voices in OStim scenes.  Currently, like OVoice, this is limited to OSA/OStim's actor2, females in the sub role.  Unlike OVoice, it will work on a female player character and you can even choose which voice you want your character to use in an MCM.  If you do not choose, it will use your character's natural voice (yes, the game assigns your character a voice based on race).
+	- This version of Naughty Voices is compatible with ColdSun's Vayne and Coralyn.
+	
+	OMerchants - OStim merchants with benefits 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/80141
+	An OStim addon that allows merchants to give Dragonborn a temporary discount in exchange for sex.
+	DL: main 1.0 06 dec 2022
+	- The mod adds a few seduction lines. Approach the merchant and select the randomized dialogue line. If the seduction is successful (50% chance by default, customizable in MCM), the merchant will follow you for a short time, so you can choose a more intimate place for the OStim scene. You can also turn off the follow feature in the MCM.
+	- If the merchant orgasmed, the shop menu will open with applied discount after the scene ends. This effect stacks with other vanilla and modded speech effects (Ordinator perks for example). You need to wait for cooldown to end before you try to approach a merchant again.
+	
+	OAroused 1.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/57232
+	Arousal mechanics in OStim. Stat buffs, changes to scene length when aroused, and more.
+	D: 1.4 18 oct 2021
+	- Arousal and the algorithm: Arousal goes up for everyone in the game all of the time. Each NPC has a unique arousal-gain speed, so it's different for everyone (the player's is always the same). To simulate off-screen sex or masturbation, if you have not been near an NPC for several days, their arousal will reset to something else. Max arousal for the player is usually reached in 4-5 days  with no orgasms
+	- Arousal drops when a character has an orgasm in a OStim scene. The longer the build-up to the orgasm, the greater the arousal release will be. This means if you start a scene and speed up the scene to max speed and quickly finish, you will have less of an arousal drop (but still a sizable one)
+	- Arousal also slightly rises over the course of an OStim scene. Also, if a character finishes a scene without orgasming, their arousal spikes considerably. This also means that kisses from ORomance raise arousal a lot.
+	- Special scene-ending feature: You can enable a setting in the MCM to change how OStim scenes can end with OAroused installed. With "Require low arousal to end scene" enabled, OStim scenes will prefer not to end until your arousal reaches 0. Specifically, if you have "End on Dom Orgasm" enabled, and your player character is the dom actor, the end event for you will not fire until your arousal is low. The same happens if your character is the sub actor with "End on Sub Orgasm" enabled. With this feature, if your character enters a scene with high arousal and orgasm doesn't empty it completely, your character will continue on with the scene until they're not longer aroused.
+	- On-screen bar: By pressing right-ctrl, a bar similar to OCum's will appear to show you how aroused your character is. Key remappable.
+	- Raising nearby NPC's arousal with nudity & OStim scenes: If your character or anyone else sees an OStim scene in progress, their arousal will skyrocket.
+	- Optionally, if your player is naked or is wearing armor with the EroticArmor keyword attached, nearby NPCs will become more aroused as well. This feature is disabled by default, since it must do small script polls when your character is naked (they are still light on performance) . Which brings us to performance
+	- Performance: Without the above nudity feature on, OAroused does not perform any script polling or use any script cloaks. OAroused only runs it's single script during OStim scenes. Beyond that it only runs a brief check on the player every 6 in-game hours to see if stat buffs need to be updated. OAroused was designed for performance and long-term stability, and uses an almost identical stat system to OCum, which tracked semen and semen generation for all NPCs like how OAroused tracks arousal.
+	
+	OVirginity 1.3.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/45563
+	OStim addon that implements a female virginity system with sound and visual effects
+	DL: main 1.3.1
+	Requires: OCum
+	DO NOT INSTALL.  Prefer OVirginity Reflowered
+	
+
+	
+	
+	OVirginity Reflowered 2.1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/77929
+	OVirginity Reflowered is an overhaul and rewrite of OVirginity, an OStim addon which adds a female virginity system with visual and sound effects. ESP flagged ESL, so it won't take a slot in your load order. Fully replaces the original OVirginity, as mods that require OVirginity will work with OVirginity Reflowered out of the box.
+	DL: main 2.1 06 nov 2022
+		OVirginity Reflowered JSON Configuration File 2.1 03 nov 2022
+	Requires: OCum Ascended
+	- OVirginity Reflowered now has its own separate MCM menu with new and more options. Do NOT use the OVirginity MCM options in the OStim MCM Addons tab. They won't work! It is highly recommended that you also use OVirginity Reflowered - Settings Loader so you can keep your settings across different characters.
+
+	OVirginity Reflowered - Settings Loader 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/78178
+
+INSTALLED KZ CONFIG:
+	(KZ) OVirginity Reflowered JSON Configuration File 2.1 - KZ edited version
+	- Add "Sofia" to nevervirgin list
+	
+INSTALLED:
+
+	ORomance 1.8
+	https://www.nexusmods.com/skyrimspecialedition/mods/48564
+	Extensive new dating and seduction mechanics, a brand new user interface, prostitution mechanics, cheating mechanics, and countless new features, built for OStim
+	DL: main 1.8 18 oct 2021
+	- No, don't ESL-flag this mod
+	- To start ORomance, simply approach an NPC and press the ORomance hotkey while facing them. This will start a special dialogue with the ORomance menu available. You now have many options available to you
+	- ORomance is a massive mod, there's no way to explain all of it's new features here, but here's the big ones:
+	- Dating, romance, and seduction mechanics in Skyrim. Loosely based off of classic dating sims
+	- A brand new UI built from the ground up to make navigating ORomance's many options a breeze
+	- A new relationship type, girlfriend or boyfriend, acts as an intermediate between friends and marriage
+	- divorce/breakup/cheating/multiple partners/threesomes, all features in ORomance
+	- EVERY NPC is romancable/seducable/marriable, even those NPCs added in new mods (some NPCs may be hard to get, see below)
+	- Brand new custom stats (over 10) and personalities procedurally generated for each npc, because Skyrim's relationship mechanics were far too basic
+	- NPCs have an opinion/"memory" of you that will fade over time for small actions, but they will remember some things you do with them forever
+	- Loads of new interaction options with NPCs
+	- Prostitution, where you can pay different prices for different sex acts
+	- Ultra-tight OStim integration, your actions inside sex scenes affect your relationship
+	- Followers like you the more you travel with them
+	- Optional NPC sexualities (heterosexual/bisexual/homosexual) that affects their preferences in the player
+	- Loads of small immersive tweaks that tie into the game's vanilla systems. Becoming a thane makes you more popular around town? Of course. Not being orc-kin makes seducing orcs harder? Absolutely. Doing quests for NPCs makes starting relationships with them easier? Yep.
+	- Heavy emphasis on small immersive features
+	
+	
+	OProstitution 1.4
+	https://www.nexusmods.com/skyrimspecialedition/mods/64148
+	Adds the ability to work as a prostitute
+	DL: main 1.4 
+	Requirements:  OAroused, OCum, ORomance, OStim, OVirginity
+	- Make sure you have installed OAroused and OProstitution correctly. OAroused is a dependency and OProstitution should overwrite it. Make sure OProstitution wins conflicts and is lower in your load order than OAroused.
+	- Looking to play as a prostitute? OProstitution brings many new hours of gameplay and plenty of roleplay opportunity. Based loosely on the famous Your Market Stall mod, you'll be setting up your own sex business and completing detailed jobs.
+	- The Lantern
+	- At a forge, you can craft a Prostitution Lantern. This special lantern glows light red, and is used to signal to customers that you are a prostitute. After crafting the lantern, open your inventory and drop it on the ground and it will magically set itself up. You can move it again by pressing E on it
+	- With a lantern placed down, as long as you are within about 30 meters of it, clients will know you're a prostitute and begin approaching you with sex offers.
+	- Prostitute sex
+	- Most clients will have specific sexual requests that you must fulfill during the act to receive payment. You can view all active requests by holding the ORomance key during sex. There is a large variety of requests clients may have. Some clients have special requests they can make too. Clients may refuse to pay if you do not complete all of their requests.
+	- Working for a store owner, licensing, and prostitution in public
+	- Prostitution is illegal in Skyrim without a license. You can purchase a license at the lantern for 2500 septims, however, early on you may want to work inside an inn, or maybe even a store, where you won't be caught not having a license. You can set up shop inside any store, inn, or business in Skyrim and the store owner will automatically take a cut of your profits. The amount they take is dependent on their ORomance personality. A small few may take the entirety of your profits. Note that on the OProstitution screen, the payout shown already has the owner's cut deducted.
+	- Misc features Having your lantern in the same area for a long period of time will "warm up" that area, and your approach rate will increase, since people know where to find you easily.
+	- Recommended mods Since this mod has heavy roleplay potential and involves hanging around one area, I recommend a few mods that may improve the experience:
+		SkyrimSouls, so time passes while in your inventory
+		Mods that let you place down furniture like Campfire addons
+		YourMarketStall if you want to run a shop alongside your current business
+		Mods that add more npcs
+		Mods that make NPC AI more complex and travel around more often
+	
+	
+	
+	OStim Solutions - A Sexlab Solutions Revisted Port
+	https://www.loverslab.com/files/file/17441-ostim-solutions-a-sexlab-solutions-revisited-port/
+	DL: SexLab_Solutions_Revisited_SE_-_Ostim_Beta_5.zip  13 aug 2021
+	
+	xVASynth Voicepack Addeon - Sexlab Solutions Revisited
+	https://www.loverslab.com/topic/168547-doublecheeseburgers-xvasynth-based-mod-voicification-thread/
+	DL: SexLab Solutions Revisited Addon 1.1.5 Voice Files.zip  2022-03-17
+	
+	More Adventures For OStim 0.2.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/66313
+	A modified version of "More Adventures For Flower Girls" by Sicilian with OStim integration.  Including 7 mini quests/dialogues to befriend with ladies in Skyrim, it's kissing and sexual scenes leads you to an OStim scene if you installed it, and you can play this without any of adult frameworks with fade-to-black scenes too.
+	DL: v0.2.1 25 apr 2022
+	- Fully compatible with NPC Appearance Overhauls, other quest mods including Amorous Adventures (AA)/ AA+, AA Extended (this mod is designed to complement existing FG-related content), and dialogue overhauls.
+	
+	Immersive Wenches for OStim REDUX 2.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/69419
+	Immersive Wenches for OStim, completely reworked for compatibility and for OpenSex animations support! ESP flagged as ESL, so it won't take a slot in your load order. Wenches follow you to a more suitable place for their services and Wench Blessing is also now properly given.
+	DL: main 2.1 30 nov 2022
+	- This mod completely replaces the old Immersives Wenches OStim Patch by AtropianPride - this REDUX version is compatible with both the Immersive Wenches on Nexus and Patreon, has cleaner scripts, it's compatible with OpenSex, makes the Wenches follow you for a more suitable place for the OStim scene so it's not done in the middle of the inn, and the Wench Blessing is properly applied.
+	- Recommended OPTIONAL mods that go great with this mod and are fully compatible!
+	- Modpocalypse NPCs - Immersive Wenches - To make your wenches look better! It's what I'm using in the Images section.
+	- Wenches with a View - A nice fun addon to Immersive Wenches.
+	
+	Immersive Wenches 1.6.1
+	https://www.patreon.com/posts/immersive-1-6-1-21984697
+	Uploaded a little fix for the update, It is just here for now because of the NSFW cards added in this version, I will upload this new version to the nexus when I finish making SFW cards. I recommend everyone to download this since I tweaked the scenes so they work better with other mods.
+	DL: Immersive Wenches 1.6.1__SE.7z  10 oct 2018
+	
+	Caught Red Handed - Quest Expansion - OStim Patch 2.1B
+	https://www.nexusmods.com/skyrimspecialedition/mods/69711
+	Practice the Dibellan Arts up close and personal with Haelga! No additional ESP. Patches the amazing Caught Red Handed - Quest Expansion by jayserpa to play an OStim scene instead of a fade to black screen when you side with Haelga in the Caught Red Handed quest. Compatible with OpenSex out of the box. Fully immerse yourself in Dibella's worship!
+	DL: Caught Red Handed - Quest Expansion - OStim Patch - Random Locations 2.1B 02 dec 2022
+	
+	An Evening With Angi 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/74499
+	Angi invites you in for dinner. Perhaps she just wants company, perhaps she wants something more...
+	DL: main 1.0
+	- The mod is compatible with any Angi face replacer and Better Living for Angi.
+	
+	Amorous Adventures PLUS - OStim and OpenSex Edition 1.1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/76046
+	A rework and rebuild of the original Amorous Adventures, now ported to OStim using OpenSex animations!
+	DL: main v1.1.0
+	- It is highly recommended that you load the Amorous Adventures PLUS esp plugin within the first 128 plugins in your load order. That is including ESMs, ESLs and ESP-FEs. If you find that too difficult, make sure it does not go over plugin position 200th in your load order.  This is due to a very possible Skyrim engine bug, where mods which add many dialogues (such as quest mods like Amorous Adventures) will have their dialogues disappearing if you load them very late in your load order. So please, load Amorous Adventures PLUS as early as possible to avoid the disappearing dialogue bug.
+	
+	Smooches of Skyrim 1.6
+	https://www.nexusmods.com/skyrimspecialedition/mods/81304
+	Ask your follower or spouse for a smooch. See what happens! Requires OStim.
+	DL: main 1.6 20 mar 2023
+	
+	OStim NPCs - NPC Sex Lives Improved 1.1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/82888/
+	OStim NPCs is an OStim addon which provides NPCs the ability to start sex scenes in an immersive way. NPCs now have sex lives too, independent of the player character! Lightweight and highly configurable so it plays to your own tastes. ESP-FE so it won't take a slot in your load order. Completely replaces ONights, OBetterNights and Eager Followers.
+	
+	OStim NPCs - NPC Sex Lives Improved - Settings Loader 1.1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/83952
+	Modified MCM for OStim NPCs - NPC Sex Lives Improved by Aietos to support MCM Helper. Saves settings as you change them, automatically loads settings on startup or game load, imports settings from an existing save, so you don't have to spend time in MCM again with each game. Localization support. No plugin.
+	
+	Song of the Green - OStim Patch 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/61729
+	A simple patch to change the fade-to-black scenes in Song of the Green into OStim scenes.
+	DL: ESL version 1.0 12 jan 2022
+	
+	Immersive Naked Comments SE 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/26439
+	Makes ALL NPCs comment on the fact that you are naked (if you are) before they say anything else.
+	DO NOT INSTALL!!!  Nice idea, but i don't want that many comments.  It's a reminder for players who *don't* want to walk around skyclad.
+	
+	Excitable Subs for OStim 1.3a
+	https://www.nexusmods.com/skyrimspecialedition/mods/53373
+	Excitable Subs for OStim causes additional actions to arouse characters in the OStim sub role, allowing the sub to keep up with the dom.
+	DL main 1.3a 02 nov 2022
+	- ESP file.  needs to be eslified
+	
+	Excitable Subs for OStim 1.3a - KZ eslified esp replacer
+	
+	Am Chubby - Realistic Bodyslide Preset 3ba V2
+	https://www.nexusmods.com/skyrimspecialedition/mods/88735
+	
+	BiteTheBooty Body - 3BA
+	https://www.nexusmods.com/skyrimspecialedition/mods/73918
+	
+	BiteTheBooty Body 2.0 Fit Bodyslide - 3BA
+	https://www.nexusmods.com/skyrimspecialedition/mods/87492
+	
+	Edgar Bodyslide preset for HIMBO
+	https://www.nexusmods.com/skyrimspecialedition/mods/72630
+	
+	Fairly Simple HIMBO Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/79174
+	
+	FitnessGoal CBBE 3BA 3BBB Bodyslide Preset for Modest Players
+	https://www.nexusmods.com/skyrimspecialedition/mods/69681
+	
+	Fortune Seeker 3BA - Lazarus Bodyslide Presets
+	https://www.nexusmods.com/skyrimspecialedition/mods/81245
+	
+	Greek God -- HIMBO Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/54349
+	
+	HIMBO PAU - Powerful Aesthetics United - Male Bodyslide Presets
+	https://www.nexusmods.com/skyrimspecialedition/mods/84770
+	
+	HIMBO Preset - Fit to Fight at Every Weight
+	https://www.nexusmods.com/skyrimspecialedition/mods/84589
+	
+	HIMBO regular guy preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/48743
+	
+	Norse God -- HIMBO Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/54296
+	
+	Petite BodySlide Preset - 3BA
+	https://www.nexusmods.com/skyrimspecialedition/mods/73370
+	
+	PxR - CBBE.7BP.r6 - BodySlide Preset (CBBE.3BA)
+	https://www.nexusmods.com/skyrimspecialedition/mods/76367
+	
+	Quarter Cranks - Racial Bodyslide Presets for CBBE and HIMBO
+	https://www.nexusmods.com/skyrimspecialedition/mods/77425
+	
+	Real Body - CBBE 3BA Variety Presets
+	https://www.nexusmods.com/skyrimspecialedition/mods/83299
+	
+	Rugged Body - 3BA
+	https://www.nexusmods.com/skyrimspecialedition/mods/86339
+	
+	Skinny Berry - 3BA BodySlide preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/80714
+	
+	Sporty and Realistic CBBE 3BA - BodySlide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/86523
+	
+	Stockpot - a BodySlide (3BA) Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/83149
+	
+	Strawberry body 3 - 3BA
+	https://www.nexusmods.com/skyrimspecialedition/mods/73834
+	
+	Strawberry Body 4 - 3BA
+	https://www.nexusmods.com/skyrimspecialedition/mods/75257
+	
+	Strawberry Body 5 - 3BA
+	https://www.nexusmods.com/skyrimspecialedition/mods/81982
+	
+	Tee CBBE 3BA Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/79616
+	
+	Tomboy Firmbutt (bodyslide preset CBBE 3BA)
+	https://www.nexusmods.com/skyrimspecialedition/mods/83089
+	
+	TruPetite SSE - A Petite CBBE 3BA BodySlide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/84660
+	
+	Vestal Body 3BA - Lazarus Bodyslide Presets
+	https://www.nexusmods.com/skyrimspecialedition/mods/87642
+	
+	Twins 1.11
+	https://www.loverslab.com/files/file/10598-twins/
+	Meet Danielle and Dahlia, twin sisters from Cyrodiil. They have come to Skyrim for some adventure. Unfortunately for them their adventure has gone sideways. They have been captured by bandits and are being held for who-knows-what nefarious purpose (this is LoversLab after all). If you choose to rescue them they will be happy to follow you and add to your adventures.
+	- They can be found in the last indoor cell of Silent Moons Camp
+	- Both will follow you but neither is marriageable (see Notes below)
+	- Danielle is a berserker and prefers two-handed weapons and heavy armor
+	- Dahlia is a combat archer and prefers bows and light armor
+	- Regardless of your follower framework neither should impact your stealth
+	- Both have perks in their respective weapon/armor
+	- Both are naked when you find them so they have no "recurring" weapons or armors that pop up when you least want them
+	- ESP file.
+	- DO NOT INSTALL until eslified.  may be an LE format mod
+
+	twins voice.rar
+	https://www.loverslab.com/topic/131269-twins/#comment-3787101
+	DBVO voice pack for Twins 1.11 by shadowman2777, unknown voice type
+	DO NOT Install
+	
+INSTALL UPDATE:
+	Dragon War - A Dragon Overhaul 3.0.3
+	https://www.nexusmods.com/skyrimspecialedition/mods/51310?tab=description
+	FOMOD: all patches
+	
+INSTALL:
+	Delta of Venus - Sex Fantasies for OStim NG
+	https://www.nexusmods.com/skyrimspecialedition/mods/84608
+	Five spicy situations... Five chapters to tell them. More than 100 animations, many of them optimized for first person view. Attention. If you don't like topics like Voyeurism, Sharing, Bisexuality, Cuckold, Mistress, don't download this mod, it covers these themes.
+	DL main 1.0 24 feb 2023
+	- Start OStim NG
+	- Go to OpenSex Addon Hub
+	- Go to FG3D Animations (the first icon at the bottom right)
+	- Go to Delta Of Venus
+	- You can now access the first chapter
+	- To access the other chapters, you will need to invite an actor (male role or female role) *
+	Mod Order:  AFTER Open Sex Addon Hub
+	
+	Devour - Vampire Feeding Animations for OStim NG 2.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/72917
+	Adds immersive vampire feeding to OStim NG scenes utilizing Open Animations RE animations.
+	
+	M'rissi Ostim Patch 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/80660
+	Adds an Ostim scene to the Wedding Sequence in the M'rissi's Tails of Troubles mod.
+	- ESP files, needs to be eslified
+	- already compacted, eslified using Wrye Bash
+
+	OStim NG - OSA Overhaul and API Next Gen - Settings Loader 1.10.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/57092
+	
+	Sexica The Insatiably Horny Female Companion 1.5.1B
+	https://www.nexusmods.com/skyrimspecialedition/mods/54359?tab=files
+	This is it. This is the follower mod to end all follower mods. Over 300 lines of fully voiced, erotic dialogue. Uses xVASynth.
+	DL: Sexica - Ultimate Coomer Edition Hotfix 1.5.1B 26 aug 2021
+	- ESP.  scripts, seq, dialog.  not easily eslifiable.
+	- DO NOT Install
+	
+	The Rift's Rest 6.0.5
+	https://www.nexusmods.com/skyrimspecialedition/mods/75649
+	From the ashes of ancient lost mods, Fachry's Riften tavern revives in this new iteration.  A witcher 3 style inn/tavern with music and girls for travellers and wayfarers.  Sexlab, Flower Girls and Ostim options for various activities.
+	DL main 6.0.5 23 apr 2023
+		The Rift's Rest (Ostim) 6.0
+		The Rift's Rest - Ryn's Farm patch 6.05
+	
+	The Unsatisfied Ghost 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/87286
+	A Quest revolving around The Rift's Rest, with Ghosts, witches, bitches, potions and spicy situations.
+	DL: main 1.0 18 mar 2023
+		The Unsatisfied Ghost - Ostim addons 1.0 18 mar 2023
+	- esp file, can be eslified.  scripts have getformfromfile, but refer to riftsrest.esp.   voices, facegen
+	
+	The Unsatisfied Ghost 1.0 - KZ eslified esp replacer
+	- eslified version.  updated meshes, voices.
+	- has face and voice data for LilissaDruidFollower.esp and miranda.esp.  why?
+	
+	Lilissa the Druid - Custom-Voiced Standalone Follower 2.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/18026
+	A custom follower using the ROSE open-source voice set by the awesome Kikiapplus. She comes with a quest, marriage, location-aware comments, her own follower system, custom spells, and a unique outfit.
+	- esp file.  can be eslified.
+
+	Lilissa the Druid - OStim Add-on 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/73853
+	
+	ColdSun's Pantheon - Lilissa The Druid Replacer 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/81115
+	A High-Poly Head Custom Voice Follower redesign for damakarmelowa's Lilissa The Druid follower. Features ESL-Flagged ESP and support for 3BA, BHUNP, and CBBE.
+	DL: ColdSun's Pantheon - Lilissa The Druid Replacer - 3BA  1.0 21 dec 2022
+	
+NEW MOD - ESLIFICATION
+	Lilissa the Druid v2.0 - KZ eslified esp replacer
+	Assets:  scripts (clean, no getformfromfile), voice, faces, seq
+	ESP: LilissaDruidFollower.esp
+	=== Mods dependent on LilissaDruidFollower.esp: 
+		* 87E  Lilissa_ostim_addon.esp (in Lilissa the Druid - Ostim Add-On from Unofficial shadowman2777's mod's Ostim conversions)
+		* 87F  CS_Lilissa.esp in (Pantheon - Lilissa the Druid - 3BA)
+	Notes: Use ESLifyEverything.
+		1. Copy old esp and seq file into new mod, enable new mod.
+		2. Enable dependent mods - OStim and ColdSun replacer,
+		3. open xEdit, select all Lilissa esps, compact FormIDs, set ESL flag in FileHeader, Generate SEQ File, exit.
+		4. run ESLifyEverything.
+		5. Copy files from ESLifyEverything output folder to new mod folder
+		4. Rename Ostim addon and Coldsun replacer mods to indicate they now work on eslified version
+	
+TESTING
+	On start of new game, OPubes complained that OBody was out of date.  In fact, it's OPubes that is out of date.
+
+UNINSTALL:
+	OPubes
+	Reason: Out of date.  Wants old version of OBody, not OBody NG.
+	
+INSTALLED BODYSLIDE PRESETS FOR 69 BEAUTIES OBODY CONFIG
+
+	Dreaming Body V7 for 3BA
+	https://www.nexusmods.com/skyrimspecialedition/mods/64347
+	
+	o777 Au Naturel - Fit and Natural CBBE BodySlide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/47299
+	
+	TheFaceSculptor's Sun 3BA Body - CBBE 3BA Bodyslide - Body Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/71158
+	
+	Goth Girl Body - 3BA BodySlide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/70470
+	
+	Gen Body - CBBE BodySlide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/45896
+	
+	THE P3ACH -CBBE Preset-
+	https://www.nexusmods.com/skyrimspecialedition/mods/22438
+	
+	Warrior Princess 3BA Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/71033
+	
+	The Christy Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/43937
+	
+	Electrojunkie88's CBBE 3BBB Body Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/43502?tab=description
+	
+	Elise's Body - A CBBE 3BBB 3BA Bodyslide Preset for SE
+	https://www.nexusmods.com/skyrimspecialedition/mods/62646?tab=description
+	
+	Natural Curves - A CBBE Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/41906?tab=description
+	
+	Amazing Curves - A CBBE 3BA Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/70212?tab=description
+	
+	Peach Love CBBE 3BBB 3BA
+	https://www.nexusmods.com/skyrimspecialedition/mods/69317?tab=files
+	
+	Beauty Body Preset - CBBE 3BA 3BBB Bodyslide
+	https://www.nexusmods.com/skyrimspecialedition/mods/59589?tab=files
+	
+	FABulous - Fair and Balanced BodySlide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/18988?tab=description
+	
+	HangEmHigh CBBE or 3BA BodySlide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/58917?tab=description
+	
+	Enchantress CBBE 3BA
+	https://www.nexusmods.com/skyrimspecialedition/mods/65961?tab=files
+	
+	Magician Girl- a CBBE 3BA bodyslide presset
+	https://www.nexusmods.com/skyrimspecialedition/mods/65373?tab=description
+	
+	CBBE 3BA Curvy
+	https://www.nexusmods.com/skyrimspecialedition/mods/67469?tab=files
+	
+	Northbourne Maiden Skin CBBE
+	https://www.nexusmods.com/skyrimspecialedition/mods/61803?tab=files
+	
+	PB's 0-100 3ba Body Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/60067?tab=description
+	
+	Myriani Body - BodySlide Preset for CBBE 3BA
+	https://www.nexusmods.com/skyrimspecialedition/mods/58448?tab=description
+	
+	Busty Babe - CBBE 3BA Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/63762?tab=files
+	
+	Perfection - Bodyslide and Racemenu Preset for CBBE - SMP or 3BBB
+	https://www.nexusmods.com/skyrimspecialedition/mods/66999?tab=files
+	
+	Sin of the Gods - CBBE 3BA Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/65786
+	
+	Lust of the Gods - CBBE 3BA-BHUNP 3BBB Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/62679?tab=files
+	
+	Experimental BodySlide Series Demi Rose - BHUNP - CBBE
+	https://www.nexusmods.com/skyrimspecialedition/mods/64414?tab=files
+	
+	Accurate BodySlide Series Cortana - BHUNP - CBBE
+	https://www.nexusmods.com/skyrimspecialedition/mods/51618?tab=files
+	
+	Accurate BodySlide Series Jill Valentine - BHUNP - CBBE
+	https://www.nexusmods.com/skyrimspecialedition/mods/58076?tab=files
+	
+	Accurate BodySlide Series Lara Croft - BHUNP - CBBE
+	https://www.nexusmods.com/skyrimspecialedition/mods/55370?tab=files
+	
+	Accurate BodySlide Series 2B - BHUNP - CBBE
+	https://www.nexusmods.com/skyrimspecialedition/mods/51041?tab=files
+	
+	3BA 3BBB CBPC Realistic Firm Breasts Butt Belly and Thighs (3BA RFBBBT)
+	https://www.nexusmods.com/skyrimspecialedition/mods/59123?tab=description
+	
+	Mistress Puff Preset (CBBE 3BA)
+	https://www.nexusmods.com/skyrimspecialedition/mods/70270?tab=description
+	
+	Vayura BodySlide Preset (CBBE)
+	https://www.nexusmods.com/skyrimspecialedition/mods/69429?tab=description
+	
+	Curvy - A CBBE Preset by Cha
+	https://www.nexusmods.com/skyrimspecialedition/mods/26887?tab=files
+	
+	Fab to Fit CBBE 3BA Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/51683?tab=files
+	
+	Average Female CBBE and 3BA Bodyslide Presets
+	https://www.nexusmods.com/skyrimspecialedition/mods/44412?tab=files
+	
+	Greek Goddess - Bodyslide and Racemenu Preset - CBBE-3BA-3BBB
+	https://www.nexusmods.com/skyrimspecialedition/mods/24201?tab=files
+	
+	Ordinary - CBBE 3BA BodySlide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/63321?tab=files
+	
+	Moderate Curvy - A Realistic-ish CBBE BodySlide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/64065?tab=description
+	
+	A.S.S. Amazing Skyrim Shapes - 3BA and BHUNP Bodyslide Presets
+	https://www.nexusmods.com/skyrimspecialedition/mods/65580?tab=files
+	
+	Fahrenheit Body Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/57918?tab=description
+	
+	Mana Vault Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/65484?tab=description
+	
+	DIAMOND Body Preset for CBBE and 3BBB BodySlide
+	https://www.nexusmods.com/skyrimspecialedition/mods/39639?tab=description
+	
+	My Tasteful Body - CBBE 3BA Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/67370?tab=description
+	
+	Valkyrie - CBBE 3BBB (3BA)
+	https://www.nexusmods.com/skyrimspecialedition/mods/51685?tab=description
+	
+	Fem-Tsun Armor 3BA And CBBE
+	https://www.nexusmods.com/skyrimspecialedition/mods/38525?tab=files
+	
+	Am Slender - Bodyslide preset 3BA
+	https://www.nexusmods.com/skyrimspecialedition/mods/69376?tab=description
+	
+	Am Crossfit - Bodyslide Preset 3ba
+	https://www.nexusmods.com/skyrimspecialedition/mods/62264?tab=description
+	
+	Am Strong - Bodyslide Preset - 3ba
+	https://www.nexusmods.com/skyrimspecialedition/mods/56160
+	
+	Am Fit - Bodyslide Preset - 3BAv2
+	https://www.nexusmods.com/skyrimspecialedition/mods/60885?tab=files
+	
+	Gym Girl - CBBE 3BBB Body Slide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/63397?tab=description
+	
+	Radiance - A 3BA Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/61813
+	
+	Turbulence - A 3BA Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/62002?tab=description
+	
+	Thicc - CBBE Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/48467?tab=files
+	
+	Athletica - CBBE Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/48501?tab=description
+	
+	Nordic Feel - A Realistic Bodyslide Preset (CBBE or 3BA)
+	https://www.nexusmods.com/skyrimspecialedition/mods/69683?tab=description
+	
+	Petite BodySlide Preset - 3BA
+	https://www.nexusmods.com/skyrimspecialedition/mods/73370?tab=description
+	
+	Realistic chubby and curvy body - 3BA Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/70624
+	
+	Scandinavian Fitness body - 3BA Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/70578?tab=description
+	
+	Strawberry Body - 3BA Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/70256
+	
+	Omikami Hips -CBBE-3BA-3BBB- Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/56395?tab=files
+	
+	e-Ro-THICC Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/58290?tab=files
+	
+	Iris - BodySlide Preset for CBBE and UNP
+	https://www.nexusmods.com/skyrimspecialedition/mods/69610?tab=description
+	
+	DM Athletic (Fitness model body) - CBBE Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/18936?tab=files
+	
+	Death by Snu Snu (from Beggar to Amazon) - CBBE Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/18953?tab=files
+	
+	Amazons - CBBE (3BA) Bodyslide Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/34593?tab=description
+	
+	Wrong Body - CBBE Bodyslide preset w CBPC config for clothed body
+	https://www.nexusmods.com/skyrimspecialedition/mods/31101?tab=files
+	
+	Wrong BodyGen preset - different racial physique
+	https://www.nexusmods.com/skyrimspecialedition/mods/35772?tab=files
+	
+INSTALL UPGRADE:
+	
+	OStim Lovers 1.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/90053?tab=files
+	
+	Lawless - A Bandit Overhaul 2.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/88080
+	DL: main 2.0, simonrim addon 2.0, patches 2.0
+	patches FOMOD: no difficulty, simonrim dark elf voices, wyrmstooth, robbers gorge fixes, OWL, BeastHHBB
+	
+NEW MOD:
+	(KZ) OBody NG Configuration Files - Realistic Racial Diversity + 69 Beauties
+	- a custom OBody configuration file that merges the possible presets from Realistic Racial Diversity (which includes males) and 69 Beauties (which includes named female NPCs).  whole file prettyprinted, which sorts and indents it properly.
+	
+
+=============================================================================
+2023-05-14 More eslification, Bella Voice Pack, Testing, Tuning, and Tweaking
+=============================================================================
+	
+INSTALL UPDATE:
+	Gesture Animation Remix (DAR) 2.0.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/64420?tab=files
+	DL: main 2.0 14 may 2023
+	
+	Conditional Dog Barking 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/72336
+	Control what dogs are silent and what dogs can bark in your game and when, where and how often with a help of Dynamic Animation Replacer. Customizable alternative to Quiet Dog animation replacer mod. No esp/esl, just conditional DAR folders with silent .hkx animations for dogs
+	DL: main 1.0.0 29 jul 2022
+	
+	EVG Animation Variance 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/38534
+	Adds variety to existing animations, through NPC personality types, conditions, or just randomly.
+	FOMOD: recommended
+
+RADAR:
+
+	Guards Armor Replacer 5.5a
+	https://www.nexusmods.com/skyrimspecialedition/mods/22671
+	Replacer for guards and Stormcloak Armor.
+	DL: main 5.5a 26 feb 2019
+		Patches 5.5a  01 mar 2019
+	DO NOT INSTALL YET - needs many patches, complex job
+	
+	Guards Armor Replacer SE - 3BA - BHUNP - CBBE
+	https://www.nexusmods.com/skyrimspecialedition/mods/43473
+	3BA - BHUNP - CBBE conversion for DanielUA's amazing mod Guards Armor Replacer SSE.
+	DL: Guards Armor Replacer 3BA  2.0 14 may 2023
+	DO NOT INSTALL YET
+	
+INSTALL:
+	Realistic Armor - 3BA - BHUNP - CBBE 3.0a
+	https://www.nexusmods.com/skyrimspecialedition/mods/43509
+	3BA - BHUNP - CBBE bodyslide conversion for NordwarUA's Realistic Armor mod.
+	DL: Realistic Armor 3BA 3.0a 14 may 2023
+	- Once installed launch Bodyslide and Outfit Studio. Navigate to Group Filter and select choose groups. Look for the following:
+		3BA:
+			Realistic Armors 3BA (Immersive Physics)			metal parts will not jiggle, but softer parts will
+			Realistic Armors 3BA (Physics)
+		Click, build, and enjoy.
+		
+NEW MOD - BODYSLIDE BUILD:
+	KZ Bodyslide Output - Realistic Armor - 3BA 3.0
+	- Create empty mod first.
+	- Open BodySlide
+	- Group Filter, Choose Groups: Realistic Armors 3BA (Immersive Physics)
+	- Outfit/Body - choose one for preview
+	- Preset - - Zeroed Sliders -
+	- Preview.  I got no textures, which I will fix later
+	- CHECK Build Morphs box in lower right
+	- CTRL + Batch Build.
+	- All boxes checked.  Click Build
+	- Select Output Folder:  C:\TPFZS\mods\KZ Bodyslide Output - Realistic Armor - 3BA 3.0
+	- All should build.  Exit BODYSLIDE
+	- Enable new mod.
+	- Load mod AFTER TPFZS meshes that it replaces
+
+INSTALL:
+	MQ104PlayerScript Fix 1.0.2
+	Fixes a glaring error by Bethesda in the player script for Dragon Rising.
+	https://www.nexusmods.com/skyrimspecialedition/mods/90996
+	DL: MQ104PlayerScript Fix - VSmO Edition 1.02 13 may 2023
+	- The vanilla MQ104PlayerScript performs several checks to advance quest stages for the Dragon Rising quest. One of these checks is entirely nonsensical: after giving the Dragonstone to Farengar, if the player goes outside Whiterun, the first stage of Dragon Rising ("talk to Jarl Balgruuf") is auto-completed by the game. This script fix corrects this silly error by silly Bethesda and makes it so the player can safely adventure outside Whiterun without having the game autocomplete a quest stage, because that's just silly.
+	Mod Order: early, with other fixes, after Vanilla Script (micro) Optimizations
+
+TEST:
+	Boot the game.  Make sure it runs.
+	Uhoh.  CTD during MCM initialization in opening room.
+	(Note: OBody says I have 241 female bodies, and 54 male ones)
+	Crash log in overwrite/NetScriptFramework/Crash  suggest trouble is in evgSIRENROOTthecausepatch.esp
+	
+REINSTALL:
+	Suspect possible problem due to scrips/assets between SSE versions.   Sirenroot needs 1.6.640 AE assets, including scripts.  I'm going to reinstall my StockGame as 1.6.640, then run the downgrade patcher to create a 'Best of Both Worlds' install.
+	
+	Unofficial Skyrim Special Edition Downgrade Patcher
+	https://www.nexusmods.com/skyrimspecialedition/mods/57618
+	DL: BestOfBoth_1.6.640.0-1.5.97.0.exe  v 2022-09-20
+	
+INSTALL UPGRADE
+
+	Assorted Mesh Fixes 0.79
+	https://www.nexusmods.com/skyrimspecialedition/mods/32117?tab=files
+	DL: main 0.79 11 may 2023
+	
+INSTALL
+	
+	CC The Cause Ayleid Crystals Retexture HD - Enb Light 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/58792
+	Retextures the Elemental Shards, Welkynd Stone, Great Welkynd Stone and all the shards in the ruins. Optionally adds Enb Light as well.
+	DL: The Cause Ayleid Crystals 1k  1.0 21 nov 2021
+	FOMOD: default (no enb light)
+	- recommended by Sirenroot
+	
+	The Cause Rielle Door Fix (JUST REMOVE Skyrim - Patch.bsa from the data folder to fix)
+	https://www.nexusmods.com/skyrimspecialedition/mods/58373
+	This is just a workaround fix for not working doors in Rielle, that names all the doors with the proper english name (so if you play skyrim in another language you can still use it but they will be in english instead of the language you s
+	LOOT: it's an esl, will autosort with other esls
+	- recommended by Sirenroot if you can't open chests. don't delete any bsa, just install patch
+	
+	Water Effects Brightness and Reflection Fix 0.5
+	https://www.nexusmods.com/skyrimspecialedition/mods/63862
+	Fixes bright water effects at night and neon green reflections
+	DL: main 0.5 31 oct 2022
+	- recommended by Sirenroot
+	Mod Order:  early, with fixes, after Skyrim Particle Patch, before SMIM and RW2
+	LOOT: after Particle Patch for ENB.esp, before RW2
+	
+TESTING:
+	GDMFSOB!  Still CTD, same spot.  Disabling sirenroot
+	Test again.  Got through opening just fine - Direnroot was the cause of the CTD.
+	console, tgm, tmm, fast travel to Eldergleam Sanctuary.
+	Lilissa is there, made comments before i talked to her, quest seems working fine.
+	But no lip sync on her dialog, and her face is blue - missing texture.
+
+INSTALL:
+	ColdSun's Pantheon - Assets 2.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/77700
+	The central hub for assets for all of my mods that fall under the "ColdSun's Pantheon" brand. Consists of assets from many popular mods, most notably BNP Skin and Eyes by Swefrida, which was the central reason for this new asset hub. All permissions granted.
+	DL: ColdSun's Pantheon - Assets - 3BA-CBBE  2.0 23 mar 2023
+
+TESTING
+	Ok, Lilissa looks good, has lip sync now.  eslify and new seq appears to be working
+	my running animations are more butch than I like
+	I have no DBVO when talking to Lilissa
+	
+INSTALL:
+
+	Feminine Pickup Animation SE 2.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/20425
+	Adds a female gender specific animation for picking up items or foraging.
+	DL: Feminine Pickup Animation SE  2.0 30 dec 2018
+	- rerun Nemesis, insure gender-specific animations is selected
+	- DO NOT install the Animated Harvesting optional, it's old with an esp
+	
+	Light and Shade SE 2.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/77993
+	A massive, game-changing follower with reactive behaviour, tonnes of memorable dialogue, special functionality and more.
+	DL: main 2.0 08 mar 2023
+	- To find Eris, head to the second floor of The Bannered Mare in Whiterun. It's recommended to recruit her as soon as possible, but don't worry if you miss out on some things... there's always more to discover next playthrough.
+	- esp file.  has cells, not eslifiable
+	
+	Light and shade Eris High poly Head - now with an ezPG update 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/78540
+	A high poly head for Eris from Light and Shade
+	DL: Eris HPH  1.0 10 nov 2022
+
+UNINSTALL:
+	Mihail Monsters and Animals - Mourning Souls
+	Mourning Souls- Mihail Monsters and Animals (SE-AE version) (''dark souls'')
+	https://www.nexusmods.com/skyrimspecialedition/mods/44494
+	Dependendents: NONE
+	Reason:  it uses an esp, and mihail says it can't be eslified.  a couple of wraiths in the Soul Cairn is not worth an esp slot.
+
+INSTALL:
+	Grey Children and Weeping Stalkers- Mihail Monsters and Animals (SE-AE version)
+	https://www.nexusmods.com/skyrimspecialedition/mods/90811
+	Bundle of Grey Children and Weeping Stalkers. These nightmarish abominations now compiled into a single mod will add an extra macabre touch to your game.
+
+	Grey Children and Weeping Stalkers - My optimized textures SE
+	https://www.nexusmods.com/skyrimspecialedition/mods/90917
+	My optimized textures for the terrifying Grey Children and Weeping Stalkers- Mihail Monsters and Animals mod. 4K-2K-1K. No ESP.
+	DL: Grey and Weeping - SE by Xtudo - 2K textures  1.0 08 may 2023
+	
+UNINSTALL:
+	Mihail Monsters and Animals - Grey Children
+	Reason:  replaced by new Grey Children and Weeping Stalkers
+	
+INSTALL:
+	bella voice DBVO
+	https://www.nexusmods.com/skyrimspecialedition/mods/89810
+	A content complete voice pack for Dragonborn Voice Over 1.0. The voicepack is voiced using elevenlabs prefix Bella
+	DL:  everything!!! way too much to list, and installing voicepacks for uninstalled mods is not a problem.
+	- this freed up 5 esp slots from Ciri!
+	
+	LamaKreis's Maidens of Skyrim - Bella or Serana Redone - Vampire Follower and Serana Edition (High Poly) CBBE - CBBE 3BBB (3BA) - BHUNP and Default
+	https://www.nexusmods.com/skyrimspecialedition/mods/61521
+	DL: Bella_v1.0_CBBE-3BA SSE 1.0 09 feb 2022
+	- in Drunken Huntsman, Whiterun
+	- yeah, she's a generic follower.  But *really* well done.
+	
+INSTALL UPDATE:
+	The Rift's Rest 6.1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/75649
+	DL: main 6.1 14 may 2023
+		update 6.1.1  14 may 2023
+	- merge update into main 6.1
+	- now with voices!
+
+INSTALL:
+	The Rift's Rest - Ryn's Standing Stones 1.0
+	in Gonzeh Patch Compendium
+	https://www.nexusmods.com/skyrimspecialedition/mods/91335
+	Shit patch that tries to tidy up the terrain around The Rift's Rest and Ryn's Standing Stone in that area. I've fixed a few seams, lowered some terrain and added a few mountain pieces to try and blend it in better. It's not perfect but it'll do for me anyway.
+	DL: The Rift's Rest - Ryn's Standing Stones  1.0 14 may 2023
+	- Make sure you load after The Rift's Rest, Ryn's Standing Stones and Ryn's Standing Stones - Landscape
+	
+REINSTALL:
+	Ryn's Standing Stones Patch Collection
+	FOMOD: what it selects, + Landscape Patch (Grass Mods)
+	LOOT: 
+	
+INSTALL UPDATE:
+	Xelzaz - Custom Fully Voiced Argonian Telvanni Follower 1.90
+	https://www.nexusmods.com/skyrimspecialedition/mods/62893?tab=files
+	DL: Xelzaz Follower Core 1.9.0 14 may 2023
+
+INSTALL MOD:
+	PC Head tracking Bella 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/86413
+	A voice pack consisting of 2825 lines to be used with PC Head Tracking and Voice Type. Each voice line has been processed with elevenlabs neural network (voice of Bella). I also expanded each PC Head Tracking action category: instead of 5 wav annoying phrases, there are now dozens (some hundreds) of phrases . New lip animation added.
+	DL: main 1.0 05 mar 2023
+
+DISABLE:
+	PC Head Tracking - Ciri Witcher 3 Voice Pack
+	Reason:  We're using Bella voice now
+	
+CREATE NEW MOD:
+	Realistic Water Two 5.0 - KZ eslified esp + patches
+	- Create new mod with that name.
+	-  Add following esps:
+		RealisticWaterTwo.esp							from RW2 mod
+		RealisticWaterTwo - Beyond Reach.esp			from RW2 mod
+		RealisticWaterTwo - Beyond Skyrim Bruma.esp		from RW2 mod
+		RealisticWaterTwo - Waves - Wyrmstooth.esp		from RW2 mod
+		JK's Ragged Flagon - RW2 Patch.esp				from JK's Interiors Patch Collection
+	- activate mod
+	- open xEdit on just those 5 esps.  Compress FormIDs and set ESL flag on RealisticWaterTwo.esp.  save.
+	- none of the patches were modified; they can be removed from mod.
+	- all that was changed were formID's of a few new splashes added to the landscape, which nobody ever touches
+	
+TESTING
+	Looking good in Eldergleam Sanctuary.  On new game start, Lilissa is working just fine.
+	new DBVO voice working fine
+	Still annoyed by masculine running animation
+	3DNPC followr in sanctuary has bad wrist seam, a real gap.
+	Regen 3DNPC followers using 3BA?
+	probably just need to regen all vanilla armor, now that i think about it
+	
+NEW MOD - BODYSLIDE OUTPUT
+	KZ Bodyslide Output - 3BA Everything
+
+TESTING
+	No, still bad wrists on Amalee
+	also, using console, i'm getting no info when i click on someone.  it was working two tests ago.
+	
+TEST INSTALL:
+	Feminine Hands for Cbbe with Bodyslide 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/67522
+	- rebuild in bodyslide
+	
+INSTALL:
+	Inconsequential NPCs Visual Overhaul 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/86558
+	DL: main v1.1  1.1 11 mar 2023
+		Inconsequential NPCs Visual Overhaul - realistic hair retexture  1.0 7 mar 2023
+	
+TESTING
+	Still not able to click on things in console.  Why the hell not?
+	Added Amulet of Dibella (console player.addItem 000C8915 1), got Amalee as follower
+	used NFF to set her home outfit to nude.  Nude, there is no wrist seam, but hands are way big
+	So problem is with her default armor mesh, which is probably not CBBE
+
+INSTALL:
+	CiceReal Placer - Cicero Replacer (CBBE-3BBB-UNP-UUNP-Physics-Vanilla) 1.12
+	https://www.nexusmods.com/skyrimspecialedition/mods/35381
+	New total Female Cicero Replacer compatible with every NPC overhaul based on Standalone Follower - Ciceria (Renewal) by YuiH who was kind enough to let me perpetuate the way she looks in this mod. This mod replaces entirely the male version of Cicero throughout the game, other than that she's fully standalone with HD voice and unique bod
+	DL: CiceReal Placer- A Cicero Replacer - FOMOD  1.12 28 feb 2021
+	FOMOD:
+	
+	Cicera - Female Cicero Dialogue Edit 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/43990
+	I always loved the idea of Cicero as a female NPC, but since everyone in the game kept referring to her as a "him" it totally broke immersion. I tried to fix this issue with this mod by editing all the vanilla dialogue in the game and changing the references appropriately.
+	DL: all
+
+LOOT REORDER:
+	Sexlab_Solutions  BEFORE Relationship Dialog Overhaul
+	SexLab_Solutions  BEFORE Thieves Guild Requirements
+	MoreAdventuresForOstim  BEFORE HearthfireMultiKid  (move HMK AFTER MAFO)
+	KZ Patch - Moon and Star + 3DNPC + TPFZS  BEFORE  KZPatch - TPFZS + Radiance-Locations
+	tpos_forgottencity_entrance  AFTER Beyond Reach - Skyrim Border Tweak
+	Ambriel  BEFORE Guard Dialog Overhaul
+	
+NEW PATCHES
+	KZ Patch - Ambriel + TPFZS v094.esp
+	KZ Patch - Arnima + Forgotten City.esp
+	KZ Patch - CiceroFemaleSE + KZE.esp
+	KZ Patch - FloatingSwordFollower + LCHK.esp
+	KZ Patch - Forgotten City + Race Compatibility.esp
+	KZ Patch - Forgotten City + Tools of Kagrenac.esp
+	KZ Patch - Forgotten City Entrance + Hidden Marker.esp
+	KZ Patch - House of Horrors Quest Expansion + EBQO + TPFZS v094.esp
+	KZ Patch - JK's Castle Dour + LCHK.esp
+	KZ Patch - Khajiit Will Follow + RDO Updated.esp
+	KZ Patch - Lawbringer Broken Tower + LCHK.esp
+	KZ Patch - Lawbringer Fellglow Keep + LCHK.esp
+	KZ Patch - Lawbringer Hag Rock Reboubt + LCHK.esp
+	KZ Patch - Lawbringer Knifepoint Ridge + LCHK.esp
+	KZ Patch - Lawbringer Serpent's Bluff Ruins + LCHK.esp
+	KZ Patch - Ryn's Mehrunes Dagon Shrine + LCHK.esp
+	KZ Patch - SexLabSolutions + CFTO.esp
+	KZ Patch - SexLabSolutions + MoreDialogueOptions.esp
+	KZ Patch - SexLabSolutions + Reasonable Quest Rewards.esp
+	KZ Patch - TPFZ v094 + KZE Race Consistency.esp
+	KZ Patch - Vilja + Grimmer Reaper.esp
+	KZ Patch - Windhelm Segregation + RDO.esp
+	KZ Patch - Lawbringer Druadach Redoubt + LCHK.esp
+	KZ Patch - SexLabSolutions + USSEP + USCCCP.esp
+
+INSTALL:
+	Better tomboys (wide spread arms fix) DAR animations 1.1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/90569
+	Mod that adjusts/fixes the animations of those female npcs that use male animations such as Lydia, Mjoll, Irileth, Rikke, Delphine, female orcs, some female soldiers/guards, etc; making them look better but still keeping the same style without affecting the animations for men or women.
+	DL: main 1.1.1 15 may 2023
+	
+	SensualCicero - Animation
+	https://www.nexusmods.com/skyrimspecialedition/mods/15396
+	Replaces Cicero's dance with a more "sensual version". SSE conversion using HKX convertor.
+
+INSTALL UPDATE:
+	OStim Lovers 1.2.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/90053?tab=files
+	
+INSTALL:
+
+	Flower Girls SE and VR - Settings Loader 2.0.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/77675
+	Adds the ability to automatically save and load MCM settings for Flower Girls SE and VR by Xider.
+	
+	Animation selector for Flower Girls SE 3.0.2.12
+	https://www.nexusmods.com/skyrimspecialedition/mods/36484
+	When a sex scene is starting, you can choose the exact animation you want to see, instead of having it picked randomly.
+	DL:main 3.0.2.12 31 jul 2022
+	
+	Animation selector for Flower Girls SE - Settings Loader 1.0.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/77745
+	Created from scratch MCM for Animation selector for Flower Girls SE by Erstam to support MCM Helper. Saves settings as you change them, automatically loads settings on startup or game load, imports settings from an existing save, so you don't have to spend time in MCM again with each game. Localization support. No plugin.
+	
+	Flower Girls Slot Handler 4.3
+	https://www.nexusmods.com/skyrimspecialedition/mods/51602
+	An MCM-based add-on for Flower Girls SE that allows choosing which armor slots do not get stripped during scenes for player and NPCs.
+	DL: main 4.3 18 oct 2022
+	
+	Romance of NPCs for Flower Girls 0.3.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/22992
+	This mod makes NPCs have sex with each other in an immersive way. NPCs will approach Flower Girls/Wenches, lovers and spouses will have sex, hunters will have sex with each other, enemies will have sex with each other. But not in front of everyone. They'll find a suitable, out of sight place first (Except hunters and enemies).
+	DL: main 0.3.1 17 may 2019
+	Requires: Immersive Wenches
+	
+	The Kinky Princess - Club and followers 2.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/28917
+	This mod adds a new tavern near Solitude and 6 followers.  This is the kind of tavern that was missing in our beautiful lands of Skyrim.  I am sure you will like it !
+	DL: The Kinky Princess 2.1 10 oct 2019
+		The Kinky Princess esp update 2.2 25 oct 2019
+		Kinky Inn RON patch 09 oct 2020
+		Kinky CBBE 3BBB patch 2.2 18 sep 2020
+	- You will find the Kinky Princess after the Arch of Solitude, just next to the river.
+	- Inside, the atmosphear is designed for your senses....
+	- 8 girls are waiting for you (6 are followers). They will serve you, dance for you all night long and are available to join your adventures.
+	- There are a working room for more convenience, and a bathroom for comfort.
+	- The Club also has an exterior terrace with a pool
+	- NOTE: RON patch is esp file, needs to be eslified
+
+NEW MOD:
+	Kinky Inn RON patch 2.2 - KZ eslified esp replacer
+	
+INSTALL:
+	The Kinky Princess - Flower Girls Patch
+	https://www.nexusmods.com/skyrimspecialedition/mods/72624
+	Interact with Dancers
+	DL: main v1 03 aug 2022
+	
+	The Kinky Princess High Poly Heads and Ks Hair 0.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/42244
+	This mod changes the heads of The Kinky Princess, to High Poly Heads. Also changes the hair to a different Ks Hair style. Option to use the Eyes of Beauty eye textures. All files are ESL. Two Versions Each With Different Characters.
+	DL: The Kinky Princess - V2 - TEOB - ESL 0.1 12 nov 2020
+	
+	Flower Girls NPC Relationships 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/31732
+	This mod creates automatic flower girls scenes between NPCs (that don't involve the player).
+	DL: main 1.1 27 mar 2020
+	- This mod creates automatic flower girls scenes between NPCs (that don't involve the player).
+	- The NPCs have a predefined list of partners, locations, and times when the scenes will play.
+	- 80% of this mod is married couples in their own home at night. There are also a few scenes between single NPCs and the flower girls.
+	- Many of the scenes will require the player to pick locks and go tresspassing in order to see them. Almost everything happens after midnight.
+	- As far a sex mods go, this is relatively mild. The one exception is Haelga's Bunkhouse. I won't spoil any surprises in the description.
+
+	More Adventures for Flower Girls 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/40029
+	Adds several mini romance quests that integrate with the Flower Girls romance framework by Xiderpunk. This mod features several voiced, unmarked dialogue-driven mini-quests with lightweight scripts and is designed with maximum compatibility in mind. These quests aim to add a sense of flavor and impact/consequence to the Dragonborn's actions.
+	DL: FG More Adventures v1.1 02 sep 2020
+		Hearthfire Multiple Adoptions Patch 0.1 02 sep 2020
+	
+	High Poly NPC Overhaul - Flower Girls SE 2.05
+	https://www.nexusmods.com/skyrimspecialedition/mods/44486
+	This is an appearance overhaul for the new NPCs added by FlowerGirls using High Poly Head. It has optional patches for KS Hair Physics, Open Monk Robes, and ACE.
+	DL: High Poly NPC Overhaul - Flower Girls SE 2.05 17 jan 2021 - They wear the vanilla nocturnal's clothes by default. Patches to change their outfit are available below. Be sure to grab version 2.05 or newer of High Poly NPC Overhaul - Resources
+	DO NOT INSTALL - out of date
+	
+	High Poly NPC Overhaul - Resources 2.06
+	https://www.nexusmods.com/skyrimspecialedition/mods/42768
+	Resource file for the "High Poly NPC Overhaul" series.
+	DL: High Poly NPC Overhaul - Resources 2.06 13 feb 2021
+	DO NOT INSTALL - out of date
+	
+	Flower Girls Enhanced 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/89461
+	A comprehensive overhaul for the mod Flower Girls, with new visuals, new AI packages, new voice lines and five new Flower Girls. ESL flagged.
+	DL: main 1.0 17 apr 2023
+		Female Custom Voice Pack 1.0 17 apr 2023 - DO NOT INSTALL YET
+	- Visual overhaul for all six original Flower Girls, with high poly head and custom assets.
+	- Brand new AI packages for all the Flower Girls
+	- Five brand new Flower Girls.
+	- I'd recommend you have Flower Girls scene length set to long or very long to get the most from this mod.
+	- If you have my Jed the Guard﻿ mod installed there are some extra voice lines referring to Jed.
+
+INSTALL UPDATE:
+	Jed The Guard Voiced NPC 1.3
+	https://www.nexusmods.com/skyrimspecialedition/mods/69627
+	Jed is a lazy, grumpy guard who is jaded by decades of guard duty and comes with a custom voice created with Eleven Labs AI. Contains some adult dialogue and humour which some may find offensive. ESL flagged.
+	DL main 1.3 08 may 2023
+
+INSTALL:
+	Alternate Female Voices For Flower Girls Scenes 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/90572?tab=files
+	An alternate voice pack for females in Flower Girls scenes. Can be used with or without my Flower Girls Enhanced mod. Choose to replace all female voice types or to replace selected voice types with a choice of two which can also be used for custom voiced NPCs. No ESP.
+	DL: main 1.0
+	- This is just generic oohs and ahhs, grunts, breathing etc, there is no dialogue and it's purely just for Flower Girls scenes, not post scene comments or any other dialogue.
+	
+==============================
+2023-05-15 More Adult Stuff
+==============================
+
+INSTALL:
+
+	Flower Girls Scene Sounds for Interesting NPCs 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/89501
+	Adds generic voice packs to female NPCs in the Interesting NPCs mod for Flower Girls scenes. No ESP.
+	
+	Snores of Skyrim 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/76574
+	Adds snoring to most vanilla voice types, script free and lightweight. ESL flagged.
+	
+	World Encounter Hostility Fix 0.2.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/91403
+	Prevent vanilla world encounter NPCs from turning hostile when you cast non-hostile spells
+	
+	Winged Hussar Armor and Weapons 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/89496?tab=files
+	A new set of craftable armor and weapons for male and female characters.
+	DL: Winged Hussar Armor and Weapons - Main File (FOMOD Installer) 1.1 30 apr 2023
+	
+	The Welkynar Knight - Quest 0.1.4
+	https://www.nexusmods.com/skyrimspecialedition/mods/89510
+	A quest mod to help a knight and fight against the Thalmor.
+	DL: main 0.1.4 04 may 2023
+	- requires Winged Hussar Armor and Weapons
+	
+	My Main menu - Randomized Collection 2.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/90013
+	DL: both files
+	Requires: Main Menu Randomizer SE
+	Installation:  non-standard.  Select data folder, 'set as Data folder'.  Onlt thing installed ill be a folder named 'mainmenuwallpapers', which will have a bunch of subfolders, and eacxh subfolder contains a 'data' folder.  This is expected.  MO2 will say this doesn't look right.  Install anyway.
+	
+	Main Menu Randomizer SE 2.0.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/33574
+	Randomizes the main menu (and other things) each time Skyrim is started.
+	DL: SE version
+	Installation:  Due to the way this thing works, it will alter the contents of whatever mod last overwrote the main menu wallpaper and theme.  To deal with this, we have to create a 'sacrifical' mod that contains such things.
+	
+NEW MODS:
+	KZ Main Menu Placeholder for Main Menu Randomizer
+	- create new mod in MO2.  Activate it.
+	- Open Explorer on My Main Menu - Randomized CollectionSE_AE - Update V2.0
+	- copy contents of mainmenuwallpapers\My Main menu - Fantasia SE-AE\Data to new mod folder
+	- In Explorer, go to Eli's Main Menu Replacer
+	- copy contents of that mod to new mod foilder, overwriting current contents
+
+	Eli's Main Menu Replacer - KZ edited version for Main Menu Randomizer
+	- create new mod with above name
+	- Open Explorer on new mod
+	- create new folder mainmenuwallpapers in new mod
+	- copy folder "mods/Eli's Main Menu Replacer" into new mainmenuwallpapers mods.
+	- you should now have a folder named "mainmenuwallpaper/Eli's Main Menu Replacer"
+	- go into "mainmenuwallpaper/Eli's Main Menu Replacer"
+	- create new subfolder named 'data'
+	- copy all other contents of current folder into 'data' subfolder
+	- file structure of mod should now look like "mainmenuwallpapers/Eli's MainMenu Replacer/data/*"
+	
+TEST
+	Start game.  Make sure main menu is something new!
+	yep, main menu randomizer works.
+	Cicero is a cute girl!
+	Not all dialog for Cicero - probably that from extensions - has been feminized
+	Dialog interface - still standard. not new version with number on left.
+	Sofia is back in usual position.
+	Saying my own name works great!
+
+INSTALL:
+	Gore 1.301
+	https://www.nexusmods.com/skyrimspecialedition/mods/85298
+	Gore is a fully voiced, lore-friendly, standalone follower I have spent the last six months writing. This mod is dedicated to my friend, Eden "Solaria" Knight. You will never not be loved.
+	DL: main v1.301 15 may 2023
+		High Poly Gore Head 1.0 12 may 2023
+	- He has a short intro quest, then becomes a follower. You can find him at Peaks Shade Tower, outside of Falkreath. 
+	- esp file.  not eslifiable
+	
+	Armana - Daughter Of Dibella SE (High Poly Follower - Default - CBBE - CBBE 3BA - BHUNP) 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/55409
+	The Daughter of the Goddess Dibella and the Arch of Lustfulness (NSFW Follower)
+	DL: Armana_v1.0_CBBE-3BA SE 1.0 17 sep 2021
+			- Standard version (non SexLab) CBBE standalone ESP-FE
+	- DO NOT download LL version, it needs SexLab, Zaz Animations, etc
+			
+	Armana - Sexlab and Flower Girls Add-On
+	https://www.nexusmods.com/skyrimspecialedition/mods/82824
+	Confident posh personality for Armana. 1000 lines.
+	DL: shadowman_armana 1.0  15 jan 2023
+		armana_fix_nozaz A  16 jan 2023
+		Flower girls FIX	A 19 jan 2023
+			- New Flower girls scripts and ESP. If the old scripts didnt work for you, use this. Install main file first
+	- not voiced yet
+
+	Armana - OStim Add-On 1.0
+	from Unofficial shadowman2777's mod's Ostim conversions
+	https://www.nexusmods.com/skyrimspecialedition/mods/73853?tab=files
+	DL: Armana - OStim Add-On 1.0 16 jan 2023
+
+	Domana - a RaceMenu Preset (High Poly)
+	https://www.nexusmods.com/skyrimspecialedition/mods/47601
+	My mix of imperial woman and dark elves - a preset for your collection
+	
+	Mikan Eyes - SE 2.5
+	https://www.nexusmods.com/skyrimspecialedition/mods/18780?tab=files
+	Mikan Eyes What is this? This mod is standalone. This mod adds some new eyes to human races.
+	- esp file.  eslifiable, but then presets wont access it properly.
+
+EDIT MOD:
+	Mikan Eyes - SE 2.5 - KZ eslified esp replacer
+	- as nobody's using it yet, just use xEdit to compact formIDs and set ESL flag.
+	
+INSTALL:
+	Better Females Eyebrows - Standalone 1.2  (Oldrim mod)
+	https://www.nexusmods.com/skyrim/mods/50302
+	13 standalone eyebrows from the Better Females mod.
+	Install:  Run mod through CAO Cathedral Assets Optimizer
+	- esp, needs to be eslified
+ 
+EDIT MOD:
+	Better Females Eyebrows - Standalone 1.2 - KZ eslified esp replacer
+
+NOTE:
+	eslifying the eyes and eyebrows seems to have worked!  no missing textures on preset head in racemenu!  yay!
+
+INSTALL:
+	LamaKreis's Maidens of Skyrim - Hedy (High Poly) Follower CBBE - CBBE 3BBB - BHUNP 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/43975?tab=description
+	A blacksmith is visiting Whiterun...
+	DL: Hedy_v1.0_CBBE-3BBB SSE 1.0 03 jan 2021
+		Hedy_EyesFix_v1.2 SE  22 mar 2022
+	- Name: Hedy
+	- Race: Imperial
+	- Weight: 100
+	- Body: TNB MaidensFollower Body 1.5
+	- Combat: Two Handed and Firebolt Spell
+	- Location: Adriannes Forge in Whiterun
+	- yes, she's a cute vanilla follower.  But I don't want her as a follower, I want to change her into a preset
+	
+	
+NEW MOD:
+	KZ Racemenu Plugins Raw Face Data
+	based on video https://www.youtube.com/watch?v=MGpnugyCOyk
+	and text on https://imgur.com/7FNTvY9
+	- create mod, activate
+	- create folder structure SKSE/Plugins/Chargen (can copy from another preset mod)
+	- Open desired follower mod (LamaKreis Hedy in this case)
+	- copy meshes/Actors/Character/facegendata/facegeom/<Modname>.esp/*.nif to new mod's Chargen folder
+	- copy textures/Actors/Character/facegendata/facetint/<modname.esp/*.dds to new mod's Chargen folder
+	- rename the new nif and dds files to a better name, e.g. Hedy.nif and Hedy.dds.  Must be same names.
+	- find the race and weight of existing character, either from webpage or looking at mod in xEdit
+	- determine if existing character uses low-poly or high-poly head
+	- start Skyrim.  New character or showracemenu.
+	- set sex, race, and weight of new character the same as old character
+	- if old character has high poly head, then select a preset using a HPH
+	- Open 'Sculpt' tab in upper right
+	- In HeadParts menu on right, uncheck hair entry to toggle visibility
+	- On slider in low center, choose Mask Add
+	- Start highlighting around the base of the nexk to prevent neckseam issues
+	- Press F9, and import the nead (.nif) that you created earlier (e.g. Hedy.nif)
+	- This will not work if your target NPC has different gender or race
+	- if he/she uses a different head mesh, it's not going to work either.  (either both low or both HPH)
+	- This only changes the head mesh.  You will have to manually choose hair, brows, makeup, etc
+	- goto Presets tab, press F%, save preset.
+	- You can now use preset with new character
+	- when done, save and name new character
+	
+	
+INSTALL TOOL:
+	NifSkope 2.0 Dev 7
+	https://github.com/niftools/nifskope/releases
+	DL: NifSkope_2_0_2018-02-22-x64.7z  7.17 MB  Feb 22, 2018
+
+INSTALL:
+	Remiel - A visual replacer - Preset 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/88125?tab=files
+	DL: Misc files
+	
+	Liliane Face Racemenu Preset 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/88181?tab=files
+	DL: optional
+	
+	BiR's Remiel RaceMenu Preset - HPH 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/85972
+	HPH RaceMenu preset of Remiel's replacer I made.
+	
+	Vermilion's High-Poly Presets 1.3
+	https://www.nexusmods.com/skyrimspecialedition/mods/62403
+	15 varied high-poly presets to choose from. Intended for SE, and compatible with LE.
+	DL: both
+
+INSTALL UPDATE:
+	Gore 1.302
+	https://www.nexusmods.com/skyrimspecialedition/mods/85298
+	
+	Runa - Transgender Vampire
+	https://www.nexusmods.com/skyrimspecialedition/mods/91203
+	DL: Runa- Hair Option 1 1.0 15 may 2023
+
+INSTALL:
+	Conditional Expressions Extended 1.4.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/91438
+	This is a remastered extension of the Conditional Expressions - Subtle Face Animations mod (v 1.27) with new features and focus on compatibility
+	DO NOT INSTALL!!!!!  CORRUPT ESP!!!!
+	
+	Copy Character Appearance 1.0.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/38400?tab=files
+	This mod copies the appearance of NPCs to the player. You can easily copy it during gameplay. NPCs added by mods are also supported. No ESP file.
+	DL: main
+	Usage: Open the console, select the NPC you want to copy, and enter "cca" to copy the appearance of that NPC to the player. Select the player to return to its original appearance.
+	- You cannot edit the character while the appearance is being copied. Don't open the character edit menu.
+	- Only NPCs with the same gender and humanoid animation as the player can be copied.
+	- There may be a neck gap when loading. When this happens, equip your armor again.
+	- Don't copy while riding.
+
+ON THE RADAR:  DOWNLOAD BUT DO NOT INSTALL
+
+	Cosplay Pack - hdt SMP (CBBE 3BA) 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/90892
+	Adds over 460 pieces of handmade cosplay theme clothing. Your one-stop-solution for all your waifu-dressing needs. Also added a few fun weapons.
+	DL: main 1.0  13 may 2023
+		- All in One. 2K native, prebuilt mesh but do build again in bodyslide before using. Make sure you have all the requirement installed correctly. ESP-FESL
+	Requires: FSMP
+	
+	FSMP - Faster HDT-SMP 1.50.9rc1
+	https://www.nexusmods.com/skyrimspecialedition/mods/57339
+	Faster physics for capes, clothes, hair, etc!
+	DL: Faster HDT-SMP  1.50.9 rc 1  25 apr 2023
+	DO NOT INSTALL YET!  - I don't heve enough horsepower
+	
+UNINSTALL:
+	Light and Shade
+	Reason: new esp adds updated Light and Shade content to ezPG
+	
+	Light and shade Eris High poly Head - now with an ezPG update
+	
+	
+INSTALL:
+	ezPG 1.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/78663
+	An enormous anthology that combines all my mods in one place. Fully remastered with tonnes of fixes, updates, brand new content and much, much more!
+	DL: main v1.2 16 dec 2022
+	FOMOD: Custom.
+		Citizens - leave all unchecked (i.e install all, as checks disable) - install lots of voice NPCs https://www.nexusmods.com/skyrimspecialedition/mods/29069
+		Mythos - Install (2 voiced followers with quests https://www.nexusmods.com/skyrimspecialedition/mods/51576)
+		Redux - Skip (alternative start and remaike of main quest)
+		Marked for Death - Skip (death alternative system, disables health regen)
+		Faction Exclusivity - Skip (prevents PC from leading every faction)
+		Emberveil Estate - skip (player hom NW of whiterun, in tundra.  Don't like free homes).
+	
+	ezPG - Eris (Light and Shade) v2.0 Content Patch 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/91396
+	A patch to add all the new Eris content exclusive to the standalone Light and Shade v2.0 update to ezPG.
+	DL: main 15 May 2023
+	- This patc﻿h contains all of the new content found in the v2.0 update of the standalone Light and Shade, ready to be installed and used with ezPG.
+	
+	Light and shade Eris High poly Head - now with an ezPG update
+	https://www.nexusmods.com/skyrimspecialedition/mods/78540?tab=files
+	This is a high poly head replacer for Eris, its most noticeable feature is the smoother chin.
+	DL: Eris HPH ezPG  v. exPGfix  16 dec 2022
+	- Only use this version if you use the all in one (ezPG) Craftian collection. edit:forwarded a new ai package from ezpg
+	- Warning: if you use the latest ezpg version. You can only use it if you only have citizens of tamriel and mythos enabled. It has been confirmed that any other ezpg Fomod version will make you stuck in infinite loading screen. If that is the case, use the old version.
+	- Recommendations: If you are using her other version that allows vanilla armor, I recommend Coldsun's replacer, if you want a replacer.
+	
+	Smashman's Nessa Replacer and Chargen Preset (ezPG support) 1.2.3
+	My personal replacer of Craftian's Nessa follower. Comes with two variants of skin and two variants of hands that could be chosen with fomod installer. ezPG version also available.
+	https://www.nexusmods.com/skyrimspecialedition/mods/78621
+	DL: Smashman's Nessa  1.2.3 15 nov 2022
+		Smashman's Nessa ezPG patch 1.0.1 13 dec 2022
+		Nessa Bodyslide files
+		Nessa Preset
+	FOMOD: Burns, Prosthetic, 
+	Known Issues: I have encountered several issues playing with the mod, one of them is Nessa being naked (in version 1.1 of original mod) - you can search for help in comments tab of original mod. And second is that after her resurrection Nessa refuses to trade with player: I don't know, maybe you should make her literally immortal via CK or xEdit ticking "essential" box that menas when the hp hits 0 she falls on her knees and after a couple of seconds she stands up.  In no case do I want to blame the original author of the mod, he did great job, but bethesda engine is a buggy mess but we have to deal with this somehow.
+	
+	Nessa - OStim Patch 1.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/78485
+	Patches the follower Nessa so her sex dialogue leads to OStim scenes instead of a fade to black screen. ESP flagged ESL, so it won't take a slot in your load order! Compatible with every Nessa replacer.
+	DL: main 1.2
+	
+	Even More Eyes by Koralina 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/80477
+	65+ new quality eye textures, all hand-painted and ESL flagged
+	DL: main
+	
+	Even More Makeup by Koralina - ESL
+	https://www.nexusmods.com/skyrimspecialedition/mods/67602
+	Looking for the most comprehensive makeup mod? Here it is! 26 blushes, 38 eye paints and 21 lipsticks. ESL flagged.
+	DL: main 1.0
+	
+	Yvette Follower or Jordis Replacer - High Poly Head - 4k FaceTint - ESL 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/67046
+	Yvette follower or Jordis the Swordmaiden replacer, both High Poly Head, 4k and ESL flagged
+	- Yvette is a sultry, trouble-maker woman. She fights best with a one-handed sword and daggers, wearing light armour. She knows healing spells, so she will try to keep you alive during combat. Yvette is protected and doesn't affect the stealth meter, so you can sneak with her where and how you want. She will also learn and level with you. Yes, she is marriable. You can find her in The Winking Skeever in Solitude.
+	Race: Nord
+	Weight: 100
+	Location: The Winking Skeever, Solitude
+	Marriable: Yes
+	- If you want to spawn her, press "~" and write "help yvette", find her ID and then write "player.placeatme [ID]"
+	- She has two AI Packages, which makes her a better, more 'intelligent' follower. One of the packages is made by coldsun1187. Go visit this profile, you will not regret it!
+	- Yvette will use your in-game skin and body.
+	- by Koraline, gorgeous, want to steal her appearance for my own
+	
+	
+	Selina Mage Follower or Serana Replacer - High Poly Head - 4k FaceTint 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/65446
+	Standalone mage follower Selina or Serana replacer, both High Poly Head and ESL flagged
+	DL: Selina Follower - Blue Eyes 1.1  31 mar 2022
+	- Selina is a powerful mage who specializes in illusion and fire magic, also she will heal you during combat. She doesn't affect the stealth meter and is able to become invisible. Selina is protected and essential, so she won't die that easily. She is also marriable. You can find her in Farengar's room in Dragonsreach.
+	Race: Nord
+	Weight: 20
+	Location: Dragonsreach, Farengar's room
+	Weapon: Ebony bow, ebony arrows
+	Marriable: Yes
+	- absolutely gorgeous raven haired brunette, installed so I can steal her face
+
+	Koralina's Mystic Eyes 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/65074
+	Adds 11 hand-painted eye colors with one basic and three unique iris configurations. 44 files included.
+	DL main 1.1
+	
+	Koralina's Eyebrows for High Poly Head 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/64497
+	Adds 11 female standalone eyebrows with normal maps for each one. Use only with High Poly Head.
+	DL: Koralina's Eyebrows 1.0 06 mar 2022
+	- ESP file.  needs to be eslified
+	
+NEW MOD:
+	Koralina's Eyebrows for High Poly Head 1.0 - KZ eslified esp replacer
+	- do the usual
+
+INSTALL:
+
+	Koralina's Makeup Tweaks - 4k 2k 1.12
+	https://www.nexusmods.com/skyrimspecialedition/mods/63024
+	Adds 31 RaceMenu makeup overlays in 4k or 2k. Includes eyeliners, eyeshadows, and blushes. Feel free to use this in your mods without asking for permission.
+	DL: Koralina's Makeup Tweaks 2k ESL 1.12 07 feb 2022
+	
+	Koralina's Freckles and Moles - 4k 2k
+	https://www.nexusmods.com/skyrimspecialedition/mods/62508
+	Adds 30 RaceMenu overlays with 4k or 2k freckles and moles in various configurations. Feel free to use this in your mods.
+	DL: Koralina's Freckles and Moles 2k ESL  1.1 07 feb 2022
+	
+	Mistborn - An Immersive Follower Collection 2.1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/67896
+	An immersive follower collection with intro quests, custom dialogue, and additional follower features, such as training and spell teaching.
+	DL: Mistborn 2.1.0 16 may 2023
+		Mistborn Extra 2.0.0 10 may 2023 - High quality textures, RaceMenu presets, BodySlides, OBody meshes, etc.
+	- This mod adds several followers scattered throughout Tamriel who can join you in Skyrim. These followers together have a history with you, the player, although the exact details of your past are left to your imagination.
+	- How can I find them? Ask Hulda or Ysolda to send a message outside the province. Wait for correspondence from your selected followers. Meet up with them once they've finally arrived!
+	- Each follower has their own body mesh that ships non-nude, without physics.
+		The recipes download includes BodySlide projects and presets. For example, to tweak Aeowyn's body in BodySlide:
+		  For Outfit/Body, select: Mistborn - Aeowyn - Body (3BA)
+		  For Preset, select: Mistborn - Aeowyn
+		  Tweak and build.
+		Body meshes will be created in the correct locations, for example, meshes/actors/character/mistborn/<NPC>/body/.
+		Some RaceMenu presets are available separately: Aeowyn﻿, Elfwyn
+	FOMOD: cff, custom bodies
+
+NEW MODS - BODYSLIDE OUTPUT:
+	KZ Bodyslide Output - Mistborn NPCs 3BA HIMBO Nude
+	
+	
+	Beyond Skyrim - Disease Condition Bug Fix 1.0.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/91025/
+	Splits magic effects that were previously shared so that NPCs can identify specific diseases in dialogue.
+	
+	Nord Female Preset (High Poly Head) - Aeowyn 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/68329
+	
+	Lilit Nord High Poly Preset
+	https://www.nexusmods.com/skyrimspecialedition/mods/63041
+	
+	Nord Female Preset (High Poly Head) - Elfwyn 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/68330
+	
+	Kyoe's Bang'n Brows
+	https://www.nexusmods.com/skyrimspecialedition/mods/13630
+	
+	Kyoe's Bang'n Brows for KouLeifoh's High Poly Head
+	https://www.nexusmods.com/skyrimspecialedition/mods/50424
+	
+	Lamenthia's Marks of Beauty
+	https://www.nexusmods.com/skyrimspecialedition/mods/49845
+	DL: Lamenthia's Marks of Beauty 2k 1.0 13 may 2021
+
+
+TESTING:
+	ILS infinie Load Screen.  Probably due to exPG addons, which say such a thing is possible.
+	Disabled ezPG addons.  ILS vanished
+	Old game - Lilissa has bronze face.
+	Also got error from Racemenu saying SKSE script was out of date.
+	Re-installed SKSE and Racemenu.
+	Start new game.
+	In default starting inn, CTD when trying to leave, as an NPC exits door.
+	No Net crash log
+	
+INSTALL
+	Configurable Notification Messages 1.3.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/65573
+	Allows you to change the number of notifications displayed on the screen, fade speed, size and position with MCM. Automatically works with DearDiary/Nordic UI etc.
+	DL: main 1.3.0  08 nov 2022
+
+LOOT:
+	RaceMenu.esp was *way* too late, moved to proper position before iHud.esp
+
+TEST
+	Restarting from auto in inn, after all initialzations
+	No CTD, but Lilissa is still bronzed.
+	No notification MCM
+	DynDOLOD complains DynDOLOD.esp not installed or too high in load order.
+	yep, it's at FE.  How?  I wasn't full before!
+
+ESLIFIY in WYRE BASH:
+	RaceMenu.esp
+	RaceMenuPlugin.esp
+	DBVO.esp
+
+TEST
+	Start new game.
+	No CTDs or error messages, new configuratble message MCM is working, speeds startup immensely
+	Lilissa face is still very bronzey, clearly base assets fucked.
+
+REINSTALL:
+	somehow, coldsun assets were loading after Lilissa.  That's bad.
+	reinstalled assets, moved to proper position
+	reinstalled base ColdSun Lilissa, without eslification
+	edited Pantheon Lilissa KZ eslified, removed all non-edited meshes and textures.
+
+NEW MOD
+	KZ Patch - CS_Lilissa - nude
+	Reason:  Coldsun's Lilissa tosses her custom outfit in favor of generic leather, because old outfit wasn't 3BA.
+	Rather than putting her in generic leather, I'm just making her nude, as befits a child of nature.
+
+INSTALLED:
+	DX Druid Armor - UNP 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/31005?tab=files
+	A new craftable Elven armor, bow and arrows suitable for druid characters.
+	DL: main 1.1
+	
+	DX Druid Armor 3BA 2.4a
+	https://www.nexusmods.com/skyrimspecialedition/mods/33690?tab=files
+	DX Druid Armor is required for this 3BA bodyslide (https://www.nexusmods.com/skyrimspecialedition/mods/31005) EDIT: Now includes HOTFIX for 3BA bodyslide
+	
+NEW MODS:
+	KZ Bodyslide Output - DX Druid Armor 3BA 2.4a
+	- Generate only the highest letter of pieces with mutiple versions, higher letters are skimpier
+	
+	KZ Patch - Lilissa KZ eslified - DX Druid Armor
+	
+=================================================================================
+2023-05-16  NPC Appearances, testing, debugging
+=================================================================================
+
+ON THE RADAR
+	Nithi NPC Enhancement - The Rift
+	https://www.nexusmods.com/skyrimspecialedition/mods/79251?tab=description
+	The Nithi mods look great!  Very character-driven, not a beauty pack
+	
+INSTALL:
+	NITHI NPC Preset Archive 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/87278
+	A giant character preset archive for NITHI NPC Enhancement. 25 Presets for Male and 23 presets for Female humanoid characters.
+	DL: main
+	FOMOD:  Only females I'm likely to want to look like.   Excellent installer!
+
+	BB's Faces of the Dragonborn 1
+	https://www.nexusmods.com/skyrimspecialedition/mods/67412
+	A collection of presets for female human races - Low poly AND High Poly versions available
+	DL: BBs Faces of the Dragonborn 1 - High Poly Head  1.0 01 may 2022
+	
+	BB's Heroines 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/65032
+	Some (hopefully) beautiful character presets for your female dragonborns - regular AND high poly versions available, all humanoid races
+	DL: BBs Heroines Pack - High Poly Head Version  1.1 18 mar 2022
+	
+	Sweet the Necromancer High Poly Custom Voiced Follower 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/78091
+	Sweet is back to celebrate the Day of the Dead. No requirements, custom voiced by kikiapplus, she's the sassiest necromancer you'll find during your travels. Doesn't count toward plugin limit!
+	DL: MVC Sweet the Necromancer Custom Voice ESPFE  1.1 16 may 2023
+	- Sweet is in the Hall of the Dead in Riften, she is a powerful summoner and necromancer, she has the loveliest wide face and the sassiest voice. She's a necromancer because "it's awesome!".
+	- I based Sweet on kikiapplus' preset Sweet Doll. You can get her preset here: Sweet Doll - Breton High Poly Head Preset
+	
+ON THE RADAR
+	Enhanced Solitude SSE
+	https://www.nexusmods.com/skyrimspecialedition/mods/27816
+	The best Solitude mods, merged together into a single plugin, with multiple fixes, tweaks and enhancements.
+	
+INSTALL:
+	Expressive Remiel 1.0.8
+	https://www.nexusmods.com/skyrimspecialedition/mods/87424
+	This mod add expressions to Remiel's dialogues! *except for some modded/custom follower interactions
+	DL: main 1.0.8
+	- Recommended (mod I used in the video)
+		BiR's Remiel Replacer
+		Waifu Expression Redux 
+		Colovian Leather Armor﻿
+﻿		Glasses Pack (patreon)
+
+ON THE RADAR
+	Waifu Expression Redux (With High Poly Head Support)
+	https://www.nexusmods.com/skyrimspecialedition/mods/70691
+	Replacer for Expressive Female Animation
+
+INSTALL:
+	Colovian Leather Armor and Outfit SE - UNP - CBBE
+	https://www.nexusmods.com/skyrimspecialedition/mods/50331
+	Craftable lore-friendly Leather Armor and Outfit.
+	DL: Colovian Leather Armor and Outfit SE - CBBE - V2  08 jun 2021
+		Colovian Leather Armor and Outfit SE - UPDATE  2.2
+	- by Xtudo
+	
+	Colovian Leather Armor and Outfit - 3BA - BHUNP - CBBE 3.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/50683
+	3BA - BHUNP - CBBE bodyslide conversions for Xtudo's Colovian Leather Armor and Outfit.
+	DL: Colovian Leather Armor and Outfit 3BA  3.1 07 jan 2023
+	
+	Colovian Leather Armor by Xtudo- Male Version (HIMBO Refit) 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/72072
+	HIMBO Bodyslide files already included. You STILL need the original mod.
+	
+NEW BODYSLIDES:
+	KZ Bodyslide Output - Colovian Leather Armors 3BA - zeroed sliders
+	KZ Bodyslide Output - Colovian Leather Armors HIMBO - zeroed sliders
+
+INSTALL UPDATE:
+	Common Clothes and Armors 2.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/21305?tab=files
+	DL: Common Clothes and Armors - 2k Textures  2.0.0 21 feb 2022
+	- Existing save games cannot be updated from v1.1.0 to v2.0.0.
+	- TPFZS only has 1.1
+
+INSTALL: 
+	DX Daughter of the Sea Armor - UNP CBBE 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/34595
+	A new craftable leather armor with a cosmetic flintlock pistol.
+	DL: Daughter of the Sea - CBBE  1.0 17 apr 2020
+	- esp file - needs to be eslified or disabled - handled by 3BA Bodyslide Emporium
+	- used by SPID Dress Up
+	
+	DX Armors and Clothing 3BA Bodyslide Emporium 2.4a
+	https://www.nexusmods.com/skyrimspecialedition/mods/33690
+	3BA bodyslide headquarters for all of DeserterX's armors and outfits. Bodyslide conversions 3BA 2.31+.
+	DL: DX Armors and Clothing 3BA Bodyslide Emporium Modular 2.4a 27 nov 2022
+			- 2.4 GB!
+			- This is for users who want more control over what they would like to install. This FOMOD will detect what is in your load order and will suggest which to install.
+	FOMOD:  whatever it selects, select ESPFEs rather than ESLs
+	
+	DX armors and weapons - Optimised textures 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/78021
+	Optimised textures for DX armors and weapons (most at 2K).
+	DL: main 1.0 22 mar 2023
+	- You can install all armors or just armors you want to use (it works in all cases). Same for weapons.
+	- For 3BA users: require DX Armors + DX Armors and Clothing 3BA Bodyslide Emporium
+	FOMOD: select everything
+
+	Gigaduex's Armor Sets SE 2.5.6
+	https://www.nexusmods.com/skyrimspecialedition/mods/21836
+	This mod adds several sets of armor to Skyrim.
+	DL: Gigaduex Armor Set CBBE 2.5.5 05 aug 2021
+		BodySlide - CBBE 2.5.5 05 aug 2021
+	- How to get it in game : You can buy them from Lindsay﻿ at The Drunken Huntsman. (You can make armor in Skyforge that Lindsay does not sell.)
+	- used by SPID Dress Up
+
+
+NEW MODS:
+	KZ Bodyslide Output - DX Armors and Clothing 3BA 2.4a - zeroed sliders
+	KZ Bodyslide Output - Gigaduex Armor Set 2.5.5 - zeroed sliders
+
+INSTALL:
+	Kozakowy's Mythic Dawn Priestess Outfit UNP CBBE - SSE 1.2.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/50134
+	Official Special Edition conversion of Kozakowy's Mythic Dawn Priestess Outfit.
+	DL: Kozakowy's Mythic Dawn Priestess Outfit CBBE - SSE - ESL  1.2.1 15 may 2021
+	- Q. [For CBBE Users] Why do my hands look different?
+		A. The Mythic Dawn Priestess Outfit uses a custom body sculpt, which is based on the CBBE body from Skyrim Legendary Edition. There are changes in the mesh, including it's shape, between CBBE Legendary Edition and CBBE Special Edition. When equipping the Mythic Dawn Priestess Outfit your character's body is also changed out for the custom sculpted CBBE Legendary Edition body, which has a different mesh shape around the wrists, resulting in a large gap between the hands and the arms. To fix this gap, the CBBE Legendary Edition hands have been included as a part of the 'body swap' when equipping the Mythic Dawn Priestess outfit.
+	- used by SPID Dress Up
+	
+	Nibenean Armors and Outfit SE - UNP - UNPB - CBBE v3 by Xtudo
+	https://www.nexusmods.com/skyrimspecialedition/mods/50785
+	Craftable lore-friendly leather and steel armors and outfit.
+	DL: Nibenean Armors and Outfit SE by Xtudo  11 jun 2021 v3
+	
+	Nibenean Armors and Outfit - 3BA - BHUNP - CBBE v3.1 by Nekomata17
+	https://www.nexusmods.com/skyrimspecialedition/mods/51219
+	3BA - BHUNP - CBBE bodyslide conversion for Xtudo's Nibenean Armors and Outfit.
+	DL: Nibenean Armors and Outfit 3BA  07 jan 2023 v3.1
+		- 3BA bodyslide conversion. No pre-built meshes are included in this file. Please build meshes beforehand in Bodyslide before jumping in-game.
+
+NEW MOD - BODYSLIDE:
+	KZ Bodyslide Output - Nibenean Armors and Outfit 3BA v3.1 - zeroed sliders
+	https://www.nexusmods.com/skyrimspecialedition/mods/14244
+	Skyrim's The Witcher 3 Female Armours mod by ZZJay, converted to SSE CBBE BodySlide.
+
+INSTALL:
+
+	The Witcher 3 Female Armours - SSE CBBE BodySlide 2.0 by Jeir
+	https://www.nexusmods.com/skyrimspecialedition/mods/14244
+	DL: The Witcher 3 Female Armours - SSE CBBE BodySlide  01 apr 2018 v2.0
+	- Q1: Where are these armours located?
+		A: Inside a chest in Whiterun, on the North-Eastern side of the Battle-Born house. Look behind the shrubbery, against the house wall. Here's a map (look for the blue dot). Conversely, you can craft them at the tanning rack once you've crafted the recipe book (2x linen, 2x leather strips).
+	- esp file needs to be eslified
+	
+NEW MODS
+	KZ Bodyslide Output - The Witcher 3 Female Armours CBBE 2.0 - zeroed sliders
+	The Witcher 3 Female Armours 2.0 - KZ eslified esp replacer
+	
+INSTALL:
+	Girl's Heavy Armors SE 1.6.3 by GIGADUEX 
+	https://www.nexusmods.com/skyrimspecialedition/mods/17843
+	This mod replaces some vanilla heavy armors for female.
+	DL: Girl's Heavy Armors (CBBE)  30 oct 2018 1.6.1
+		Stand-Alone Version  30 oct 2018 1.6.1
+		BodySlide CBBE (V1.5)  02 may 2019  1.6.3
+		Girl's Heavy Armors (CBBE V1.5)  01 nov 2018  1.6.3
+	- esp file.  needs to be eslified
+	
+NEW MODS
+	Girl's Heavy Armors - Stand-Alone version 1.6.1 - KZ eslified esp replacer
+	
+	KZ Bodyslide Output - All Gigaduex CBBE - zeroed sliders
+		-- Girl's Heavy Armors are by GIGADUEX, he didn't create groups or differentiate by name, doing em all
+		
+
+INSTALL:
+	zzjay's Wardrobe - SSE CBBE BodySlide  1.1 by zzjay - Jeir - docteure
+	https://www.nexusmods.com/skyrimspecialedition/mods/19506
+	Collection of armor and clothes mashups, now for SSE CBBE (also BodySlide). With permission from the original author zzjay.
+	DL: zzjay's Wardrobe - SSE CBBE BodySlide  11 sep 2018 1.1
+	- Pre-built meshes (CBBE Slim (Outfit)), textures, BodySlide files, and plugin.
+	- esp file needs to be eslified
+	
+	Cut the Crap - zzjay's Wardrobe 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/36948?tab=files
+	All of the items contained in the pack have been renamed in a similar fashion to my Divine Elegance patch - though this was mostly word order and grammar fixes. Note that this file requires WACCF﻿.
+
+	Zzjay's Wardrobe Neko Edition - 3BA - BHUNP - CBBE  1.0 by Nekomata17
+	https://www.nexusmods.com/skyrimspecialedition/mods/51665
+	3BA - BHUNP - CBBE bodyslide conversion for both Zzjay's official SE port, and Docteure's version.
+	DL: Zzjay's Wardrobe 3BA - Zzjay's Version  15 aug 2021 1.0
+		- For Zzjay's official SE port version.  3BA bodyslide conversion with CBBE Curvy meshes with immersive physics. XPMSSE must be installed.  Please be sure the esp. file overwrites the original esp.
+
+NEW MODS:
+	Zzjay's Wardrobe Neko Edition - 3BA 1.0 - KZ eslified esp replacer
+	
+	KZ Bodyslide Output - Zzjay's Wardrobe Neko Edition - 3BA - zeroed sliders
+
+	Gigaduex Armor Set CBBE 2.5.5 - KZ eslified esp replacer
+	
+	
+INSTALL:
+	Triss Gown Retouched 3BA 1.0 by Kirax
+	https://www.nexusmods.com/skyrimspecialedition/mods/55498
+	3BA patch for the Triss Gown Retouched mod.
+	DL main 12 sep 2021 1.0
+	- esp file needs to be eslified
+	- regen bodyslide for OBody
+
+NEW MODS
+	
+	Triss Gown Retouched 3BA 1.0 - KZ eslified esp replacer
+	
+	KZ Bodyslide Output - Triss Gown Retouched 3BA 1.0 - zeroed
+	
+INSTALL:
+
+	SPID Dress Up 1.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/57331
+	Mixes a variety of armor mods into the game by distributing them to hand-picked NPCs via SPID
+	DL: main 1.2 21 oct 2021
+	- There are too many armor mods in the world for you and your followers to wear. Let SPID take care of distributing appropriate outfits to NPCs to add variety and beauty to your game.
+	- There are many armor mods listed in the requirements, but you only need to download the ones you want to see NPCs wear in the world. The patches in the FOMOD are all standalone.
+	FOMOD:  select all except Aela (I like her skimpy stuff)
+	
+	Skyrim Mod Release: Glasses Pack
+	https://www.patreon.com/posts/skyrim-mod-pack-75455758
+	- I modelled a few glasses as resource for my renders, also port it to Skyrim.
+	- There are 6 types of glasses with an alternate color for each.
+	- This is plug and play, no requirement
+	- It is highly recommended that you tweak the glasses on Bodyslide to fit your character's face. Bodyslide can be opened and build while you are in game, giving a sort of real time editing.
+	- There are sliders to change the glasses position and orientation and a few to tweak the glasses' shape.
+	
+	DLC2PillarBuilderActorScript Tweak 1.0 by ferrari365
+	https://www.nexusmods.com/skyrimspecialedition/mods/91431
+	Overhauls the DLC2PillarBuilderActorScript from scratch for better performance, by making it only update when necessary and expands on its features for a more comprehensive behavior handling. No ESP.
+	
+	IchDerMan's Character Collection 1.3 by IchDerMan
+	https://www.nexusmods.com/skyrimspecialedition/mods/79625
+	Collection of IchDerMan's Racemenu-Presets for Licentia Black
+	- wants Beards of Power for male presets, like I'd ever notice
+	
+	
+LOOT:
+	OStim.esp BEFORE SexLab_Solutions
+
+TESTING
+	

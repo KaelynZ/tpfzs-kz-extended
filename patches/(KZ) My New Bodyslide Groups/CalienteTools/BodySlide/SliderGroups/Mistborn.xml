@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderGroups>
+    <Group name="3BA">
+        <Member name="Mistborn - Aeowyn - Body (3BA)"/>
+        <Member name="Mistborn - Aeowyn - Body (3BA) - NeverNude"/>
+        <Member name="Mistborn - Aeowyn - Outfit (Armored)"/>
+        <Member name="Mistborn - Aeowyn - Outfit (Casual)"/>
+        <Member name="Mistborn - Atsuka - Body (3BA)"/>
+        <Member name="Mistborn - Atsuka - Body (3BA) - NeverNude"/>
+        <Member name="Mistborn - Atsuka - Outfit"/>
+        <Member name="Mistborn - Atsuka - Outfit - Boots"/>
+        <Member name="Mistborn - Atsuka - Outfit - Gauntlets"/>
+        <Member name="Mistborn - Elfwyn - Body (3BA)"/>
+        <Member name="Mistborn - Elfwyn - Body (3BA) - NeverNude"/>
+        <Member name="Mistborn - Elfwyn - Outfit"/>
+        <Member name="Mistborn - Elfwyn - Outfit - Armlets"/>
+        <Member name="Mistborn - Elfwyn - Outfit - Boots"/>
+        <Member name="Mistborn - Elfwyn - Outfit - Choker"/>
+        <Member name="Mistborn - Elfwyn - Outfit - Gauntlets"/>
+        <Member name="Mistborn - Elfwyn - Outfit - Gloves"/>
+        <Member name="Mistborn - Elfwyn - Outfit - Hood"/>
+        <Member name="Mistborn - Esme - Body (3BA)"/>
+        <Member name="Mistborn - Esme - Body (3BA) - NeverNude"/>
+    </Group>
+    <Group name="HIMBO">
+        <Member name="Mistborn - Eomir - Body (HIMBO)"/>
+        <Member name="Mistborn - Eomir - Body (HIMBO) - SOS"/>
+        <Member name="Mistborn - Eomir - Outfit (HIMBO) - Boots"/>
+        <Member name="Mistborn - Eomir - Outfit (HIMBO) - Cuirass"/>
+        <Member name="Mistborn - Eomir - Outfit (HIMBO) - Gauntlets"/>
+    </Group>
+    <Group name="Mistborn">
+        <Member name="Mistborn - Aeowyn - Body (3BA)"/>
+        <Member name="Mistborn - Aeowyn - Body (3BA) - NeverNude"/>
+        <Member name="Mistborn - Aeowyn - Outfit (Armored)"/>
+        <Member name="Mistborn - Aeowyn - Outfit (Casual)"/>
+        <Member name="Mistborn - Atsuka - Body (3BA)"/>
+        <Member name="Mistborn - Atsuka - Body (3BA) - NeverNude"/>
+        <Member name="Mistborn - Atsuka - Outfit"/>
+        <Member name="Mistborn - Atsuka - Outfit - Boots"/>
+        <Member name="Mistborn - Atsuka - Outfit - Gauntlets"/>
+        <Member name="Mistborn - Elfwyn - Body (3BA)"/>
+        <Member name="Mistborn - Elfwyn - Body (3BA) - NeverNude"/>
+        <Member name="Mistborn - Elfwyn - Outfit"/>
+        <Member name="Mistborn - Elfwyn - Outfit - Armlets"/>
+        <Member name="Mistborn - Elfwyn - Outfit - Boots"/>
+        <Member name="Mistborn - Elfwyn - Outfit - Choker"/>
+        <Member name="Mistborn - Elfwyn - Outfit - Gauntlets"/>
+        <Member name="Mistborn - Elfwyn - Outfit - Gloves"/>
+        <Member name="Mistborn - Elfwyn - Outfit - Hood"/>
+        <Member name="Mistborn - Eomir - Body (HIMBO)"/>
+        <Member name="Mistborn - Eomir - Body (HIMBO) - SOS"/>
+        <Member name="Mistborn - Eomir - Outfit (HIMBO) - Boots"/>
+        <Member name="Mistborn - Eomir - Outfit (HIMBO) - Cuirass"/>
+        <Member name="Mistborn - Eomir - Outfit (HIMBO) - Gauntlets"/>
+        <Member name="Mistborn - Esme - Body (3BA)"/>
+        <Member name="Mistborn - Esme - Body (3BA) - NeverNude"/>
+    </Group>
+</SliderGroups>
