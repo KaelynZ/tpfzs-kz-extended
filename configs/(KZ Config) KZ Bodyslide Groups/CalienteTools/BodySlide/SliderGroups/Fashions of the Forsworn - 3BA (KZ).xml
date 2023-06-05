@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderGroups>
+    <Group name="3BA">
+        <Member name="Forsworn Forager Armor 3BA"/>
+        <Member name="Forsworn Forager Boots CBBE"/>
+        <Member name="Forsworn Forager Gauntlets CBBE"/>
+        <Member name="Forsworn Looter Armor (3BA)"/>
+        <Member name="Forsworn Looter Boots CBBE"/>
+        <Member name="Forsworn Looter Gauntlets CBBE"/>
+        <Member name="Forsworn Pillager Armor 3BA"/>
+        <Member name="Forsworn Pillager Boots CBBE"/>
+        <Member name="Forsworn Pillager Gauntlets CBBE"/>
+        <Member name="Forsworn Ravager Armor 3BA"/>
+        <Member name="Forsworn Ravager Boots 3BA"/>
+        <Member name="Forsworn Ravager Gauntlets 3BA"/>
+    </Group>
+    <Group name="CBBE">
+        <Member name="Forsworn Forager Armor 3BA"/>
+        <Member name="Forsworn Forager Boots CBBE"/>
+        <Member name="Forsworn Forager Gauntlets CBBE"/>
+        <Member name="Forsworn Looter Armor (3BA)"/>
+        <Member name="Forsworn Looter Boots CBBE"/>
+        <Member name="Forsworn Looter Gauntlets CBBE"/>
+        <Member name="Forsworn Pillager Armor 3BA"/>
+        <Member name="Forsworn Pillager Boots CBBE"/>
+        <Member name="Forsworn Pillager Gauntlets CBBE"/>
+        <Member name="Forsworn Ravager Armor 3BA"/>
+        <Member name="Forsworn Ravager Boots 3BA"/>
+        <Member name="Forsworn Ravager Gauntlets 3BA"/>
+    </Group>
+    <Group name="Fashions of the Forsworn - 3BA (KZ)">
+        <Member name="Forsworn Forager Armor 3BA"/>
+        <Member name="Forsworn Forager Boots CBBE"/>
+        <Member name="Forsworn Forager Gauntlets CBBE"/>
+        <Member name="Forsworn Looter Armor (3BA)"/>
+        <Member name="Forsworn Looter Boots CBBE"/>
+        <Member name="Forsworn Looter Gauntlets CBBE"/>
+        <Member name="Forsworn Pillager Armor 3BA"/>
+        <Member name="Forsworn Pillager Boots CBBE"/>
+        <Member name="Forsworn Pillager Gauntlets CBBE"/>
+        <Member name="Forsworn Ravager Armor 3BA"/>
+        <Member name="Forsworn Ravager Boots 3BA"/>
+        <Member name="Forsworn Ravager Gauntlets 3BA"/>
+    </Group>
+</SliderGroups>

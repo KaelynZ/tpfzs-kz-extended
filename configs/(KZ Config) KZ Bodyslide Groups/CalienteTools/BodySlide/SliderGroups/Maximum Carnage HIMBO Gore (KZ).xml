@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderGroups>
+    <Group name="HIMBO">
+        <Member name="MC_Male_Himbo_Gore_Back"/>
+        <Member name="MC_Male_Himbo_Gore_Front"/>
+        <Member name="MC_Male_Himbo_Gore_SideL"/>
+        <Member name="MC_Male_Himbo_Gore_SideR"/>
+    </Group>
+    <Group name="Maximum Carnage HIMBO Gore (KZ)">
+        <Member name="MC_Male_Himbo_Gore_Back"/>
+        <Member name="MC_Male_Himbo_Gore_Front"/>
+        <Member name="MC_Male_Himbo_Gore_SideL"/>
+        <Member name="MC_Male_Himbo_Gore_SideR"/>
+    </Group>
+</SliderGroups>

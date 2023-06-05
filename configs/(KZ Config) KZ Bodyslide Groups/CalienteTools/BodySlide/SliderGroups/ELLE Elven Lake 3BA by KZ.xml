@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderGroups>
+    <Group name="3BA">
+        <Member name="[ELLE]LakeElvenArms3BA"/>
+        <Member name="[ELLE]LakeElvenArms3BA_Black"/>
+        <Member name="[ELLE]LakeElvenFeet3BA"/>
+        <Member name="[ELLE]LakeElvenFeet3BA_Black"/>
+        <Member name="[ELLE]LakeElvenMain3BA"/>
+        <Member name="[ELLE]LakeElvenMain3BA_Black"/>
+        <Member name="[ELLE]LakeElvenMain3BA_HDT"/>
+        <Member name="[ELLE]LakeElvenMain3BA_HDT_Black"/>
+        <Member name="[ELLE]LakeElvenMalfunction3BA"/>
+        <Member name="[ELLE]LakeElvenMalfunction3BA_Black"/>
+        <Member name="[ELLE]LakeElvenMalfunction3BA_HDT"/>
+        <Member name="[ELLE]LakeElvenMalfunction3BA_HDT_Black"/>
+        <Member name="[ELLE]LakeElvenThigh3BA"/>
+        <Member name="[ELLE]LakeElvenThigh3BA_Black"/>
+    </Group>
+    <Group name="CBBE">
+        <Member name="[ELLE]LakeElvenArms3BA"/>
+        <Member name="[ELLE]LakeElvenArms3BA_Black"/>
+        <Member name="[ELLE]LakeElvenFeet3BA"/>
+        <Member name="[ELLE]LakeElvenFeet3BA_Black"/>
+        <Member name="[ELLE]LakeElvenMain3BA"/>
+        <Member name="[ELLE]LakeElvenMain3BA_Black"/>
+        <Member name="[ELLE]LakeElvenMain3BA_HDT"/>
+        <Member name="[ELLE]LakeElvenMain3BA_HDT_Black"/>
+        <Member name="[ELLE]LakeElvenMalfunction3BA"/>
+        <Member name="[ELLE]LakeElvenMalfunction3BA_Black"/>
+        <Member name="[ELLE]LakeElvenMalfunction3BA_HDT"/>
+        <Member name="[ELLE]LakeElvenMalfunction3BA_HDT_Black"/>
+        <Member name="[ELLE]LakeElvenThigh3BA"/>
+        <Member name="[ELLE]LakeElvenThigh3BA_Black"/>
+    </Group>
+    <Group name="[ELLE] Elven Lake 3BA CBBE">
+        <Member name="[ELLE]LakeElvenArms3BA"/>
+        <Member name="[ELLE]LakeElvenArms3BA_Black"/>
+        <Member name="[ELLE]LakeElvenFeet3BA"/>
+        <Member name="[ELLE]LakeElvenFeet3BA_Black"/>
+        <Member name="[ELLE]LakeElvenMain3BA"/>
+        <Member name="[ELLE]LakeElvenMain3BA_Black"/>
+        <Member name="[ELLE]LakeElvenMain3BA_HDT"/>
+        <Member name="[ELLE]LakeElvenMain3BA_HDT_Black"/>
+        <Member name="[ELLE]LakeElvenMalfunction3BA"/>
+        <Member name="[ELLE]LakeElvenMalfunction3BA_Black"/>
+        <Member name="[ELLE]LakeElvenMalfunction3BA_HDT"/>
+        <Member name="[ELLE]LakeElvenMalfunction3BA_HDT_Black"/>
+        <Member name="[ELLE]LakeElvenThigh3BA"/>
+        <Member name="[ELLE]LakeElvenThigh3BA_Black"/>
+    </Group>
+</SliderGroups>

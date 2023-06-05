@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderGroups>
+    <Group name="Fashions of the Forsworn - HIMBO (KZ)">
+        <Member name="Forsworn Forager Armor HIMBO"/>
+        <Member name="Forsworn Forager Boots HIMBO"/>
+        <Member name="Forsworn Forager Gauntlets HIMBO"/>
+        <Member name="Forsworn Looter Armor (HIMBO)"/>
+        <Member name="Forsworn Looter Boots HIMBO"/>
+        <Member name="Forsworn Looter Gauntlets HIMBO"/>
+        <Member name="Forsworn Pillager Armor HIMBO"/>
+        <Member name="Forsworn Pillager Boots HIMBO"/>
+        <Member name="Forsworn Pillager Gauntlets HIMBO"/>
+        <Member name="Forsworn Ravager Armor HIMBO"/>
+        <Member name="Forsworn Ravager Boots HIMBO"/>
+        <Member name="Forsworn Ravager Gauntlets HIMBO"/>
+    </Group>
+    <Group name="HIMBO">
+        <Member name="Forsworn Forager Armor HIMBO"/>
+        <Member name="Forsworn Forager Boots HIMBO"/>
+        <Member name="Forsworn Forager Gauntlets HIMBO"/>
+        <Member name="Forsworn Looter Armor (HIMBO)"/>
+        <Member name="Forsworn Looter Boots HIMBO"/>
+        <Member name="Forsworn Looter Gauntlets HIMBO"/>
+        <Member name="Forsworn Pillager Armor HIMBO"/>
+        <Member name="Forsworn Pillager Boots HIMBO"/>
+        <Member name="Forsworn Pillager Gauntlets HIMBO"/>
+        <Member name="Forsworn Ravager Armor HIMBO"/>
+        <Member name="Forsworn Ravager Boots HIMBO"/>
+        <Member name="Forsworn Ravager Gauntlets HIMBO"/>
+    </Group>
+</SliderGroups>

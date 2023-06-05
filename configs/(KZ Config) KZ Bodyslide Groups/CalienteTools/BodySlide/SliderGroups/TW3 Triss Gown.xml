@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderGroups>
+    <Group name="3BA">
+        <Member name="TW3 Triss Gown Hands 3BA"/>
+        <Member name="TW3 Triss Gown Main 3BA"/>
+        <Member name="TW3 Triss Gown Main Alt 3BA"/>
+        <Member name="TW3 Triss Gown Shoes 3BA"/>
+    </Group>
+    <Group name="CBBE">
+        <Member name="TW3 Triss Gown Hands 3BA"/>
+        <Member name="TW3 Triss Gown Main 3BA"/>
+        <Member name="TW3 Triss Gown Main Alt 3BA"/>
+        <Member name="TW3 Triss Gown Shoes 3BA"/>
+    </Group>
+    <Group name="TW3 Triss Gown">
+        <Member name="TW3 Triss Gown Hands 3BA"/>
+        <Member name="TW3 Triss Gown Main 3BA"/>
+        <Member name="TW3 Triss Gown Main Alt 3BA"/>
+        <Member name="TW3 Triss Gown Shoes 3BA"/>
+    </Group>
+</SliderGroups>

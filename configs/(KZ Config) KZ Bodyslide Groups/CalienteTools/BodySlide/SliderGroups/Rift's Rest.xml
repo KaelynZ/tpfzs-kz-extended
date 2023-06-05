@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderGroups>
+    <Group name="3BA">
+        <Member name="man_bardBelt_3ba"/>
+        <Member name="man_Nieth Amulet [3BA]"/>
+        <Member name="man_Nieth Gauntlets [3BA]"/>
+        <Member name="man_Nieth Legs [3BA]"/>
+        <Member name="man_Nieth Lower [3BA]"/>
+        <Member name="man_Nieth Upper [3BA]"/>
+        <Member name="man_RRBracelet_3ba"/>
+        <Member name="man_RRHeels_3ba"/>
+        <Member name="man_RRTavern Thong_3ba"/>
+        <Member name="man_RRWench2_3ba"/>
+        <Member name="man_RRWench2NOHDT_3ba"/>
+    </Group>
+    <Group name="CBBE">
+        <Member name="man_bardBelt_3ba"/>
+        <Member name="man_Nieth Amulet [3BA]"/>
+        <Member name="man_Nieth Gauntlets [3BA]"/>
+        <Member name="man_Nieth Legs [3BA]"/>
+        <Member name="man_Nieth Lower [3BA]"/>
+        <Member name="man_Nieth Upper [3BA]"/>
+        <Member name="man_RRBracelet_3ba"/>
+        <Member name="man_RRHeels_3ba"/>
+        <Member name="man_RRTavern Thong_3ba"/>
+        <Member name="man_RRWench2_3ba"/>
+        <Member name="man_RRWench2NOHDT_3ba"/>
+    </Group>
+    <Group name="Rift&apos;s Rest">
+        <Member name="man_bardBelt_3ba"/>
+        <Member name="man_Nieth Amulet [3BA]"/>
+        <Member name="man_Nieth Gauntlets [3BA]"/>
+        <Member name="man_Nieth Legs [3BA]"/>
+        <Member name="man_Nieth Lower [3BA]"/>
+        <Member name="man_Nieth Upper [3BA]"/>
+        <Member name="man_RRBracelet_3ba"/>
+        <Member name="man_RRHeels_3ba"/>
+        <Member name="man_RRTavern Thong_3ba"/>
+        <Member name="man_RRWench2_3ba"/>
+        <Member name="man_RRWench2NOHDT_3ba"/>
+    </Group>
+</SliderGroups>

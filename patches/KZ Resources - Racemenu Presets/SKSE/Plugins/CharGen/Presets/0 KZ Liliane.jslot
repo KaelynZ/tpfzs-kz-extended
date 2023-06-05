@@ -1,0 +1,3908 @@
+{
+   "actor" : {
+      "hairColor" : 2103321,
+      "headTexture" : "Skyrim.esm|0EAFA4",
+      "weight" : 30.00000190734863
+   },
+   "bodyMorphs" : [
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASave_axeeqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASaveCRC_bowatk"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAABase_axeeqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASaveCRC_dageqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAARange_boweqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASave_1hmeqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 6
+            }
+         ],
+         "name" : "XPMSEAARange_dageqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASaveCRC_axeeqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAARange_bowatk"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAARange_bowidle"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASave_dageqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASave_bowatk"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASave_bowidle"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAARange_magmt"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASaveCRC_1hmeqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASave_maceqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASaveCRC_magatk"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASaveCRC_maceqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASave_2hweqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASave_2hmeqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASave_magcastmt"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASaveCRC_2hmeqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASave_magcon"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASaveCRC_2hweqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASave_magatk"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASaveCRC_bowidle"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 5
+            }
+         ],
+         "name" : "XPMSEAARange_1hmeqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASave_boweqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASaveCRC_magmt"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAABase_dageqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAABase_bowatk"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAABase_bowidle"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASaveCRC_boweqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAARange_magidle"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAABase_magcon"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASaveCRC_magcastmt"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASaveCRC_magcon"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASave_magidle"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASaveCRC_magidle"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASave_magmt"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASave_sprint"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASaveCRC_sprint"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASave_shout"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAASaveCRC_shout"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAABase_magcastmt"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 0
+            }
+         ],
+         "name" : "XPMSEAAID"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAABase_1hmeqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAABase_2hmeqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAABase_2hweqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAABase_boweqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAABase_maceqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAABase_magatk"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAARange_magcon"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAABase_magidle"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAABase_magmt"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAABase_sprint"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAABase_shout"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAARange_magcastmt"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAARange_2hmeqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAARange_2hweqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 5
+            }
+         ],
+         "name" : "XPMSEAARange_axeeqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 2
+            }
+         ],
+         "name" : "XPMSEAARange_maceqp"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAARange_magatk"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAARange_sprint"
+      },
+      {
+         "keys" : [
+            {
+               "key" : "XPMSE.esp",
+               "value" : 1
+            }
+         ],
+         "name" : "XPMSEAARange_shout"
+      }
+   ],
+   "faceTextures" : [
+      {
+         "index" : 0,
+         "texture" : "Actors\\Character\\Female\\FemaleHead.dds"
+      },
+      {
+         "index" : 1,
+         "texture" : "Actors\\Character\\Female\\FemaleHead_msn.dds"
+      },
+      {
+         "index" : 2,
+         "texture" : "Actors\\Character\\Female\\FemaleHead_sk.dds"
+      },
+      {
+         "index" : 3,
+         "texture" : "Actors\\Character\\Female\\FemaleHeadDetail_Rough.dds"
+      },
+      {
+         "index" : 7,
+         "texture" : "Actors\\Character\\Female\\FemaleHead_S.dds"
+      }
+   ],
+   "headParts" : [
+      {
+         "formId" : 333071,
+         "formIdentifier" : "Skyrim.esm|05150F",
+         "type" : 0
+      },
+      {
+         "formId" : 4261734918,
+         "formIdentifier" : "High Poly Head.esm|04EA06",
+         "type" : 1
+      },
+      {
+         "formId" : 967090,
+         "formIdentifier" : "Skyrim.esm|0EC1B2",
+         "type" : 2
+      },
+      {
+         "formId" : 2819272890,
+         "formIdentifier" : "KS Hairdo's.esp|0AB0BA",
+         "type" : 3
+      },
+      {
+         "formId" : 2801840188,
+         "formIdentifier" : "TheEyesOfBeauty.esp|00B03C",
+         "type" : 6
+      },
+      {
+         "formId" : 937340,
+         "formIdentifier" : "Skyrim.esm|0E4D7C",
+         "type" : 7
+      }
+   ],
+   "modNames" : [
+      "High Poly Head.esm",
+      "KS Hairdo's.esp",
+      "Skyrim.esm",
+      "TheEyesOfBeauty.esp"
+   ],
+   "mods" : [
+      {
+         "index" : 0,
+         "name" : "Skyrim.esm"
+      },
+      {
+         "index" : 167,
+         "name" : "TheEyesOfBeauty.esp"
+      },
+      {
+         "index" : 168,
+         "name" : "KS Hairdo's.esp"
+      }
+   ],
+   "morphs" : {
+      "custom" : [
+         {
+            "name" : "CME_EyesUpDown",
+            "value" : -0.949999988079071
+         },
+         {
+            "name" : "CME_JawUpDown",
+            "value" : 0.1899999976158142
+         },
+         {
+            "name" : "CME_MouthWidth",
+            "value" : 0.03999999910593033
+         },
+         {
+            "name" : "EFM_Tubercle_Lower_Height",
+            "value" : 2.299999952316284
+         },
+         {
+            "name" : "NSK_EyeAngle",
+            "value" : -0.2999999821186066
+         },
+         {
+            "name" : "NSK_NoseTilt",
+            "value" : 0.3199999928474426
+         },
+         {
+            "name" : "EFM_Chin_Depth",
+            "value" : -0.2699999809265137
+         },
+         {
+            "name" : "CME_NoseSellionBackForward",
+            "value" : 0.1899999976158142
+         },
+         {
+            "name" : "CME_LowerLipHeight",
+            "value" : 0.239999994635582
+         },
+         {
+            "name" : "CME_MouthBackForward",
+            "value" : -0.2199999988079071
+         },
+         {
+            "name" : "NSK_EyeSize",
+            "value" : 0.2299999892711639
+         },
+         {
+            "name" : "CME_ChinWidth",
+            "value" : -0.6100000143051147
+         },
+         {
+            "name" : "CME_CheeksUpDown",
+            "value" : -3
+         },
+         {
+            "name" : "EFM_Face_Height",
+            "value" : 0.07000000029802322
+         },
+         {
+            "name" : "EFM_Tubercle_Upper_Height",
+            "value" : 0.8799999952316284
+         },
+         {
+            "name" : "CME_ChinBackForward",
+            "value" : -0.2999999821186066
+         },
+         {
+            "name" : "EFM_Lip_Upper_Width",
+            "value" : -0.7699999809265137
+         },
+         {
+            "name" : "CME_BrowUpDown",
+            "value" : -0.119999997317791
+         },
+         {
+            "name" : "EFM_Jaw_Shape",
+            "value" : 1.189999938011169
+         },
+         {
+            "name" : "EFM_Eyes_Height",
+            "value" : -0.04999999701976776
+         },
+         {
+            "name" : "EFM_Brow_Height",
+            "value" : -3
+         },
+         {
+            "name" : "CME_CheeksBlow",
+            "value" : 0.1499999910593033
+         },
+         {
+            "name" : "ECE_NoseTipWidth",
+            "value" : -0.119999997317791
+         },
+         {
+            "name" : "ECE_NoseBridgeWidth",
+            "value" : -0.1899999976158142
+         },
+         {
+            "name" : "EFM_Brow_Thickness",
+            "value" : -1.949999928474426
+         },
+         {
+            "name" : "EFM_Nose_Tip_Depth",
+            "value" : -1.949999928474426
+         },
+         {
+            "name" : "EFM_Nose_Wing_Width",
+            "value" : 0.3299999833106995
+         },
+         {
+            "name" : "EFM_Eyes_Outer_Height",
+            "value" : -0.119999997317791
+         },
+         {
+            "name" : "RANs_LipDuckly",
+            "value" : -0.1499999910593033
+         },
+         {
+            "name" : "EFM_Brow_Width",
+            "value" : 3
+         },
+         {
+            "name" : "ECE_ChinBackForward",
+            "value" : -0.02999999932944775
+         },
+         {
+            "name" : "CME_MouthHeight",
+            "value" : 0.08999999612569809
+         },
+         {
+            "name" : "CME_MouthCornerUpDown",
+            "value" : 0.08999999612569809
+         },
+         {
+            "name" : "EFM_Nose_Wing_Thickness",
+            "value" : 0.3199999928474426
+         },
+         {
+            "name" : "EFM_Eyes_Inner_Width",
+            "value" : 0.5299999713897705
+         },
+         {
+            "name" : "CME_UpperLipHeight",
+            "value" : -0.1899999976158142
+         },
+         {
+            "name" : "CME_JawWidth",
+            "value" : -0.5399999618530273
+         },
+         {
+            "name" : "CME_NoseSellionUpDown",
+            "value" : -0.449999988079071
+         },
+         {
+            "name" : "CME_BrowBackForward",
+            "value" : -0.3799999952316284
+         },
+         {
+            "name" : "EFM_Lip_Upper_Thickness",
+            "value" : -0.07000000029802322
+         },
+         {
+            "name" : "CME_BrowSlope",
+            "value" : -0.1499999910593033
+         },
+         {
+            "name" : "EFM_Lip_Lower_Width",
+            "value" : -0.4599999785423279
+         },
+         {
+            "name" : "EFM_Brow_Angle",
+            "value" : -0.07999999821186066
+         },
+         {
+            "name" : "EFM_Lip_Lower_Thickness",
+            "value" : -0.5399999618530273
+         },
+         {
+            "name" : "CME_EyesSlope",
+            "value" : -0.09999999403953552
+         },
+         {
+            "name" : "EFM_Cheek_Shape",
+            "value" : 1.5
+         },
+         {
+            "name" : "CME_EyesSize",
+            "value" : 0.8700000047683716
+         },
+         {
+            "name" : "NSK_LipThickness",
+            "value" : -0.2299999892711639
+         },
+         {
+            "name" : "CME_AroundNoseBackForward",
+            "value" : 0.1099999994039536
+         },
+         {
+            "name" : "CME_CheeksBoneInOut",
+            "value" : 0.5699999928474426
+         },
+         {
+            "name" : "CME_CheeksWidth",
+            "value" : -0.2299999892711639
+         },
+         {
+            "name" : "NSK_BrowAngle",
+            "value" : 0.03999999910593033
+         },
+         {
+            "name" : "EFM_Nose_Root_Width",
+            "value" : -2.599999904632568
+         },
+         {
+            "name" : "CME_FaceUpDown",
+            "value" : -0.5399999618530273
+         },
+         {
+            "name" : "CME_JawBackForward",
+            "value" : -0.8299999833106995
+         },
+         {
+            "name" : "CME_ChinUpDown",
+            "value" : -0.09999999403953552
+         },
+         {
+            "name" : "EFM_Lip_Width",
+            "value" : -0.9599999785423279
+         },
+         {
+            "name" : "CME_EyeballInOut",
+            "value" : 0.3899999856948853
+         },
+         {
+            "name" : "EFM_Nose_Tip_Width",
+            "value" : -2.059999942779541
+         },
+         {
+            "name" : "NSK_MouthWidth",
+            "value" : -0.1799999922513962
+         },
+         {
+            "name" : "NSK_MouthSmile",
+            "value" : 0.8100000023841858
+         },
+         {
+            "name" : "CME_MouthCornerBackForward",
+            "value" : -0.1499999910593033
+         },
+         {
+            "name" : "CME_BrowArch",
+            "value" : 1.759999990463257
+         },
+         {
+            "name" : "EFM_Tubercle_Upper_Width",
+            "value" : 0.3199999928474426
+         },
+         {
+            "name" : "CME_BrowInOut",
+            "value" : -1.329999923706055
+         },
+         {
+            "name" : "EFM_Eyes_Lower_Height",
+            "value" : -0.7299999594688416
+         },
+         {
+            "name" : "EFM_Eyes_Outer_Width",
+            "value" : -1.679999947547913
+         },
+         {
+            "name" : "EFM_Eyes_Outer_Thickness",
+            "value" : 1.949999928474426
+         },
+         {
+            "name" : "EFM_Eyes_Lower_Shape",
+            "value" : 1.5
+         },
+         {
+            "name" : "EFM_Eyes_Inner_Thickness",
+            "value" : 3
+         },
+         {
+            "name" : "EFM_Eyes_Inner_Height",
+            "value" : -0.5399999618530273
+         },
+         {
+            "name" : "CME_NoseSellionWidth",
+            "value" : 0.7799999713897705
+         },
+         {
+            "name" : "EFM_Cheek_Depth",
+            "value" : 0.3599999845027924
+         },
+         {
+            "name" : "EFM_Cheek_Height",
+            "value" : -0.3700000047683716
+         },
+         {
+            "name" : "EFM_Cheek_Width",
+            "value" : -0.4899999797344208
+         },
+         {
+            "name" : "EFM_Jaw_Depth",
+            "value" : -0.5999999642372131
+         },
+         {
+            "name" : "EFM_Jaw_Height",
+            "value" : -0.1499999910593033
+         },
+         {
+            "name" : "EFM_Jaw_Width",
+            "value" : -0.3299999833106995
+         },
+         {
+            "name" : "EFM_Nose_Tip_Thickness",
+            "value" : -1.329999923706055
+         },
+         {
+            "name" : "EFM_Nose_Wing_Height",
+            "value" : -2.099999904632568
+         },
+         {
+            "name" : "NSK_CheekShape",
+            "value" : -0.1899999976158142
+         },
+         {
+            "name" : "NSK_JawShape",
+            "value" : 0.199999988079071
+         },
+         {
+            "name" : "NSK_ElfEar",
+            "value" : 0.07999999821186066
+         },
+         {
+            "name" : "RANs_Weight",
+            "value" : 0.03999999910593033
+         },
+         {
+            "name" : "EFM_Nose_Root_Height",
+            "value" : -2.180000066757202
+         },
+         {
+            "name" : "NSK_NoseBridge",
+            "value" : 0.009999999776482582
+         },
+         {
+            "name" : "NSK_NoseSellionWidth",
+            "value" : -0.1899999976158142
+         },
+         {
+            "name" : "NSK_NoseWidth",
+            "value" : -0.119999997317791
+         },
+         {
+            "name" : "CME_EyelashLength",
+            "value" : 0.2999999821186066
+         },
+         {
+            "name" : "CME_UnderChinSlope",
+            "value" : -0.3799999952316284
+         },
+         {
+            "name" : "EFM_Tubercle_Lower_Thickness",
+            "value" : -0.3799999952316284
+         },
+         {
+            "name" : "EFM_Tubercle_Lower_Width",
+            "value" : -0.449999988079071
+         },
+         {
+            "name" : "EFM_Tubercle_Upper_Depth",
+            "value" : -0.02999999932944775
+         },
+         {
+            "name" : "EFM_Tubercle_Upper_Thickness",
+            "value" : -0.1499999910593033
+         },
+         {
+            "name" : "EXPR_K",
+            "value" : 1.220000028610229
+         },
+         {
+            "name" : "CME_EarUpDown",
+            "value" : -0.5699999928474426
+         },
+         {
+            "name" : "ECE_EarSize",
+            "value" : -0.3799999952316284
+         },
+         {
+            "name" : "EFM_Nose_Tip_Height",
+            "value" : -0.07999999821186066
+         },
+         {
+            "name" : "EFM_Nose_Width",
+            "value" : -0.09999999403953552
+         },
+         {
+            "name" : "CME_Imperial",
+            "value" : 0.07000000029802322
+         },
+         {
+            "name" : "CME_Nord",
+            "value" : 0.03999999910593033
+         },
+         {
+            "name" : "CME_Breton",
+            "value" : -0.119999997317791
+         },
+         {
+            "name" : "CME_NoseLength",
+            "value" : -0.1499999910593033
+         },
+         {
+            "name" : "EFM_Nose_Depth",
+            "value" : -0.07999999821186066
+         }
+      ],
+      "default" : {
+         "morphs" : [
+            0.300000011920929,
+            -0.2000000029802322,
+            -1,
+            -0.699999988079071,
+            0.6000000238418579,
+            0,
+            -0.1000000014901161,
+            -1,
+            -0.2000000029802322,
+            -1,
+            0.800000011920929,
+            -1,
+            0.2000000029802322,
+            -1,
+            0.300000011920929,
+            -1,
+            -0.300000011920929,
+            -1,
+            3.402823466385289e+38
+         ],
+         "presets" : [ 8, 4294967295, 14, 18 ]
+      },
+      "sculpt" : [
+         {
+            "data" : [
+               [ 8, -8, 803, 303 ],
+               [ 0, -13, 1128, -1126 ],
+               [ 73, 1, -910, -6687 ],
+               [ 9, -6, 800, 895 ],
+               [ 1, -13, 1128, -1126 ],
+               [ 3, -6, 800, 895 ],
+               [ 4, -8, 803, 304 ],
+               [ 5, 6, -485, 835 ],
+               [ 7, 6, -485, 835 ],
+               [ 10, -37, 3838, 2863 ],
+               [ 75, -1412, -656, -7702 ],
+               [ 11, -26, 2452, 2 ],
+               [ 76, 1407, -613, -7743 ],
+               [ 12, -6, 979, 2969 ],
+               [ 13, -37, 3838, 2863 ],
+               [ 78, 1, -916, -6730 ],
+               [ 14, -26, 2452, 2 ],
+               [ 79, -2864, 4226, 297 ],
+               [ 15, -36, 3813, 3382 ],
+               [ 80, 20, -2394, -4030 ],
+               [ 16, -36, 3762, 2921 ],
+               [ 81, 2821, -828, -6340 ],
+               [ 17, -6, 979, 2969 ],
+               [ 82, -2818, -860, -6348 ],
+               [ 18, -37, 3838, 2863 ],
+               [ 83, 20, -2377, -4031 ],
+               [ 19, -36, 3820, 3380 ],
+               [ 84, 2773, 4275, 247 ],
+               [ 20, -26, 2452, 2 ],
+               [ 85, 2825, -1697, -10075 ],
+               [ 21, -6, 979, 2969 ],
+               [ 86, 1417, -1673, -8901 ],
+               [ 22, -36, 3762, 2921 ],
+               [ 24, -39, 4276, 4749 ],
+               [ 89, -1402, -1706, -8912 ],
+               [ 25, -41, 4352, 4082 ],
+               [ 90, -2814, -1648, -10470 ],
+               [ 26, -40, 4293, 4447 ],
+               [ 91, -2879, 5087, -4485 ],
+               [ 27, -40, 4291, 4450 ],
+               [ 92, -1412, -656, -7702 ],
+               [ 28, -41, 4352, 4082 ],
+               [ 93, 0, -964, -9041 ],
+               [ 29, -13, 1128, -1126 ],
+               [ 94, -71, 6195, -5207 ],
+               [ 30, -13, 1128, -1126 ],
+               [ 95, 24, -3046, -6276 ],
+               [ 31, -37, 3838, 2863 ],
+               [ 96, 10, -2304, -11817 ],
+               [ 32, -6, 979, 2969 ],
+               [ 97, -2893, 7282, 3427 ],
+               [ 33, -26, 2452, 2 ],
+               [ 98, -2920, 10190, 6536 ],
+               [ 34, -23, 2192, 89 ],
+               [ 35, -23, 2192, 89 ],
+               [ 36, -16, 1650, 942 ],
+               [ 37, -16, 1650, 942 ],
+               [ 38, -33, 3723, 4864 ],
+               [ 39, -39, 4445, 6926 ],
+               [ 40, -33, 3729, 4862 ],
+               [ 41, -13, 1128, -1126 ],
+               [ 42, -13, 1128, -1126 ],
+               [ 43, -17, 1606, -562 ],
+               [ 44, -17, 1606, -562 ],
+               [ 99, -103, 10711, 8564 ],
+               [ 100, -77, 7835, 4557 ],
+               [ 101, 2718, 10237, 6486 ],
+               [ 102, 2745, 7350, 3387 ],
+               [ 103, -32, 2685, -3580 ],
+               [ 106, 1407, -613, -7743 ],
+               [ 109, -3, 2, -2819 ],
+               [ 110, -32, 2660, -3562 ],
+               [ 111, -2879, 5087, -4485 ],
+               [ 112, 2759, 5159, -4515 ],
+               [ 113, 2759, 5159, -4515 ],
+               [ 114, -58, 5477, -294 ],
+               [ 115, -3, 2, -2819 ],
+               [ 117, -37, 4083, 5163 ],
+               [ 118, -31, 3534, 5245 ],
+               [ 119, -31, 3547, 5279 ],
+               [ 120, -31, 3489, 4990 ],
+               [ 121, -40, 4262, 4436 ],
+               [ 122, -39, 4088, 3482 ],
+               [ 123, -30, 3240, 3678 ],
+               [ 124, -30, 3382, 4540 ],
+               [ 125, -38, 3947, 2782 ],
+               [ 126, -29, 3111, 2979 ],
+               [ 127, -38, 3931, 2775 ],
+               [ 128, -39, 4078, 3477 ],
+               [ 129, -30, 3236, 3676 ],
+               [ 130, -29, 3100, 2973 ],
+               [ 131, -40, 4262, 4445 ],
+               [ 132, -30, 3382, 4542 ],
+               [ 133, -36, 4043, 5217 ],
+               [ 134, -31, 3532, 5238 ],
+               [ 135, -31, 3470, 4903 ],
+               [ 136, -31, 3543, 5251 ],
+               [ 137, -31, 3609, 5641 ],
+               [ 138, -41, 4488, 5608 ],
+               [ 139, -40, 4413, 5184 ],
+               [ 140, -40, 4408, 5101 ]
+            ],
+            "host" : "Actors\\Character\\Character Assets\\Mouth\\MouthHumanFChargen.tri",
+            "vertices" : 141
+         },
+         {
+            "data" : [
+               [ 399, -104, -3, -74 ],
+               [ 2152, 171, -96, -110 ],
+               [ 1435, -351, 243, -498 ],
+               [ 401, -5, 42, -11 ],
+               [ 2162, 125, -416, -100 ],
+               [ 1517, 4, -15, -50 ],
+               [ 74, -163, -163, 265 ],
+               [ 2871, 245, 1250, -590 ],
+               [ 1190, 0, 6, -127 ],
+               [ 3214, 0, 0, 1 ],
+               [ 2878, 226, 989, -468 ],
+               [ 3753, 179, 4369, 3228 ],
+               [ 3544, 136, 4099, 9782 ],
+               [ 2163, 174, -599, -151 ],
+               [ 1978, 324, 4716, 3583 ],
+               [ 2622, 339, 350, -420 ],
+               [ 3288, -142, 979, -85 ],
+               [ 2164, 339, -384, -201 ],
+               [ 3559, -778, 2953, -1687 ],
+               [ 1471, -3, -1, -13 ],
+               [ 395, -243, 4766, 9986 ],
+               [ 2619, 347, 187, -333 ],
+               [ 2165, 270, -307, -158 ],
+               [ 3044, -357, 1232, 1085 ],
+               [ 956, -504, 99, 648 ],
+               [ 1213, -346, 386, -469 ],
+               [ 1334, -27, -77, 107 ],
+               [ 161, -12, -4, -25 ],
+               [ 976, -772, -965, -319 ],
+               [ 2185, 199, 1185, -649 ],
+               [ 1943, 773, -535, -273 ],
+               [ 2620, 446, 252, -348 ],
+               [ 2621, 416, 475, -431 ],
+               [ 3295, -308, 1613, 628 ],
+               [ 404, -3, -108, -37 ],
+               [ 2155, 4, 44, -11 ],
+               [ 83, 88, 1209, 1643 ],
+               [ 1587, -17, 1634, 201 ],
+               [ 3293, -432, 1178, 207 ],
+               [ 418, -357, -491, -132 ],
+               [ 3478, 294, 1064, -18 ],
+               [ 2623, 502, 416, -364 ],
+               [ 3723, -44, 3617, 9177 ],
+               [ 792, -1, 76, -284 ],
+               [ 2864, 410, -55, -250 ],
+               [ 680, -5, -121, 5 ],
+               [ 313, 0, 27, -220 ],
+               [ 2624, 464, 700, -440 ],
+               [ 2523, -1, 84, -227 ],
+               [ 1192, 0, 6, -149 ],
+               [ 1849, -55, 1886, 2058 ],
+               [ 2861, 119, 88, -176 ],
+               [ 3535, -200, 4095, 9783 ],
+               [ 2140, 168, 5423, 10015 ],
+               [ 789, -1, 75, -192 ],
+               [ 407, -4, 0, -4 ],
+               [ 3515, -10, 1010, -462 ],
+               [ 2080, 26, -13, -109 ],
+               [ 1507, 0, 0, 1 ],
+               [ 2865, 293, 13, -216 ],
+               [ 793, -1, 62, -356 ],
+               [ 2866, 483, -4, -282 ],
+               [ 1500, 0, 0, 1 ],
+               [ 84, 80, 716, 1367 ],
+               [ 1144, -403, -258, -188 ],
+               [ 2539, 425, 796, -391 ],
+               [ 403, -94, -158, -46 ],
+               [ 869, 0, 0, -19 ],
+               [ 2877, 296, 1104, -458 ],
+               [ 3551, 47, 4127, 8978 ],
+               [ 2879, 294, 1292, -424 ],
+               [ 3222, 0, 0, 1 ],
+               [ 2880, 381, 1057, -377 ],
+               [ 936, 0, 0, 1 ],
+               [ 3803, -746, 5721, 1005 ],
+               [ 1598, 81, 2114, 1157 ],
+               [ 216, -416, 4708, 3585 ],
+               [ 2881, 385, 752, -345 ],
+               [ 3084, 133, 461, -294 ],
+               [ 2495, 0, -2, 0 ],
+               [ 3467, 172, 108, -200 ],
+               [ 400, -35, 48, -27 ],
+               [ 2882, 292, 487, -306 ],
+               [ 794, -1, 55, -399 ],
+               [ 220, -379, 4948, 4782 ],
+               [ 941, -370, -548, -483 ],
+               [ 3634, 26, 1430, -602 ],
+               [ 2965, 294, 296, -417 ],
+               [ 2966, 251, 181, -328 ],
+               [ 3135, 0, 29, -94 ],
+               [ 115, -51, 5154, 2642 ],
+               [ 2018, 0, 30, -316 ],
+               [ 3533, -66, 3679, 9602 ],
+               [ 82, 20, 1887, 2058 ],
+               [ 2545, 497, 1675, -201 ],
+               [ 3142, 359, 313, -502 ],
+               [ 1198, 0, 0, -41 ],
+               [ 3078, 431, 1035, -425 ],
+               [ 1134, -115, 12, -232 ],
+               [ 2067, 0, 47, -267 ],
+               [ 3079, 473, 710, -364 ],
+               [ 950, -550, 493, 369 ],
+               [ 2964, 462, 908, -418 ],
+               [ 2149, -55, 4746, 8103 ],
+               [ 940, -227, -333, -460 ],
+               [ 1759, -2, 267, 2 ],
+               [ 3081, 471, 288, -297 ],
+               [ 2086, 0, 0, 1 ],
+               [ 3776, -265, 4364, 3228 ],
+               [ 3409, -13, 132, -19 ],
+               [ 1465, -85, 6380, 5497 ],
+               [ 405, -1, 66, -21 ],
+               [ 2150, 68, -103, -54 ],
+               [ 3473, -67, 454, -108 ],
+               [ 78, 214, 1782, 1611 ],
+               [ 1529, 3, -67, -397 ],
+               [ 3082, 351, -104, -228 ],
+               [ 103, -78, 4250, 3328 ],
+               [ 3083, 176, -264, -194 ],
+               [ 417, -9, -486, -78 ],
+               [ 1377, -6, 510, -298 ],
+               [ 421, -13, -722, -128 ],
+               [ 1506, 10, -51, -221 ],
+               [ 3514, -127, 1005, -467 ],
+               [ 2571, 405, 23, -314 ],
+               [ 1378, -10, -320, -182 ],
+               [ 2153, 76, 63, -83 ],
+               [ 944, -36, -52, -268 ],
+               [ 378, -141, 5636, 9660 ],
+               [ 1245, -533, 1283, -312 ],
+               [ 3635, 287, 1283, -1851 ],
+               [ 1366, -550, 1752, 23 ],
+               [ 3518, 103, 985, -466 ],
+               [ 416, -166, -524, -86 ],
+               [ 402, -230, -221, -93 ],
+               [ 3687, -457, 3984, 4418 ],
+               [ 406, 0, 44, -9 ],
+               [ 1367, -419, 1845, -153 ],
+               [ 419, -446, -609, -171 ],
+               [ 420, -217, -735, -131 ],
+               [ 1163, -348, 425, -296 ],
+               [ 2151, 25, 59, -30 ],
+               [ 1942, 659, -343, -195 ],
+               [ 322, 0, 10, -154 ],
+               [ 1374, -444, -278, -204 ],
+               [ 3128, 0, 31, -81 ],
+               [ 427, 0, 0, -3 ],
+               [ 1375, -215, -381, -176 ],
+               [ 2068, 0, 13, -109 ],
+               [ 1376, -164, 423, -287 ],
+               [ 251, 0, 38, -265 ],
+               [ 964, -450, 3890, 1474 ],
+               [ 85, 243, 693, 1293 ],
+               [ 1145, -563, -414, -212 ],
+               [ 2024, -41, 6381, 7246 ],
+               [ 86, 364, 745, 1130 ],
+               [ 1146, -652, -383, -242 ],
+               [ 2867, 0, 0, -13 ],
+               [ 1162, -254, 989, -466 ],
+               [ 795, -1, 57, -354 ],
+               [ 1373, -613, -11, -266 ],
+               [ 2082, 0, 0, 1 ],
+               [ 321, -13, -1, -131 ],
+               [ 3466, -214, -6, -187 ],
+               [ 2587, 373, -884, -499 ],
+               [ 398, -27, 29, -39 ],
+               [ 286, -298, -225, -451 ],
+               [ 1161, -468, 595, -329 ],
+               [ 1160, -328, 1074, -454 ],
+               [ 904, -2, -25, -64 ],
+               [ 1141, -122, 66, -177 ],
+               [ 2020, -44, 7467, 7859 ],
+               [ 452, -223, 1184, -648 ],
+               [ 894, -674, 69, -334 ],
+               [ 1867, -92, 2852, 2148 ],
+               [ 250, 0, 20, -234 ],
+               [ 895, -607, -82, -319 ],
+               [ 896, -466, -62, -310 ],
+               [ 320, -26, -13, -109 ],
+               [ 1243, -484, 889, -414 ],
+               [ 2617, 52, 1432, -615 ],
+               [ 1581, 121, 982, -85 ],
+               [ 1372, -604, 467, -343 ],
+               [ 1158, -452, 959, -369 ],
+               [ 2839, 59, -46, -330 ],
+               [ 3310, 678, 3134, 1908 ],
+               [ 815, -537, 1648, -192 ],
+               [ 428, -1, 0, -6 ],
+               [ 1247, -290, 103, -322 ],
+               [ 892, -517, 291, -418 ],
+               [ 2101, 0, 0, 3 ],
+               [ 3799, 13, 4606, 1502 ],
+               [ 2980, -20, 1923, 314 ],
+               [ 1558, 48, 357, -226 ],
+               [ 897, -421, 201, -408 ],
+               [ 1258, 8, -95, 154 ],
+               [ 891, -561, 530, -427 ],
+               [ 1114, -211, 127, -309 ],
+               [ 811, -488, 1226, -265 ],
+               [ 3202, 0, 5, -97 ],
+               [ 2835, 44, -24, -192 ],
+               [ 2901, 2, 0, -80 ],
+               [ 276, -208, -198, -387 ],
+               [ 1159, -331, 1270, -422 ],
+               [ 845, -391, 337, -13 ],
+               [ 252, 0, 39, -306 ],
+               [ 1248, -323, 248, -413 ],
+               [ 1370, -496, 942, -418 ],
+               [ 893, -466, 579, -457 ],
+               [ 236, -2, 6, -135 ],
+               [ 898, -387, 461, -461 ],
+               [ 2906, 0, 0, -59 ],
+               [ 1371, -383, 1345, -396 ],
+               [ 2088, 0, 0, 1 ],
+               [ 3076, 407, 1820, -150 ],
+               [ 2087, 0, 0, 1 ],
+               [ 890, -498, 841, -463 ],
+               [ 2928, 333, 400, -471 ],
+               [ 3787, -22, 4606, 1502 ],
+               [ 856, -279, -719, -553 ],
+               [ 681, -4, -72, -16 ],
+               [ 2544, 454, 1246, -332 ],
+               [ 2625, 477, 863, -466 ],
+               [ 538, 242, 4250, 5694 ],
+               [ 2626, 432, 632, -462 ],
+               [ 2045, -60, 5757, 7809 ],
+               [ 539, 93, 4443, 4494 ],
+               [ 2627, 359, 500, -465 ],
+               [ 3570, -363, 983, -2228 ],
+               [ 2071, -1, 54, -387 ],
+               [ 1926, 168, -55, -201 ],
+               [ 2962, 472, 807, -455 ],
+               [ 3171, 6, 5147, 5788 ],
+               [ 880, -29, 4191, 2255 ],
+               [ 2904, 0, 5, -98 ],
+               [ 2089, 0, 0, 1 ],
+               [ 1868, 0, 2718, 1533 ],
+               [ 3077, 422, 1273, -421 ],
+               [ 1455, -64, 5350, 6680 ],
+               [ 3080, 348, 1363, -397 ],
+               [ 443, -10, 869, -1356 ],
+               [ 1511, 0, -19, -118 ],
+               [ 116, -52, 5244, 2708 ],
+               [ 3519, 257, 1557, -364 ],
+               [ 2126, 301, 1689, -339 ],
+               [ 3577, -418, 2192, -1145 ],
+               [ 102, -130, 4660, 3240 ],
+               [ 1425, 0, 5, -12 ],
+               [ 185, -762, -551, -271 ],
+               [ 2129, 211, 2084, -134 ],
+               [ 3366, 152, 4077, 4516 ],
+               [ 1582, 71, 1141, -15 ],
+               [ 857, -655, -980, -443 ],
+               [ 2929, 403, 675, -456 ],
+               [ 2272, 559, -334, -71 ],
+               [ 2005, 0, 0, 1 ],
+               [ 2570, 458, 1768, -26 ],
+               [ 2961, 490, 1106, -388 ],
+               [ 3686, -650, 3604, 5607 ],
+               [ 2963, 512, 1295, -317 ],
+               [ 842, -488, -458, -247 ],
+               [ 3075, 407, 1550, -292 ],
+               [ 3322, 510, 1523, -253 ],
+               [ 2891, -34, -118, -230 ],
+               [ 3323, 449, 1086, -380 ],
+               [ 328, 0, 0, 1 ],
+               [ 2527, 0, 59, -307 ],
+               [ 358, 320, 2257, -29 ],
+               [ 3321, 483, 1967, -100 ],
+               [ 2133, 158, 2451, 44 ],
+               [ 924, -2, 10, -82 ],
+               [ 109, -74, 7870, 6013 ],
+               [ 544, -570, -557, -167 ],
+               [ 2568, 534, 2030, -96 ],
+               [ 1979, -119, 4760, 5956 ],
+               [ 284, -380, -509, -364 ],
+               [ 3319, 233, 2667, 40 ],
+               [ 2564, 357, 2676, -27 ],
+               [ 545, -660, -662, -161 ],
+               [ 2569, 506, 1975, -80 ],
+               [ 2561, 423, 2478, -50 ],
+               [ 1563, 13, 94, -32 ],
+               [ 394, -254, 5110, 10026 ],
+               [ 2546, 482, 1634, -130 ],
+               [ 3651, -228, 3503, 1026 ],
+               [ 2560, 445, 2181, -39 ],
+               [ 1244, -489, 792, -452 ],
+               [ 2610, -245, 3933, 2128 ],
+               [ 1369, -436, 1276, -420 ],
+               [ 1358, -233, 436, 1016 ],
+               [ 249, 0, 0, 1 ],
+               [ 3309, 425, 3748, 3179 ],
+               [ 370, -329, 1694, -339 ],
+               [ 1368, -414, 1575, -293 ],
+               [ 2251, 106, 23, -140 ],
+               [ 1577, 341, 1470, 310 ],
+               [ 3299, -122, 2112, 1157 ],
+               [ 288, -43, 5758, 7809 ],
+               [ 1211, -422, 660, -454 ],
+               [ 817, -458, 796, -436 ],
+               [ 3318, -47, 3352, 598 ],
+               [ 839, -529, 1680, 2 ],
+               [ 1246, -497, 1107, -386 ],
+               [ 3597, -13, 3712, 290 ],
+               [ 3516, -291, 1551, -363 ],
+               [ 816, -490, 1221, -328 ],
+               [ 1762, -479, 1361, 97 ],
+               [ 371, -242, 2098, -137 ],
+               [ 2013, 0, 41, -346 ],
+               [ 3379, -2, 241, -10 ],
+               [ 1622, -487, 2009, -105 ],
+               [ 961, -285, 2046, 1893 ],
+               [ 804, 0, 1, -5 ],
+               [ 1623, -540, 1512, -251 ],
+               [ 1624, -483, 1056, -375 ],
+               [ 1321, 0, 27, -201 ],
+               [ 253, 0, 25, -275 ],
+               [ 374, -198, 2464, 44 ],
+               [ 841, -574, 1999, -77 ],
+               [ 248, 0, 5, -27 ],
+               [ 2913, 0, 0, -74 ],
+               [ 686, 0, -2, 0 ],
+               [ 2009, 0, 0, 1 ],
+               [ 291, -87, 5766, 8549 ],
+               [ 1618, -272, 2689, 34 ],
+               [ 2083, 0, 0, 1 ],
+               [ 838, -399, 2692, -30 ],
+               [ 814, -528, 1593, -116 ],
+               [ 840, -585, 1859, -36 ],
+               [ 2912, 0, 10, -144 ],
+               [ 834, -489, 2428, -30 ],
+               [ 3240, 2, -2, -35 ],
+               [ 813, -495, 1384, -15 ],
+               [ 831, -514, 2119, -20 ],
+               [ 80, 227, 1177, 1542 ],
+               [ 1196, 0, 10, -144 ],
+               [ 1318, -6, 0, -85 ],
+               [ 960, -274, 1550, 1461 ],
+               [ 81, 316, 1204, 1342 ],
+               [ 1197, 0, 0, -59 ],
+               [ 2012, 0, 39, -306 ],
+               [ 1326, 0, 42, -173 ],
+               [ 968, -423, 10, 724 ],
+               [ 1994, 15, -2, -189 ],
+               [ 3368, 133, 4237, 4718 ],
+               [ 1324, 0, 38, -222 ],
+               [ 95, 150, 2422, 2117 ],
+               [ 1195, 0, 0, -74 ],
+               [ 986, -49, -108, 590 ],
+               [ 785, -1, 80, -288 ],
+               [ 3269, -251, 644, -131 ],
+               [ 314, 0, 13, -109 ],
+               [ 318, -29, -13, -129 ],
+               [ 1193, 0, 0, -79 ],
+               [ 2008, 0, 0, 5 ],
+               [ 3034, 0, 42, -173 ],
+               [ 312, 0, 33, -175 ],
+               [ 3261, -223, 153, 218 ],
+               [ 258, 0, 30, -316 ],
+               [ 1200, 0, 10, -117 ],
+               [ 797, 0, 44, -269 ],
+               [ 3346, -9, 915, -10 ],
+               [ 1322, 0, 13, -152 ],
+               [ 3267, -153, 686, -185 ],
+               [ 256, 0, 50, -376 ],
+               [ 163, -110, -34, -114 ],
+               [ 2002, 0, 0, 1 ],
+               [ 164, -27, -6, -79 ],
+               [ 821, -383, 4766, 4581 ],
+               [ 1495, 0, 8, -135 ],
+               [ 171, -73, 7612, 6506 ],
+               [ 3384, 0, 63, 0 ],
+               [ 2010, 0, 50, -376 ],
+               [ 174, -77, 7446, 7095 ],
+               [ 1497, 0, 15, -194 ],
+               [ 3030, 0, 27, -201 ],
+               [ 1191, 0, 0, -74 ],
+               [ 316, 0, 29, -214 ],
+               [ 1199, 0, 10, -84 ],
+               [ 310, 0, 47, -267 ],
+               [ 1185, 0, 1, -55 ],
+               [ 2000, 1, 0, -37 ],
+               [ 324, 0, 0, 1 ],
+               [ 332, 0, 0, 1 ],
+               [ 1265, -13, 1294, 126 ],
+               [ 326, 0, 0, 1 ],
+               [ 330, 0, 0, 1 ],
+               [ 933, 0, 0, 1 ],
+               [ 219, -522, 4586, 3427 ],
+               [ 3641, 499, 2967, -1688 ],
+               [ 3496, 0, 25, -203 ],
+               [ 1217, 18, -47, -88 ],
+               [ 3623, -9, 565, -3100 ],
+               [ 342, 0, 0, 5 ],
+               [ 3229, 0, 0, -8 ],
+               [ 1221, 0, 0, 1 ],
+               [ 233, 0, 3, -16 ],
+               [ 879, 256, 3937, 2127 ],
+               [ 1222, 0, 0, 5 ],
+               [ 3620, -10, 846, -1356 ],
+               [ 2903, 0, 0, -20 ],
+               [ 234, -2, 0, -37 ],
+               [ 235, -8, -1, -103 ],
+               [ 238, -16, -5, -99 ],
+               [ 239, -32, -11, -150 ],
+               [ 3492, 0, 57, -301 ],
+               [ 3637, 547, 1135, -3101 ],
+               [ 2263, 584, 1533, 680 ],
+               [ 833, -403, 2965, 133 ],
+               [ 240, -16, -2, -189 ],
+               [ 1350, -25, 2305, 468 ],
+               [ 241, 0, 6, -226 ],
+               [ 1859, -4, 4251, 3328 ],
+               [ 242, 0, 0, 1 ],
+               [ 3376, -5, 502, -12 ],
+               [ 243, 0, 0, 1 ],
+               [ 837, -293, 3158, 203 ],
+               [ 244, 0, 0, 4 ],
+               [ 3370, 113, 4713, 4657 ],
+               [ 245, 0, 0, 1 ],
+               [ 246, 0, 0, 1 ],
+               [ 1348, 110, 2162, 615 ],
+               [ 247, 0, 0, 5 ],
+               [ 254, 0, 55, -296 ],
+               [ 1356, 115, 295, 1007 ],
+               [ 255, 0, 53, -337 ],
+               [ 688, 26, 16, 25 ],
+               [ 257, 0, 41, -346 ],
+               [ 309, -1, 67, -315 ],
+               [ 2007, 0, 5, -27 ],
+               [ 3750, 256, 3937, 2127 ],
+               [ 3025, 6, 4, -144 ],
+               [ 311, 0, 23, -130 ],
+               [ 3351, -5, 505, -13 ],
+               [ 1327, 0, 36, -134 ],
+               [ 315, 0, 22, -227 ],
+               [ 684, -1, -18, -3 ],
+               [ 317, 0, 18, -271 ],
+               [ 2015, 0, 38, -265 ],
+               [ 319, -13, -2, -160 ],
+               [ 323, 0, 8, -190 ],
+               [ 325, 0, 0, 1 ],
+               [ 3830, 111, 1186, -979 ],
+               [ 327, 0, 0, 1 ],
+               [ 329, 0, 0, 1 ],
+               [ 3495, 0, 27, -210 ],
+               [ 2100, 0, 0, 1 ],
+               [ 331, 0, 0, 1 ],
+               [ 341, 0, 0, 4 ],
+               [ 3782, 957, 4895, -475 ],
+               [ 343, 0, 0, 1 ],
+               [ 553, -119, 5685, 8498 ],
+               [ 344, 0, 0, 3 ],
+               [ 1579, 171, 1521, 161 ],
+               [ 346, 0, 0, 5 ],
+               [ 2257, 750, 2338, 840 ],
+               [ 3494, -1, 55, -346 ],
+               [ 1323, 0, 31, -225 ],
+               [ 1993, 0, 6, -226 ],
+               [ 2017, 0, 25, -275 ],
+               [ 2001, 0, 3, -16 ],
+               [ 2084, 0, 0, 1 ],
+               [ 2069, 0, 27, -220 ],
+               [ 2948, 419, 573, -372 ],
+               [ 860, -356, -892, -499 ],
+               [ 2099, 0, 0, 5 ],
+               [ 3725, -135, 3665, 9745 ],
+               [ 786, 0, 65, -247 ],
+               [ 1154, -223, 1393, -548 ],
+               [ 787, -1, 93, -263 ],
+               [ 1671, -136, 5206, 4452 ],
+               [ 788, -1, 84, -227 ],
+               [ 1665, -281, 3952, 4202 ],
+               [ 790, 0, 51, -206 ],
+               [ 3206, 0, 22, -227 ],
+               [ 791, -1, 69, -321 ],
+               [ 1679, -2, 241, -10 ],
+               [ 796, 0, 59, -307 ],
+               [ 1673, -23, 2048, 350 ],
+               [ 798, -1, 54, -387 ],
+               [ 1186, 0, 0, -26 ],
+               [ 819, -198, 5296, 6072 ],
+               [ 2525, -1, 76, -284 ],
+               [ 824, -173, 3558, 573 ],
+               [ 3755, -225, 4151, 5079 ],
+               [ 2522, -1, 75, -192 ],
+               [ 827, 94, 3601, 864 ],
+               [ 1194, 0, 9, -155 ],
+               [ 2915, 0, 10, -117 ],
+               [ 3218, -4, -13, -55 ],
+               [ 830, 341, 3614, 1276 ],
+               [ 1496, 0, 17, -232 ],
+               [ 934, 0, 0, 1 ],
+               [ 3127, 0, 9, -16 ],
+               [ 935, 0, 0, 1 ],
+               [ 3286, -47, 1307, 65 ],
+               [ 1588, -24, 2417, 572 ],
+               [ 2769, 462, -292, 464 ],
+               [ 946, 0, 0, 1 ],
+               [ 2576, 27, -212, -294 ],
+               [ 2003, 0, 0, 1 ],
+               [ 1317, -2, 5, -120 ],
+               [ 967, -299, -51, 736 ],
+               [ 1620, 245, 3506, 810 ],
+               [ 2011, 0, 53, -337 ],
+               [ 1325, 0, 43, -204 ],
+               [ 975, -655, -921, -335 ],
+               [ 1187, 0, 5, -98 ],
+               [ 978, -458, -680, -339 ],
+               [ 1996, 1, 6, -135 ],
+               [ 1117, -13, -5, -131 ],
+               [ 3205, 0, 18, -271 ],
+               [ 3032, 0, 38, -222 ],
+               [ 3390, -2, 228, -4 ],
+               [ 77, 41, -50, 362 ],
+               [ 2016, 0, 20, -234 ],
+               [ 1137, -43, -5, -80 ],
+               [ 1182, 0, 1, -78 ],
+               [ 73, -341, -245, 279 ],
+               [ 1189, 0, 0, -59 ],
+               [ 2004, 0, 0, 4 ],
+               [ 1835, 337, -243, 423 ],
+               [ 1206, 0, 13, -54 ],
+               [ 1320, 0, 25, -203 ],
+               [ 2139, 89, 5669, 10225 ],
+               [ 3035, 0, 36, -134 ],
+               [ 1337, 337, 1262, 790 ],
+               [ 447, -219, 1095, -979 ],
+               [ 1036, -267, -174, 105 ],
+               [ 2072, 0, 44, -269 ],
+               [ 1030, -511, -264, -259 ],
+               [ 2066, 0, 23, -130 ],
+               [ 1421, 0, 3, -3 ],
+               [ 1424, 0, 31, -80 ],
+               [ 1427, 0, 37, -96 ],
+               [ 3499, -2, 0, -3 ],
+               [ 391, -188, 5368, 9267 ],
+               [ 1428, 0, 25, -102 ],
+               [ 2663, 0, 0, 1 ],
+               [ 1430, 0, 29, -94 ],
+               [ 2098, 0, 0, 4 ],
+               [ 1453, -61, 5407, 6754 ],
+               [ 114, -53, 4931, 2500 ],
+               [ 3565, -468, 1029, -2227 ],
+               [ 1493, 0, 1, -49 ],
+               [ 639, 0, -20, 12 ],
+               [ 1494, 0, 5, -97 ],
+               [ 3204, 0, 17, -232 ],
+               [ 1116, -32, -18, -184 ],
+               [ 1837, 30, -115, 299 ],
+               [ 901, -67, -109, -334 ],
+               [ 2909, 0, 0, -74 ],
+               [ 2252, 179, 72, -229 ],
+               [ 2920, 0, 13, -54 ],
+               [ 1691, -2, 228, -4 ],
+               [ 826, -26, 3712, 991 ],
+               [ 2914, 0, 0, -59 ],
+               [ 2524, -1, 93, -263 ],
+               [ 1842, -339, 1197, 1344 ],
+               [ 2664, 0, 0, 1 ],
+               [ 1947, 53, -36, 9 ],
+               [ 1995, 6, -1, -103 ],
+               [ 3033, 0, 43, -204 ],
+               [ 3758, -65, 4454, 2694 ],
+               [ 1997, 32, -11, -150 ],
+               [ 1998, 16, -5, -99 ],
+               [ 2006, 0, 0, 1 ],
+               [ 3380, 0, 38, -1 ],
+               [ 2079, 13, -1, -131 ],
+               [ 2014, 0, 55, -296 ],
+               [ 71, -165, -177, 378 ],
+               [ 3563, -363, 983, -2228 ],
+               [ 2064, -1, 67, -315 ],
+               [ 2065, 0, 33, -175 ],
+               [ 2944, 320, 175, -514 ],
+               [ 3130, 0, 37, -95 ],
+               [ 453, -227, 1155, -816 ],
+               [ 1513, 21, -67, -285 ],
+               [ 2070, -1, 55, -399 ],
+               [ 2073, -1, 62, -356 ],
+               [ 2952, 21, -253, -383 ],
+               [ 928, -13, 50, -140 ],
+               [ 2074, 0, 29, -214 ],
+               [ 3581, -778, 2953, -1687 ],
+               [ 1118, -96, -44, -379 ],
+               [ 2075, 13, -1, -160 ],
+               [ 2034, 386, -400, -427 ],
+               [ 2076, 29, -12, -130 ],
+               [ 1527, 25, -89, -391 ],
+               [ 3072, 568, 2217, 128 ],
+               [ 451, -12, 1067, -827 ],
+               [ 2077, 0, 8, -190 ],
+               [ 69, -239, -206, 531 ],
+               [ 3074, 512, 1763, 22 ],
+               [ 445, -11, 999, -1021 ],
+               [ 2078, 0, 10, -154 ],
+               [ 2081, 0, 0, 1 ],
+               [ 2896, 6, -3, -47 ],
+               [ 952, -704, -343, 247 ],
+               [ 3133, 0, 25, -102 ],
+               [ 2900, 10, -3, -94 ],
+               [ 2085, 0, 0, 1 ],
+               [ 3783, 1122, 5763, 31 ],
+               [ 2908, 0, 6, -149 ],
+               [ 3791, 332, 3506, 1025 ],
+               [ 900, -5, -99, -173 ],
+               [ 2102, 0, 0, 5 ],
+               [ 3792, -428, 4623, 530 ],
+               [ 3497, 0, 10, -156 ],
+               [ 3800, -386, 4984, 1013 ],
+               [ 3028, 0, 27, -210 ],
+               [ 881, -253, 4363, 2442 ],
+               [ 2905, 0, 6, -127 ],
+               [ 3630, -719, 2388, 39 ],
+               [ 2248, 133, 71, -168 ],
+               [ 2665, 0, 0, 1 ],
+               [ 96, 36, 2854, 2148 ],
+               [ 2519, 0, 65, -247 ],
+               [ 3236, -24, -89, -391 ],
+               [ 1148, 0, 0, -13 ],
+               [ 496, -92, 3177, 2965 ],
+               [ 2520, -1, 80, -288 ],
+               [ 106, -172, 4394, 3790 ],
+               [ 2521, 0, 51, -206 ],
+               [ 497, 73, 2544, 2466 ],
+               [ 502, -67, 7878, 7542 ],
+               [ 3655, -625, 3497, 829 ],
+               [ 2526, -1, 69, -321 ],
+               [ 1838, 39, -122, 214 ],
+               [ 2528, -1, 57, -354 ],
+               [ 2673, 11, -2, -94 ],
+               [ 2041, 232, -384, -376 ],
+               [ 2662, 0, 0, 1 ],
+               [ 1983, 433, 4596, 3426 ],
+               [ 524, -81, 1, -82 ],
+               [ 2676, 0, 0, 1 ],
+               [ 1761, -427, 1028, 137 ],
+               [ 886, 134, 1801, -341 ],
+               [ 2910, 0, 9, -155 ],
+               [ 3785, 446, 4633, 529 ],
+               [ 1556, 1, 49, -37 ],
+               [ 903, -15, -27, -146 ],
+               [ 2911, 0, 0, -79 ],
+               [ 3628, 372, 1037, -2228 ],
+               [ 828, -236, 4008, 1596 ],
+               [ 2916, 0, 10, -84 ],
+               [ 3735, 254, 3588, 9590 ],
+               [ 2938, 0, 0, 1 ],
+               [ 2939, 0, 0, 5 ],
+               [ 3306, 412, 2921, 2455 ],
+               [ 3026, 0, 15, -194 ],
+               [ 3235, -17, -64, -201 ],
+               [ 1552, 220, 158, 218 ],
+               [ 3027, 1, 6, -139 ],
+               [ 1546, 291, 430, 31 ],
+               [ 3029, 0, 31, -225 ],
+               [ 3031, 0, 57, -301 ],
+               [ 3748, 254, 3588, 9590 ],
+               [ 3381, 0, 55, 0 ],
+               [ 3200, 0, 1, -49 ],
+               [ 79, 187, 1656, 1798 ],
+               [ 3203, 0, 13, -152 ],
+               [ 3796, -1056, 4874, -473 ],
+               [ 3493, -1, 55, -346 ],
+               [ 3517, -205, 1644, -344 ],
+               [ 393, -53, 5043, 8180 ],
+               [ 1463, -88, 6281, 6039 ],
+               [ 387, -47, 5656, 10268 ],
+               [ 1457, -63, 5522, 6661 ],
+               [ 397, -24, 4747, 8103 ],
+               [ 415, -2, 0, -2 ],
+               [ 1132, -302, -760, -443 ],
+               [ 1922, 27, -5, -79 ],
+               [ 3170, -42, 5802, 6600 ],
+               [ 1142, -122, 18, -150 ],
+               [ 1930, -70, 7384, 5678 ],
+               [ 1423, 0, 22, -51 ],
+               [ 3176, -36, 6381, 5497 ],
+               [ 908, -57, -333, -469 ],
+               [ 1084, 292, 144, 596 ],
+               [ 848, -79, -351, -367 ],
+               [ 3788, 1122, 5763, 31 ],
+               [ 3421, -6, 671, 26 ],
+               [ 1086, 284, 346, 894 ],
+               [ 2765, 443, -209, -93 ],
+               [ 1874, -44, 4931, 2500 ],
+               [ 852, -241, -576, -387 ],
+               [ 1361, -552, 1026, 512 ],
+               [ 1728, -5, 551, 15 ],
+               [ 3419, -15, 1518, 124 ],
+               [ 2762, 516, -253, -260 ],
+               [ 439, -173, 986, -1261 ],
+               [ 3804, -1188, 5739, 34 ],
+               [ 3501, -12, 0, -11 ],
+               [ 441, -125, 957, -1196 ],
+               [ 1038, -454, -302, 466 ],
+               [ 1954, -55, 6481, 4540 ],
+               [ 1447, -109, 5554, 7553 ],
+               [ 932, -137, -332, -520 ],
+               [ 385, -188, 5421, 10321 ],
+               [ 1449, -131, 5547, 8557 ],
+               [ 389, -260, 5666, 9956 ],
+               [ 70, -332, -250, 424 ],
+               [ 1521, 0, 0, -8 ],
+               [ 3154, -508, 3601, 6901 ],
+               [ 2851, 79, -12, -214 ],
+               [ 3579, -54, 2678, -825 ],
+               [ 72, -89, -139, 462 ],
+               [ 1188, 0, 0, -40 ],
+               [ 1845, -377, 737, 1131 ],
+               [ 75, -36, -122, 214 ],
+               [ 2042, 130, -225, -381 ],
+               [ 76, -27, -116, 299 ],
+               [ 3160, 6, 5500, 7826 ],
+               [ 3531, -119, 3890, 10053 ],
+               [ 809, -440, 784, -378 ],
+               [ 972, -566, 351, 173 ],
+               [ 94, 120, 2957, 2618 ],
+               [ 97, -8, 3509, 2714 ],
+               [ 98, 61, 2400, 1718 ],
+               [ 1150, -258, 1237, -710 ],
+               [ 99, -54, 2717, 1533 ],
+               [ 1938, 709, -510, 240 ],
+               [ 100, -111, 3306, 2042 ],
+               [ 1431, -95, -97, -418 ],
+               [ 101, -141, 3949, 2591 ],
+               [ 104, -96, 5523, 4162 ],
+               [ 503, -74, 7893, 7584 ],
+               [ 105, -122, 4814, 3913 ],
+               [ 107, -37, 3676, 3161 ],
+               [ 1946, 880, -783, 88 ],
+               [ 108, -76, 7910, 6080 ],
+               [ 1433, -223, 39, -495 ],
+               [ 110, -65, 6680, 4361 ],
+               [ 501, -86, 7584, 8019 ],
+               [ 111, -66, 6751, 4432 ],
+               [ 112, -72, 7707, 5862 ],
+               [ 113, -66, 6559, 4334 ],
+               [ 505, -100, 6488, 7984 ],
+               [ 499, -294, 3700, 3656 ],
+               [ 3138, 221, 43, -495 ],
+               [ 1505, 13, -58, -266 ],
+               [ 1108, -268, 110, -401 ],
+               [ 1110, -197, 69, -258 ],
+               [ 449, -129, 1129, -650 ],
+               [ 2855, 10, 0, -10 ],
+               [ 2026, -32, 6383, 8909 ],
+               [ 1519, -2, -2, -35 ],
+               [ 1207, -385, 412, -528 ],
+               [ 260, -104, 6830, 7808 ],
+               [ 1215, 5, -15, -34 ],
+               [ 268, -62, 6832, 8745 ],
+               [ 3352, -8, 826, 21 ],
+               [ 1201, 0, 0, -5 ],
+               [ 262, -95, 7467, 7859 ],
+               [ 3285, -117, 1791, 284 ],
+               [ 266, -82, 6382, 8909 ],
+               [ 1382, -2, -48, -10 ],
+               [ 1209, -435, 655, -482 ],
+               [ 270, -111, 6748, 8462 ],
+               [ 264, -84, 6698, 7027 ],
+               [ 3259, -486, 908, 392 ],
+               [ 1380, -68, 8122, 6973 ],
+               [ 274, -60, 18, -234 ],
+               [ 3213, -1, -10, -49 ],
+               [ 3432, -9, 866, 49 ],
+               [ 1153, -267, 1382, -485 ],
+               [ 278, -379, -408, -425 ],
+               [ 3426, -57, 529, -80 ],
+               [ 3283, -203, 1517, 162 ],
+               [ 272, -66, 7246, 8441 ],
+               [ 1843, -249, 1172, 1542 ],
+               [ 162, -51, -20, -49 ],
+               [ 3549, 25, 3752, 9946 ],
+               [ 1111, -341, 284, -441 ],
+               [ 292, -73, 5848, 7431 ],
+               [ 165, -151, -74, -53 ],
+               [ 980, -107, 880, 1315 ],
+               [ 166, -245, -88, -150 ],
+               [ 1332, 216, 75, 402 ],
+               [ 167, -337, -146, -233 ],
+               [ 168, -167, -58, -201 ],
+               [ 825, -210, 3711, 948 ],
+               [ 3547, 87, 4093, 10159 ],
+               [ 290, -77, 5919, 8294 ],
+               [ 3165, 52, 4954, 5773 ],
+               [ 1342, -118, 3522, 1694 ],
+               [ 169, -44, -1, -153 ],
+               [ 984, -40, 42, 793 ],
+               [ 170, -65, 7972, 6801 ],
+               [ 1119, -44, -25, -192 ],
+               [ 1503, 4, -27, -136 ],
+               [ 172, -73, 7384, 5678 ],
+               [ 829, 0, 3893, 1511 ],
+               [ 1105, -217, 99, -264 ],
+               [ 294, -102, 5935, 8828 ],
+               [ 173, -65, 7756, 7388 ],
+               [ 3378, 0, 86, -4 ],
+               [ 1340, -38, 2921, 966 ],
+               [ 175, -89, 6953, 6652 ],
+               [ 176, -83, 7072, 6075 ],
+               [ 3317, 77, 3105, 311 ],
+               [ 298, -47, 5529, 9333 ],
+               [ 177, -78, 7007, 5582 ],
+               [ 178, -697, -525, 242 ],
+               [ 179, -810, -688, 181 ],
+               [ 180, -842, -690, -78 ],
+               [ 1113, -291, 237, -403 ],
+               [ 181, -719, -488, -5 ],
+               [ 182, -863, -801, 89 ],
+               [ 296, -86, 5893, 9077 ],
+               [ 3163, -33, 5536, 6925 ],
+               [ 183, -882, -861, -160 ],
+               [ 184, -785, -745, -343 ],
+               [ 186, -652, -357, -193 ],
+               [ 187, -19, -9, -16 ],
+               [ 188, -52, -38, 10 ],
+               [ 781, -2, 8, -31 ],
+               [ 189, -4, -2, -4 ],
+               [ 191, -4, -2, -4 ],
+               [ 1574, -40, 3965, 1526 ],
+               [ 192, -12, -22, 21 ],
+               [ 849, -156, -395, -362 ],
+               [ 1875, -62, 6559, 4334 ],
+               [ 194, -76, 6427, 4940 ],
+               [ 195, -70, 6481, 4540 ],
+               [ 196, -77, 5407, 3425 ],
+               [ 853, -279, -611, -534 ],
+               [ 382, -173, 5769, 10021 ],
+               [ 376, -6, 2466, 165 ],
+               [ 3307, 315, 3492, 3337 ],
+               [ 1573, -39, 3893, 1482 ],
+               [ 1364, -674, 2661, 390 ],
+               [ 3625, 245, 880, -2518 ],
+               [ 861, -250, -728, -533 ],
+               [ 3618, 58, 784, -1937 ],
+               [ 2595, 0, 0, -18 ],
+               [ 1590, 392, 1248, 486 ],
+               [ 929, -46, -208, -517 ],
+               [ 1446, 9, 4821, 7134 ],
+               [ 2615, -22, 1713, -375 ],
+               [ 1955, -47, 6427, 4940 ],
+               [ 1223, -337, -50, -460 ],
+               [ 549, -578, -32, 111 ],
+               [ 2612, 381, 4309, 2441 ],
+               [ 1589, 275, 1620, 627 ],
+               [ 1444, -30, 5082, 7152 ],
+               [ 215, -300, 4693, 3413 ],
+               [ 338, 0, 0, -24 ],
+               [ 3277, -39, 3893, 1482 ],
+               [ 1454, -108, 4655, 5646 ],
+               [ 217, -301, 4936, 4715 ],
+               [ 218, -149, 4791, 4588 ],
+               [ 2616, 136, 1395, -597 ],
+               [ 221, -168, 5329, 6419 ],
+               [ 2611, 339, 4480, 2675 ],
+               [ 222, -109, 5080, 6031 ],
+               [ 1597, 147, 2044, 844 ],
+               [ 1452, -143, 4952, 5774 ],
+               [ 223, 32, 4762, 5956 ],
+               [ 282, -158, -186, -446 ],
+               [ 1175, 19, -67, -120 ],
+               [ 885, -13, 1713, -375 ],
+               [ 280, -225, -388, -376 ],
+               [ 3211, -13, -58, -266 ],
+               [ 889, 12, 1490, -616 ],
+               [ 1183, -1, 0, -46 ],
+               [ 364, 218, 3141, 619 ],
+               [ 237, 0, 0, -48 ],
+               [ 362, 186, 2606, 265 ],
+               [ 372, -108, 2395, 74 ],
+               [ 1177, 31, -118, -237 ],
+               [ 366, 396, 3335, 736 ],
+               [ 360, 441, 2911, 466 ],
+               [ 3227, 2, -2, -35 ],
+               [ 1263, -20, 1981, 346 ],
+               [ 380, -48, 5602, 9700 ],
+               [ 368, 539, 3371, 753 ],
+               [ 1714, -15, 1518, 124 ],
+               [ 259, -121, 7124, 8217 ],
+               [ 261, -92, 7167, 7521 ],
+               [ 263, -76, 6381, 7246 ],
+               [ 3766, -41, 5037, 2603 ],
+               [ 265, -57, 6365, 8973 ],
+               [ 267, -94, 6833, 8692 ],
+               [ 269, -96, 6348, 8648 ],
+               [ 271, -103, 7235, 8403 ],
+               [ 273, -69, 13, -310 ],
+               [ 1666, -228, 4073, 4517 ],
+               [ 275, -193, -100, -300 ],
+               [ 277, -379, -263, -333 ],
+               [ 279, -126, -228, -381 ],
+               [ 3718, -307, 3582, 9590 ],
+               [ 281, -266, -335, -414 ],
+               [ 648, 0, 3, -3 ],
+               [ 1674, -1, 125, -3 ],
+               [ 283, -324, -575, -365 ],
+               [ 285, -409, -361, -359 ],
+               [ 287, -195, -104, -499 ],
+               [ 289, -51, 5768, 7571 ],
+               [ 293, -88, 6176, 8121 ],
+               [ 295, -132, 5669, 9069 ],
+               [ 3670, 179, 3884, 5342 ],
+               [ 297, -51, 5856, 9129 ],
+               [ 299, -107, 5575, 9294 ],
+               [ 1999, 0, 0, -48 ],
+               [ 1730, -9, 868, 54 ],
+               [ 339, 0, 0, -24 ],
+               [ 1225, -325, 168, -513 ],
+               [ 1682, 0, 55, 0 ],
+               [ 357, 563, 2419, 55 ],
+               [ 359, 326, 2760, 369 ],
+               [ 3734, 254, 3588, 9590 ],
+               [ 361, 131, 2132, -102 ],
+               [ 1690, -2, 254, 0 ],
+               [ 363, 111, 3043, 569 ],
+               [ 365, 307, 3273, 721 ],
+               [ 367, 514, 3088, 576 ],
+               [ 369, 611, 2956, 432 ],
+               [ 373, -221, 1920, -217 ],
+               [ 375, -49, 2836, 316 ],
+               [ 3814, -230, 4412, 9894 ],
+               [ 377, -108, 2024, -127 ],
+               [ 379, -188, 5701, 9439 ],
+               [ 381, -49, 5752, 10066 ],
+               [ 383, -240, 5784, 9785 ],
+               [ 384, -44, 5411, 10362 ],
+               [ 529, -756, 2255, 433 ],
+               [ 1555, -1, 100, -89 ],
+               [ 386, -186, 5668, 10225 ],
+               [ 388, -260, 5418, 10015 ],
+               [ 533, -615, 1520, 682 ],
+               [ 390, -89, 5322, 8322 ],
+               [ 3607, -113, 3288, -429 ],
+               [ 392, -168, 5069, 9219 ],
+               [ 537, -802, 3087, 1367 ],
+               [ 396, -152, 4745, 9157 ],
+               [ 541, 383, 3993, 4417 ],
+               [ 410, -4, 0, -4 ],
+               [ 1233, -27, 0, -34 ],
+               [ 3639, 108, 2163, -1583 ],
+               [ 3798, 332, 3509, 1025 ],
+               [ 3291, -17, 1634, 201 ],
+               [ 1595, 13, 113, -26 ],
+               [ 426, 0, 0, -1 ],
+               [ 3591, -468, 1029, -2227 ],
+               [ 440, -115, 891, -1356 ],
+               [ 521, -118, 3, -119 ],
+               [ 1547, 381, 674, 68 ],
+               [ 442, -199, 1040, -1124 ],
+               [ 444, -11, 933, -1194 ],
+               [ 525, -52, 0, -62 ],
+               [ 446, -133, 1024, -1026 ],
+               [ 448, -12, 1104, -637 ],
+               [ 1619, 442, 3508, 927 ],
+               [ 450, -135, 1093, -838 ],
+               [ 2852, 34, -8, -77 ],
+               [ 3671, -225, 4151, 5079 ],
+               [ 1846, -254, 688, 1294 ],
+               [ 2868, 2, 0, -6 ],
+               [ 3751, 95, 4009, 3111 ],
+               [ 474, 0, 0, -18 ],
+               [ 2872, 230, 1242, -710 ],
+               [ 685, 0, -12, -2 ],
+               [ 478, 0, 0, -20 ],
+               [ 1651, -8, 826, 21 ],
+               [ 482, 0, 0, -18 ],
+               [ 3703, -182, 3876, 6637 ],
+               [ 1603, -345, 3387, 3343 ],
+               [ 498, -239, 3996, 3709 ],
+               [ 500, -179, 2827, 2794 ],
+               [ 504, -71, 7598, 8054 ],
+               [ 1611, -537, 4119, 3310 ],
+               [ 506, -77, 6075, 7352 ],
+               [ 1458, -103, 5146, 5789 ],
+               [ 1975, 212, 4698, 3412 ],
+               [ 520, -171, 39, -193 ],
+               [ 522, -70, 0, -77 ],
+               [ 1466, -109, 4666, 2667 ],
+               [ 523, -114, 23, -127 ],
+               [ 1977, 207, 4941, 4715 ],
+               [ 526, -23, 0, -42 ],
+               [ 527, -17, 0, -36 ],
+               [ 528, -38, 9, -52 ],
+               [ 530, -723, 1858, 524 ],
+               [ 531, -798, 2322, 842 ],
+               [ 1927, 340, -139, -234 ],
+               [ 532, -813, 2687, 791 ],
+               [ 1921, 13, -4, -24 ],
+               [ 534, -691, 2000, 972 ],
+               [ 535, -701, 2466, 1477 ],
+               [ 3462, 460, 4177, 2287 ],
+               [ 536, -793, 2766, 1395 ],
+               [ 1935, -42, 6954, 6652 ],
+               [ 540, 501, 3710, 5632 ],
+               [ 1929, 153, -71, -53 ],
+               [ 542, 250, 4167, 3250 ],
+               [ 543, -49, 4479, 3330 ],
+               [ 546, -592, -318, 32 ],
+               [ 1362, -641, 1367, 337 ],
+               [ 547, -496, -155, 16 ],
+               [ 2253, 236, 136, -289 ],
+               [ 548, -787, -695, -118 ],
+               [ 2246, 48, 25, -68 ],
+               [ 1873, -51, 5154, 2642 ],
+               [ 1216, 21, -59, -141 ],
+               [ 550, -386, 482, 263 ],
+               [ 551, -139, 5759, 8934 ],
+               [ 552, -190, 5757, 9257 ],
+               [ 2250, 35, 5, -67 ],
+               [ 554, -80, 5744, 8186 ],
+               [ 1224, -372, 162, -461 ],
+               [ 3292, -24, 1481, 151 ],
+               [ 2269, -567, 3699, 5633 ],
+               [ 2262, 651, 2014, 970 ],
+               [ 1232, -6, 0, -8 ],
+               [ 2266, -26, 4479, 3330 ],
+               [ 1450, -95, 5583, 7234 ],
+               [ 2039, 301, -218, -452 ],
+               [ 2033, 59, 19, -234 ],
+               [ 3574, -58, 1430, -602 ],
+               [ 1530, -11, -11, -140 ],
+               [ 2047, -27, 5920, 8294 ],
+               [ 3367, 207, 3957, 4201 ],
+               [ 3526, 102, 5119, 10357 ],
+               [ 1836, -39, -51, 362 ],
+               [ 1937, -81, 7756, 7388 ],
+               [ 1434, -306, 149, -494 ],
+               [ 1945, 900, -842, -162 ],
+               [ 2023, -41, 6699, 7027 ],
+               [ 3558, -111, 3231, -429 ],
+               [ 2031, 211, -193, -387 ],
+               [ 2025, -29, 6833, 8692 ],
+               [ 638, 0, -12, 0 ],
+               [ 1379, -78, 8144, 7028 ],
+               [ 666, 0, 25, -22 ],
+               [ 667, 2, 27, -21 ],
+               [ 1331, 94, -38, 519 ],
+               [ 1844, -217, 1652, 1798 ],
+               [ 3542, 11, 4222, 7964 ],
+               [ 1339, 199, 1668, 1236 ],
+               [ 682, -2, -48, -10 ],
+               [ 1498, 2, -12, -55 ],
+               [ 683, -1, -84, 24 ],
+               [ 687, 0, -17, -3 ],
+               [ 1363, -681, 1773, 204 ],
+               [ 1876, -77, 7707, 5862 ],
+               [ 1956, -27, 5407, 3425 ],
+               [ 1451, -67, 5536, 6925 ],
+               [ 3129, 0, 22, -51 ],
+               [ 1085, 410, 433, 741 ],
+               [ 1862, 29, 4816, 3912 ],
+               [ 1347, -6, 2697, 1053 ],
+               [ 1860, -60, 3509, 2714 ],
+               [ 1870, -196, 2419, 2118 ],
+               [ 1355, -13, 1259, 97 ],
+               [ 763, 0, -17, -3 ],
+               [ 765, 0, -2, 0 ],
+               [ 3773, -41, 5037, 2603 ],
+               [ 1202, 0, 3, -23 ],
+               [ 1719, -8, 767, 37 ],
+               [ 3771, 92, 4931, 3529 ],
+               [ 1210, -419, 562, -494 ],
+               [ 1727, -9, 866, 49 ],
+               [ 780, 0, 2, -20 ],
+               [ 1721, 22, 608, -44 ],
+               [ 782, -3, 12, -34 ],
+               [ 3294, -418, 1239, 487 ],
+               [ 3532, -29, 3912, 10144 ],
+               [ 3677, 0, 3594, 8892 ],
+               [ 1106, -316, 185, -413 ],
+               [ 803, -2, 8, -21 ],
+               [ 1617, -142, 3103, 312 ],
+               [ 3158, -95, 4819, 7135 ],
+               [ 3675, 139, 3600, 7598 ],
+               [ 810, -469, 1063, -179 ],
+               [ 812, -462, 898, -392 ],
+               [ 818, -176, 5180, 5861 ],
+               [ 3548, 10, 3680, 9602 ],
+               [ 3757, -264, 4928, 3529 ],
+               [ 820, -403, 4901, 4697 ],
+               [ 2518, 0, 2, -20 ],
+               [ 822, -565, 4492, 3353 ],
+               [ 823, -574, 4360, 3304 ],
+               [ 3238, 9, -34, -272 ],
+               [ 832, -502, 2615, 108 ],
+               [ 1266, -13, 1310, 145 ],
+               [ 835, -532, 3036, 401 ],
+               [ 836, -387, 3337, 462 ],
+               [ 843, -440, -91, -107 ],
+               [ 844, -411, -113, -326 ],
+               [ 846, -409, 196, -305 ],
+               [ 847, -25, -212, -291 ],
+               [ 850, -77, -234, -328 ],
+               [ 3789, 652, 5736, 1005 ],
+               [ 1218, 6, -16, -31 ],
+               [ 851, -147, -499, -424 ],
+               [ 1729, -5, 556, 18 ],
+               [ 854, -485, -863, -512 ],
+               [ 1572, -38, 3711, 1356 ],
+               [ 855, -418, -919, -520 ],
+               [ 3270, -306, 857, -78 ],
+               [ 858, -546, -996, -455 ],
+               [ 1226, -259, 23, -513 ],
+               [ 859, -446, -930, -441 ],
+               [ 3624, 268, 851, -3100 ],
+               [ 1580, 229, 1804, 458 ],
+               [ 3741, -27, 3836, 10147 ],
+               [ 1687, 0, 66, 0 ],
+               [ 868, 0, 0, -5 ],
+               [ 3739, -23, 3373, 10224 ],
+               [ 1178, 12, -171, -274 ],
+               [ 1689, 0, 67, 0 ],
+               [ 882, -428, 4471, 2676 ],
+               [ 3821, -13, 2046, -125 ],
+               [ 883, -467, 4300, 2442 ],
+               [ 884, -167, 1392, -597 ],
+               [ 887, -84, 1430, -615 ],
+               [ 3302, 184, 2706, 2700 ],
+               [ 888, 305, 1916, -282 ],
+               [ 3819, -168, 4407, 10263 ],
+               [ 899, -34, -109, -245 ],
+               [ 902, -33, -34, -247 ],
+               [ 905, 8, -136, -446 ],
+               [ 906, -11, -218, -498 ],
+               [ 907, -88, -413, -534 ],
+               [ 3608, 551, 3622, 827 ],
+               [ 3602, -924, 4009, -981 ],
+               [ 909, 13, -174, -526 ],
+               [ 910, -113, -458, -570 ],
+               [ 911, -205, -640, -484 ],
+               [ 1564, 53, 379, -132 ],
+               [ 1123, -1, 0, -16 ],
+               [ 3175, -1, 5572, 5319 ],
+               [ 918, 0, 0, -2 ],
+               [ 921, 0, 0, -9 ],
+               [ 1646, -6, 628, -24 ],
+               [ 3688, -304, 4041, 4638 ],
+               [ 3682, 139, 3600, 7598 ],
+               [ 925, 0, 1, -40 ],
+               [ 926, 0, 0, -9 ],
+               [ 927, -9, 34, -127 ],
+               [ 930, -137, -432, -576 ],
+               [ 931, -51, -118, -449 ],
+               [ 1234, -17, -253, -383 ],
+               [ 3640, -86, 1762, -1530 ],
+               [ 939, -157, -253, -428 ],
+               [ 942, -89, -152, -370 ],
+               [ 943, -33, 3, -201 ],
+               [ 1596, 11, 132, -19 ],
+               [ 945, -11, -2, -94 ],
+               [ 951, -657, -102, 158 ],
+               [ 953, -535, 249, 518 ],
+               [ 1550, 423, 929, 130 ],
+               [ 954, -851, -804, -30 ],
+               [ 1035, -499, -309, 59 ],
+               [ 3592, -58, 1430, -602 ],
+               [ 955, -702, -425, 369 ],
+               [ 3586, -387, 1276, -1850 ],
+               [ 957, -469, 1289, 920 ],
+               [ 958, -497, 1754, 1213 ],
+               [ 959, -298, 1100, 1158 ],
+               [ 1548, 464, 625, 308 ],
+               [ 962, -497, 2188, 1656 ],
+               [ 1107, -164, 58, -233 ],
+               [ 963, -400, 3630, 886 ],
+               [ 965, -580, 3395, 819 ],
+               [ 3159, 33, 5550, 8557 ],
+               [ 966, -623, 3717, 1417 ],
+               [ 969, -642, -410, 447 ],
+               [ 970, -552, -350, 480 ],
+               [ 1115, -59, -47, -330 ],
+               [ 3672, 587, 3617, 5606 ],
+               [ 3369, 140, 4463, 4731 ],
+               [ 971, -580, 861, 234 ],
+               [ 3666, 383, 3993, 4417 ],
+               [ 973, -591, 1298, 118 ],
+               [ 3087, 3, -48, -10 ],
+               [ 974, -489, 885, 188 ],
+               [ 977, -538, -824, -332 ],
+               [ 979, -385, -774, -398 ],
+               [ 981, -79, 1351, 1610 ],
+               [ 3239, 11, -11, -140 ],
+               [ 982, -128, 1930, 2029 ],
+               [ 983, 126, 43, 694 ],
+               [ 1333, -1, -80, 53 ],
+               [ 985, -164, -131, 650 ],
+               [ 3752, 53, 3829, 3053 ],
+               [ 987, -314, -203, 583 ],
+               [ 3746, -366, 3598, 8195 ],
+               [ 1341, -67, 3386, 1223 ],
+               [ 1708, 5, 152, -10 ],
+               [ 1654, -9, 854, 37 ],
+               [ 1139, -4, 0, -4 ],
+               [ 1652, -5, 491, 0 ],
+               [ 1662, 0, 172, 0 ],
+               [ 1147, -2, 0, -6 ],
+               [ 3704, 254, 3588, 9590 ],
+               [ 3698, -324, 3879, 5343 ],
+               [ 1660, -2, 195, 13 ],
+               [ 1606, -634, 3197, 2293 ],
+               [ 3143, 367, 356, -499 ],
+               [ 1604, -329, 2665, 2498 ],
+               [ 1614, -741, 3427, 1377 ],
+               [ 3656, -62, 3231, -429 ],
+               [ 3650, 547, 1135, -3101 ],
+               [ 1612, -675, 3767, 2235 ],
+               [ 1031, -588, -411, -340 ],
+               [ 1032, -594, -595, -421 ],
+               [ 1033, -438, -218, -92 ],
+               [ 1976, 58, 4793, 4588 ],
+               [ 2517, 2, 8, -31 ],
+               [ 1034, -397, -156, -187 ],
+               [ 1037, -530, -370, 273 ],
+               [ 1980, 16, 5082, 6031 ],
+               [ 1039, -552, -751, -479 ],
+               [ 1040, -741, -892, -403 ],
+               [ 1924, 52, -19, -49 ],
+               [ 2950, 6, 0, -8 ],
+               [ 1049, 0, 0, -2 ],
+               [ 1928, 245, -83, -150 ],
+               [ 1932, -88, 7971, 6801 ],
+               [ 1872, -78, 7869, 6013 ],
+               [ 2764, 400, -147, -188 ],
+               [ 3777, -228, 3503, 1026 ],
+               [ 2902, 0, 1, -50 ],
+               [ 3786, 358, 4992, 1012 ],
+               [ 2763, 606, -582, -422 ],
+               [ 1952, 4, -2, -4 ],
+               [ 2780, 0, 0, -4 ],
+               [ 3793, -593, 4418, 26 ],
+               [ 2982, -13, 1294, 126 ],
+               [ 3802, -303, 5704, 1979 ],
+               [ 3070, 613, 1380, 335 ],
+               [ 1087, 394, 268, 453 ],
+               [ 1088, 475, 534, 547 ],
+               [ 1089, 457, 867, 665 ],
+               [ 2032, 194, -96, -301 ],
+               [ 2557, 155, 3716, 948 ],
+               [ 1090, 429, 806, 916 ],
+               [ 2036, 421, -312, -318 ],
+               [ 3062, -13, 1259, 97 ],
+               [ 2555, -72, 3574, 859 ],
+               [ 2040, 335, -568, -366 ],
+               [ 2044, 196, -100, -499 ],
+               [ 1103, -341, 248, -431 ],
+               [ 1104, -260, 139, -312 ],
+               [ 1109, -282, 183, -364 ],
+               [ 1112, -351, 346, -468 ],
+               [ 1833, 94, -137, 462 ],
+               [ 1120, -24, -6, -63 ],
+               [ 1121, -13, -4, -52 ],
+               [ 1936, -64, 7446, 7095 ],
+               [ 1122, -5, -1, -34 ],
+               [ 1940, 858, -671, -80 ],
+               [ 1944, 800, -728, -345 ],
+               [ 1133, -188, 25, -402 ],
+               [ 1948, 19, -9, -16 ],
+               [ 1135, -79, -13, -214 ],
+               [ 1136, -43, 2, -73 ],
+               [ 2541, 461, 1236, -266 ],
+               [ 1138, -10, 0, -10 ],
+               [ 3046, -216, 1694, 955 ],
+               [ 1143, -66, 4, -67 ],
+               [ 1149, -6, 0, -26 ],
+               [ 2028, -10, 6749, 8462 ],
+               [ 1151, -233, 1202, -817 ],
+               [ 1152, -271, 1249, -590 ],
+               [ 1155, -16, 0, -16 ],
+               [ 1156, -34, -8, -77 ],
+               [ 1157, -19, 0, -19 ],
+               [ 1172, 3, -10, -19 ],
+               [ 1173, 3, -21, -35 ],
+               [ 2919, 0, 0, -5 ],
+               [ 1174, -1, 0, -17 ],
+               [ 1176, 13, -86, -142 ],
+               [ 2408, 5, -72, -16 ],
+               [ 1179, 0, 0, -20 ],
+               [ 1180, 0, 0, -6 ],
+               [ 1181, 0, 0, -27 ],
+               [ 1184, -1, 0, -13 ],
+               [ 1841, -248, 1777, 1612 ],
+               [ 1203, 0, 1, -2 ],
+               [ 1204, 0, 5, -9 ],
+               [ 1205, 0, 15, -34 ],
+               [ 1208, -412, 550, -483 ],
+               [ 1212, -389, 476, -496 ],
+               [ 1214, -381, 403, -504 ],
+               [ 2392, -3, 27, -21 ],
+               [ 1227, -362, 302, -519 ],
+               [ 1228, -392, 388, -474 ],
+               [ 3619, 93, 753, -2228 ],
+               [ 1229, -420, 528, -333 ],
+               [ 1235, 19, -142, -348 ],
+               [ 1236, -853, -948, -250 ],
+               [ 3636, 547, 1135, -3101 ],
+               [ 2935, -20, -60, -141 ],
+               [ 1259, 67, 0, 194 ],
+               [ 1260, 0, -124, 105 ],
+               [ 1261, -27, 2732, 693 ],
+               [ 2863, 65, 5, -85 ],
+               [ 1262, -20, 1923, 314 ],
+               [ 1264, -29, 2850, 757 ],
+               [ 1857, -177, 2953, 2619 ],
+               [ 1267, -13, 1314, 153 ],
+               [ 1268, -20, 1998, 358 ],
+               [ 1861, 88, 4397, 3790 ],
+               [ 1269, -29, 2891, 780 ],
+               [ 2887, 0, -2, -4 ],
+               [ 1865, 63, 3951, 2591 ],
+               [ 1869, -108, 2399, 1718 ],
+               [ 1716, -6, 671, 26 ],
+               [ 2235, -34, 6075, 7352 ],
+               [ 1720, 0, 688, -4 ],
+               [ 1664, -293, 4229, 4436 ],
+               [ 1668, -212, 4234, 4719 ],
+               [ 2694, 547, 3730, 1416 ],
+               [ 1305, -5, 0, -68 ],
+               [ 1672, -37, 2782, 745 ],
+               [ 1676, -3, 346, -19 ],
+               [ 1616, -26, 3306, 550 ],
+               [ 2141, 98, 5424, 10319 ],
+               [ 1319, -9, -4, -59 ],
+               [ 1335, -3, -80, 0 ],
+               [ 1336, 333, 1240, 1084 ],
+               [ 1338, 183, 1699, 955 ],
+               [ 2814, -444, 796, 917 ],
+               [ 1343, -68, 3066, 1351 ],
+               [ 1344, -71, 3854, 1526 ],
+               [ 1345, -134, 4093, 2136 ],
+               [ 1346, 55, 2405, 991 ],
+               [ 1349, 15, 2464, 744 ],
+               [ 1351, -17, 1682, 195 ],
+               [ 1352, -19, 1820, 260 ],
+               [ 1353, -27, 2542, 589 ],
+               [ 1354, -12, 1208, 60 ],
+               [ 1357, -66, 314, 1056 ],
+               [ 1359, -372, 612, 899 ],
+               [ 1360, -469, 791, 716 ],
+               [ 1365, -614, 2205, 129 ],
+               [ 1381, -113, -102, 122 ],
+               [ 2710, 91, 882, 1315 ],
+               [ 1383, 0, -12, -2 ],
+               [ 2203, 0, 0, -18 ],
+               [ 1760, -419, 745, -67 ],
+               [ 1764, -543, 4166, 2288 ],
+               [ 1553, 158, 206, 32 ],
+               [ 1557, 5, 199, -152 ],
+               [ 2583, 293, -714, -554 ],
+               [ 1561, 97, 528, -228 ],
+               [ 1565, 138, 688, -185 ],
+               [ 1422, 0, 9, -16 ],
+               [ 1432, -140, -54, -477 ],
+               [ 1436, -366, 305, -501 ],
+               [ 1645, -9, 915, -10 ],
+               [ 2146, 96, 5371, 9267 ],
+               [ 1437, -375, 348, -498 ],
+               [ 1585, 13, 2090, 420 ],
+               [ 1445, -77, 5314, 7452 ],
+               [ 2267, -308, 4161, 3251 ],
+               [ 1448, -104, 5498, 7826 ],
+               [ 1593, 57, 456, -108 ],
+               [ 1456, -95, 4889, 5815 ],
+               [ 1459, -65, 5802, 6600 ],
+               [ 1460, -106, 5380, 5618 ],
+               [ 1461, -77, 6073, 6400 ],
+               [ 2567, 469, 3046, 399 ],
+               [ 1462, -104, 5571, 5319 ],
+               [ 1464, -103, 5743, 4938 ],
+               [ 1467, -63, 4266, 1883 ],
+               [ 1468, -13, -6, -77 ],
+               [ 1549, 381, 369, 248 ],
+               [ 2050, -2, 5937, 8828 ],
+               [ 1469, -13, -6, -54 ],
+               [ 1470, -8, -4, -36 ],
+               [ 1621, 134, 3470, 743 ],
+               [ 2647, 0, 0, -2 ],
+               [ 2857, 89, 13, -111 ],
+               [ 2136, 140, 5788, 9785 ],
+               [ 2850, 52, -23, -170 ],
+               [ 2130, 65, 2026, -127 ],
+               [ 1492, 0, 0, -20 ],
+               [ 2873, 192, 1397, -549 ],
+               [ 2210, 0, 0, -20 ],
+               [ 1501, 1, -10, -49 ],
+               [ 1502, 1, -10, -49 ],
+               [ 1504, 6, -26, -116 ],
+               [ 1649, -5, 505, -13 ],
+               [ 1508, 4, -13, -55 ],
+               [ 1653, -5, 531, 9 ],
+               [ 1509, 3, -9, -39 ],
+               [ 2679, 540, 504, 368 ],
+               [ 1510, 13, -38, -157 ],
+               [ 1512, 13, -59, -288 ],
+               [ 1661, -2, 190, 9 ],
+               [ 1601, -297, 3517, 3603 ],
+               [ 1605, -441, 3588, 3280 ],
+               [ 2631, 15, -27, -146 ],
+               [ 1526, 18, -63, -201 ],
+               [ 1528, -9, -35, -272 ],
+               [ 1609, -671, 3467, 2250 ],
+               [ 2120, -296, 3186, 697 ],
+               [ 1531, -2, -2, -35 ],
+               [ 1532, -2, 8, -21 ],
+               [ 1613, -638, 4025, 2248 ],
+               [ 2114, -496, 2917, 491 ],
+               [ 1551, 468, 920, 391 ],
+               [ 1554, 0, 25, -22 ],
+               [ 1559, 18, 179, -135 ],
+               [ 1560, 30, 293, -156 ],
+               [ 1562, 6, 73, -39 ],
+               [ 3265, -86, 212, -89 ],
+               [ 1575, -39, 3458, 1160 ],
+               [ 2907, 0, 0, -40 ],
+               [ 1576, -39, 3143, 939 ],
+               [ 3061, -17, 1682, 195 ],
+               [ 1578, 255, 1276, 58 ],
+               [ 2542, 458, 1058, -240 ],
+               [ 1583, 19, 1309, 65 ],
+               [ 3059, -25, 2542, 589 ],
+               [ 1584, 79, 1794, 284 ],
+               [ 2268, -457, 3984, 4418 ],
+               [ 1586, -6, 1481, 151 ],
+               [ 3281, -370, 1462, 311 ],
+               [ 1591, 408, 1187, 206 ],
+               [ 3290, -25, 2417, 572 ],
+               [ 1592, 145, 836, -140 ],
+               [ 3013, 5, 0, -68 ],
+               [ 1594, 46, 530, -80 ],
+               [ 2558, -17, 3893, 1511 ],
+               [ 1599, 81, 2070, 1377 ],
+               [ 1600, 181, 2098, 2076 ],
+               [ 3069, 531, 1037, 511 ],
+               [ 1602, -234, 2701, 2700 ],
+               [ 2550, 310, 4908, 4696 ],
+               [ 1607, -558, 2915, 2269 ],
+               [ 3067, 361, 620, 898 ],
+               [ 1608, -479, 3841, 3326 ],
+               [ 1610, -465, 2610, 2182 ],
+               [ 1615, -9, 33, -86 ],
+               [ 1647, -9, 859, -16 ],
+               [ 1648, -12, 1162, 33 ],
+               [ 3053, -104, 2403, 991 ],
+               [ 1650, -8, 828, 2 ],
+               [ 2534, 1, 8, -21 ],
+               [ 3051, 6, 3066, 1351 ],
+               [ 1663, -331, 4518, 4558 ],
+               [ 1667, -223, 4459, 4731 ],
+               [ 1669, -201, 4709, 4657 ],
+               [ 1670, -167, 4961, 4550 ],
+               [ 2840, 13, -5, -131 ],
+               [ 1675, 0, 86, -4 ],
+               [ 2834, 24, -6, -64 ],
+               [ 1677, -5, 502, -12 ],
+               [ 1678, 0, 38, -1 ],
+               [ 1685, 0, 63, 0 ],
+               [ 2407, 3, -48, -10 ],
+               [ 1715, -12, 1219, 63 ],
+               [ 1717, -1, 167, 6 ],
+               [ 1718, -8, 782, 55 ],
+               [ 2824, 303, 197, -412 ],
+               [ 2898, 4, -2, -20 ],
+               [ 2978, -29, 2850, 757 ],
+               [ 1758, -2, 271, 4 ],
+               [ 1763, -729, 3063, 785 ],
+               [ 2930, 420, 664, -483 ],
+               [ 2230, 223, 3705, 3656 ],
+               [ 2701, 562, 873, 233 ],
+               [ 2182, 109, 1027, -1026 ],
+               [ 2699, 424, 19, 723 ],
+               [ 2653, 0, 1, -40 ],
+               [ 3521, -38, 4772, 10394 ],
+               [ 2134, 89, 5704, 9439 ],
+               [ 3530, -81, 3750, 9946 ],
+               [ 2651, 0, 0, -9 ],
+               [ 1832, 245, -201, 531 ],
+               [ 1834, 170, -174, 378 ],
+               [ 1839, 167, -159, 265 ],
+               [ 1840, 346, -238, 278 ],
+               [ 3537, -31, 4095, 10240 ],
+               [ 1847, -92, 715, 1367 ],
+               [ 3546, 59, 3893, 10053 ],
+               [ 1848, -110, 1207, 1643 ],
+               [ 2813, -294, 138, 597 ],
+               [ 1858, -33, 3676, 3161 ],
+               [ 1863, -10, 5524, 4161 ],
+               [ 2811, -289, 340, 895 ],
+               [ 1864, 39, 4662, 3240 ],
+               [ 1866, 46, 3308, 2042 ],
+               [ 1871, -65, 6680, 4361 ],
+               [ 2715, 41, 43, 793 ],
+               [ 2278, 38, 5762, 8934 ],
+               [ 1923, 111, -32, -114 ],
+               [ 1925, 44, 0, -153 ],
+               [ 2584, 436, -908, -521 ],
+               [ 1931, -72, 7612, 6506 ],
+               [ 2578, 163, -392, -362 ],
+               [ 1933, -55, 7007, 5582 ],
+               [ 1934, -52, 7072, 6075 ],
+               [ 1939, 730, -473, -6 ],
+               [ 1941, 825, -671, 179 ],
+               [ 2658, 145, -429, -577 ],
+               [ 1949, 13, -22, 21 ],
+               [ 1950, 4, -2, -4 ],
+               [ 2562, 341, 2973, 133 ],
+               [ 1981, 70, 5331, 6419 ],
+               [ 1982, 285, 4955, 4782 ],
+               [ 3364, 245, 4524, 4557 ],
+               [ 2135, 44, 5638, 9660 ],
+               [ 2592, 0, 0, -5 ],
+               [ 2019, -10, 7125, 8216 ],
+               [ 2021, -42, 7167, 7521 ],
+               [ 2022, -22, 6831, 7808 ],
+               [ 2680, 531, 261, 517 ],
+               [ 2027, -30, 7237, 8403 ],
+               [ 2674, 37, -52, -268 ],
+               [ 2029, -18, 6348, 8648 ],
+               [ 2095, 0, 0, -24 ],
+               [ 2030, 68, 15, -310 ],
+               [ 2608, -10, 4192, 2255 ],
+               [ 2035, 383, -255, -334 ],
+               [ 2037, 389, -501, -365 ],
+               [ 2119, -378, 3167, 697 ],
+               [ 2038, 272, -329, -414 ],
+               [ 2632, 6, -109, -199 ],
+               [ 2043, 161, -183, -447 ],
+               [ 2111, -614, 2407, 57 ],
+               [ 2046, -13, 5766, 8549 ],
+               [ 2048, -53, 5768, 7571 ],
+               [ 2049, 33, 5671, 9069 ],
+               [ 2051, -23, 6177, 8121 ],
+               [ 2052, -33, 5849, 7431 ],
+               [ 2053, -16, 5894, 9077 ],
+               [ 3505, 43, 3, -73 ],
+               [ 2054, 11, 5577, 9294 ],
+               [ 3423, -8, 767, 37 ],
+               [ 2092, 0, 0, -12 ],
+               [ 3784, -228, 3503, 1026 ],
+               [ 2096, 0, 0, -24 ],
+               [ 2976, 2, -124, 105 ],
+               [ 3503, 2, 0, -3 ],
+               [ 3807, 236, 4066, 6874 ],
+               [ 2112, -672, 2942, 434 ],
+               [ 3056, -6, 3855, 1526 ],
+               [ 2113, -490, 3183, 690 ],
+               [ 2115, -625, 3497, 829 ],
+               [ 3575, 305, 1916, -282 ],
+               [ 2116, -425, 3500, 928 ],
+               [ 3060, -19, 1820, 260 ],
+               [ 2117, -282, 3610, 1277 ],
+               [ 3569, -245, 845, -2518 ],
+               [ 2118, -321, 3365, 844 ],
+               [ 3064, -119, 293, 1007 ],
+               [ 2121, -384, 2752, 370 ],
+               [ 2122, -175, 3041, 573 ],
+               [ 2123, -241, 2602, 266 ],
+               [ 3583, -517, 1835, -1796 ],
+               [ 2124, -176, 2128, -100 ],
+               [ 3068, 455, 801, 715 ],
+               [ 2125, -368, 2250, -29 ],
+               [ 2127, 179, 1923, -218 ],
+               [ 2849, 317, -753, -444 ],
+               [ 2128, 57, 2397, 74 ],
+               [ 2131, -44, 2465, 165 ],
+               [ 3527, 102, 4775, 10337 ],
+               [ 2853, 43, -4, -80 ],
+               [ 2132, -10, 2837, 316 ],
+               [ 3374, -19, 2048, 350 ],
+               [ 2137, 74, 5771, 10021 ],
+               [ 2138, 163, 5669, 9956 ],
+               [ 3529, -27, 3793, 10046 ],
+               [ 2142, 166, 4770, 9986 ],
+               [ 3372, 35, 5208, 4451 ],
+               [ 2143, 168, 5114, 10025 ],
+               [ 2144, 83, 5072, 9218 ],
+               [ 2145, 73, 4747, 9157 ],
+               [ 2147, -3, 5323, 8321 ],
+               [ 3479, 161, 430, -145 ],
+               [ 2148, -34, 5044, 8180 ],
+               [ 2154, 27, 34, -39 ],
+               [ 3481, 29, 76, -32 ],
+               [ 2159, 4, 0, -4 ],
+               [ 2160, 4, 0, -4 ],
+               [ 3040, -91, -40, 520 ],
+               [ 2161, 2, 0, -2 ],
+               [ 3553, 669, 2402, 37 ],
+               [ 3048, -20, 2921, 966 ],
+               [ 2169, 1, 0, -6 ],
+               [ 2170, 0, 0, -3 ],
+               [ 2171, 0, 0, -1 ],
+               [ 3567, -716, 1122, -3098 ],
+               [ 3052, -154, 2159, 615 ],
+               [ 3561, -115, 891, -1356 ],
+               [ 2833, 334, 291, -442 ],
+               [ 3350, -8, 828, 2 ],
+               [ 2177, 149, 989, -1261 ],
+               [ 2178, 174, 1044, -1125 ],
+               [ 2179, 102, 960, -1196 ],
+               [ 2837, 13, -4, -52 ],
+               [ 2180, 93, 893, -1356 ],
+               [ 2181, 193, 1099, -979 ],
+               [ 3348, -9, 859, -16 ],
+               [ 2183, 200, 1160, -817 ],
+               [ 2841, 5, -1, -34 ],
+               [ 2184, 109, 1096, -838 ],
+               [ 2186, 104, 1132, -650 ],
+               [ 2917, 0, 0, -41 ],
+               [ 2921, 0, 15, -34 ],
+               [ 2200, 0, 0, -15 ],
+               [ 2925, 370, 412, -505 ],
+               [ 3543, -113, 4126, 8978 ],
+               [ 2869, 6, 0, -26 ],
+               [ 2212, 0, 0, -18 ],
+               [ 3545, 81, 3868, 9688 ],
+               [ 3388, 0, 66, 0 ],
+               [ 2817, -398, 259, 454 ],
+               [ 2227, -121, 2542, 2466 ],
+               [ 2228, 31, 3177, 2965 ],
+               [ 2229, 125, 2830, 2794 ],
+               [ 2231, 163, 4001, 3709 ],
+               [ 2825, 229, 137, -297 ],
+               [ 2232, -55, 7585, 8019 ],
+               [ 2233, -82, 7878, 7542 ],
+               [ 2234, -18, 6490, 7983 ],
+               [ 2829, 285, 243, -405 ],
+               [ 3622, -9, 565, -3100 ],
+               [ 2897, 1, 0, -37 ],
+               [ 3621, -10, 706, -2229 ],
+               [ 3412, -8, 151, -10 ],
+               [ 2247, 33, 17, -59 ],
+               [ 3422, -8, 782, 55 ],
+               [ 2249, 181, 115, -231 ],
+               [ 2254, 322, 247, -412 ],
+               [ 3629, 197, 939, -1355 ],
+               [ 3420, -1, 167, 6 ],
+               [ 2255, 709, 2270, 431 ],
+               [ 3638, 523, 2051, -2395 ],
+               [ 2977, -27, 2732, 693 ],
+               [ 2256, 757, 2703, 789 ],
+               [ 2258, 685, 1873, 523 ],
+               [ 2259, 746, 3098, 1341 ],
+               [ 2981, -13, 1310, 146 ],
+               [ 2260, 741, 2752, 1331 ],
+               [ 2261, 668, 2518, 1458 ],
+               [ 3646, 257, 1169, -1685 ],
+               [ 2264, -177, 4440, 4495 ],
+               [ 2265, -318, 4244, 5694 ],
+               [ 2270, 599, -682, -259 ],
+               [ 3645, 111, 1186, -979 ],
+               [ 2271, 527, -512, -239 ],
+               [ 2273, 693, -687, -197 ],
+               [ 2274, 417, 66, -6 ],
+               [ 2275, 406, 496, 212 ],
+               [ 2933, -6, -16, -31 ],
+               [ 2276, 570, -65, 89 ],
+               [ 2277, 798, -679, -124 ],
+               [ 2279, -22, 5744, 8186 ],
+               [ 2280, 18, 5687, 8498 ],
+               [ 2281, 89, 5759, 9256 ],
+               [ 2941, -16, -115, -190 ],
+               [ 2889, -18, -74, -129 ],
+               [ 2893, -3, -8, -16 ],
+               [ 3404, -15, 94, -32 ],
+               [ 3762, 332, 3506, 1025 ],
+               [ 3255, -300, 424, 32 ],
+               [ 3770, 182, 5709, 1978 ],
+               [ 3263, -55, 356, -226 ],
+               [ 3257, -476, 615, 309 ],
+               [ 2688, 466, 2277, 1691 ],
+               [ 3714, -23, 3373, 10224 ],
+               [ 3207, -2, -12, -55 ],
+               [ 2692, 370, 3899, 1473 ],
+               [ 2696, 302, -44, 735 ],
+               [ 3722, 86, 3635, 8969 ],
+               [ 2700, 559, 363, 171 ],
+               [ 3209, -4, -27, -136 ],
+               [ 2640, -11, -174, -526 ],
+               [ 3153, -193, 3925, 7981 ],
+               [ 3674, 196, 3602, 7797 ],
+               [ 3167, 23, 4657, 5646 ],
+               [ 3161, 9, 5556, 7553 ],
+               [ 3754, -22, 4260, 4154 ],
+               [ 2365, 0, -19, 12 ],
+               [ 2366, 0, -12, 0 ],
+               [ 3826, 83, 1681, -363 ],
+               [ 3313, 601, 3781, 2233 ],
+               [ 2812, -417, 424, 741 ],
+               [ 2384, 0, 3, -3 ],
+               [ 3778, 281, 3765, 21 ],
+               [ 2387, 0, 25, -22 ],
+               [ 3627, 547, 1135, -3101 ],
+               [ 3279, -25, 3143, 939 ],
+               [ 2704, 791, -948, -321 ],
+               [ 3730, 100, 3697, 9827 ],
+               [ 2708, 472, -670, -340 ],
+               [ 2405, 6, -121, 5 ],
+               [ 3217, -13, -38, -156 ],
+               [ 2406, 3, -84, 24 ],
+               [ 2712, -125, 41, 695 ],
+               [ 2409, -27, 16, 25 ],
+               [ 2410, 1, -17, -3 ],
+               [ 3738, 111, 3712, 9868 ],
+               [ 2411, 0, -2, 0 ],
+               [ 2412, 0, -12, -2 ],
+               [ 2716, 320, -196, 582 ],
+               [ 2413, 1, -18, -3 ],
+               [ 3225, -4, -15, -50 ],
+               [ 3810, 26, 4584, 7264 ],
+               [ 3303, 230, 3523, 3602 ],
+               [ 2420, -31, 76, -32 ],
+               [ 3297, -316, 1058, -18 ],
+               [ 3818, -34, 4408, 10331 ],
+               [ 3311, 634, 3459, 2116 ],
+               [ 3305, 242, 3463, 3511 ],
+               [ 2577, 81, -233, -328 ],
+               [ 3603, -851, 3481, -1333 ],
+               [ 2581, 156, -496, -424 ],
+               [ 2585, 502, -853, -513 ],
+               [ 3611, -281, 2951, -273 ],
+               [ 2589, 566, -985, -457 ],
+               [ 2657, 8, 35, -127 ],
+               [ 3174, -30, 6282, 6039 ],
+               [ 3683, -225, 4151, 5079 ],
+               [ 2661, 53, -117, -450 ],
+               [ 3172, -35, 6073, 6400 ],
+               [ 3182, 6, -3, -27 ],
+               [ 3691, -131, 4259, 4154 ],
+               [ 2669, 233, -328, -461 ],
+               [ 3180, 13, -6, -77 ],
+               [ 2609, 182, 4368, 2442 ],
+               [ 3126, 0, 3, -3 ],
+               [ 2768, 271, -168, 104 ],
+               [ 3794, -295, 3757, 21 ],
+               [ 3287, -95, 1139, -15 ],
+               [ 2613, -173, 1798, -340 ],
+               [ 3643, -719, 2388, 39 ],
+               [ 3289, -58, 2089, 420 ],
+               [ 3132, 0, 5, -12 ],
+               [ 3587, -58, 1430, -602 ],
+               [ 2565, 226, 3163, 201 ],
+               [ 3086, 115, -100, 122 ],
+               [ 3595, 551, 3622, 827 ],
+               [ 2573, 420, 293, -341 ],
+               [ 3667, 179, 4046, 4638 ],
+               [ 2498, 1, -17, -3 ],
+               [ 3156, -60, 5082, 7152 ],
+               [ 3166, -33, 5351, 6680 ],
+               [ 3164, -37, 5407, 6754 ],
+               [ 3747, -55, 3592, 8892 ],
+               [ 2516, 2, 12, -34 ],
+               [ 3699, 1, 4154, 5079 ],
+               [ 2533, 0, 1, -5 ],
+               [ 2681, 712, -328, 245 ],
+               [ 3198, 0, 0, -20 ],
+               [ 3707, -135, 3665, 9745 ],
+               [ 2685, 869, -785, -32 ],
+               [ 2540, 442, 908, -394 ],
+               [ 2543, 439, 810, -436 ],
+               [ 2547, 473, 1326, -25 ],
+               [ 2629, 68, -108, -335 ],
+               [ 2548, 80, 5183, 5861 ],
+               [ 2549, 292, 4773, 4580 ],
+               [ 3140, 301, 156, -495 ],
+               [ 2551, 100, 5299, 6072 ],
+               [ 2633, 0, -24, -55 ],
+               [ 2552, 489, 4371, 3303 ],
+               [ 3150, -82, 4221, 7964 ],
+               [ 2553, 478, 4503, 3352 ],
+               [ 3659, 646, 3497, -1336 ],
+               [ 2554, 127, 3538, 572 ],
+               [ 2637, 15, -218, -498 ],
+               [ 2556, 6, 3713, 991 ],
+               [ 2559, 166, 4012, 1595 ],
+               [ 3506, 114, 13, -232 ],
+               [ 2563, 446, 2626, 107 ],
+               [ 2566, 317, 3344, 461 ],
+               [ 2572, 410, 432, -55 ],
+               [ 2574, 443, 665, -155 ],
+               [ 2575, 407, 956, 140 ],
+               [ 3458, -2, 267, 2 ],
+               [ 2579, 86, -350, -367 ],
+               [ 2580, 252, -571, -387 ],
+               [ 2582, 291, -605, -535 ],
+               [ 2586, 265, -722, -533 ],
+               [ 2588, 465, -922, -442 ],
+               [ 2590, 675, -966, -444 ],
+               [ 3264, -23, 179, -135 ],
+               [ 3418, -12, 1219, 63 ],
+               [ 3280, -31, 3458, 1160 ],
+               [ 2614, -346, 1909, -281 ],
+               [ 2618, -44, 1489, -616 ],
+               [ 2628, 34, -33, -247 ],
+               [ 2630, 36, -108, -245 ],
+               [ 2634, -6, -136, -446 ],
+               [ 3578, 669, 2402, 37 ],
+               [ 2635, 63, -332, -469 ],
+               [ 2636, 96, -411, -534 ],
+               [ 2638, 217, -635, -485 ],
+               [ 2639, 122, -455, -571 ],
+               [ 3522, -179, 4772, 10337 ],
+               [ 3371, 72, 4964, 4550 ],
+               [ 2654, 2, 10, -82 ],
+               [ 2655, 0, 0, -9 ],
+               [ 2656, 12, 50, -140 ],
+               [ 3474, -36, 292, -156 ],
+               [ 2659, 50, -207, -517 ],
+               [ 2660, 143, -329, -521 ],
+               [ 3482, 82, 214, -89 ],
+               [ 2668, 381, -540, -484 ],
+               [ 2670, 162, -249, -428 ],
+               [ 2671, 33, 4, -201 ],
+               [ 2672, 91, -150, -370 ],
+               [ 3554, 611, 2956, 432 ],
+               [ 2682, 659, -89, 156 ],
+               [ 3562, -315, 968, -1937 ],
+               [ 2683, 502, 110, 646 ],
+               [ 2684, 712, -411, 367 ],
+               [ 2686, 463, 1764, 1212 ],
+               [ 2687, 445, 1300, 919 ],
+               [ 2689, 245, 2071, 1910 ],
+               [ 3347, -12, 1162, 33 ],
+               [ 2690, 245, 1556, 1460 ],
+               [ 2691, 277, 1106, 1158 ],
+               [ 2693, 325, 3637, 886 ],
+               [ 2695, 510, 3407, 818 ],
+               [ 2697, 560, -337, 479 ],
+               [ 3355, -5, 491, 0 ],
+               [ 2698, 652, -396, 445 ],
+               [ 2702, 469, 895, 187 ],
+               [ 2703, 564, 1311, 117 ],
+               [ 2705, 673, -907, -337 ],
+               [ 2706, 555, -813, -333 ],
+               [ 2707, 400, -765, -399 ],
+               [ 2709, 54, 1351, 1609 ],
+               [ 2711, 92, 1932, 2029 ],
+               [ 2713, 53, -107, 590 ],
+               [ 2714, 168, -128, 650 ],
+               [ 3538, 86, 3635, 8970 ],
+               [ 3331, 0, 25, -22 ],
+               [ 2761, 596, -399, -341 ],
+               [ 2766, 505, -298, 57 ],
+               [ 2767, 538, -359, 272 ],
+               [ 2770, 566, -739, -480 ],
+               [ 2771, 759, -876, -403 ],
+               [ 3403, -9, 72, -39 ],
+               [ 2815, -474, 857, 666 ],
+               [ 2816, -485, 524, 548 ],
+               [ 3767, -228, 3503, 1026 ],
+               [ 3761, 13, 4605, 1502 ],
+               [ 2826, 266, 118, -403 ],
+               [ 3258, -396, 666, 69 ],
+               [ 2827, 168, 72, -251 ],
+               [ 3775, -131, 4259, 4154 ],
+               [ 2828, 201, 108, -306 ],
+               [ 3769, 182, 5709, 1978 ],
+               [ 2830, 277, 189, -365 ],
+               [ 2831, 195, 73, -262 ],
+               [ 2832, 342, 353, -469 ],
+               [ 3719, -221, 3624, 9668 ],
+               [ 2836, 32, -18, -184 ],
+               [ 3713, -23, 3373, 10224 ],
+               [ 2838, 96, -43, -380 ],
+               [ 3210, -1, -10, -49 ],
+               [ 2843, 1, 0, -17 ],
+               [ 3727, -307, 3582, 9590 ],
+               [ 3721, 309, 3605, 8194 ],
+               [ 3665, 179, 4369, 3228 ],
+               [ 3520, 168, 1648, -345 ],
+               [ 2854, 4, 0, -4 ],
+               [ 2858, 64, 9, -76 ],
+               [ 3162, -5, 5583, 7234 ],
+               [ 2859, 107, 27, -145 ],
+               [ 3679, -307, 3582, 9590 ],
+               [ 2860, 128, 29, -172 ],
+               [ 3673, 447, 3611, 6900 ],
+               [ 3528, 104, 5615, 9324 ],
+               [ 2862, 122, 21, -165 ],
+               [ 3745, 167, 3628, 9667 ],
+               [ 3536, -150, 4091, 10159 ],
+               [ 2870, 236, 1386, -486 ],
+               [ 2874, 205, 1207, -817 ],
+               [ 3242, 1, 8, -21 ],
+               [ 2875, 16, 0, -16 ],
+               [ 3759, 53, 3829, 3052 ],
+               [ 2876, 19, 0, -19 ],
+               [ 3314, 557, 4037, 2246 ],
+               [ 3831, 89, 3409, 716 ],
+               [ 2884, 1, 0, -17 ],
+               [ 3825, -27, 2046, -125 ],
+               [ 2886, -3, -8, -16 ],
+               [ 2890, -13, -35, -66 ],
+               [ 2892, -18, -49, -92 ],
+               [ 2894, -3, -8, -16 ],
+               [ 3266, -171, 425, -145 ],
+               [ 2899, 10, -5, -46 ],
+               [ 3729, 25, 3752, 9946 ],
+               [ 2918, 0, 3, -23 ],
+               [ 2922, 0, 5, -9 ],
+               [ 2923, 0, 1, -2 ],
+               [ 3743, -142, 3633, 8970 ],
+               [ 2924, 375, 420, -529 ],
+               [ 3737, 67, 3599, 9987 ],
+               [ 2926, 378, 485, -497 ],
+               [ 2927, 405, 571, -495 ],
+               [ 3298, -189, 2040, 844 ],
+               [ 2931, 399, 558, -484 ],
+               [ 3815, -144, 4424, 9061 ],
+               [ 2932, -5, -15, -34 ],
+               [ 3809, 447, 3611, 6900 ],
+               [ 2934, -17, -47, -88 ],
+               [ 3823, -120, 1679, -363 ],
+               [ 2940, -4, -181, -286 ],
+               [ 3817, 159, 4416, 9893 ],
+               [ 2942, 337, -43, -461 ],
+               [ 2943, 258, 27, -514 ],
+               [ 3606, -778, 2953, -1687 ],
+               [ 2945, 368, 170, -462 ],
+               [ 2946, 384, 397, -475 ],
+               [ 2947, 354, 310, -520 ],
+               [ 3604, -383, 3528, -613 ],
+               [ 2951, 27, 0, -34 ],
+               [ 3614, -109, 2676, -825 ],
+               [ 2953, -16, -143, -348 ],
+               [ 2954, 873, -930, -252 ],
+               [ 3612, -62, 3231, -429 ],
+               [ 3684, 179, 3884, 5342 ],
+               [ 3694, -508, 3601, 6901 ],
+               [ 3179, 17, 4667, 2667 ],
+               [ 2974, -67, -1, 194 ],
+               [ 3692, 1, 4154, 5079 ],
+               [ 2975, -6, -96, 154 ],
+               [ 3282, -266, 1798, 458 ],
+               [ 2979, -20, 1981, 346 ],
+               [ 3801, -427, 4624, 530 ],
+               [ 3644, 26, 1430, -602 ],
+               [ 3590, -331, 1162, -1685 ],
+               [ 3588, -220, 935, -1355 ],
+               [ 3598, -186, 3815, -76 ],
+               [ 3596, 442, 3564, 927 ],
+               [ 3155, -346, 3608, 8065 ],
+               [ 3668, -22, 4260, 4154 ],
+               [ 3365, 214, 4235, 4435 ],
+               [ 3678, -307, 3582, 9590 ],
+               [ 3676, 309, 3605, 8194 ],
+               [ 3373, -19, 2782, 745 ],
+               [ 3756, -225, 4151, 5079 ],
+               [ 3039, -216, 70, 403 ],
+               [ 3702, -36, 3780, 7621 ],
+               [ 3041, 29, -77, 107 ],
+               [ 3042, 3, -80, 53 ],
+               [ 3043, 5, -80, 0 ],
+               [ 3045, -232, 1664, 1236 ],
+               [ 3700, 1, 4154, 5079 ],
+               [ 3047, -363, 1254, 791 ],
+               [ 3710, -79, 3519, 9985 ],
+               [ 3049, -66, 2463, 744 ],
+               [ 3050, -47, 2697, 1053 ],
+               [ 3054, 48, 3524, 1694 ],
+               [ 3708, -81, 3750, 9946 ],
+               [ 3055, 52, 4095, 2135 ],
+               [ 3654, 135, 3235, -330 ],
+               [ 3057, -1, 3387, 1223 ],
+               [ 3139, 187, 29, -402 ],
+               [ 3058, -22, 2305, 468 ],
+               [ 3652, -425, 3500, 928 ],
+               [ 3063, -12, 1208, 60 ],
+               [ 3662, 792, 4027, -983 ],
+               [ 3065, 62, 316, 1056 ],
+               [ 3066, 226, 441, 1016 ],
+               [ 3660, 354, 3499, -548 ],
+               [ 3071, 644, 1787, 201 ],
+               [ 3073, 618, 2675, 389 ],
+               [ 3085, -87, 8121, 6973 ],
+               [ 3088, 0, -12, -2 ],
+               [ 3136, 96, -95, -418 ],
+               [ 3137, 140, -51, -478 ],
+               [ 3141, 344, 251, -499 ],
+               [ 3151, -178, 4378, 7007 ],
+               [ 3152, -306, 4061, 6875 ],
+               [ 3157, -17, 5315, 7452 ],
+               [ 3168, -38, 5523, 6661 ],
+               [ 3169, 5, 4890, 5815 ],
+               [ 3173, 5, 5381, 5618 ],
+               [ 3177, -6, 5744, 4938 ],
+               [ 3178, -22, 4267, 1883 ],
+               [ 3181, 13, -6, -54 ],
+               [ 3183, 1, 0, -6 ],
+               [ 3199, 0, 0, -6 ],
+               [ 3208, -10, -51, -221 ],
+               [ 3212, -6, -26, -116 ],
+               [ 3216, -20, -68, -285 ],
+               [ 3219, -13, -59, -288 ],
+               [ 3220, 0, -19, -118 ],
+               [ 3221, -3, -9, -39 ],
+               [ 3237, -2, -67, -397 ],
+               [ 3256, -388, 361, 249 ],
+               [ 3260, -443, 920, 131 ],
+               [ 3262, -163, 201, 32 ],
+               [ 3268, -109, 526, -228 ],
+               [ 3278, -36, 3712, 1356 ],
+               [ 3284, -281, 1271, 58 ],
+               [ 3296, -163, 833, -139 ],
+               [ 3300, -122, 2067, 1377 ],
+               [ 3301, -221, 2093, 2076 ],
+               [ 3304, 261, 2753, 2610 ],
+               [ 3308, 560, 3062, 2205 ],
+               [ 3312, 673, 3441, 1376 ],
+               [ 3315, 457, 4130, 3309 ],
+               [ 3316, 8, 33, -86 ],
+               [ 3320, -177, 3430, 794 ],
+               [ 3760, -303, 5704, 1979 ],
+               [ 3764, -245, 3933, 2127 ],
+               [ 3333, -2, 49, -37 ],
+               [ 3768, -22, 4606, 1502 ],
+               [ 3772, -26, 4742, 3428 ],
+               [ 3712, -26, 3605, 10186 ],
+               [ 3716, -155, 3540, 9853 ],
+               [ 3349, -6, 628, -24 ],
+               [ 3720, -135, 3665, 9745 ],
+               [ 3353, -9, 854, 37 ],
+               [ 3354, -5, 531, 9 ],
+               [ 3724, 0, 3594, 8892 ],
+               [ 3359, -3, 172, 0 ],
+               [ 3360, -2, 190, 9 ],
+               [ 3664, -228, 3503, 1026 ],
+               [ 3361, -2, 195, 13 ],
+               [ 3375, -1, 125, -3 ],
+               [ 3744, -10, 3617, 9177 ],
+               [ 3377, -3, 346, -19 ],
+               [ 3391, -2, 254, 0 ],
+               [ 3824, -118, 2424, 143 ],
+               [ 3828, -139, 1183, -979 ],
+               [ 3617, 93, 893, -1356 ],
+               [ 3408, -16, 113, -26 ],
+               [ 3780, 446, 4633, 529 ],
+               [ 3424, -13, 688, -4 ],
+               [ 3728, -27, 3836, 10147 ],
+               [ 3425, -35, 608, -44 ],
+               [ 3732, 80, 3668, 9745 ],
+               [ 3433, -5, 551, 15 ],
+               [ 3736, 115, 3481, 9907 ],
+               [ 3740, -26, 3605, 10186 ],
+               [ 3808, 100, 4381, 7007 ],
+               [ 3812, -37, 4486, 8115 ],
+               [ 3816, 71, 4426, 9061 ],
+               [ 3820, 99, 4410, 10262 ],
+               [ 3601, -924, 4009, -981 ],
+               [ 3459, 452, 809, -250 ],
+               [ 3460, 450, 1372, 96 ],
+               [ 3605, -186, 3815, -76 ],
+               [ 3461, 666, 3078, 783 ],
+               [ 3609, -625, 3497, 829 ],
+               [ 3613, -719, 2388, 39 ],
+               [ 3472, -61, 377, -132 ],
+               [ 3681, 17, 3783, 6758 ],
+               [ 3475, -10, 199, -152 ],
+               [ 3476, -1, 100, -89 ],
+               [ 3685, 587, 3617, 5606 ],
+               [ 3477, 288, 863, -79 ],
+               [ 3480, 237, 649, -132 ],
+               [ 3689, -324, 3879, 5343 ],
+               [ 3693, -366, 3598, 8195 ],
+               [ 3633, -86, 1762, -1530 ],
+               [ 3504, 12, 0, -11 ],
+               [ 3585, -716, 1122, -3098 ],
+               [ 3507, -51, -24, -170 ],
+               [ 3589, -139, 1183, -979 ],
+               [ 3593, -387, 1276, -1850 ],
+               [ 3523, -186, 5116, 10358 ],
+               [ 3524, -42, 5111, 10404 ],
+               [ 3669, 587, 3617, 5606 ],
+               [ 3525, -201, 5612, 9324 ],
+               [ 3534, -141, 3865, 9688 ],
+               [ 3539, -27, 3870, 8958 ],
+               [ 3540, 288, 3614, 8065 ],
+               [ 3749, 332, 3506, 1025 ],
+               [ 3541, 129, 3929, 7981 ],
+               [ 3550, -33, 3870, 8958 ],
+               [ 3552, -142, 3633, 8970 ],
+               [ 3697, -650, 3604, 5607 ],
+               [ 3555, 147, 2955, -273 ],
+               [ 3556, -54, 2678, -825 ],
+               [ 3701, 128, 3871, 7334 ],
+               [ 3557, 553, 3510, 827 ],
+               [ 3560, -10, 846, -1356 ],
+               [ 3705, -55, 3592, 8892 ],
+               [ 3564, -220, 935, -1355 ],
+               [ 3709, -62, 3625, 10039 ],
+               [ 3566, -716, 1122, -3098 ],
+               [ 3568, -363, 844, -3100 ],
+               [ 3649, 372, 1037, -2228 ],
+               [ 3571, -9, 565, -3100 ],
+               [ 3572, -10, 706, -2229 ],
+               [ 3653, -118, 3322, 55 ],
+               [ 3573, -10, 846, -1356 ],
+               [ 3576, -55, 2262, -750 ],
+               [ 3657, 499, 2967, -1688 ],
+               [ 3580, -778, 2953, -1687 ],
+               [ 3661, 135, 3235, -330 ],
+               [ 3582, -747, 2037, -2393 ],
+               [ 3584, -418, 2192, -1145 ],
+               [ 3594, -716, 1122, -3098 ],
+               [ 3599, 332, 3506, 1025 ],
+               [ 3600, -295, 3757, 21 ],
+               [ 3610, -672, 2942, 434 ],
+               [ 3615, 499, 2967, -1688 ],
+               [ 3616, 197, 939, -1355 ],
+               [ 3626, 93, 753, -2228 ],
+               [ 3631, -346, 1909, -281 ],
+               [ 3632, -48, 1650, -1221 ],
+               [ 3642, -109, 2676, -825 ],
+               [ 3647, 287, 1283, -1851 ],
+               [ 3648, 197, 939, -1355 ],
+               [ 3658, 499, 2967, -1688 ],
+               [ 3663, 281, 3765, 21 ],
+               [ 3680, -266, 3867, 7335 ],
+               [ 3690, -265, 4364, 3228 ],
+               [ 3695, -337, 3786, 6293 ],
+               [ 3696, -182, 3876, 6637 ],
+               [ 3706, -366, 3598, 8195 ],
+               [ 3711, -27, 3836, 10147 ],
+               [ 3715, -165, 3477, 9907 ],
+               [ 3717, -79, 3519, 9985 ],
+               [ 3726, -221, 3624, 9668 ],
+               [ 3731, 111, 3712, 9868 ],
+               [ 3733, 167, 3628, 9667 ],
+               [ 3742, 80, 3668, 9745 ],
+               [ 3763, -265, 4364, 3229 ],
+               [ 3765, -103, 4525, 2078 ],
+               [ 3774, 1, 4154, 5079 ],
+               [ 3779, 562, 4431, 24 ],
+               [ 3781, 792, 4027, -983 ],
+               [ 3790, 182, 5709, 1978 ],
+               [ 3795, -1188, 5739, 34 ],
+               [ 3797, -924, 4009, -981 ],
+               [ 3811, -38, 4486, 8115 ],
+               [ 3813, -106, 4582, 7264 ],
+               [ 3822, 67, 2426, 143 ],
+               [ 3827, -190, 1187, -903 ],
+               [ 3829, 163, 1191, -903 ]
+            ],
+            "host" : "KL\\High Poly Head\\FemaleHeadCharGen.tri",
+            "vertices" : 3832
+         },
+         {
+            "data" : [
+               [ 64, 0, -17, -296 ],
+               [ 0, 0, -50, -226 ],
+               [ 65, 0, -109, -194 ],
+               [ 1, 0, -47, -124 ],
+               [ 66, 3, -203, -72 ],
+               [ 2, 0, 27, -220 ],
+               [ 67, 3, -141, 3 ],
+               [ 3, -1, 66, -315 ],
+               [ 68, -29, 24, -48 ],
+               [ 4, 0, 13, -345 ],
+               [ 69, -1, 67, -315 ],
+               [ 5, -1, 55, -399 ],
+               [ 70, 0, 27, -220 ],
+               [ 6, 0, 49, -376 ],
+               [ 7, 0, -1, -339 ],
+               [ 8, -1, 0, 0 ],
+               [ 9, 0, 6, -226 ],
+               [ 10, 15, -2, -188 ],
+               [ 11, 0, 0, -157 ],
+               [ 12, 0, 0, -238 ],
+               [ 20, 0, 29, -316 ],
+               [ 21, -452, 320, -323 ],
+               [ 22, -563, 219, -384 ],
+               [ 23, -506, -6, -340 ],
+               [ 24, -408, 160, -285 ],
+               [ 25, -314, -145, -234 ],
+               [ 26, -203, -24, -97 ],
+               [ 27, -114, -182, -82 ],
+               [ 28, -215, 653, -133 ],
+               [ 29, -364, 542, -273 ],
+               [ 30, -255, 684, -138 ],
+               [ 31, -527, 447, -361 ],
+               [ 32, -431, 484, -303 ],
+               [ 33, -558, 91, -410 ],
+               [ 34, -530, -69, -389 ],
+               [ 35, -397, -182, -344 ],
+               [ 36, -297, -298, -253 ],
+               [ 37, -87, -340, -93 ],
+               [ 38, -190, 541, -147 ],
+               [ 39, -348, 423, -294 ],
+               [ 40, -499, 381, -372 ],
+               [ 41, -545, 236, -403 ],
+               [ 42, -518, -13, -405 ],
+               [ 43, -494, -158, -384 ],
+               [ 44, -366, -270, -340 ],
+               [ 45, -245, -414, -242 ],
+               [ 46, -44, -453, -89 ],
+               [ 47, -145, 383, -142 ],
+               [ 48, -296, 271, -282 ],
+               [ 49, -464, 283, -367 ],
+               [ 50, -508, 141, -397 ],
+               [ 51, -463, -97, -381 ],
+               [ 52, -409, -317, -340 ],
+               [ 53, -429, 125, -359 ],
+               [ 54, -321, -201, -343 ],
+               [ 55, -276, -362, -302 ],
+               [ 56, -71, -546, -113 ],
+               [ 57, -122, 163, -155 ],
+               [ 58, -300, -37, -320 ],
+               [ 59, 3, -203, -72 ],
+               [ 60, 0, -109, -194 ],
+               [ 61, 1, -120, -172 ],
+               [ 62, 1, -83, -52 ],
+               [ 63, 2, -102, -142 ],
+               [ 71, -1, 55, -399 ],
+               [ 72, -1, 67, -315 ],
+               [ 73, 0, 30, -316 ],
+               [ 74, 0, 50, -376 ],
+               [ 75, 0, 6, -226 ],
+               [ 77, 0, 0, 1 ],
+               [ 78, 0, 0, 1 ],
+               [ 79, 0, 0, 1 ],
+               [ 80, 0, 0, 1 ],
+               [ 81, 0, 0, 1 ],
+               [ 82, 0, 0, 1 ],
+               [ 83, 0, 0, 1 ],
+               [ 85, 0, 0, 1 ],
+               [ 87, 0, -182, -87 ],
+               [ 88, 0, -50, -226 ],
+               [ 89, -1, 66, -315 ],
+               [ 90, 0, 27, -220 ],
+               [ 91, 0, -47, -124 ],
+               [ 92, 0, 13, -345 ],
+               [ 93, -1, 55, -399 ],
+               [ 94, 0, 49, -376 ],
+               [ 95, 0, -1, -339 ],
+               [ 96, 1, 0, 0 ],
+               [ 97, 0, 6, -226 ],
+               [ 98, 0, 0, -238 ],
+               [ 99, 0, 0, -157 ],
+               [ 100, -16, -2, -188 ],
+               [ 108, 0, 29, -316 ],
+               [ 109, -444, 512, -323 ],
+               [ 110, -324, 710, -284 ],
+               [ 111, -534, 868, -339 ],
+               [ 112, -769, 544, -384 ],
+               [ 113, 18, 867, -96 ],
+               [ 114, -179, 795, -233 ],
+               [ 115, 77, 855, -81 ],
+               [ 116, -348, -331, -134 ],
+               [ 117, -318, -67, -139 ],
+               [ 118, -506, -113, -273 ],
+               [ 119, -478, 281, -303 ],
+               [ 120, -862, 156, -361 ],
+               [ 121, -677, 646, -389 ],
+               [ 122, -816, 430, -409 ],
+               [ 123, -493, 833, -344 ],
+               [ 124, -197, 685, -252 ],
+               [ 125, 71, 748, -93 ],
+               [ 126, -541, -267, -294 ],
+               [ 127, -374, -498, -148 ],
+               [ 128, -921, -93, -372 ],
+               [ 129, -898, 167, -403 ],
+               [ 130, -662, 536, -384 ],
+               [ 131, -798, 309, -403 ],
+               [ 132, -483, 718, -339 ],
+               [ 133, -188, 513, -242 ],
+               [ 134, 68, 573, -89 ],
+               [ 135, -514, -394, -282 ],
+               [ 136, -357, -613, -142 ],
+               [ 137, -903, -190, -367 ],
+               [ 138, -880, 66, -397 ],
+               [ 139, -520, 507, -337 ],
+               [ 140, -748, 195, -381 ],
+               [ 141, -840, -183, -359 ],
+               [ 142, -342, 167, -301 ],
+               [ 143, -461, -30, -340 ],
+               [ 144, 0, 323, -111 ],
+               [ 145, -335, -610, -155 ],
+               [ 146, -497, -261, -320 ],
+               [ 147, 1, -203, -72 ],
+               [ 148, 0, -83, -52 ],
+               [ 149, 1, -120, -172 ],
+               [ 150, 0, -109, -194 ],
+               [ 151, 0, -102, -142 ],
+               [ 152, 1, -203, -72 ],
+               [ 153, 0, -109, -194 ],
+               [ 154, 0, -17, -296 ],
+               [ 155, 0, -141, 3 ],
+               [ 156, 27, 25, -48 ],
+               [ 157, -1, 67, -315 ],
+               [ 158, 0, 27, -220 ],
+               [ 159, -1, 67, -315 ],
+               [ 160, -1, 55, -399 ],
+               [ 161, 0, 50, -376 ],
+               [ 162, 0, 30, -316 ],
+               [ 163, 0, 6, -226 ],
+               [ 164, 0, 0, 1 ],
+               [ 165, 0, 0, 1 ],
+               [ 167, 0, 0, 1 ],
+               [ 168, 0, 0, 1 ],
+               [ 169, 0, 0, 1 ],
+               [ 170, 0, 0, 1 ],
+               [ 171, 0, 0, 1 ],
+               [ 172, 0, 0, 1 ],
+               [ 174, 2, -182, -87 ],
+               [ 13, 0, -48, -48 ],
+               [ 14, 0, -48, -48 ],
+               [ 15, 0, -48, 0 ],
+               [ 16, 0, -48, 0 ],
+               [ 17, 0, 0, -161 ],
+               [ 18, 0, 0, -161 ],
+               [ 101, 0, -48, -48 ],
+               [ 102, 0, -48, 0 ],
+               [ 103, 0, -48, 0 ],
+               [ 104, 0, -48, -48 ],
+               [ 105, 0, 0, -161 ],
+               [ 106, 0, 0, -161 ]
+            ],
+            "host" : "Actors\\Character\\Character Assets\\EyesFemaleChargen.tri",
+            "vertices" : 176
+         },
+         {
+            "data" : [
+               [ 38, -1, 1, -79 ],
+               [ 88, 1, 1, -79 ],
+               [ 40, 0, 6, -75 ],
+               [ 41, 0, 4, -156 ],
+               [ 89, 0, 5, -76 ],
+               [ 42, 3, 2, -155 ],
+               [ 90, -1, 6, -155 ],
+               [ 43, 3, 0, -77 ],
+               [ 91, -3, 2, -155 ],
+               [ 92, -3, 0, -77 ],
+               [ 93, -1, 13, -11 ]
+            ],
+            "host" : "Actors\\Character\\Character Assets\\FaceParts\\FemaleHeadBrowsCharGen.tri",
+            "vertices" : 102
+         }
+      ],
+      "sculptDivisor" : 10000
+   },
+   "tintInfo" : [
+      {
+         "color" : 4291610304,
+         "index" : 0,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\SkinTone.dds"
+      },
+      {
+         "color" : 1923699794,
+         "index" : 1,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleUpperEyeSocket.dds"
+      },
+      {
+         "color" : 1923699794,
+         "index" : 2,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleLowerEyeSocket.dds"
+      },
+      {
+         "color" : 1923699794,
+         "index" : 3,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHead_Cheeks.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 4,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHead_Cheeks2.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 5,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHead_FrownLines.dds"
+      },
+      {
+         "color" : 1799554049,
+         "index" : 6,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadNord_Lips.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 7,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\MaleHead_Nose.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 8,
+         "texture" : "!COR_Male\\Tintmasks\\maleheadhuman_forehead.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 9,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadHuman_Chin.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 10,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\MaleHeadHuman_Neck.dds"
+      },
+      {
+         "color" : 16645629,
+         "index" : 11,
+         "texture" : "Actors\\Character\\Overlays\\Lamenthia\\Freckles\\Freckles 12.dds"
+      },
+      {
+         "color" : 16645629,
+         "index" : 12,
+         "texture" : "Actors\\Character\\Overlays\\FMS\\EyeShadow\\Highlights 1.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 13,
+         "texture" : "Actors\\Character\\Overlays\\FMS\\Blush\\Anime Blush 3.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 14,
+         "texture" : "Actors\\Character\\Overlays\\Lamenthia\\Moles\\Moles 02.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 15,
+         "texture" : "Actors\\Character\\Overlays\\Wolfpaint\\AAU\\Simple Circuit 1 M.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 16,
+         "texture" : "Actors\\Character\\Overlays\\FMS\\Contours and Highlights\\NoseTip 1.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 17,
+         "texture" : "Actors\\Character\\Overlays\\FMS\\EyeLiner\\Simple 1.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 18,
+         "texture" : "Actors\\Character\\Overlays\\FMS\\Blush\\Blush Cheeks 5.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 19,
+         "texture" : "Actors\\Character\\Overlays\\FMS\\EyeLiner\\Wing Multi 1 P2.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 20,
+         "texture" : "Actors\\Character\\character assets\\Overlays\\ZMD78MAKEUP\\eye makeup B.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 21,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadHighElfWarPaint_01.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 22,
+         "texture" : "Actors\\Character\\Overlays\\FMS\\Extra\\Eyeliner Extra Corner.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 23,
+         "texture" : "Actors\\YevMods - Makeup Pack YMMP\\YMMP Eyeshadow 050.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 24,
+         "texture" : "Actors\\Character\\Overlays\\PockyPunk\\Face\\Eyeshadow female 1 M.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 25,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleNordEyeLinerStyle_01.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 26,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleNordEyeLinerStyle_01.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 27,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleNordEyeLinerStyle_01.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 28,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleNordEyeLinerStyle_01.dds"
+      },
+      {
+         "color" : 4278190080,
+         "index" : 29,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleNordEyeLinerStyle_01.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 30,
+         "texture" : "!COR_Male\\Tintmasks\\redguardmaleeyelinerstyle_01.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 31,
+         "texture" : "EpicElfRace_zzjay\\Tintmasks\\femalenordeyelinerstyle_01.dds"
+      },
+      {
+         "color" : 16777215,
+         "index" : 32,
+         "texture" : "Actors\\Character\\Character Assets\\TintMasks\\FemaleHeadDirt_03.dds"
+      }
+   ],
+   "transforms" : [
+      {
+         "firstPerson" : false,
+         "keys" : [
+            {
+               "name" : "RMX_Head",
+               "values" : [
+                  {
+                     "data" : 0,
+                     "index" : 0,
+                     "key" : 31,
+                     "type" : 4
+                  },
+                  {
+                     "data" : 0,
+                     "index" : 1,
+                     "key" : 31,
+                     "type" : 4
+                  },
+                  {
+                     "data" : -0.8999999761581421,
+                     "index" : 2,
+                     "key" : 31,
+                     "type" : 4
+                  }
+               ]
+            }
+         ],
+         "node" : "CME Camera1st [Cam1]"
+      },
+      {
+         "firstPerson" : false,
+         "keys" : [
+            {
+               "name" : "RMX_Head",
+               "values" : [
+                  {
+                     "data" : 0,
+                     "index" : 0,
+                     "key" : 31,
+                     "type" : 4
+                  },
+                  {
+                     "data" : 0,
+                     "index" : 1,
+                     "key" : 31,
+                     "type" : 4
+                  },
+                  {
+                     "data" : -0.8999999761581421,
+                     "index" : 2,
+                     "key" : 31,
+                     "type" : 4
+                  }
+               ]
+            }
+         ],
+         "node" : "CME Camera3rd [Cam3]"
+      },
+      {
+         "firstPerson" : false,
+         "keys" : [
+            {
+               "name" : "RMXPlugin",
+               "values" : [
+                  {
+                     "data" : 0,
+                     "index" : 0,
+                     "key" : 31,
+                     "type" : 4
+                  },
+                  {
+                     "data" : 0,
+                     "index" : 1,
+                     "key" : 31,
+                     "type" : 4
+                  },
+                  {
+                     "data" : -0.8999999761581421,
+                     "index" : 2,
+                     "key" : 31,
+                     "type" : 4
+                  }
+               ]
+            }
+         ],
+         "node" : "CME Neck [Neck]"
+      },
+      {
+         "firstPerson" : true,
+         "keys" : [
+            {
+               "name" : "RMX_Head",
+               "values" : [
+                  {
+                     "data" : 0,
+                     "index" : 0,
+                     "key" : 31,
+                     "type" : 4
+                  },
+                  {
+                     "data" : 0,
+                     "index" : 1,
+                     "key" : 31,
+                     "type" : 4
+                  },
+                  {
+                     "data" : -0.8999999761581421,
+                     "index" : 2,
+                     "key" : 31,
+                     "type" : 4
+                  }
+               ]
+            }
+         ],
+         "node" : "CME Camera1st [Cam1]"
+      },
+      {
+         "firstPerson" : true,
+         "keys" : [
+            {
+               "name" : "RMX_Head",
+               "values" : [
+                  {
+                     "data" : 0,
+                     "index" : 0,
+                     "key" : 31,
+                     "type" : 4
+                  },
+                  {
+                     "data" : 0,
+                     "index" : 1,
+                     "key" : 31,
+                     "type" : 4
+                  },
+                  {
+                     "data" : -0.8999999761581421,
+                     "index" : 2,
+                     "key" : 31,
+                     "type" : 4
+                  }
+               ]
+            }
+         ],
+         "node" : "CME Camera3rd [Cam3]"
+      },
+      {
+         "firstPerson" : true,
+         "keys" : [
+            {
+               "name" : "RMXPlugin",
+               "values" : [
+                  {
+                     "data" : 0,
+                     "index" : 0,
+                     "key" : 31,
+                     "type" : 4
+                  },
+                  {
+                     "data" : 0,
+                     "index" : 1,
+                     "key" : 31,
+                     "type" : 4
+                  },
+                  {
+                     "data" : -0.8999999761581421,
+                     "index" : 2,
+                     "key" : 31,
+                     "type" : 4
+                  }
+               ]
+            }
+         ],
+         "node" : "CME Neck [Neck]"
+      }
+   ],
+   "version" : {
+      "formatVersion" : 3,
+      "runtimeVersion" : 17039392,
+      "signature" : 1163086675,
+      "skseVersion" : 33554736
+   }
+}

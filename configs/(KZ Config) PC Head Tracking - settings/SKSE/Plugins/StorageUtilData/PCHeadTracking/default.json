@@ -1,0 +1,56 @@
+{
+	"float" : 
+	{
+		"fcrosshair" : 180,
+		"fhealthlow" : 0.2,
+		"fhealthverylow" : 0.1,
+		"fintervaldialog" : 0,
+		"fversionstored" : 4.7
+	},
+	"form" : 
+	{
+		"femalecustom" : "0",
+		"malecustom" : "0"
+	},
+	"int" : 
+	{
+		"bautoclear" : 1,
+		"bbetamode" : 0,
+		"bbleedout" : 0,
+		"bbyo" : 1,
+		"bdawnguard" : 1,
+		"bdragonborn" : 1,
+		"bexcludedead" : 0,
+		"bexcludeobj" : 0,
+		"bexpression" : 0,
+		"bfunction" : 1,
+		"bspine" : 0,
+		"btargetvoicef" : 0,
+		"btargetvoicem" : 0,
+		"giaction" : 100,
+		"gicombat" : 100,
+		"gilocation" : 100,
+		"gimagic" : 100,
+		"gimenu" : 100,
+		"idtp" : 1,
+		"imood1" : 8,
+		"imood4" : 14,
+		"imood5" : 12,
+		"imood6" : 10,
+		"imood9" : 10,
+		"imoodstrength1" : 100,
+		"imoodstrength4" : 75,
+		"imoodstrength5" : 25,
+		"imoodstrength6" : 50,
+		"imoodstrength9" : 75,
+		"itrackingdistance" : 1000,
+		"ivoicesetf" : 0,
+		"ivoicesetm" : 0,
+		"ksay01" : -1,
+		"ksay02" : -1,
+		"ksay03" : -1,
+		"kvoicereverse" : -1,
+		"kvoiceselect" : -1,
+		"xag" : 0
+	}
+}

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderGroups>
+    <Group name="CBBE">
+        <Member name="CBBE Hands"/>
+        <Member name="CBBE Hands 1st Person"/>
+        <Member name="CBBE Hands Beast"/>
+        <Member name="CBBE Hands Beast 1st Person"/>
+        <Member name="CBBE Feet"/>
+        <Member name="CBBE Body"/>
+        <Member name="CBBE Body 1st Person"/>
+        <Member name="CBBE Body Physics"/>
+        <Member name="CBBE Body Special"/>
+    </Group>
+    <Group name="CBBE Vanilla Nude Body (KZ)">
+        <Member name="CBBE Hands"/>
+        <Member name="CBBE Hands 1st Person"/>
+        <Member name="CBBE Hands Beast"/>
+        <Member name="CBBE Hands Beast 1st Person"/>
+        <Member name="CBBE Feet"/>
+        <Member name="CBBE Body"/>
+        <Member name="CBBE Body 1st Person"/>
+        <Member name="CBBE Body Physics"/>
+        <Member name="CBBE Body Special"/>
+    </Group>
+</SliderGroups>

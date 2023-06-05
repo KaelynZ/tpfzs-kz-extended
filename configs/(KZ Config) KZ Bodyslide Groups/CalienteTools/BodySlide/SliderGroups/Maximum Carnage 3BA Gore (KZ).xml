@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderGroups>
+    <Group name="3BA">
+        <Member name="MC_Female_3BA_Gore_Back"/>
+        <Member name="MC_Female_3BA_Gore_Front"/>
+        <Member name="MC_Female_3BA_Gore_SideL"/>
+        <Member name="MC_Female_3BA_Gore_SideR"/>
+    </Group>
+    <Group name="CBBE">
+        <Member name="MC_Female_3BA_Gore_Back"/>
+        <Member name="MC_Female_3BA_Gore_Front"/>
+        <Member name="MC_Female_3BA_Gore_SideL"/>
+        <Member name="MC_Female_3BA_Gore_SideR"/>
+    </Group>
+    <Group name="Maxium Carnage 3BA Gore (KZ)">
+        <Member name="MC_Female_3BA_Gore_Back"/>
+        <Member name="MC_Female_3BA_Gore_Front"/>
+        <Member name="MC_Female_3BA_Gore_SideL"/>
+        <Member name="MC_Female_3BA_Gore_SideR"/>
+    </Group>
+</SliderGroups>

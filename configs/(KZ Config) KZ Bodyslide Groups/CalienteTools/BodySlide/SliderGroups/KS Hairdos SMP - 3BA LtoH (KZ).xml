@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderGroups>
+    <Group name="3BA">
+        <Member name="KS Hairdos SMP - Collision 1 (3BA LtoH)"/>
+        <Member name="KS Hairdos SMP - Collision 2 (3BA LtoH)"/>
+        <Member name="KS Hairdos SMP - Collision 3 (3BA LtoH)"/>
+        <Member name="KS Hairdos SMP - Collision 4 (3BA LtoH)"/>
+    </Group>
+    <Group name="CBBE">
+        <Member name="KS Hairdos SMP - Collision 1 (3BA LtoH)"/>
+        <Member name="KS Hairdos SMP - Collision 2 (3BA LtoH)"/>
+        <Member name="KS Hairdos SMP - Collision 3 (3BA LtoH)"/>
+        <Member name="KS Hairdos SMP - Collision 4 (3BA LtoH)"/>
+    </Group>
+    <Group name="KS Hairdos SMP - 3BA LtoH (KZ)">
+        <Member name="KS Hairdos SMP - Collision 1 (3BA LtoH)"/>
+        <Member name="KS Hairdos SMP - Collision 2 (3BA LtoH)"/>
+        <Member name="KS Hairdos SMP - Collision 3 (3BA LtoH)"/>
+        <Member name="KS Hairdos SMP - Collision 4 (3BA LtoH)"/>
+    </Group>
+</SliderGroups>
