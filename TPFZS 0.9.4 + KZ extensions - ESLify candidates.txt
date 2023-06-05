@@ -15,7 +15,8 @@ Schlongs of Skyrim.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on Schlongs of Skyrim.esp: 
 		None
-
+	DO NOT ESLIFY - too complex, too delicate, addon mcm
+	
 UIExtensions.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on UIExtensions.esp: 
@@ -26,7 +27,8 @@ SMIM-SE-Merged-All.esp
 	=== Mods dependent on SMIM-SE-Merged-All.esp: 
 		* C5  LoS II - SMIM patch.esp
 		* 3BC  RTDocks - SMIM.esp
-
+	DONE 2023.05.20
+	
 NoGrassINCaves.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on NoGrassINCaves.esp: 
@@ -166,6 +168,7 @@ WardsFunctionalitiesExtended.esp
 	=== Mods dependent on WardsFunctionalitiesExtended.esp: 
 		* 6C5  ZedPatch.esp
 	Assets: scripts (clean sources, no getformfromfile), meshes, textures
+	DONE 2023.05.13
 
 ForcefulTongue.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
@@ -285,7 +288,8 @@ PersonalWeddingGuests.esp
 	=== Mods dependent on PersonalWeddingGuests.esp: 
 		None
 	scripts, dialog
-
+	DONE 1023.05.20
+	
 DragonWar.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
 	=== Mods dependent on DragonWar.esp: 
@@ -1033,12 +1037,15 @@ UPDATE 2023-05-13
 
 [90] 018AuriKaidanBanter.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
-
+	DONE 2023.05.20
+	
 [91] 018AuriVIGILANTpatch.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
-
+	DONE 2023.05.20
+	
 [92] 018InigoBanterPatch.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
+	DONE 2023.05.20
 
 [93] NWS_Frea.esp
 	Can be turned into ESL by compacting FormIDs first, then adding ESL flag in TES4 header
