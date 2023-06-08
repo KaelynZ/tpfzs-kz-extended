@@ -11852,3 +11852,789 @@ INSTALL:
 	Truly Neutral Prisoners 0.1.1 LazySkyrimPlayer
 	https://www.nexusmods.com/skyrimspecialedition/mods/73873
 	Finally stops those pesky prisoners from snitching on you! 420% more immersive!
+	
+	More Sensible Quartermasters 1.1 by lilebonymace
+	https://www.nexusmods.com/skyrimspecialedition/mods/73887
+	The quartermasters aren't generic blacksmiths anymore, they now sell items of their faction and only if you're in this faction. The items lying around are also replaced with the matching ones.
+	
+	Ill Met Bolar's Oathblade 1.2 lilebonymace
+	https://www.nexusmods.com/skyrimspecialedition/mods/60994
+	Allows you to acquire Bolar's Oathblade during (or after) the Ill Met By Moonlight quest as well (it just doesn't disappear).
+	DESCRIPTION - Allows you to acquire Bolar's Oathblade during (or after) the Ill Met By Moonlight quest as well. Without this mod the blade disappears when the quest starts and (according to UESP) may appear again only after a month. With this mod the blade is always there, waiting for you to take it.
+	COMPATIBILITY - Quest Conflict Fixes includes a similar edit, you don't need both.
+		Compatible with everything else that doesn't change the location of the blade (so probably just with everything).
+	DO NOT INSTALL - prefer Quest Conflict Fixes
+		
+	Quest Conflict Fixes 1.2 by SkyLover
+	https://www.afkmods.com/index.php?/files/file/2295-quest-conflict-fixes/
+	There are a number of quests in the game that, if completed in certain orders, will cause another quest or item to become permanently unavailable. This mod attempts to remove, or fix these lockouts.
+	- see README in SSE Docs for details
+	- esp file needs to be eslified
+	
+	Open College 1.0.14 by lilebonymace
+	https://www.nexusmods.com/skyrimspecialedition/mods/79707
+	Opens the College of Winterhold for visitors and changes the entry procedure, solving some of its issues.
+	For details, see my README, taken from mod page.
+	FOMOD: what it selects
+	LOOT: 	main before OCW
+			patch after AI Overhaul
+			patch after OCW, before OCW_CellSettings
+			patch after CoWQE - AYOP patch
+			after:	Improved College Entry - Questline Tweaks
+					Choose Your Own Arch-Mage
+					At Your Own Pace: College of Winterhold
+					Hit - Dialogue Scene Cooldowns
+					
+	Improved College Entry - Questline Tweaks - REINSTALL
+	FOMOD:  Friendly Faralda: NO
+		Mage-Light Maintenence: NO
+		Governable Gatekeeper: NO
+		
+===============================================================================
+2023-06-05
+===============================================================================
+
+NEW MOD - ESLIFIED
+	Improved College Entry - Questline Tweaks 2.8 by parapets - KZ eslified esp replacer 2023.06.05
+	- just set ESL flag
+
+EDITED MOD - Form 44
+	Pride Polishes 1.03
+	- open in CK, then save
+
+INSTALL
+	SunHelm Survival and needs - Settings Loader 1.2.0  MaskedRPGFan
+	https://www.nexusmods.com/skyrimspecialedition/mods/78535
+	Modified MCM for SunHelm Survival and needs by colinswrath. Saves settings as you change them as default profile settings, adds delay for loads settings on startup, imports settings from an existing save, so you don't have to spend time in MCM again with each game. No plugin.
+	DL: SunHelm Survival and needs Alternate Start Mods - Settings Loader 1.2.0 16 mar 2023
+		For SunHelm Survival and needs v.3.1.4
+	- This is QoL type mod. Modifies MCM for SunHelm Survival and needs by colinswrath. Saves settings as you change them as default profile settings, adds delay for loads settings on startup, imports settings from an existing save, so you don't have to spend time in MCM again with each game. No plugin. 
+	- Disclaimer: SunHelm has a built-in mechanism for loading defaults. However, to use it, you need to save the settings, close the game, find the saved profile and move it to the location: "Data/SunHelm/Config/Default/SunHelm.json", and so every time you want to change the default settings.
+	- This mod adds some very important simplifications and improvements:
+	- Automatically saves your settings when you close MCM as defaults, so you don't have to close Skyrim and move anything to the default settings location.
+	- Moves the loading of settings from OnInit to OnConfigInit and adds a 10-second delay to their loading, so that settings are loaded correctly even with a lot of scripts running at the beginning of the game.
+	- Imports settings from an existing save: just open MCM and close it.
+	
+	Which Key NG 1.1  kpvw
+	https://www.nexusmods.com/skyrimspecialedition/mods/78971
+	Replaces the lock level of a locked door or container with the name of the key if the player has the key in their inventory. Now as an SKSE plugin!
+	- Compatible with 1.5.97, 1.6.353, 1.6.640, and probably 1.6.659
+	
+	Take a Peek - New Stealth Mechanic - Settings Loader 1.0.1 MaskedRPGFan
+	https://www.nexusmods.com/skyrimspecialedition/mods/70006
+	Created from scratch MCM for Take a Peek - New Stealth Mechanic by JaySerpa to support MCM Helper. Saves settings as you change them, automatically loads settings on startup or game load, imports settings from an existing save, so you don't have to spend time in MCM again with each game. Localization support. No plugin.
+	- This is QoL type mod. Adds MCM Helper support for Take a Peek - New Stealth Mechanic by JaySerpa. Saves settings as you change them, automatically loads settings on startup or game load, imports settings from an existing save, so you don't have to spend time in MCM again with each game. Localization support. No plugin.
+	- Saved settings location: "MCM\Settings\Take A Peek - New Stealth Mechanic.ini".
+	
+	Advanced Notification Log NG 2.2.0 MaskedRPGFan
+	https://www.nexusmods.com/skyrimspecialedition/mods/67975
+	Adds MCM with cached notification messages, so you can look at them later (MCM and file). Supports any number of them and different player characters. Build with CommonLibSSE-NG for all game versions.
+	- Compatibility: Notification Log SSE or Notification Log SSE NG - Advanced Notification Log is upgraded version of these mods. These mods only display the last 128 messages, do not distinguish between different player characters, do not save notifications to file.
+	
+	Sky Idles 5.0.3 juhaaaa
+	https://www.nexusmods.com/skyrimspecialedition/mods/45794?tab=files
+	Sky Idles adds over 40 idles that can be tailored to users needs and more! Works with FNIS and Nemesis
+	- Sky Idles adds over 40 3rd person player only idle animations for the player, which play after player has idled still for user defined time. The mod comes with an MCM for easy idle probability adjusting and with an idle list menu.
+	DL: Sky Idles 5.0.3 16 sep 2022 - AE SE  Player only  Extract NPC addon from other main file FOMOD
+		Sky Idles AE SE NPC DAR 5.0.3 10 oct 2022
+	
+	Sky Idles - Settings Loader 1.2.1 Masked RPGFan
+	https://www.nexusmods.com/skyrimspecialedition/mods/71907
+	Modified MCM for Sky Idles by juhaaaa to support MCM Helper. Saves settings as you change them, automatically loads settings on startup or game load, imports settings from an existing save, so you don't have to spend time in MCM again with each game. Localization support. No plugin.
+	
+	Simple Offence Suppression Block Friendly Fire - Add-on 1.1.1 Rudi91
+	https://www.nexusmods.com/skyrimspecialedition/mods/57700
+	This mod adds some improvements for wSkeever's Simple Offence Suppression MCM - Block Friendly Fire mod.
+	DL: Simple Offence Suppression MCM - Block Friendly Fire - Settings Loader  1.1.1 24 feb 2022
+		- For v.0.4. Toggle friendly fire with a hotkey from Simple Offence Suppression Block Friendly Fire - Add-on included.
+	Features are﻿:
+		Toggle friendly fire with a hotkey that can be changed in a new MCM. (default 'O')
+		A notification will show up when friendly fire is ON/OFF. (enabled by default, can be disabled in the new MCM)
+		Non-hostile﻿ NPC's won't react with dialogues to non-damage hits anymore. (they may still react to fire spells)
+	LOOT: Load it after Simple Offence Supression MCM.esp and after any mod that changes the same dialogues such as RDO.
+	
+	
+	Simple Offence Suppression MCM - Block Friendly Fire - Settings Loader 1.1.0 MaskedRPGFan
+	https://www.nexusmods.com/skyrimspecialedition/mods/64176
+	
+	Amorous Adventures Plus Revoiced- Riverwood
+	https://www.nexusmods.com/skyrimspecialedition/mods/92882
+	Revitalize the voices of key female characters in Amorous Adventures Plus! Our mod revoices Gurder, Camilla, Annekke, Senna, and Sylgja using AI technology. Immerse yourself in their quests with enhanced dialogue. More revoiced characters and quests coming soon!
+
+	The Night Mother Revoiced 1.0 LeoMaximus
+	https://www.nexusmods.com/skyrimspecialedition/mods/92873
+	
+	Wyrmstooth - Unique Weapons Reforged 1.0 vpulse08
+	https://www.nexusmods.com/skyrimspecialedition/mods/92848
+	Replaces the appearance of 12 unique weapons, and adds some unique armaments to select NPCs from the mod Wyrmstooth.
+	
+	Simple Hotkeys - SKSE 3.0 neogulcity
+	https://www.nexusmods.com/skyrimspecialedition/mods/55368
+	Assigning hotkeys with various key with combination of LShift, LCtrl and LAlt. With Equipset mechanism, can easily managing various items, weapon, spell. It's key feature written in C++ SKSE so, Executing Hotkey should be work fast as vanilla hotkey without script lag.
+	DL: Main file 3.0 18 dec 2021
+	Requirement: SKSE, Address Library for SKSE Plugins, SkyUI, Jcontainers SE, iWant Widgets
+	﻿(-) Shout must be equipped to add Hotkeys
+	﻿(-) Limit of 128 EquipSets can be added on game
+	﻿(-) Limit of 10 EquipSets can be added on cycle EquipSet
+	﻿﻿(-) Limit of 30 Items can be added on EquipSet
+	- ﻿When you add these items to EquipSet, beware to not add same items.(sharing same form id). Once you tempered it again then, need to add it again ﻿﻿on EquipSet.
+	- ﻿﻿for example, there are 3 weapons which sharing same form id. Iron dagger, Iron dagger (fine tempered), Iron dagger (fire enchanted).
+	- if you favorited Iron dagger with fine tempered one and added it to EquipSet, do not favorite other Iron dagger items. Tempered, Enchanted data ﻿﻿tracked with favorited function. Same items favorited twice, may always equip normal item that not enchanted and tempered. 
+	- ﻿﻿Adding different items like Iron dagger (fire enchanted), Iron Armor (fine tempered) on same EquipSet doesn't make any problems.
+	- only supports SSE 1.5.97, no upgrade to AE
+	DO NOT INSTALL - prefer UI-Integrated Hotkeys System by same author
+	
+	Remember Lockpick Angle - Updated 4.2 Umgak  UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/26838
+	After breaking a lock-pick, the new lock-pick is placed at the same angle where the last one broke.
+	Author's note: this is an update to OnlyIWeDo's Remember Lockpick Angle with support for newer Skyrim SE versions.
+	
+	Vampires Cast No Shadow 2 1.2.1  UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/46107
+	SKSE plugin that stops vampires from casting shadows when out in the sun.
+	
+	Magic Sneak Attacks 1.2.0 by po3  UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/67613
+	Simple SKSE plugin which enables sneak attacks with magic
+	- Default sneak attack base mult (for each projectile type) is 2.0X
+	- This, and other settings, can be configured in po3_MagicSneakAttacks.ini
+	
+	Quick Light SE - Settings Loader 1.0 MaskedRPGFan
+	https://www.nexusmods.com/skyrimspecialedition/mods/58456
+	- for QL 2.2
+	
+	Wildcat - Combat of Skyrim - Settings Loader 2.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/56719
+	- For Wildcat - Combat of Skyrim v7.00SSE
+	
+	UI-Integrated Hotkeys System 2.0.1 by neogulcity
+	https://www.nexusmods.com/skyrimspecialedition/mods/73972
+	UI-Integrated Hotkeys System for Skyrim Special Edition. Support both SE and AE.
+	- inspired by but better than old AH Hotkeys
+	
+	Edryu's Widget 1.2.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/75443
+	Widget to show currently equipped weapons and shouts.
+	
+	Realistic Water Two 5.6 UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/2182
+	- esp files need eslification
+	
+	Realistic Water Two 5.6.0 aka RW2 + patches - KZ eslified esp replacers 2023.06.05  - NEW MOD
+	
+	
+UNINSTALL:
+	Lamas TinyHUD
+		- prefer UI-Integrated Hotkeys System
+	
+INSTALL:
+	Honed Metal -NPC Crafting and Enchanting Services- - Settings Loader 2.0.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/61394
+	
+	Go to bed - Settings Loader 2.2.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/56286
+	
+	GIST - Genuinely Intelligent Soul Trap SE - Settings Loader 3.0.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/56842
+	For GIST - Genuinely Intelligent Soul Trap SE v.1.3
+	
+	Sidequests of Skyrim - Settings Loader 2.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/56837
+	- For v0.6.1, v0.7, v.7.1, v.0.8, v8.1, v8.2.
+	
+	Immersive Interactions - Animated Actions - Legacy Settings Loader 1.3.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/56963
+	Adds the ability to save and load settings in MCM for Immersive Interactions - Animated Actions by jayserpa. Automatically loads saved settings at startup, so you don't have to spend time in MCM again with each new game. No plugin.
+	
+	Relationship Dialogue Overhaul - Update and MCM - Legacy Settings Loader 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/57212
+	Adds the ability to save and load settings in MCM for Relationship Dialogue Overhaul - Update and MCM by mnikjom. Automatically loads saved settings at startup, so you don't have to spend time in MCM again with each new game. No plugin. NO NEW GAME REQUIRED.
+	
+	Legacy of the Dragonborn SSE - Settings Loader 1.0.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/70356
+	Modified MCM for Legacy of the Dragonborn SSE by icecreamassassin to support MCM Helper. Saves settings as you change them, automatically loads settings on startup or game load, imports settings from an existing save, so you don't have to spend time in MCM again with each game. Localization support. No plugin.
+	
+	VIGILANT SE - Settings Loader 1.1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/69353
+	Created from scratch MCM for VIGILANT SE by Vicn to support MCM Helper. Saves settings as you change them, automatically loads settings on startup or game load, imports settings from an existing save, so you don't have to spend time in MCM again with each game. Localization support. No plugin.
+	
+	Clockwork (SSE) - Settings Loader 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/69404
+	Created from scratch MCM for Clockwork (SSE) by Antistar to support MCM Helper. Saves settings as you change them, automatically loads settings on startup or game load, imports settings from an existing save, so you don't have to spend time in MCM again with each game. Localization support. No plugin.
+	
+	There is No Umbra - Chapter III v1.11  UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/89089?tab=files
+	LOOT: near last, just before Helgen Reborn
+	
+	Gore 1.4  UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/85298
+	
+	The Handy Icon Collection Collective 1.3.0   UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/90508?tab=files
+	
+	No Lockpick Activate (SKSE) - Updated  3.2 INSTALL
+	https://www.nexusmods.com/skyrimspecialedition/mods/26790
+	- The same plugin works on both SE (1.5) and AE (1.6) versions!
+	
+	Enhanced Reanimation 1.5.1 by po3  UPGRADE
+	https://www.nexusmods.com/skyrimspecialedition/mods/43500
+	SKSE plugin that improves and fixes bugs with Reanimation effects.
+	﻿- Bug Fixes
+		Dead thralls/zombies will no longer be lost when fast traveling or moving across load screens. 
+		Partial fix for paralyzed reanimated corpses. Bug will still occur (walking in place) but they should be back to normal on fast travel.
+	- Enhancements
+		Decapitated corpses can be reanimated.
+		Reanimated necromancers will cast reanimate spells
+		Ridable reanimated mounts (excluding dragons). 
+	- All of these can be toggled in the included po3_EnhancedReanimation.ini.
+	
+	Elite Wolf Armor 1.4 NordwarUA  UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/53501
+	DL: Elite Wolf Armor - Quality (Recommended)  1.4 05 jun 2023
+	
+	SkyUI - Ghost Item Bug Fix 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/49106
+	Fixes the issue where SkyUI favourite groups may not equip correctly under certain circumstances, such as after upgrading items.
+	- Summary: This is an updated Papyrus script that fixes the Ghost Item problem where you if you upgrade or drop (amongst other things) an item what was in a SkyUI favourite group, you can no longer equip similar items in that group using the group equip key.
+	- Problem description: You will most likely encounter this error if you have added an item to multiple favourite groups and upgrade or drop the item without first removing it from the groups. When you later add another item to these groups and that item occupies the same equipment slot as the removed item (e.g. rings, head, body), the new item might not equip and any item that is currently equipped in that slot will unequip when you use the group equip key.
+	- This occurs because a function that is meant to blacklist missing or changed items stops looking after it finds the first group with an item, leaving any other occurrences as ghost items that block that equipment slot when you try to use those groups.
+	
+	Thieves Guild Requirements SE - Settings Loader 3.0.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/58233
+	
+	Condition Expression Extended 1.4.4 UPGRADE
+	https://www.nexusmods.com/skyrimspecialedition/mods/91438?tab=files
+	
+	Conditional Expressions - Subtle Face Animations - Settings Loader 1.4  UPGRADE
+	https://www.nexusmods.com/skyrimspecialedition/mods/59851?tab=files
+	DL: Conditional Expressions Extended - Settings Loader 1.4 23 may 2023 - For Conditional Expressions Extended v.1.4.3 and 1.4.4.
+	
+	Sidequests of Skyrim - Settings Loader 2.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/56837
+	- For v0.6.1, v0.7, v.7.1, v.0.8, v8.1, v8.2
+
+	Animated Static Reload Fix 1.01 maxsu
+	https://www.nexusmods.com/skyrimspecialedition/mods/53761
+	SKSE plugin that fixed a game engine bug: static object's loop animation not re-activated after loaded saved.
+	- For Skyrim SE 1.5.39 - 1.5.97. Not works for anniversary edition.
+	DO NOT INSTALL - use NG version
+	
+	Animated Static Reload Fix - NG 1.0.1 doodlum
+	https://www.nexusmods.com/skyrimspecialedition/mods/69331
+	Updated Animated Static Reload Fix with support for SSE, AE, and VR in one DLL.
+	
+	Butterflies Land True 1.0 Wanderhall
+	https://www.nexusmods.com/skyrimspecialedition/mods/29434
+	A bug fix for fixing bugs. BLT works to correct and fine-tune all Butterfly landing zones in Skyrim. Everywhere in Skyrim.
+	DL: Butterflies Land True - ESPFE No Formlist Changes Alternate Version  1.0 14 oct 2019
+	
+	Butterflies Unchained 1.1  Wanderhall
+	https://www.nexusmods.com/skyrimspecialedition/mods/29538
+	Butterflies Unchained makes butterflies and moths behave more like actual animals, rather than basic resource points. They now roam freely to explore the world alongside you.
+	DL: Butterflies Unchained (ESL Version) 1.1
+	
+	Dawnguard Rune Axe Bug Fix 1.0 AndrealphusVIII
+	https://www.nexusmods.com/skyrimspecialedition/mods/49239
+	This is my attempt on fixing the Dawnguard Rune Axe.
+	
+	Modern Clap Bug Fix 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/38621
+	Prevents NPCs from going into the cheer idle animation when casting certain spells nearby them.
+	
+	Nordic Carved Clipping Fix 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/43444
+	This is a simple mod that fixes an issue I had with the Nordic Carved Armor where two handed weapons would clip into the armor.
+	
+	Ebony Mail Effect Shader Fix 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/47815
+	Fixes the ebony mail effect shader not affecting hair.
+	
+	Stamina of Steeds 1.0 doodlum
+	https://www.nexusmods.com/skyrimspecialedition/mods/58742
+	A simple fix for an annoying horse sprint bug. For SSE, AE, VR and Enderal. ESP-FE. Skyrim has a bug where if you have zero stamina, then your horse can't sprint.
+	
+	dunPOISoldiersRaidOnStart Script Tweak 1.0 tarlazo
+	https://www.nexusmods.com/skyrimspecialedition/mods/62925
+	Deals with the dunPOISoldiersRaidOnStart script and the dunPOIReachForswornRaidQST quest. ESP-FE
+	
+	Shalidor's Maze Puzzle Sound Fix (Labyrinthian) 1.0 fadingsignal
+	https://www.nexusmods.com/skyrimspecialedition/mods/59278
+	Adds a sound effect to the otherwise silent stone shutter puzzles in Shalidor's Maze within Labyrinthian.
+	- Plugin is ESL-flagged ESP, so it will not take a load order slot.
+	- This will conflict with any mod that also replaces norlabyrinthianmazepanel01.nif 
+	
+	TrapSwingingWall Script Fix 1.0.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/61978
+	Sometimes the scripts attached to the spike wall traps stay active forever after leaving the dungeons. This tries to fix the issue...
+	
+	R.A.S.S. Rain Ash And Snow Shaders - Wet Frost Cold Dust 3.5.1 lKocMoHaBTl
+	https://www.nexusmods.com/skyrimspecialedition/mods/22780
+	"R.A.S.S." adds visual effects to the Player and NPCs during certain conditions.
+	- Effects:
+		Ash - During ash storms player and NPC will cover with ash and dust particles will fly apart.
+		Wetness - During rainy weather player and NPC will cover with watery shader and droplet particles will fall from the body.
+		Frost - During snow weather player and NPC will cover with snow and snowflake particles will fly apart. 
+		Bubbles - Adds bubbles when swimming. Slaughterfishy is now happy fishy. 
+		Cold - Adds Cold Breaths particles to player and NPC in cold/snow regions.
+		Camera - Adds camera lens effects during rainy/snow/ash weather and when swimming.
+		Immersion - Adds VR compatible texture package for better visual quality and immersiveness.
+		Performance - Will not degrade your perfromance in any way.
+		MCM - You can toggle on and off all effects as you wish.
+	
+	R.A.S.S. Rain Ash And Snow Shaders - Wet Frost Cold Dust - Settings Loader 2.2.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/56710
+	
+	ENB Light Inventory Fix (ELIF) 1.2.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/66411
+	SKSE plugin that fixes the messed up zoom and rotation of items with ENB particle lights
+	DL: ELIF - Legacy
+	
+	Barter Limit Fix 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/77173
+	SKSE plugin that fixes trading with merchants with more than 32,767 gold.
+	
+	Trade and Barter - Settings Loader 1.0.4
+	https://www.nexusmods.com/skyrimspecialedition/mods/57926
+	- for 2.0
+	
+	Cathedral Weathers MCM - Settings Loader 2.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/56871
+	for 1.3
+	
+	Easy Wheelmenu for Nether's Follower Framework 1.0 replica102
+	https://www.nexusmods.com/skyrimspecialedition/mods/27534
+	An esl flagged plugin that adds Command Followers from Nether's Follower Framework to Easy Wheelmenu's MCM. If the option to remove spells is enabled in Easy Wheelmenu's MCM, Command Followers will be removed your spell list.
+	
+	Aurora Fix 1.0.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/77834
+	
+	Slayable Offspring SKSE 2.1.0 by po3
+	https://www.nexusmods.com/skyrimspecialedition/mods/46826
+	SKSE plugin that makes all children damageable and killable, by patching out the child checks in the game's damage/kill code.
+	- Plugin works on all child NPCs with the Child race flag. Unique child animations (and other game features that depend on IsChild) will work properly.
+	- For a mod that allows children to fight and defend themselves, check out Savage Offspring SKSE
+	
+	Savage Offspring SKSE 2.1.0 by po3
+	https://www.nexusmods.com/skyrimspecialedition/mods/49377/
+	﻿﻿SKSE plugin that makes all children able to fight and defend themselves, by patching out the game code preventing child ﻿combat. 
+﻿	- This ﻿﻿means bandits and other enemies can also target children.
+	- Base confidence of children is increased from cowardly to average, and the base aggression from unaggressive to aggressive. Children will run away if these are not increased. This can be configured in the included po3_SavageOffspring.ini. 
+	- Plugin works on all child NPCs with the Child race flag. Unique child animations (and other game features that depend on IsChild) will work properly.
+	
+	Simple Bandit Children 1.1 poepkat
+	https://www.nexusmods.com/skyrimspecialedition/mods/61626
+	Adds very rare instances of bandit children to the bandit levelled lists.
+	DL: Simple Bandit Children 1.1
+		Savage Offspring 1.0 - changes SO ini so kids wont attack you for bounty
+		
+	Improved Traps 2.5 kryptopyr and Wiseman303  UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/17592
+	DL: Improved Traps (Dangerous Edition) 2.5 09 feb 2022
+		Mining Makes Noise 2.5
+		Improved Traps - Follower Safety Patch 2.5
+	- conflicts in Followe Safety with NFF, which has own system
+	- may be bug giving 0 traop damage when used with Armor Rating Rescaled SKSE Remake
+	
+	Improved Traps - Nether's Follower Framework Bear Trap Fix 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/31868
+	Fixes a conflicted script between kryptopyr's Improved Traps and Netherworks' Nether's Follower Framework mod. Requires both! Don't install it if you don't use both!
+	
+	Patch Hub mineorescript.pex
+	https://www.nexusmods.com/skyrimspecialedition/mods/73168
+	DL: FMPSE 6-3 - MMN - USSEP
+		merges scripts between Faster Mining Plus, Mining Makes Noise, and USSEP
+	
+	Hit - Dialogue Scene Cooldowns 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/84420
+	Adds reset times to NPC dialogue scenes that lack them.
+	
+	Roggvir's Execution Scene Fixes 2.0 lilebonymace
+	https://www.nexusmods.com/skyrimspecialedition/mods/74652
+	- Fixes some bugs in Roggvir's execution scene that mostly happen with mods:
+	- After the scene people go away very slowly if your timescale is lower than vanilla. It happens because the times between each group of people going away are specified in game time (0.1 hour), so that what feels good on timescale 20 feels like something is broken on timescale 8. With this mod the waiting time is calculated based on your timescale, so that the real time passed is the same as with vanilla timescale (i haven't simply changed it to real time for compatibility reasons). I capped the waiting time at 0.025 game hours, since RegisterForUpdateGameTime() doesn't work on extremely low values, but i've heard that too low timescale causes issues anyway.
+	- NPCs can interact with Roggvir's body after the scene (go up to the scene, look at Roggvir's body and kneel down touching him, say generic dead body comments). This seems to mostly happen with mods that change AI detection settings. I workarounded it by preventing detection of dead Roggvir using po3's Papyrus Extender.
+	Compatibility:
+		Conflicts with mods that edit the same vanilla script. Must not be overwritten, otherwise it won't work.
+		Compatible with USSEP﻿ and Scene Tweak - Roggvir's Execution - Restored Dialogue﻿.
+		A version for About Roggvir...﻿ can be found in the optional files.
+	
+	Scene Tweak - Roggvir's Execution - Restored Dialogue 1.0 AndrealphusVIII
+	https://www.nexusmods.com/skyrimspecialedition/mods/58837
+	A small tweak which restores some dialogue to the Roggvir execution scene.
+	
+	Shroud Hearth Barrow Script Fix 1.0 by ferrari365
+	https://www.nexusmods.com/skyrimspecialedition/mods/84817
+	Fixes a vanilla bug in Shroud Hearth Barrow that can cause a script to get stuck running in your save forever. No ESP.
+	
+	Geirmund's Hall Pull Chain 1.0 by Livelynightmare
+	https://www.nexusmods.com/skyrimspecialedition/mods/80218
+	So I was doing Forbidden Legend the other day. You know, get the Gaulder amulet, kill the three bosses, reforge it. Got to Geirmund's Hall, dropped into the dungeon, killed the boss, and...the door didn't open. The door is supposed to open when you kill the boss.
+	Next step obviously: check UESP. And in the bug reports, lo and behold, it's a known issue that sometimes the door simply fails to trigger properly. So I added a pull chain connected to the door. Now I can't get stuck there anymore, and neither can you.
+	
+	Glowing Spider freeze Fix 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/79359
+	Fix the game freeze brought to you by glowing spiders!
+	
+	Consistency Fix - Vampire Scouts Only Spawn at Night 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/78222
+	Most world encounters involving vampires happen during the night (8pm - 5am). The scouts that attack you when you exit Fort Dawnguard are not one of them, for some reason. This tiny tweak makes vampires intelligent enough to only spawn in at night.
+	
+	Dragonsreach Conversation Fixes 2.0 Taffer42
+	https://www.nexusmods.com/skyrimspecialedition/mods/55218
+	A very small mod that makes fixes to a few of the conversations in Dragonsreach.
+	
+	Summerset Shadows Banner Fix 1.1 sleepercale
+	https://www.nexusmods.com/skyrimspecialedition/mods/62095
+	The Summerset Shadows Banner is now able to be set ablaze by the swing of a torch. ESP-FE
+	
+	Durak Teleport Fix 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/65735
+	While playing I noticed Durak would be teleporting after walking a few feet trying to talk to me about the Dawnguard. Research online shows I'm not alone. Issue is vanilla, didn't see anything in my list fix address this, so I made this mod. Also, Durak won't be everywhere - he teleports once per in-game day. USSEP fixes included. Light plugin.
+	
+	Bug Fix - Thunderbolt Impacts 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/74613
+	This mod fixes a bug where if you cast the spell "Thunderbolt" on certain ground surfaces it won't impact with the surface and won't leave a decal like it's supposed to.
+	- esp file needs to be eslified
+	
+	Slow Effect Fixes 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/46296
+	Fixes slowing effects not applying properly, and stops them from stacking to prevent glitchy behavior and let other mods use SpeedMult modifiers more effectively.
+	- esp file needs to be eslified
+	
+	Thieves Guild Dialogue Fix - USSEP Compatible 1.0.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/73807
+	USSEP compatible version of the essential fix to the thieves guild members dialogue system to prevent them spilling their life stories pretty much as soon as you meet them.
+	
+	Oh Barnacles - Nordic Barnacle Harvest Fix 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/73629
+	Fixes some of the unharvestable barnacles because their hitboxes were sunk into other objects' hitboxes
+	
+	Ethereal Immunity 1.1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/69744
+	A bug fix to stop traps from "hitting" ethereal actors and applying diseases to them, among other things.
+	
+	Solitude Empty Landscape Fix 0.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/70678
+	A simple fix to fill the hideous gap behind the Solitude wall and mountains rocks, nothing more.
+	Your character should not be able to walk behind these walls because this is not a playable area, if you try you will see some gaps, this mod is just a visual tweaks, nothing more.
+	
+	Keywords Fixed 1.1 Anduniel
+	https://www.nexusmods.com/skyrimspecialedition/mods/21597
+	Fixes various Keywords being miss-matched (or not applied at all) to relevant Locations in the game.
+	
+	Farm Hat 01 Clipping Fix 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/72213
+	Fixes minor clipping on farm hat 01.
+	
+	FUS RO DON'T - PushActorAway Crash Prevention Script Tweak 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/57816
+	If the game tries to throw an NPC with PushActorAway, but the NPC hasn't fully loaded in yet, the game will crash. This mod adds checks to two vanilla scripts to make sure the caster and target both have their 3D fully loaded before trying to use PushActorAway, which stops the NPC from being thrown if the game isn't ready and prevents the crash.
+	
+	Unaggressive Dragon Priests Fix 1.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/69026
+	This is my attempt at fixing unaggressive dragon priests.
+	- may not work with AE
+	
+	Trinity Restored Karliah Gate Fix 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/61648
+	Fixes the issue that Karliah does not open the gate after you decide to take the oath and she simply walks away...
+	This mod disables nothing.
+	
+	Fugitive Piss Off 1.0.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/30215
+	Ever been interrupted by a 'Fugitive' guy in the midst of battle, while the bandits keep on bashing you? -- ESP-FE
+	A simple dialogue tweak preventing the force-greet while in combat or sneaking.  No quests or scripts edited, it should be highly compatible.
+
+===============================================================================
+2023-06-06 NEW VIDEO CARD DAY!!!!!!
+===============================================================================
+
+	BiR's Remiel Replacer 1.2 UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/85734?tab=files
+	Updated for Remiel v 1.6.0 and newer
+	
+	CoMAP - Common Marker Addon Project 4.0  UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/56123?tab=files
+	DO NOT INSTALL.  Only works for AE 1.6+
+	
+	SkyUI - Ghost Item Bug Fix 1.0 
+	https://www.nexusmods.com/skyrimspecialedition/mods/49106
+	Fixes the issue where SkyUI favourite groups may not equip correctly under certain circumstances, such as after upgrading items.
+	
+	SkyUI AIO Survival (SAS) 7.4
+	https://www.nexusmods.com/skyrimspecialedition/mods/17601
+	Adds extra features to SkyUI menus such as armor slots, total weight, survival mods support, greater power cooldown timer, and more.
+	DO NOT INSTALL - 7.4 only supports AE 1.6.640, unsure what older version works, bug reports
+	
+	XP32 Maximum Skeleton Special Extended - Legacy Settings Loader 1.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/56146
+	Adds the ability to save and load settings in MCM for XP32 Maximum Skeleton Special Extended using PapyrusUtil. Fixing shout/shield MCM bug. Automatically loads saved settings at startup, so you don't have to spend time in MCM again with each new game. No plugin. NO NEW GAME REQUIRED.
+	- For v.4.80, v.4.81.
+	- All-in-one version (loads the settings when loading a game save, logo for XPMSSE MCM Menu Image Replacer: randomizer version and single image version).
+	
+	Party Combat Parameters 2.1.3  RADAR
+	https://www.nexusmods.com/skyrimspecialedition/mods/57127
+	Skse plugin that adds hud widgets to display player, summons, follower, allies, follower summons, and optionally enemy information/avs. Also Includes a status page to view all tracked actors stats simultaneously on the same screen and options to display actor portraits. As always, every feature is customizable.
+	
+	CPS Resource Packs 1.6.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/57114
+	Icon packs for use with CPS mods, e.g. Party Combat Parameters
+	DL: CPS Legends Icons
+	
+	CPS Bijin Plus Inigo - Lucien and Serana Icons 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/58533?tab=files
+	Changes vanilla icons included in the main CPS Icon Resource Packs﻿ to match Bijin Warmaidens﻿, Inigo﻿, Lucien and popular Serana mods.
+	
+	Sexy Loadscreens Replacer (Mix)
+	https://www.nexusmods.com/skyrimspecialedition/mods/38530
+	Replaces the loadscreens of the vanilla-game with an assortment of sexy pictures. The collection includes 66 images created by various screen-archers.
+	- esp file needs to be eslified
+	
+	Holy Loading Screen Replacer - DISABLE
+	- didn't care for them
+	
+	Battle Maidens Loadscreens SE 1.3
+	https://www.nexusmods.com/skyrimspecialedition/mods/16186
+	Replaces loadscreens with 50 (or +) images. Check out the original mod at https://www.nexusmods.com/skyrim/mods/72642/ for all screenshots and to endorse. Permission to release this conversion has been obtained.
+	- esp file needs to be eslified
+	
+	Battle Maidens Loadscreens SE 1.3 - KZ eslified esp replacer 2023.06.06
+	
+	Allow Dialogue Progress Bugfix 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/67433
+	In the vanilla game, when you try to talk to an NPC that already has some dialogue running you are often unable to skip it like you can with regular dialogue and therefore have to wait for the entire dialogue line to finish. This is due to an oversight with how dialogue skipping works in the dialogue menu, and with a small patch is easy to fix.
+	
+	Kids of Skyrim Reborn v2 mrjentipede
+	https://www.nexusmods.com/skyrimspecialedition/mods/51380
+	Bandit, warlock, vampire, afflicted, hunter and forsworn children integrated into Skyrim's harsh wilderness.
+	-esp file needs eslified
+	
+	Kids of Skyrim Reborn v2 - KZ eslified esp replacer edited 2023.06.06
+	- errors: null packages assigned to some bandit boys.   removing nulls
+	
+	
+	
+	Prince and The Pauper Refine (Fixes - Improvements - New Child Outfits - No NPC Edits) 2.2.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/70037
+	An updated and vanilla-friendly clothing overhaul for the children of Skyrim with more appropriate upper-, middle- and lower-class distinctions. Includes bugfixes, improvements, updated normal maps, a conflict-free outfit deployment method, improved distribution, and more.
+	
+	Honorhall Orphanage Bugfixes and Expansion 2.02
+	https://www.nexusmods.com/skyrimspecialedition/mods/66955
+	When Hearthfires was released, it expanded the functionality of Honorhall Orphanage in Riften by allowing children who didn't start of as orphans, but who were orphaned during the course of the game, to move in. However, this was never completed and partially implemented with several glaring bugs. This seeks to address that.
+	
+	Prince and The Pauper - HD Orphan clothes SE 1.0 Xtudo
+	https://www.nexusmods.com/skyrimspecialedition/mods/35578
+	HD version of the orphan's clothes added by the Prince and The Pauper mod.
+	
+	Prince and the Pauper Refine __ WACCF 1.0 - kryptopyr's Patch Hub
+	https://www.nexusmods.com/skyrimspecialedition/mods/19518
+	
+	Draugr don't breathe SSE
+	https://www.nexusmods.com/skyrimspecialedition/mods/18543
+	DL: Dragonpriests don't breathe loose files version
+		draugr don't breathe ESP-FE
+		
+	Valthume - Dragon Priest Voiced Sound Rework - UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/49634
+	DL: Valthume - LIGHT Addon 1.2LW
+	
+	Gore 1.42 - UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/85298?tab=files
+	
+	SPID-Protected Citizens - Protected or Essential NPCs v1.5
+	https://www.nexusmods.com/skyrimspecialedition/mods/57736
+	Sets unique NPCs to Protected/Essential through SPID distribution, without editing Actor records.
+	
+	Meeko Reborn SE 2.0 Vaelka
+	https://www.nexusmods.com/skyrimspecialedition/mods/17572
+	- esp file needs to be eslified
+	
+	Meeko Reborn 2.0 - KZ eslified esp replacer 2023.06.06
+	
+	Wiseman303's Critter Fixes 1.06
+	https://www.nexusmods.com/skyrim/mods/54485
+	- LE mod - but only installing mesh - no need to change anything
+	FOMOD: Monarch Wings Fix
+	
+	Modern Toggle Walk-Run Fix SE 1.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/44689
+	This mod fixes the old issue of Shift key sticking after leaving conversation or killcam mode. No scripts, no DLLs, no ESPs.
+	- changes controlmap.txt, which is also altered by some other mods
+	
+	More Faction Idles 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/84581
+	Adds idle markers to faction HQs enabling NPCs to look more alive.  This may be seen as a follow up to my previous mod More Tavern Idles.
+	DL: main 1.0 23 feb 2023
+	This is designed as a sister mod to More Faction Members.  Both are ESP-FE.
+	Areas with some improvement in v1:
+		Jorrvaskr (companions)
+		Arcanaeum (college of winterhold)
+		Dawnstar museum (mythic dawn)
+		Raven Rock Temple
+	Areas included in v1.2:
+		Penitus Oculatus Outpost
+		Windhelm Palace of Kings
+		Solitude Castle DouR
+	There are no conflicts however compatibility with mods that change appearance of these locations is unknown.  A future version without College changes will be considered given the already widely modified area.
+	
+	More Tavern Idles - SSE Port v2b
+	https://www.nexusmods.com/skyrimspecialedition/mods/16757
+	This mod will place more markers in taverns to better allow npcs to sandbox in them.
+	DL: more tavern idles ESP-FE 2b 02 jan 2023
+	
+	A Lot More Idle Marker 2.5 holananz
+	https://www.nexusmods.com/skyrimspecialedition/mods/28586
+	Just another attempt to fix npc that wandering around, blocking your way. This Espfe file add many more idle marker at mostly populated place. designed to be compatible with distinct interior & Immersive Citizens.
+	
+	A Lot More Idle Marker for JK's Interiors 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/36190
+	Alters the placement of some idle markers added by A Lot More Idle Marker to be compatible with JK's interior mods.
+	This patch moves some of the idle markers added by holananz's mod A Lot More Idle Marker﻿ to be compatible JK's Sleeping Giant Inn and JK's The Bannered Mare. All other JK Interior mods are compatible by default.
+	
+	
+	Idle Marker Consistency - Tavern Idle Overhaul 1.3
+	https://www.nexusmods.com/skyrimspecialedition/mods/71362
+	Tired of having all these gangstered idle marker mods but hate NPCs clipping? Well, you've come to the right place!
+	DL: everything
+	- esp files needs to be eslified
+	
+	NPCs Names Distributor	2.1.1  UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/73081?tab=files
+	
+	Jug of Milk HD by iimlenny - My version SE 1.1 Xtudo
+	https://www.nexusmods.com/skyrimspecialedition/mods/92939
+	DL: Jug of Milk HD - My version SE by Xtudo - 2K 1.0 05 jun 2023
+		Jug of Milk HD - My version SE by Xtudo - EAaS 1.1 05 jun 2023
+
+	Random Swimming Animations 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/92951
+	
+	Additional Hearthfire Dolls 3.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/46930
+	DL: Additional Hearthfire Dolls SE 3.0 Separate 02 apr 2022
+	
+	Relocate Markarth Guard doll.
+	
+	Some Additional Hearthfire Dolls Patches 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/49757
+	
+	Cursed Children's Dolls- 2017 Halloween Special (SE-AE version) (''poltergeist'')  3.1 mihail
+	https://www.nexusmods.com/skyrimspecialedition/mods/28353
+	RADAR - esp file needs to eslified, mihail says not to, i'm gonna ignore him
+	
+	Cursed Children's Dolls 3.1 by mihail - KZ eslified esp replacer 2023.06.06 - NEW MOD
+	
+	Amorous Adventures Plus Revoiced - Whiterun
+	https://www.nexusmods.com/skyrimspecialedition/mods/92984
+	DL:	AA plus Revoiced - Whiterun 06 jun 2023
+		IFD Lydia Amorous Adventures Plus Revoiced Compata 1.0 06 jun 2023
+	
+	JK's Interiors Patch Collection - REINSTALL
+	DL: JKs Understone Keep - Additional Hearthfire Dolls Patch 1.1
+	
+	JK's Guild HQ Interiors Patch Collection 1.13.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/61416
+	Separate page for patches for any JK's Interiors which are Guild HQs, as those tend to be "busy" places and should need many patches, and the general Interiors Patch page is getting a bit unwieldy to manage updates for.
+	
+	JK's High Hrothgar 1.0.1  UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/62219
+	DL: JK's High Hrothgar - Persistent Reference Fix 1.01
+
+TEST with new 6700 XT
+	Custom Skills barfed - 2.0.2 is oly for AE
+	after downgrading, restart.  works fine.  getting 48/60 fps in opening cell!
+
+INSTALL
+	Wyrmstooth - Settings Loader 2.0.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/56504
+	
+	Immersive Interactions - Integration Patch 1.6
+	https://www.nexusmods.com/skyrimspecialedition/mods/76862
+	- integrate with Dynamic Things Alternative - Base Object Swapper
+	
+	Sets of Skills - a Skyrim Class Mod - Settings Loader 1.0  TESTING
+	https://www.nexusmods.com/skyrimspecialedition/mods/78263
+	- specifically says for 2.0.2 not 2.0.3, but 2.0.3 seems to just me a minor patch, 2.0.2
+	
+	JK Skyrim-Maleficus EVG Traversal patch 1.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/71498
+	A patch to combine JK skyrim and maleficus EVG traversal mod. This mod modifies several EVGAT markers in five major cities added by maleficus EVG traversal to be usable with JK Skyrim. This also adds some new markers with maleficus traversal as base.
+	
+	Tiny but Useful - Yet Another Patch Hub
+	TODO - look at Ryn's Crabbers Shanty - SkyTEST - uses old esp SkyTEST
+		Real Rabbits - SkyTEST - uses old esp SkyTEST
+		
+	Simply Balanced - Settings Loader 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/85518
+	
+	(KZ Config) SSE Display Tweaks
+	- MaxFPSLimit=144
+	
+ENB
+	- reinstall TPFZS ENB setup
+	
+BethINI
+	Follow Lexy's LOTD Guide
+	https://lexyslotd.com/guide/prerequisites/
+	
+===============================================================================
+2023-06-7 Making it Stable
+===============================================================================
+
+SAVED PROFILE
+	to KZ 0.9.4 2023.06.06
+	from now on, any changes to ini files need a new version number, no changes to existing mods
+
+INSTALL
+	The Wheels of Lull - Unwound Edition 51.10  UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/748?tab=files
+	
+	High Poly NPC Overhaul - Resources 2.06
+	https://www.nexusmods.com/skyrimspecialedition/mods/42768
+	This is the resources file for "High Poly NPC Overhaul" version 2.0 and newer.
+	DL: High Poly NPC Overhaul - Resources 2.06 13 feb 2021
+		High Poly NPC Overhaul - Resources - KS Hairdos HDT SMP Physics Patch 2.05 17 jan 2021
+		
+	Milfactory Asset Hub - CBBE-3BA 1.5 06 jun 2023   - UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/80819?tab=files
+	
+	Seamless Varied Feminine Idles OAR 1.1  UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/92226
+	
+	EVG Conditionals extended (injured-stamina-magicka-nakedness) 1.3 UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/85691
+	DL: Children headache fix 1.0 06 jun 2023
+	
+	KSO Mage Robes for Females - CBBE 3BA 1.4 07 jun 2023 - UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/91460?tab=files
+	- rebuild in bodyslide, new version #
+	
+	Adopt Aventus Arentino 2.0  UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/3257?tab=files
+	This is the new version! Requires Adopt Aventus Aretino - Fully Voiced Patch (link in main tab).
+	Allows player to adopt Aventus Aretino after completing Innocence Lost quest. As always, you cannot un-adopt Aventus once adopted, just like any other kid.
+	
+	Adopt Aventus Aretino - Fully Voiced Patch 2.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/86082
+	This mod Allows Aventus Aretino to be fully voiced for adoption dialogue using AI, and future plans will allow the player to choose whether he will be good or evil. Requires Adopt Aventus mod by Hydreigon	
+	DL: Adopt Aventus Aretino - Fully Voiced Patch - Simdrew1993  v2.0 07 jun2023
+		Adopt Aventus Aretino - Fully Voiced - RDO Patch - Simdrew1993  1.0 27 mar 2023
+		- (RDO) Relationship Dialogue Overhaul Patch for Aventus. This allows him to have child follower dialogue and many more lines. ESP is flagged as ESL so it will not take up a load order slot. Highly recommended you download this in addition to RDO, adds alot
+		Aventus Aretino - Fully Voiced - Children Of The North Patch - Simdrew1993  1.0 27 mar 2023
+	
+	Innocence Lost Quest Expansion-Adopt Aventus Arentino Patch 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/82588
+	
+	Children of the North vFinal  lilson
+	https://www.nexusmods.com/skyrimspecialedition/mods/78283
+	Overhauls the appearance of all children from Skyrim.
+	- companion to Dibella's Blessing
+	
+OFFICIAL FORK - KZ 1.0
+	New Profile - KZ 1.0
+	As of now, I am no longer regarding my modlist as a strict extension of TPFZS 0.9.4.1, as I've changed just too much.
+	KZ Resources and Merged Mods get new versions.
+	I will be installing new MO2 Separators.
+	Starting new Changelog
+
+	

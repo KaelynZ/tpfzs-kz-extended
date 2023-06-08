@@ -1,0 +1,208 @@
+KZ 1.0 Change Log
+
+===============================================================================
+2023-06-07  New Profile KZ 1.0
+===============================================================================
+As of today, 07 Jun 2023, I am starting new new MO2 Profile, KZ 1.0.
+KZ 0.9.4 is now a frozen snapshot of a working - but far from finished - modlist.
+Specifically, I am no longer regarding my modlist as a strict extension of TPFZS, as I've changed too much, and will be unable to directly integrate future TPFZS updates.
+All my custom mods are being renamed to v0.9.4 and new v1.0 copies are being created.
+New MO2 separators will be introduced.
+Mod and load orders will be seriously altered.
+
+INSTALL:
+	Children of the North vFinal by Lilson
+	https://www.nexusmods.com/skyrimspecialedition/mods/78283
+	FOMOD: 1.5.97, USSEP + AI Overhaul, no Aymar
+	LOOT: after ZedPatches
+	needs RS Children dammit
+	DO NOT INSTALL
+	
+	Cloud's Circle of Patches and Tweaks 2.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/82534?tab=files
+	DL: Cloud Patch Alternate Perspective Children of the North 2.0 12 apr 2023
+	DO NOT INSTALL
+	
+	Adopt Aventus Aretino - Fully Voiced - Children Of The North Patch - Simdrew1993 1.0 - UNINSTALL
+	
+NEW MOD
+	KZ Resources - KZ Merged Patches v1.0
+	
+INSTALL:
+	Expressive Remiel 2.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/87424
+	
+	Papyrus Debug Mode 1.1
+	https://www.nexusmods.com/skyrimspecialedition/mods/75320
+	Allows you to easily and quickly enable/disable Papyrus logging and other useful information used for debugging. ESPFE.
+	
+	Vilja - My HD Conversation Horns SE 1.0 by Xtudo
+	https://www.nexusmods.com/skyrimspecialedition/mods/93037
+	HD replacer for eight conversation horns given to you by the lovely Vilja. 2K-1K. No ESP.
+
+	IFD Lydia Unofficial Patch for Lucien and Inigo 1.0 RedguardDiaspora
+	https://www.nexusmods.com/skyrimspecialedition/mods/93035
+	Improved Follower Dialogue - Lydia Unofficial patch for Lucien and Inigo using Eleven Labs.
+
+	Female Hands Redone 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/90713
+	A complete overhaul for hands with 16 additional BodySlide sliders! Compatible with any textures!
+	DL: Hands Redone F CBBE 1.0 21 may 2023
+	- Hands Redone is a cosmetic overhaul for hands that attempts to recreate them with more realistic proportions. If you've ever looked at your character's hands and thought they were a little too chunky then this one's for you. These new hands were adapted to the vanilla UV mapping so that all your texture mods will remain compatible and seamless.
+	- This mod also comes with 16 new sliders for BodySlide that allow you to tweak and customise your hands to your heart's content. Is it overkill? Absolutely! Does it look cool? You bet!
+	- This mod is the culmination of something like 3-4 years of procrastination so I hope you find some good uses for them. Feel free to upload your screenshots if you've got em, but keep it PG.
+	- If you're looking for an alternative that's slightly smaller in scope, check out CBBE hand mesh﻿ by khisartin/Letho0036; it's excellent!
+	
+	Female Hands Redone 1.0 - CBBE 3BA - KZ BSO zeroed - GENERATED NEW
+	
+	Skyrim on Skooma - Customized Video and Music 1.0 ServalKhajiit217
+	https://www.nexusmods.com/skyrimspecialedition/mods/93030
+	Customized video and music for "Skyrim on Skooma" mod. All 30 tracks and video bonus for main mod.
+	RADAR - DO NOT INSTALL
+	
+	KR2's Kustom Kaidan 1.0 knightradiant2
+	https://www.nexusmods.com/skyrimspecialedition/mods/93013
+	Anyone who tells you there is too much Kaidan, they are wrong. He's kustom, he's kute, he's ready to kavort across Skyrim with you.
+	RADAR - DO NOT INSTALL
+	- looks very cute, yet another kaidan makeover
+	
+	Lyssia (fully voiced follower and quest) 1.0.1 AlmightySE (creator of Wheel of Time mod)
+	https://www.nexusmods.com/skyrimspecialedition/mods/92898
+	Meet Lyssia, a mage from the College of Whispers in Cyrodiil, offering 2000 voiced lines. Includes a questline.
+	- I'm a sucker for voiced female followers with quests
+	- Find Lyssia at the destroyed house near the Western Watchtower. View on map.
+	- may have conflict if she's inside the destroyed house, cause it's undestroyed at start in my game
+	
+	Lovely Lyssia - Appearance Replacer 1.0 Blanketyak - taranis17
+	https://www.nexusmods.com/skyrimspecialedition/mods/93008
+	An appearance redesign for the wonderful follower mod released by AlmightySE. High Poly Head assets included and uses your own body meshes & textures. ESPFE-flagged.
+	
+	Party Combat Parameter - DISABLE for RADAR
+	- bad icon placement, bad icon, don't know how to customize, not worth time to fix right now
+	
+	Grandmaster Wolven Armor - CBBE SE 1.1 fzckthisworld  - UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/56418
+	Adds Grandmaster Wolven armor for female characters, inspired by The Witcher 3.
+	- hot sexy semi-skimpy well done
+	- Adds the Grandmaster Wolven armor for female characters with a CBBE body. Contains 7 different colors of armor. The armor is light, has the characteristics of dragon scale armor. You can craft these items at the forge. Requires the "ebony smithing" perk.
+	- there is already a grandmaster Wolven Armor and Swords installed, less sexy
+	
+	Grandmaster Wolven Armor - 3BA 1.1 - KZ BSO zeroed  - KZ GENERATED
+	Grandmaster Wolven Armor 1.3.1 CBBE - KZ BSO zeroed  - KZ GENERATED
+	
+	Simple Outfit System 0.2.3 wSkeever
+	https://www.nexusmods.com/skyrimspecialedition/mods/48974
+	Set NPC outfits or reset them back to their original outfits. MCM to manage up to 50 NPCs
+	- Inspired by Simple NPC Outfit Manager, but improved.
+	- Description
+		Give unique outfits for up to 50 NPCs
+		Reset NPCs back to their original outfits
+		MCM to keep track of NPCs
+		MCM to configure who you can manage the outfit of
+		Edit existing outfits: add or remove items
+		Get your items back when you reset outfits
+		Avoids vanilla bug where setting outfits will erase certain equipped follower inventory items. This bug is not currently addressed by simple npc outfit manager.
+		Avoids vanilla bug where changing outfits will erase duplicate follower inventory items. This bug is not currently addressed by simple npc outfit manager.
+		Dismissed followers won't lose their outfits like with trading
+		Able to set empty (naked) outfit in case you want to manage follower inventory with trading dialog
+		ESL
+	- Limitations
+		- Outfits can't consist of player-enchanted or improved items, only base items. You won't lose them if you set an outfit with them, but NPCs will only wear the base items. If you want followers to wear improved/enchanted items, give it to them via trade dialog. This limitation currently also exists for simple npc outfit manager.
+		- This mod will preserve duplicate copies of items in follower inventories. However, if you give an NPC player-improved/enchanted items and then reset their outfits, you might not be able to trade those exact improved items back, so grab those before resetting. Simple npc outfit manager will actually erase all duplicates, so if you set an npc to use an item and give that npc the same item via trading, both copies of that item will be erased when you set another outfit.
+	- Q: What's the difference between this and Simple NPC Outfit Manager?
+	- A: Here is a list of differences:
+		Feature:
+		Simple outfit system allows you to reset npc outfit back to original.
+		Simple npc outfit manager does not.
+		Feature:
+		Simple outfit system allows you to disable the dialog via MCM.
+		Simple npc outfit manager does this via console commands.
+		Feature:
+		Simple outfit system allows you to set the relationship rank for which the dialog appears via MCM.
+		Simple npc outfit manager does this at 2 levels (friend vs all) via download options.
+		Bug-fix: 
+		Simple outfit system prevents followers from losing equipped items when you set their outfit. 
+		Simple npc outfit manager does not.
+		Bug-fix:
+		Simple outfit system tries to preserve multiple copies of the same item in follower inventories when changing outfits.
+		Simple npc outfit manager does not.
+		Bug-fix:
+		Simple outfit system handles empty outfits.
+		Simple npc outfit manager does not update until location change.
+	
+	Gonzeh - Little Locations 1.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/91567
+	A central hub for little locations!
+	DL: Little Locations - Clearpine Enhanced
+		Little Locations - Deekus Cabin  - espfe
+		Little Locations - Drelas Cottage
+		Little Locations - Fairy Shroom
+		Little Locations - Mountain Shack
+		Little Locations - Wilderness Rest
+		Little Locations - Winterhold
+	
+	Self-targeting Staff Animation Fix - Dynamic Animation Replacer - Open Animation Replacer 0.1 wSkeever
+	https://www.nexusmods.com/skyrimspecialedition/mods/92993
+	Fixes animations for self-targeting concentration, fire and forget, telekinesis, and ward enchantments.
+	
+	Sink of Scrubbing - Interactive Wash Basins 1.0 jakequery
+	https://www.nexusmods.com/skyrimspecialedition/mods/92844
+	Enhances immersion & roleplaying by making washbasins useable, giving you the choice of either grooming yourself or refreshing yourself & provides small buffs to Resist Disease & Speechcraft after cleaning for 4 hours.
+	- Makes Wash Basins useable by letting you Groom (open the racemenu) or "Refresh yourself".
+	- Refreshing yourself will grant you a 25% bonus to Resist Disease & give you a +5 to Speechcraft.
+	- Built-in support for Dirt and Blood. Will not fully clean the character, but set it to the lowest level of dirtiness. Similar to how swimming in water works in D&B. Dirt & Blood effects will override Sink of Scrubbins clean effect
+	
+	Water in Wash Basins - Mesh-only Replacer 1.2
+	https://www.nexusmods.com/skyrimspecialedition/mods/59333
+	Using the resources by wSkeever, wash basins found in Skyrim now have lightly-animated water. No ESP.
+	
+	Rogue Master Detector 1.0 by ThirdEyeSqueegee
+	https://www.nexusmods.com/skyrimspecialedition/mods/93040
+	SKSE plugin that detects and logs rogue masters (plugins which are loaded after plugins which require them as a master)
+	
+	Gore 1.43 07 jun 2023 UPDATE
+	https://www.nexusmods.com/skyrimspecialedition/mods/85298?tab=files
+	
+	Spriggans SE 2.0
+	https://www.nexusmods.com/skyrimspecialedition/mods/90547
+	Spriggans redesign (no .esp)
+	
+	Kezyma's Root Builder for Mod Organizer 4.4.3
+	https://www.nexusmods.com/skyrimspecialedition/mods/31720
+	Root Builder is a Mod Organizer 2 plugin that allows you to manage files in the base game folder through Mod Organizer, leaving your game folder in pristine, vanilla condition!
+	- now that i have a clear understanding of it, i'm gonna give it another shot
+	- disable autobuilding, i wanna do it manually for now
+	
+	
+	Follower and Hero Enrichment Project 2.1.0 Aardvark1998
+	https://www.nexusmods.com/skyrimspecialedition/mods/88270
+	Gives well-rounded and appropriate sets of perks and spells, new outfits, and a few special pieces of equipment to prominent characters throughout Skyrim and Solstheim, including every single follower and pet. Follower and Hero Enrichment Project relies on SPID and doesn't edit a single vanilla record for easy compatibility with other mods.
+	DL: Follower Enrichment Project - Heroic Edition 2.1.0 07 jun 2023
+	
+	(KZ Config) enblocal.ini for KZ 1.0 - for RootBuilder  - NEW MOD
+	
+	ENBSeries Skyrim SE v0.493 - minimal for RootBuilder  - NEW MOD
+	http://enbdev.com/mod_tesskyrimse_v0493.htm
+	
+	SKSE64 2.0.20 for SSE 1.5.97 - with RootBuilder data - NEW MOD
+	
+USING ROOTBUILDER
+	I cleaned all the cruft out of TPFZS/Stock Game - I have backups of it all anyway
+	specifically, removed all ENB files, tbb abd tbbmalloc dlls, Ley's alternative launchers, and backups
+	KEEP Mopy [Wrye Bash]
+	Disable almost all mods that contain Root folders - specifically, tools like SSEEdit, DynDOLOD, etc
+	KEEP the following Root Mods:
+		Serio's ENB (now renamed)
+		CK64Fixes - contains dlls from SSE Engine Fixes, possibly overridden - need more work to be sure
+		ENBSeries 0.493 (a new mod, updated from the ENB in TPFZS)
+		SKSE64 2.0.20 for SSE 1.5.97  (newly packaged mod)
+	RootBuilder Tool:
+		DISABLE Autobuild - I don't need the delay every time I launch something, even though much smaller now
+		Create Backup
+		Create Cache
+		Build
+	Stock Game now has all the files I want, in a way that I can easily undo and/or swap in new enbs!
+
+
+	
+		
