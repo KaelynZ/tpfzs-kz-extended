@@ -204,5 +204,999 @@ USING ROOTBUILDER
 	Stock Game now has all the files I want, in a way that I can easily undo and/or swap in new enbs!
 
 
+===============================================================================
+2023-06-08
+===============================================================================
+
+INSTALL:
+
+	Rogue Master Detector 1.03 					UPDATE https://www.neKR2's Kustom Kaidanxusmods.com/skyrimspecialedition/mods/93040
+	Adamant 5.8.1  								UPDATE https://www.nexusmods.com/skyrimspecialedition/mods/30191
+	Hand to Hand - An Adamant Addon 1.5.4		UPDATE https://www.nexusmods.com/skyrimspecialedition/mods/59790
+	KR2's Kustom Kaidan 1.1						RADAR UPDATE https://www.nexusmods.com/skyrimspecialedition/mods/93013?tab=files
 	
+	PC - Head Tracking - Ciri Expanded 1.0		INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/93060
+	An AI generated voice pack, through use of ElevenLabs voice cloning, consisting of 400ish somewhat carefully selected lines to cover a wide range of conditions, without being too overbearing or immersion breaking.
+	
+	Ciri_DBVO_-_Capital_Whiterun_Expansion		INSTALL  https://discord.gg/CgKTK7eFjn
+	Ciri_DBVO_-_Capital_Windhelm_Expansion		INSTALL  https://discord.gg/CgKTK7eFjn
+	Ciri_DBVO_-_Remiel_Beyond_Reach				INSTALL  https://discord.gg/CgKTK7eFjn
+	Ciri_DBVO_-_Wayshrines_IFT					INSTALL  https://discord.gg/CgKTK7eFjn
+	Ciri_DBVO_-_Immersive_Wenches				INSTALL  https://discord.gg/CgKTK7eFjn
+	Ciri_-_The_Rifts_Rest_and_The_Unsatisfied_Ghost (1)		INSTALL  https://discord.gg/CgKTK7eFjn
+	Ciri_DBVO_-_Misc_Dialogue_Edits (1)			INSTALL  https://discord.gg/CgKTK7eFjn
+	
+	Proteus 3.3.0 phenderix EchoEclipse Nightfallstorm	RADAR https://www.nexusmods.com/skyrimspecialedition/mods/62934
+	Proteus will redefine how you play Skyrim. Play as multiple characters within the same game world, on the same save game file - all with their own unique appearance, perks, spells, items, and stats. Additionally, make permanent or temporary edits to NPCs, weapons, armors, spells, weather, and more in-game.
+	- allows setting npc appearance from presets
+	-POTENTIAL ISSUES & HOW TO FIX
+		If your game crashes upon switching characters, try disabling any HDT SMP hairstyles, body parts, or items. Make sure you use FSMP﻿ with this mod if you want to use physics hairstyles.
+		Users have reported XP32 skeleton fixed scripts corrupting saves when used with Proteus. Don't use the mods together.
+
+PATCH DynDOLOD/EditScripts/DynDOLOD/DynDOLOD_SSE.ini
+	Based on Patches from How to Keep Your Skyrim Alive Guide
+	● Within the DynDOLOD folder, navigate to the ‘Edit Scripts’ folder.
+	● Navigate to the folder within that also named ‘DynDOLOD’.
+	● Double click to open the file “DynDOLOD_SSE.ini”.
+	● If necessary, tell Windows to open it in Notepad.
+	● Find the line (line 52) which reads ‘IgnoreLargeReferences=0’.
+	● Change the ‘0’ to a “1”.
+	● Close the file and confirm saving any changes
+	From the ini file itself:
+	; Because Bethesda simply does not comprehend people are modding exterior worldspaces ...
+	; set to 1 if uLargeRefLODGridSize=5 (value of uGridsToLoad) in SkyrimPrefs.ini, do this if it is certain that the large references system will not be used, so that no DynDOLOD.esm is created
+	
+INSTALL
+	xLODGen Beta 98
+	https://stepmodifications.org/forum/topic/13451-xlodgen-terrain-lod-beta-98-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal-enderalse/
+	
+	xLODGen Resource - SSE Terrain Tamriel Extend 1.0		INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/54680?tab=files
+
+RUN xLODGen
+	Following combo of instructions in Keep your Skyrim Alive Guide and https://dyndolod.info/Help/xLODGen
+	● When the program window appears, check all the checkboxes in the ‘worldspaces’ list box at the left.
+	● At the right, uncheck the checkboxes next to the bolded text ‘Objects LOD’, ‘Trees LOD’, and ‘Occlusion’. Only ‘Terrain LOD’ should be enabled.
+	● In the ‘Terrain LOD’ field:
+	○ Under the ‘Settings for’ drop down menu, select ‘LOD32’.
+	○ Under BOTH ‘Format’ drop down menus, select ‘BC7 Max’.
+	- xLODGen Help:
+	- says set to 'BC7 Quick'
+	- Typically use a Quality of 0 to 10 for LOD32 and set Optimize Unseen to 550 to improve coastlines on the map.
+	- Lower values for quality mean better quality at the cost of more performance, with 0 being the best possible quality. The better the quality the larger the file size of the terrain LOD meshes. If performance is of concern use the higher values - even higher that suggested if necessary..
+	Typically check both Build diffuse and Build normal.
+	- For all LOD4, LOD8, LOD16 and LOD32 set both Format drop-downs to BC7 Quick if available or DXT1 if not or in case video memory usage is of concern. Using BC7 Max will typically only make generation time take much longer without any visual improvement.
+	- Typically set Size to 512 or 1024 for LOD32.
+	● At the bottom of the program window, click the ‘Generate” button. The operation will take some time.
+	[14:09] LOD generation complete
+	- generated textures in Overwrite rather than where I said it should, in C:\temp\xLODGen Output
+	- fixed above problem for next run
+
+TURN OFF LARGE REFERENCES
+	see https://dyndolod.info/Help/Large-References
+	edit skyrimPrefs.ini:
+		[General]
+		uLargeRefLODGridSize=5
+
+DISABLE 	xLODGen Resource - SSE Terrain Tamriel Extend 1.0
+	- only needed during xLODGen, DynDOLOD complains and says to disable it
+	
+INSTALL
+	Clean up the physics outfit - Collision Reset - Settings Loader 1.1.0	UPDATE https://www.nexusmods.com/skyrimspecialedition/mods/86893
+	
+	FormList Manipulator - FLM 1.7.0										UPDATE https://www.nexusmods.com/skyrimspecialedition/mods/74037
+	
+	Dirt and Blood Physics Slot patch (Expanded support)					INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/93048
+	- Dirt and Blood by Jayserpa is an awesome mod, but has one minor quirk with how the script works. It unequips everything, including the physics 'armor' that gets added to npcs/pcs by cbbe 3bbb or bhunp, which is why your physics won't work during the animation. 
+	- Make sure to load this patch below dirt and blood, and dirt and blood expanded, depending on which file you grabbed. ﻿
+	
+DYDOLOD
+	failed yet again
+	
+INSTALL
+	Batch Plugin Cleaner for Mod Organizer
+	https://www.nexusmods.com/skyrimspecialedition/mods/59598
+	Plugin for Mod Organizer that will run SSEEdit quick clean on a set of plugins, so you don't have to manually click the buttons for every plugin.
+	Installation - Paste the contents of the archive in the Plugins directory in your Mod Organizer installation.  Restart Mod Organizer.
+	Usage - You MUST have SSEEdit registered as a tool in the tool dropdown. Otherwise it will not work.
+		In the top ribbon, click Tools->Tool Plugins->Clean All.  Or click the puzzle pieces icon->Clean All.  Select the plugins you want cleaned and press Clean.
+		Sit back and relax.
+	- Known Problems - 	Once it starts, there's no way to cancel, except by killing the Mod Organizer process.
+
+TEST RUN BATCH CLEANER
+	QAC complains that it can only clean one plugin at a time, even when I only select one plugin
+	Much editing of script required, is now very specific to KZ 1.0 profile
+	
+INSTALL
+
+	Dirt and Blood Physics Slot patch (Expanded support) 1.0 		NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/93048
+		This mod changes a script so it doesn't unequip the 'armor' that cbbe 3bbb, or bhunp give to npcs/pcs for physics.
+		- Dirt and Blood by Jayserpa is an awesome mod, but has one minor quirk with how the script works. It unequips everything, including the physics 'armor' that gets added to npcs/pcs by cbbe 3bbb or bhunp, which is why your physics won't work during the animation. 
+
+
+TESTING
+	dammit!  startup error dialog:  EngineFixes.dll:  SKSE/Trampoline.h(187): Failed to handle allocation request
+	huh.  i may have too many skse dlls loaded
+	disabled a bunch
+	nope.  no joy
+	turns out RootBuilder Sync didn't do what i expected when i changed override of tbb.dll to use Engine Fixes version.  Cleared then Rebuilt
+	yes!! no trampoline crash.
+	but now i hang on black ENB 'compiling shaders' screen.  music starts, but no menu or load screen visible
+	disabled enb.  got to menu.  crash on load saved game
+	started new game. working.  105 fps indoors.  but only 60-65 fps outside in helgen cpu and gpu nowhere close to 100%
+	installed TPFZS enb
+	restart.
+	enable radeon enhanced sync in Adrenaline
+	hang on enb rebuild cache screen
+	task manager shows 4 skyprimPlatformCEF.exe.hidden processes under skyrim
+	disabled tpfzs skyrim platform mod - how was it not disabled?
+	removed Platform folder from KZ 1.0 Overwrite
+	removed enbcache folder from Stock Game and overwrites folder
+	set shaderCache = false in enblocal.ini
+	AHA!  somehow, RootBuilder sync copied my old enblocal.ini back to my mod, re-enabling vsync.  Fixed now
+	TRY again.
+	Ok. game starts.  getting 50+ fps in Helgen.
+	But saves are taking 25 seconds!  including autosave!  Everything frozen, i though game had hung
+	my first person hands still too large for wrist - but very detailed
+	taking eggs from nest only yields 1 egg, despite visual of 5
+	now saves back to < 1 sec!
+	and back up to 25!
+	washing - jiggle is nice.  no soap suds, though - because of no soap?
+	hang for 25 sec during washing animation
+	Osex - had sex with embry, accidentally went into freecam, lost menu, couldn't figure out how to get it back
+	running - no stamina loss
+	bars - why so much stamina and so little health?
+	fairly successful; everything working, though far from optimal
+
+INSTALL
+
+	Harvest chicken butthurt sensitizer 1.0				NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/52126
+		enables you to harvest 3-5 (usually 5) eggs from bird nest
+		companion to new mesh
 		
+	Brhuce Hammar Legacy - Special Edition 1.6.10		UPDATE
+		- needs to be esmified
+		
+	Brhuce Hammar Legacy - Special Edition 1.6.10 by trainwiz - KZ edited esmified esp replacer 2023.06.08		KZ CREATED
+		
+	Amorous Adventures for Ostim - Script Fix 1.0		NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/90570
+		This mod is just a small script fix for Sybille in the AA quest line having to do with Elisif
+		The Original mod Author(s) didn't add a script to check for if the player was already a vampire and gives you the disease regardless.
+		I've added a vampire check to the romancing condition when "embracing" Sybille.
+		Okay, thanks goes out to Geeknasty for checking it over and helping me test this mod and fixing the way i was checking the vampire condition! Huge help!
+		Can be ESL/Light flagged for those who need it
+		
+	Clean up the physics outfit - Collision Reset - Settings Loader 1.1		UPDATE https://www.nexusmods.com/skyrimspecialedition/mods/86893
+		For Clean up the physics outfit - Collision Reset v.1.0, v.1.1, v.1.2.
+
+
+	Share Your Meal 0.3	19 sep 2016	by flexcreator			NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/216
+		Share food with your followers and friends. They will eat food and potions and experience effects.
+		How to?
+			1) Drop some food and drinks on the floor (or on the table)
+			2) Unequip your weapon
+			3) Talk with your friend, "Would you like to... ?"
+			4) Your nearby friends and followers (and thier friends too) will have a dinner with you, eating the items you have dropped.
+
+			5) How to stop the party?
+			Simply equip your weapon and stand in front of the party. You can also start sprinting or just leave the current cell.
+
+			You can also feed followers via inventory (no party will be organized). To start feeding a follower:
+			1) Use the same topic "Would you like to..."
+			2) Open the followers inventory as usual and give food items or potions.
+
+	Share you meal Food FormList Manipulator patch (FLM) 1.0		NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/93090
+		Food FormList Manipulator patch (FLM) for Share your meal
+		You can now share food from many mod with your followers and friends.
+		No ESP. Just a text.ini file for use with FormList Manipulator patch (FLM)
+	﻿	FormList Manipulator patch (FLM) and Share you meal is hard requirement
+		You don't need to have all mod included here to install this. It still work fine.
+
+	Open Animation Replacer 1.1.0	Ershin		UPDATE https://www.nexusmods.com/skyrimspecialedition/mods/92109	
+
+	World Encounter Hostility Fix 0.4			UPDATE https://www.nexusmods.com/skyrimspecialedition/mods/91403
+		DL: World Encounter Hostility Fix -Performance Version 0.4 08 jun 2023
+
+	The Night Mother Revoiced 1.0				NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/92873
+		DL: everything, especially Fem Cicero patches
+		Enable: Isabel v1, Isabel V1 Fem Cicero Patch.  Matches voice from Black Door Revoiced
+	
+INI TWEAKING
+	skyrimprefs.ini
+		iVsyncPresentInterval=0
+		; this should turn off engine vsyncs, in addition to display tweaks and enblocal
+
+TESTING
+	My FPS is now up to 60+ on average, still not 100% gpu or cpu usage
+	all the saves that took 30 sec seem to be corrupt
+	the one in the inn - which was normal fast - was fine
+	looking in saves folder, all bad saves are on ~2 MB, and have no associated .skse file
+	good saves are about 10 MB, and have .skse files
+	
+
+INI TWEAKS
+	SSE Engine Fixes - EngineFixes.toml
+		saveGameMaxSize=true
+	skyrimprefs.ini
+		numerous fade distance tweaks, halving what was there
+
+TESTING
+	no noticeable increase in FPS or CPU usage
+	still 25 sec to save, save is incomplete
+	
+INSTALL	
+	Pause After Load Unscripted NG 1.1.1		NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/60958
+		SKSE plugin to mimic Pause After Loading Screens. Pauses the game after loading, doors, travel until player input. Options: auto-resume after interval, pause on save.
+		Uses CommonLibSSE-NG to support Steam and GOG SE and AE binaries
+
+	Serana Dialogue Add-On 4.0.2.3				UPDATE https://www.nexusmods.com/skyrimspecialedition/mods/32161?tab=files
+	
+TESTING
+	Starting new game seems to have fixed save problem
+	Annoyed that Rose in Rigmor has very noticeable neck seam
+	exiting to main menu very slow, exiting to desktop very fast
+
+===============================================================================
+2023.06.09
+===============================================================================
+
+INSTALL:
+	Traveling Mage - My version by Xtudo SE-AE - 2K v1.4 	NEW INSTALL		https://www.nexusmods.com/skyrimspecialedition/mods/69577?tab=files
+		My version of the lovely armor for mages made by Fuse00. Armored and clothing versions. Includes 4 colors. 40 pieces. Non HDT. ESL. BSA. 4K-2K textures.
+			40 pieces.
+			Male and female versions, with weight sliders.
+			Armored and clothing versions.
+			Four colors available: Original Teal, Redwort, Beryl and Obsidian.
+			4K and 2K versions.
+			No HDT required.
+			ESL. BSA.
+			Survivor mode "warm" keyword added.
+			Darker metallic parts optional download.
+			You can craft all the items at any forge, and you can temper them too.
+			Full support for beast races.
+		Tip
+			You can use the HDT-SMP original version by Fuse00 ﻿together with mine, just install the original meshes files over my files. (By doing this you will have the HDT and the new colors).
+			And you can use the HDT-SMP 3BA AND HIMBO version﻿ by Urbon too, installing it at last (after installing the HDT-SMP original version).
+		
+	Traveling Mage HDT-SMP Armor 1.3 - KZ Edited meshes only for Xtudo version		Fuse00	NEW INSTALL EDITED https://www.nexusmods.com/skyrimspecialedition/mods/69394
+		Unisex HDT-SMP standalone armor for mages.
+		DL: Traveling Mage Cloth  1.3 12 jun 2022
+		EDIT: - hide textures and esp file, everything except meshes
+		install after Xtudo version
+		
+	Traveling Mage HDT-SMP 3BA AND HIMBO version			NEW INSTALL EDITED https://www.nexusmods.com/skyrimspecialedition/mods/69407
+		DL: Traveling Mage CBBE 3BA 1.1
+			Travelling Mage HIMBO 1.1.2
+		- Contain bodyslides only, need rebuild in Bodyslide
+		
+	Traveling Mage Armor - Ultimate edition by Aewin 1.1.0 	NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/73593
+		DL: Traveling Mage Armor - Ultimate edition by Aewin 1.0 21 aug 2022
+			Update ESP from 1.0.0 to 1.1.0  v1.1.0 27 aug 2022
+			Update SPID distribution (limited option) from 1.0.0 to 1.1.0  v1.1.0 27 aug 2022
+		FOMOD: recommended options: CCOR Integration, Limited SPID + ACE
+		
+	Share Your Meal 0.3 - KZ eslified esp replacer 2023.06.09	NEW KZ CREATED
+		- has scripts and seq file, no script source, needs full treatment
+
+	Injected Animated Armoury 1.0.5	DrMonops	https://www.nexusmods.com/skyrimspecialedition/mods/74737
+		Adds a set of updated DAR condition files for Animated Armoury - DAR Version which use keywords injected into Update.esm. Mod authors can use these keywords and condition files to add integrated Animated Armoury support to their mods, without having to add Animated Armoury as a master file.
+		DL: Injected Animated Armoury - Condition Files 1.0.5 15 nov 2022
+	
+	New Armory Series - Lunar Steel Weapons -- A Silent Moons Camp Overhaul 1.6 Private Eye  INSTALL UPDATE
+		https://www.nexusmods.com/skyrimspecialedition/mods/69438?tab=files
+		DL: New Armory Series - Lunar Weapons  1.6  09 jun 2023
+			Legacy of the Dragonborn Patch 1.6 09 jun 2023
+		FOMOD: Full, Animated Armory, WACCF, AOS-ISC-WACCF, BCS, CC Bow of Shadows, Lawbringer
+		- several patches are esps, not esls
+		
+	New Armory Series Lunar Weapons 1.6 + LotD patch - KZ eslified esp replacers 2023.06.09  kz NEW KZ CREATED
+	
+	Lunar Guard Armor 3BA Bodyslide 0.2 pentapox	NEW INSTALL
+		https://www.nexusmods.com/skyrimspecialedition/mods/75415
+		Same rules as my other conversions - no physics and no demands. I've lowered breast slider power as the chest piece is distorted otherwise. There should be no clipping whatsoever.
+		- needs to be built in bodyslide, obviously
+		
+	Daring Lunar Guard Armor 1.4  Nzymia  NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/75739
+		Adds a slightly more daring version of the Lunar Guard Armor for females.
+		This variation of the original Lunar Guard Armor by Deydranos presents the outfit in a more daring design exclusive to female characters. There is a version without a skirt, and one with a skirt.
+		This mod includes BodySlide files and a set of pre-built meshes in CBBE 3BA with zeroed sliders.
+		If you wish to have a different body shape, build your meshes in BodySlide.
+		The plugin is in ESPFE format and doesn't use an esp slot.
+	
+	Daring Robe of Magnus 1.1 Nzymia  NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/83202
+		Adds a daring version of the Magnus Robe by Wyllarth.
+		DL: Daring Robes of Magnus 3BA 1.1 22 jan 2023
+			Daring Magnus Robes Clothing Esp 1.1 08 feb 2023
+				- Alternative plugin specifying all outfit pieces as clothing. Overwrite main file. ESPFE
+		How to obtain: The armor can be forged and tempered. Alternatively, after killing Morokei in Labyrinthian the armor acan be obtained from the Magnus Chest. Or use AdditemMenu (or an AE equivalent).
+		The mod will use Vanilla textures or whichever textures you may have installed instead. I recommend these:
+			RUSTIC mods by Gamwich:
+			https://www.nexusmods.com/skyrimspecialedition/mods/4703
+			https://www.nexusmods.com/skyrimspecialedition/mods/35485
+			https://www.nexusmods.com/skyrimspecialedition/mods/17757
+			Temple Priest Robes HD Retexture from Rafuel (fully compatible with SSE): 
+			https://www.nexusmods.com/skyrim/mods/35893/?
+			
+	Vilja Re-Imagined SSE 3.0-CBBE  Froztee  INSTALL UPDATE
+		https://www.nexusmods.com/skyrimspecialedition/mods/30827?tab=files
+		DL: Vilja Re-Imagined High Poly CBBE 3.0-CBBE 09 jun 2023
+				- CBBE Version 3.0 is here. UNP will come later. Her head has been converted to High Poly by EdDante34. Go check out his stuff, he is awesome.
+				
+	Immersive Interactions FormList Manipulator patch (FLM) 1.0 makihaze
+		https://www.nexusmods.com/skyrimspecialedition/mods/93093
+		Pet animation from Immersive Interactions to animals from other mods with power of FormList Manipulator (FLM)
+		Also add pick pond fish antmation for Improved Fish mod.
+		DL: Immersive Interactions Fish patch FLM 1.0 08 jun 2023
+			Immersive Interactions Pet patch FLM 1.0 08 jun 2023
+			Immersive Interactions CC  1.0 08 jun 2023 - for Saints and Seducers
+		Add many animals from other mods to FormList for using with Immersive Interactions
+		No ESP. Just a text.ini file for use with FormList Manipulator patch (FLM)
+		You don't need to have all mod included here to install this. It still work fine and has no conflict.
+	
+	Cola Nyr - Nord Character Preset - RaceMenu - HighPoly - EFM 1.0 TheFaceSculptor
+		https://www.nexusmods.com/skyrimspecialedition/mods/39649
+	
+	Wet Function Redux SE 2.0  Andreis
+		https://www.loverslab.com/files/file/9467-wet-function-redux-se
+		https://www.loverslab.com/topic/124338-wet-function-redux-se/
+		A script-based mod that creates a wet skin effect, with actual water or sweat droplets when it's raining, when you are swimming, and during many other scenarios.
+		- 1.0 is on Nexus, has issues
+		- Lovers lab, so I'm uncertain of quality or efficiency
+		DO NOT INSTALL - RADAR - many issues, possible conflicts with RASS
+	
+	Nyr - Body Preset for CBBE SE - BodySlide 1.1 TheFaceSculptor  NEW INSTALL
+		https://www.nexusmods.com/skyrimspecialedition/mods/32169?tab=files
+	
+	Soaking Wet - Character Wetness Effect 1.2.0 slavicpotato1  NEW INSTALL
+		https://www.nexusmods.com/skyrimspecialedition/mods/68025
+		A SKSE64 plugin that makes characters and their gear appear wet when in water and optionally in the rain or snow. Works on player and NPCs with seamless soak/dry transitions and adjustable shine level.
+		- A SKSE64 plugin that makes characters appear wet when in water and optionally in the rain or snow by dynamically applying glossiness/specularity to their skin, hair, armor and weapons. Works on the player and NPCs. Once out of the water, the character begins drying. Soak/dry times can be changed, transitions are seamless.
+		- Works with ENB wet surfaces and mods which use shaders for wet effects (water drip for example) or change body specular map textures to give a more detailed wet look to actors. If you feel the specular effect is too high you can lower it in the config (MaxSpecularStrength).
+		- Configuration: Specular strength, glossiness, water level threshold and soak/dry transition speeds are configurable in SoakingWet.ini. Player/NPC effects can be toggled separately.
+		
+	Clarity Nyr - High Poly Character Preset - RaceMenu  1.0 TheFaceSculptor  NEW INSTALL
+		https://www.nexusmods.com/skyrimspecialedition/mods/54235
+	
+	Maevan2's Eye Brows SE 1.1 Shiva182  NEW INSTALL
+		https://www.nexusmods.com/skyrimspecialedition/mods/26881
+		FOMOD: Standalone ESPFE Medium Dynamic
+	
+	Maevan2 Eye Brows - For High Poly Head 1.0
+		https://www.nexusmods.com/skyrimspecialedition/mods/38493?tab=files
+	
+	YEVMODS MAKEUP PACK 1.1  yevvie   NEW INSTALL
+		https://yevvie.varyel.com/yevmods-ymmp.html
+		DL: YMMP 2K HQ			- full version with esp
+			YMMP 2k SE version  - just espfe esp replacer
+	
+	Sakora's Make Over Kit - SKSE64 1.4 sakora
+		https://www.nexusmods.com/skyrimspecialedition/mods/22169
+		Sakora's Make Over Kit SKSE64 adds 19 New Layerable Warpaints, 7 New Eyeshadows, 4 New Eyeliners, 2 New Contour, 1 New Highlighter, 1 New Lip Stick, 1 New Blush
+	
+	HG Hairdos 2  lemonbalmtea
+		https://www.loverslab.com/files/file/7768-hg-hairdos-2/
+		More hairstyles for you, I don't know what else to say. 300+ hairstyles
+		1.4 GB!
+		- esp file, for 44
+	
+	HG Hairdos 2 - KZ eslified esp replacer edited form44 2023.06.09  KZ NEW CREATED
+	
+	[SE] Tullius Eyes Pack v6.1  tullius  NEW INSTALL
+		https://arca.live/b/tullius/1510664
+		https://drive.google.com/file/d/12MgOGo1aJqdYd26kkH50BUQ7sbfE7Kfj/view
+		- esp files needs to be eslified
+		
+	Tullius Eyes Pack v6.1 - KZ eslified esp replacer 2023.06.09  - KZ NEW CREATED
+		- was too large to directly eslify.  Removed Kala Eyes, then compacted
+		
+	TheFaceSculptor's Nyr Body - CBBE 3BA Bodyslide Preset  1.0   NEW INSTALL
+		https://www.nexusmods.com/skyrimspecialedition/mods/57447
+		This is a new body preset I have created recently, updated from the one I had before, but I believe it looks much better and much more balanced overall.
+		
+	SSE CreationKit Fixes 3.2 Nukem
+		SSE Creation Kit Fixes Update - CK64Fixes Update 3.4 - KZ edited for RootBuilder
+		https://www.nexusmods.com/skyrimspecialedition/mods/20061
+		DL: CK64Fixes Release 3.2 23 mar 2021
+			FaceFXWrapper 0.4 08 sep 2021
+				- Stability improvements
+				- Added support for parsing arguments on the command line
+				- Added support for generating Fallout 4 LIP format files
+				- Main executable required for LIP generation. See included README for more information.
+		- needs to be edited for RootBuilder.
+		- manual install, create folder 'Root', move all files into 'Root'
+		Q. I already have tbb.dll or tbbmalloc.dll in my Skyrim folder, are they compatible?
+		A. Yes.
+		Q. Will you port this to Fallout 4 or the 32-bit Creation Kit?
+		A. Not likely.
+		Q. What version does this require?
+		A. The SSE CK version 1.5.3.0 or 1.5.73.0.
+		Q. The CK says I'm missing FonixData.cdx, where is it?
+		A. See the README included with FaceFXWrapper.
+			
+	SSE Creation Kit Fixes Update 3.4 perchik71
+		https://www.nexusmods.com/skyrimspecialedition/mods/71371
+		DL: CK64Fixes Update 3.4 24 dec 2022
+		- Installation:
+			name SSE Creation Kit Fixes Update - CK64Fixes Update 3.4 - KZ edited for RootBuilder
+			manual install
+			create folder 'Root', move all files into 'Root'
+			OK
+			RootBuilder:  Clear.
+			Disable CK64Fixes v3.2 from TPFZS.
+			Enable SSE Creation Kit Fixes Update - CK64Fixes Update 3.4 - KZ edited for RootBuilder
+			RootBuilder: Build
+	
+	SSE Creation Kit Fonixdata Lip Sync Fix 1.0 
+		https://www.nexusmods.com/skyrimspecialedition/mods/40971
+		This is the fonixdata file that is missing in the Creation Kit for Skyrim SSE. It is just a quicker way to get the file then downloading Fallout creation kit and grabbing the file that way. If your Lip Sync still wont work in CK, try it in tandem with Nuukem's mod FaceFXWrapper 0.3 should fix that nasty sse Lip Sync issue in the Creation Kit.
+		- SOOOOOOOO.... before we get started I am not a mod/fix master. I am just another human stumbling thru chats and forums to figure out common glitches. With that being said I found myself  searching for the missing Fonixdata File, which is needed for your CK created NPC to move his lips. The Fix I saw was to download another CK and steal that file from that. I didn't want to do that and I'm sure no one would if given the option to get it from Nexus .So I just wanted to make it available without downloading another Creation Kit to get it. I was given the file by a fellow modder and thought I would share it on Nexus.
+		- Mod Manager Install 
+			1-Just download it like any other mod\fix.
+			2-If your CK Lip sync still has issues follow the steps below, This is the way I had to get it to work.
+		- The Steps You Must Walk
+			1-Download Nuukems  FaceFXWrapper 0.3. I would suggest Downloading the CK Fixes as well, they are a great help to modding.  https://www.nexusmods.com/skyrimspecialedition/mods/20061?tab=files.
+			2-After that download the folder on this page and Extract the contents of the folder into the Skyrim voice folder (folder Name Is Processing)
+﻿				It will look like this- Skyrim Special Edition>Data>Sound>Voice (In voice is where you place the file)
+			3- The load Ck and test it out. For me it worked great, if you are still having issues with lip sync let me know and I will ask those wiser then me for a follow up solution 
+			
+	NPCs Names Distributor 2.1.2	sasnikol	INSTALL UPDATE
+		https://www.nexusmods.com/skyrimspecialedition/mods/73081
+		- Supports SE (1.5.97) and AE (1.6.629+)
+		- Don't forget to disable NND 1 in MCM before updating.
+	
+	Yvin - High Poly Character Preset - RaceMenu 1.0 TheFaceSculptor
+		https://www.nexusmods.com/skyrimspecialedition/mods/61164
+		
+	MinMin Nyr - High Poly Character Preset - RaceMenu  1.0 TheFaceSculptor
+		https://www.nexusmods.com/skyrimspecialedition/mods/64945
+		- a real cutie, i want her!
+	
+	SC - Cubemaps 1.0 ShinglesCat
+		https://www.nexusmods.com/skyrimspecialedition/mods/38760
+		Hand painted high resolution cubemap replacer
+		- Brand new 1k (and lower) cubemaps;
+		- Completely seamless with correct sides;
+		- Abstract, don't have any imagery in them - saves you from seeing modern architecture inside a dwemer cave or flipped upside down rooms.
+		DL: the whole set.  start by installing 256 cubemaps
+	
+	Tullius Hair Pack 2.0  tullius
+		https://drive.google.com/file/d/1aE0pJwP0xRLyr8FQfWdN_TUryQLOixi2/view
+		used by MinMin Nyr
+		Huge hair pack 1.3 GB
+		esp needs to be eslified - but 4800 different hairstyles!  insane!
+	
+	Tina Nyr - High Poly Character Preset - RaceMenu
+		https://www.nexusmods.com/skyrimspecialedition/mods/65607
+	
+	Adah Nyr - High Poly Character Preset - RaceMenu
+		https://www.nexusmods.com/skyrimspecialedition/mods/65976?tab=files
+	
+	Vyren Nyr - High Poly Elf Character Preset - Racemenu
+		https://www.nexusmods.com/skyrimspecialedition/mods/67087
+	
+	Mika Nyr - High Poly Character Preset - RaceMenu
+		nexusmods.com/skyrimspecialedition/mods/69518
+	
+	Taevyr Nyr - High Poly Character Preset - Elf - RaceMenu
+		https://www.nexusmods.com/skyrimspecialedition/mods/72843
+	
+	Zaya Nyr - High Poly Character Preset - RaceMenu		
+		https://www.nexusmods.com/skyrimspecialedition/mods/78289
+		
+	Nuria Nyr - High Poly Character Preset - RaceMenu
+		https://www.nexusmods.com/skyrimspecialedition/mods/81293
+	
+	Meera Nyr - High Poly Character Preset - RaceMenu
+		https://www.nexusmods.com/skyrimspecialedition/mods/82342
+		
+	Blanc Nyr - High Poly Character Preset - RaceMenu
+		https://www.nexusmods.com/skyrimspecialedition/mods/82722
+		
+	Maria Nyr - High Poly Character Preset - RaceMenu
+		https://www.nexusmods.com/skyrimspecialedition/mods/83686
+		
+	Dining Set 2K-8K by iimlenny
+		https://www.nexusmods.com/skyrimspecialedition/mods/93132
+		
+	JJakeno's Presets - Emy Rata HP Breton
+		https://www.nexusmods.com/skyrimspecialedition/mods/93129
+	
+	Nirelia Nyr - High Poly Character Preset - RaceMenu
+		https://www.nexusmods.com/skyrimspecialedition/mods/86499
+	
+	Little Locations - Remote Shack
+		https://www.nexusmods.com/skyrimspecialedition/mods/91567?tab=files
+		A new shack located in The Rift. Fast travel enabled. Spent a bit more time than usual decorating this one to make it cozy inside. Has some stuff for basic needs, etc. Made it because the one I was working on is a much bigger job than I 1st thought. Meshes and textures used made by RoboBirdie with open permissions for use. Converted to SE by myself and optimised. Hope you enjoy :)
+	
+	Miggyluv's Lucien Replacer 1.01
+		https://www.nexusmods.com/skyrimspecialedition/mods/93079
+		- fucking needs beards.esp!
+		- no it doesn't!  only needs assets!  Master can be removed!
+		
+	
+	Beards 5.0.1
+		https://www.nexusmods.com/skyrimspecialedition/mods/1067
+		- esp needs to be eslified
+		- only used by 	Miggyluv's Lucien Replacer 1.01 so far 
+		DO NOT INSTALL!!!! spurious master in the Lucien Replacer!
+	
+	Weapons Armor Clothing and Clutter Fixes 2.9.3  INSTALL UPDATE  2023.06.09
+		https://www.nexusmods.com/skyrimspecialedition/mods/18994?tab=files
+		
+	Culminated ENB 2.7c  NEW INSTALL ROOTBUILDER
+		https://www.nexusmods.com/skyrimspecialedition/mods/53167
+		DL: C. Culminated ENB for Cathedral Weathers (ENB Weather Supported) V2.7c  02 sep 2021
+			- ENB Preset for Cathedral Weathers (Not Included). Requires SKSE and ENB Helper for ENB weather support. Includes Full Quality, Quality and Performance options. Includes Night Eye fix & Ady's Add On. Uses ENB .462. See Install Steps.
+		Hot Keys:
+			Shift + F12 - Disable/Enable ENB All Effects
+			Shift+Enter - Bring up ENB menu
+			Shift + F7- Disable/Enable DOF
+			Home - Lock FPS to 59
+			* - Show FPS
+		Overall Performance Hit:(Of course, varies by PC)
+			Full Quality: 15-20 FPS
+			Quality: 8-15 FPS
+			Performance: 5-7 FPS
+
+===============================================================================
+2023-06-10
+===============================================================================
+
+INSTALL:
+	Little Locations - Remote Shack 1.01	INSTALL UPDATE
+		https://www.nexusmods.com/skyrimspecialedition/mods/91567?tab=files
+		
+	Medieval Ladle 2K-8K by iimlenny 1.0 	NEW INSTALL
+		https://www.nexusmods.com/skyrimspecialedition/mods/93225
+		Lennys Medieval Ladle Replacer 2K  1.0 10 jun 2023		kz clutter remodel
+	
+	Look Around - Searching Animations For NPCs - OAR 1.0  TheCyclist	NEW INSTALL
+		https://www.nexusmods.com/skyrimspecialedition/mods/79958?tab=files
+		Animation will be applied to NPCs who are searching for someone hiding.
+		Includes one handed weapon, two handed weapon, hand to hand, bow, crossbow, magic, dual magic, dual wielded, staff and torch Idle.
+		DAR version - ESP-FE (ESL-Flagged ESP)
+		OAR﻿ version has no esp.
+		Safe to install mid-playthrough.
+		Read Q&A for more infos.
+		
+	My Main menu - Randomized Collection 5.0   INSTALL UPDATE
+		https://www.nexusmods.com/skyrimspecialedition/mods/90013?tab=files
+		Randomized Collection SE-AE - Update V5.0  09 jun 2023
+	
+	Sacrificial Maidens Lite - Botox 1.0 Plunket-SpongebobHentaiSimulator  NEW INSTALL
+		https://www.nexusmods.com/skyrimspecialedition/mods/93194?tab=files
+		Lite Version of Sacrificial Maidens by Plunket
+		Requirements:  Botox for Skyrim (assets only)
+		see https://www.nexusmods.com/skyrimspecialedition/mods/17392 for description:
+			The entire reason high fantasy exists is because of the idea at the core of this mod. You want to rescue the damsel from the dragon, and with a little luck, she'll show you her underwear. Tell me I'm wrong, fool.
+			10 NPCs, 14 new UNP clothing items, 4 new potion items. Free the girls before the dragons get them!
+			Panicked villagers are sacrificing maidens to the dragons! No quests, just approach the NPC and speak.
+			The girls' families have sedated them against pain and horror with Sleep Thorn! It's so strong that the girls might even be oblivious while the dragon attacks! You must tell them to run, and you might have to tell them more than once. When they regain clarity they will stop talking and flee in terror to a nearby city, even if the dragon is dead. They are not essential and can die en route! After they get to safety they might not speak for a while.
+			THE GIRLS: GLAMOUR MODS ABOUND; THIS IS NOT ONE. They are vanilla + UNP only. My screencaps use Adorable Face and Younger Bretons, loaded after (below) this mod. Marriage availability depends on the voice of the NPC.* They are not adventurers and will flee from attack.  If you want them to follow you, you'll need a mod that can add them into that faction,** but wait until after they arrive at a safe place. It had to be done this way.
+		This version includes some changes:
+			No custom armor UNP; this mod uses your assets, and maidens use wedding dresses.
+			Maidens now have botox for Skyrim and a custom face for Bump; the orc has a custom face made by Racemenu.
+			ESL Plugin.
+			The cookie recipe is intact.
+			Some important notes:
+			I used base ENB with FairSkin; no other mod was used for screenshots.
+			The maidens can die, but I added respawn time to make things easier.
+			I suggest rescuing them before dragons appear.
+		KZ Notes: i plan to tweak the hell out of this mod, mostly to change maiden appearance and clothing.
+
+	Botox for Skyrim 1.74 	NEW INSTALL EDITED
+		https://www.nexusmods.com/skyrimspecialedition/mods/20967
+		KZ EDITS:  hide all esps.  extract bsa.  Hide all files that override anything
+		Load Order:  early, before CBBE, as this mod tries to install it's own bodies and makeup.
+	
+	Arissa - Default Body plus Dialog Fix 1.0   UPDATED INFO - ALREADY INSTALLED
+		https://www.nexusmods.com/skyrimspecialedition/mods/42187
+		Changes Arissa (version 2.2.2) to use your default body meshes and textures, and fixes her "What do you know about this place?" silence.
+		This mod changes Arissa - The Wandering Rogue (version 2.2.2) to use your default body meshes and textures.
+		"But don't we already have one of those?"
+			Yes, Arissa - The Wandering Rogue (Default Body and Texture patch) also has Arissa using default body meshes and textures. The way it handles the head textures differs from this mod, but the result is the same.
+		"Then why did you make this patch?"
+			A few reasons:
+			1) That mod, for no obvious reason, changes her default outfit. Arissa's default outfit, named "_Arissa_BaseOutfit" in the mod, is the stock ClothesMerchantClothes and ClothesMerchantBoots. Mod 19441 says it "reassigns her default armor to a simple vanilla game hide armor to avoid having her body clip through her armor", but that doesn't make sense; her DOFT is already "simple vanilla game...armor". In fact, all of Arissa's outfits are stock items (there are no armor/clothing meshes in the mod); the ESM just gives one set different names ("Thieves Guild Variant XXX" becomes "Weatherworn Burglar's XXX").
+			- Arissa's original body is a CBBE variant; as shown in the image, having her equip a UNP-based armor will result in the usual texture mismatches. With this patch in place, she will match your default body textures.
+			Perhaps of greater interest:
+			2) This mod is ESL-flagged; Mod 19441 is not, so it takes up a limited non-FE load-order slot even though it contains zero non-override records.
+			3) This mod, thanks to Reddit user AmechanosIason, makes her "What do you know about this place?" dialog work, albeit with an extra click of the pointer. The dialog isn't that exciting--it's basically repeats of some of her random-idle comments--but the non-working conversation topic seems to bother some people, so this mod turns it back on.
+		NOTE: If you use an appearance replacer for Arissa, like Froztee's excellent Arissa Re-Imagined SE, load this patch before that replacer. That way, this patch will apply the fix for the dialog, and the appearance replacer will determine how Arissa looks.
+		
+	SSEEdit Textures Usage and Data 1.0  INSTALL XEDIT SCRIPT
+		https://www.nexusmods.com/skyrimspecialedition/mods/93083
+		A SSEEdit script to export textures usage and data. You will know what textures are missing for your meshes, metadata from existant textures, their usage and where they are installed.
+		How to use: ﻿On SSEEdit, right click on any esp and select "Apply script", then select the script "Export textures usage and data.pas", you see the interface below (after you select 'Apply script', BE SURE TO NOT SAVE when prompted, it's a very common mistake to type something on the script and save it after):
+﻿
+	Nude Spells 2.6  Kalambre NEW INSTALL
+		https://www.nexusmods.com/skyrimspecialedition/mods/12352
+		Some spell and runes that force targets to unequip gear.
+		This is an independent version created by users request, which includes some spells from Bodytypes of Skyrim mod.
+		There are 2 version: default version (spell tomes and staffs are added to player inventory), and alternative version with tomes stored in hidden places inside chests (if you want to know location, read spoiler at the end).
+		You can find some spell tomes to learn these spells:
+		- Disinhibition (Illusion): Targets will unequip gear and play animations (not aggressive effect, you can use it with friends and enemies)
+		- Nude Rune (Destruction): NPCs will unequip armor and weapons, but weapons are reequiped if character is in combat (not aggressive effect, however some characters don't like to be undressed...)
+		- Nude Rune improved (Destruction): Unequip gear and drop weapons (aggressive effect, affected NPCs will attack you). Note that characters can pick up abandoned weapons from the ground, or other items from inventory when they are forced to drop their items, and maybe these weapons can be more powerful than originals... you're warned.
+		- Massive disinhibition (Illusion): NPCs in the area undress their armor or clothes, if they are in combat, they feel fear and run away.
+		- Naked battle (Alteration): NPCs in the area unequip their gear, and enter in an frenzy state attacking any nearby character.
+		- Conjure Deathlady (Conjuration): summon a female draugr, her shout can undress NPCs.
+		- Disarm cloak (restoration): nearby enemies will drop their armor and weapons.
+		- Staffs: 2 available staffs with nudity effects, + Sanguine's rose replica with alternative effect...
+		DL: Nude Spells Main 1.6 10 apr 2023
+			Nude Spells HighPoly version
+			Nude Spells No-Drop version  - DO NOT INSTALL
+			Nude Spells quest version
+		- esp file needs to be eslified.  script only calls GetFormFromFile on SerialStrip.esp
+	
+	Frigitta the Frost Witch 1.21 Kalambre  NEW INSTALL
+		https://www.nexusmods.com/skyrimspecialedition/mods/84639
+		A mage follower which enjoys undressing and freezing enemies.
+		Frigitta loves the cold and cold loves her, she likes to walk barefoot and wearing skimpy clothes to feel the cold breeze in a snowy day, and obviously, her favorite season is winter. She enjoys freezing her enemies to death, sharing with them her passion for cold.
+		There are many rumors about her origin, some of them say her parents died when she was a baby, they were surprised by a strong blizzard when the family was traveling along Skyrim, and only Frigitta survived. Other stories say she was abandoned in a snowy forest by her father, when he discovered her magical skills, and was raised by witches. Anyway, seems that cold can't hurt her, and she feels confortable in frozen places.
+		Some time ago, she was admitted to Winterhold college, thanks to her mastery with frost spells, but she was looking for new ways to improve these spells and developed new versions capable of undress targets, increasing freezing effects. This behavior was perceived as indecent by the Archmage and other masters, so, she was expelled from college. Actually, she wanders near Winterhold, waiting for someone that appreciate her special skills, leading her on new adventures.
+		ABILITIES:
+			She is a mage (Breton race), focused on frost magic with these spells/abilities:
+			-Ice Spike and Frostbite improved: similar to original spells, but undress targets if they are dressed and apply a frost weakness.
+			-Conjure frost Atronach
+			-Conjure Ice Wraith spell
+			-Frost cloak: Auto enabled when character is in combat, undress nearby enemies
+			-Passive abilities: 100% frost resistence, 20% fire resistence (too cold to burn...)
+			-Mage armor effect applied if no wearing armor
+			-Healing spell
+			-Heal rate increased when snowing
+			*She also has a Ice Spike and Frostbite staff on inventory (in case she spend all her mana).
+		Requires: Nude Spells
+		DL: Frigitta HighPoly head version 1.21 10 jun 2023
+		
+		An Evening With Angi 1.1 CHIMinyCricket
+			https://www.nexusmods.com/skyrimspecialedition/mods/74499
+			Angi invites you in for dinner. Perhaps she just wants company, perhaps she wants something more...
+			DL: An Evening With Angi ESL Version 1.1 12 sep 2022
+			A very short quest where you spend some alone time with your favorite wild archer, Angi. To start the mod, just finish Angi's archer training and talk to her afterwards. If you don't know who Angi is, she's the archer who lives on a mountain near Falkreath and gives you archery lessons. Don't expect a feature length quest mod, this is very short and to the point. If it isn't already clear, this is an adult mod where two adults do adult things to each other in a consensual and adult manor. Oh, and you don't have to do the quest during the evening, but I'd recommend you do it at that time for the mood lighting ;).
+			OStim is required, so make sure you download it first.
+			While you're here, why not grab my other mod Fertility Adventures (and its requirements) to make things a little more interesting? It isn't required, just thought I'd mention it.
+			I made this mod months ago, but I never got around to releasing it. I'd be interesting in doing a large scale version of this with other NPCs in the future. If you're interested in that sort of thing, then let me know what you think of this mod, I'm open to feedback. Perhaps you'd also consider joining my Patreon. Even joining for $1 and leaving the next month would be more than 99% of people would give for free content. Shoutout to Boshilo for being a long time supporter. Whatever you decide to do, I hope you have a good day.
+			Compatibility
+				The mod is compatible with any Angi face replacer and Better Living for Angi.
+			Q: What Angi replacer is that?
+			A: It's from the Northbourne NPC replacer series.
+			Q: Why Angi?
+			A: I always felt that Angi typically flies under people's radar. She's actually pretty fleshed out for a random NPC you find in the middle of nowhere (by Skyrim standards). Most NPCs of that sort are pretty generic and only have one or two lines of dialogue.
+		
+		GLAM Angi 1.0 GLAMbazoonga
+			https://www.nexusmods.com/skyrimspecialedition/mods/63723
+			a visual NPC overhaul of the archery teacher lady, Angi, making her look glamorous, gorgeous, rustic, cunning, survivalist
+			DL: GLAM Angi - custom body and skin (recommended)
+				GLAM Angi - REALORE Skin
+				Angi face preset
+			She is a lonely girl living on a mountain.
+			She used to live in Helgen but had to leave.
+			She is an outlaw, hiding there from the authorities.
+			She took revenge on the drunken Imperial soldiers who killed her parents.
+			She does not know that no one will come to arrest her from Helgen.
+			She is so kind so she teaches you archery for free.
+			She shows you the secrets of using the bow correctly.
+			She trains you until you improve your archery a lot.
+			This is Angi.
+			This is my version of Angi, as I imagine she should look. 
+			This is my vision of her. I made her look pretty glamorous, gorgeous, cute but slightly ragged too, more natural realistic. 
+			She looks like a young Nord woman who spends her days outdoors, a blonde-readhead with freckles
+			The mod is a makeover of Angi. It is *fully standalone*. It includes a face that is High Poly, with hair, textures and a custom CBBE body. She has the body and skin I made for her.
+			She has a messy bright ginger hair, tied in the back of her head, falling on her shoulders. 
+			Her lips are thick, but not a lot.  
+			She has blue-violet eyes with not thick eyelashes and unique warpaint around her eyes.
+			She has some freckles on her face and rough face complexion.
+			This face was inspired from the look of the actress Emma Roberts.
+			Her custom CBBE body made by me is thin and lean. 
+			I used customised bijin Skin 4K.
+			optional:
+			* REALORE Skin (very recommended!)
+			* less ragged face (good for harsh ENBs or no ENB)
+			
+	Wolfpaint - Face - Facepaint Collection for Racemenu Overlays 1.0-MF DomainWolf
+		https://www.nexusmods.com/skyrimspecialedition/mods/30255
+		A massive collection of facepaints made by yours truly, DomainWolf! 200+ facepaints made for female and male characters, split into 12 different sets! Each set has a unique theme and style, and plenty of options to mix and match to help your character become truly unique!
+		- used by GLAM Angi face preset
+	
+	
+	KZ Tweak - Default Sleep Outfit is Nude 1.0 2023.06.10   NEW MOD
+		- changes the default sleep outfit to be empty. i.e. nude.  Merged into KZ Merged Patch - NPCs
+	
+	KZ Patch - GLAM Angi + Rigmor + KZ Tweaks  NEW MOD
+	
+	Better Living for Angi (Angi's Shack) 1.1  NEW INSTALL
+		https://www.nexusmods.com/skyrimspecialedition/mods/58451
+		FOMOD: USSEP, Rigmor patches
+	
+	Angi's Camp Tweaks 1.1.1 by Parapets NEW INSTALL
+		https://www.nexusmods.com/skyrimspecialedition/mods/44914
+		Reworks XP gain from Angi's archery challenges to be independent of your current skill level, and allows you to gain extra XP from practicing on your own. Your character won't be a beginner anymore if you can complete all the challenges!
+	
+	Sepolcri - A complete Burial Sites overhaul 2.0 WiZkiD  NEW INSTALL
+		https://www.nexusmods.com/skyrimspecialedition/mods/34105
+		Sepolcri is a complete overhaul of all burial sites in Skyrim.
+		- esp needs eslification
+	
+TESTING
+	Started game just fine.
+	120 fps in Inn
+	Ostim sex fine
+	Waltzing fine
+	CTD upon going outside!!!
+	Crash Dump:  possibly in BSResources?
+	Note:  only 4 mods using .Net Framework - Uninterrupted Ethereal Form (Obsolete), Grass Control (no AE), Better Telekinesis (no AE), and Custom Skills (has AE version)
+
+TEST AGAIN:
+	yep, same ctd on exiting.  long load screen first
+	
+DISABLE:	Pause after Load Unscripted			- only newly installed mod likely to trigger on passing through door
+	
+DISABLE:	Uninterrupted Ethereal Form 		- now handled by po3 Enhanced Invisibility, which has an AE port
+
+TEST 4:
+	Worked!!!
+
+DISABLE:	No Grass in Caves		- uses .NET framework, so 1.5.97 only.  disable in preparation of moving to AE 1.6.640
+DISABLE:	Better Telekinesis		- uses .NET framework, so 1.5.97 only.  disable in preparation of moving to AE 1.6.640
+
+SAVE CURRENT BUILD:
+	Copy current profile into new profile - KZ 0.99 2023.06.10 using 1.5.97
+
+MAJOR GAME OVERHAUL - Moving to AE 1.6.640
+	Will be switching over all SKSE mods from SE 1.5.97 versions to AE 1.6.640 versions
+	
+CHANGEOVERS:
+	Actor Limit Fix - updated 5.0 -> 9.0 
+	Actor Value Generator - supports AE & SE, no change needed
+	AddItemMenu - DISABLE - only SE 1.5.97
+	AddItemMenu NG 1.4 - INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/71409 - This mod serves as a drop-in replacement for the AddItemMenu DLL and supports both Skyrim SE and AE.
+	Recipe Auto-Learn 1.1.1 - AE and SE
+	Alternate Conversation Camera 2.4.4 - DISABLE.  Replaced by Improved Alternate Conversation Camera
+	Animation Crash Limit Fix - update 0.3 -> 0.4.1
+	Anim Object Swapper - REINSTALL to get AE version
+	Armor Rating Redux SE 2.0.10 - DISABLE - only works for SE 1.5.97.  Replace with Armor Rating Rescaled
+	Armor Rating Rescaled SKSE Remake 1.0.2  NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/35296
+	Auto Input Switch - DISABLE - I never use gamepad controller
+	Base Object Swapper 2.5.1 by po3 - REINSTALL for AE version
+	Better Combat Escape - SSE 0.83 - NEW INSTALL - https://www.nexusmods.com/skyrimspecialedition/mods/43936  - needs NG addon to support AE
+	Better Combat Escape - NG - NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/72901
+	Better Jumping - UPGRADE 1.7.3 -> 1.8.6
+	BlockSteal - Prevents accidentally pick up 0.10 - DISABLE - only for SE 1.5.97 - replace with BlockSteal Papyrus
+	BlockSteal Settings Loader - DISABLE
+	BlockSteal Papyrus 1.2 - NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/32605
+	Tidy Up-Block Steal Papyrus-Patch 1.0 - NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/90475
+	Bug Fixes SSE 6.0 - UPDATE to 10.0
+	Camera Noise - DISABLE - uncertain compatibility
+	Casting Bar - should be good, author says works with E and SE in forum, but also recommends Downgrader on main page
+	CBPC - REINSTALL
+	Classic Paralysis - UPDATE 3.1 -> 3.3.1
+	Classic Sprinting Redone - UPDATE 2.2 -> 2.3
+	Console Commands Extender 1.8 - DISABLE
+	Console Commands Extender - Anniversary Edition Update - INSTALL NEW - 
+	CoMAP - UPDATE 3.4.2 -> 4.0
+	CoMAP Compass Navigation Overhaul Temporary Workaround - INSTALL
+	ConsoleUtils - DISABLE - switch to ConsoleUtil NG
+	ConsoleUtilSSE NG 1.4.0 - INSTALL NEW
+	Copy Character Appearance - DISABLE - only for SSE 1.5.97
+	Custom Skills Framework - UPDATE  -> 2.02 - old version was .NET, new is SKSE
+	Detection Meter - DISABLE - SE 1.5.97 only - replace with NG version
+	Detection Meter - NG v0.17-NG - NEW INSTALL
+	Different Casting Time - DISABLE - mod is untested, by a modder who doesn't play skyrim, and probably only works for 1.5.97
+	Disable Follower Collision - DISABLE - only works for SE 1.5.97 - replaced by I'm Walking Here
+	Don't Stay in The Water 5.1 - replace with update version, same version number
+	dTry Key Utils SE - UPGRADE to AE version
+	Dual Wield Parrying - UPGRADE -> 1.5
+	Dynamic Animation Casting 1.5.1 - DISABLE - for SE 1.5.97 only - upgrade to Dynamic Animation Casting NG
+	Dynamic Animation Casting NG 3.2.3 - INSTALL NEW - 
+	DynDOLOD DLL SE 2.45 for SE 1.5.97 - UPGRADE to DynDOLOD 3.0 alpha
+	Elden Counter 1.6 - REINSTALL for AE version
+	ENB Helper - UPDATE 1.5 -> 2.2
+	ENB Light Inventory Fix - UPDATE to AE version
+	Encounter Zones Unlocked SE - UPDATE 1.4 -> 1.5.4
+	Enhanced Invisibility 1.3 - REINSTALL for AE
+	Enhanced Reanimation 1.5.1 by po3 - for 1.5.97 reinstall for AE
+	Equip Enchantment Fix 1.3.5 - UPDATE -> 1.3.6
+	Face Discoloration Fix SE 1.0.1 for SSE 1.5.97 - UPDATE -> 1.0.3
+	FileAccess Interface for Skyrim SE Scripts - FISSES - UPDATE 1.3.7 -> 1.4.1
+	Fix Note icon for SkyUI (SKSE64 plugin)  UPDATE 1.2.1 -> 1.2.6
+	Frozen Electrocuted Combustion - REINSTALL for AE version
+	FSMP - Faster HDT-SMP v1.50.9-rc1 - REINSTALL for AE version
+	Fuz Ro D-oh - Silent Voice - UPDATE -> 2.3
+	Go to Bed - INSTALL AE version
+	HDT-SMP Force Fields - uncertain.  DISABLE FOR Now
+	Hide Your Quests - DISABLE - SE 1.5.97 only.  SEE Hide Those Futile Quests SE https://www.nexusmods.com/skyrimspecialedition/mods/76361
+	Hide Those Futile Quests SE 2.0 - NEW INSTALL  https://www.nexusmods.com/skyrimspecialedition/mods/76361
+	Honed Metal - INSTALL AE version
+	Horse Stamina HUD - UPDATE 1.0.1 -> 1.0.4
+	I'm Walkin Here - UPDATE 1.5 -> 1.7
+	IFrame Generator - DISABLE - OBSOLETE - hidden on nexus - use IFrame Generator RE
+	IFrame Generator RE 1.03 - INSTALL NEW 
+	Immersive Equipment Displays 1.6.3 - INSTALL AE version
+	Improved Alternate Conversation Camera SE 1.2 - INSTALL AE version
+	Improvement Names Customized 1.3 for SSE 1.5.97 - UPDATE -> 1.4
+	Inventory Interface Information Injector - UNINSTALL Patch that makes it work for SE 1.5
+	JContainers - UPDATE 4.1.13 -> 4.2.3
+	Keyboard Shortcuts Fix UPDATE 1.0.0.2 -> 1.0.0.4
+	Loki's Wade in Water - SE 1.5.97 only.  keep, but add Replace with Wade in Water Redone to update for AE
+	Wade in Water Redone 1.1.2 by doodlum - ok fine
+	Magic Sneak Attacks 1.2 - REINSTALL
+	Main Menu Randomizer - INSTALL AE version
+	Map Flip For Beyond Reach 1.0 by po3 - for SSE 1.5.97 Option A - reinstall for AE
+	MCM Helper - UPDATE to AE version
+	Merge Mapper - UPDATE 1.4 -> 1.5
+	MFG Fix - UPDATE to 1.6.1
+	MFG Fix MCM - INSTALL NEW
+	Moons and Stars - Sky Overhaul SKSE 2.0.2 - REINSTALL for AE
+	MoreHUD Inventory Edition - UPGRADE 1.0.20 -> 2.1.2	
+	moreHUD SE - UPGRADE 4.1.2.0 -> 5.2.2.0
+	No Crime Teleport RE - INSTALL AE version
+	NPC Process Position Fix - DISABLE - OUTDATED - use NPC AI Process Position Fix - NG
+	NPC AI Process Position Fix - NG 1.1.1 - NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/69326
+	NPCs Names Distributor 2.1.2 for SSE 1.5.97 aka NND2 reinstall for AE
+	OBody NG - OK for SE and AE
+	OnHit Animations Framework - UNINSTALL - Use NG Version
+	OnHit Animations Framework - NG 1.0 - NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/69298
+	Oxygen Meter 2 - INSTALL AE version
+	PapyrusUtil SE - Modders Scripting Utility Functions - UPDATE 3.9 -> 4.4
+	Player Rotation in ShowRaceMenu 1.0 - DISABLE - for SE 1.5.97 only - move to Another Race Menu Rotation Mod
+	Another Race Menu Rotation Mod 1.2.1 - INSTALL NEW
+	POISE - Stagger Overhaul SKSE - DISABLE for SE 1.5.97 only - use POISE - Stagger Overhaul - NG
+	POISE - Stagger Overhaul - NG 1.0.2.3 - NEW INSTALL
+	Poisebreaker 0.7 - INSTALL AE version
+	powerofthree's Papyrus Extender 5.5 - REINSTALL for AE
+	powerofthree's Tweaks 1.8 - REINSTALL for AE
+	Precision - supports AE and SE
+	PrivateProfileRedirector SE - Faster game start (INI file cacher) - update to AE version
+	QuickLoot EE - OK, but REINSTALL anyway
+	RaceMenu 0.4.16 Memory Leak Hotfix (SE) 1.0 - DISABLE - not needed for AE version
+	RaceMenu SE 0.4.16 for SSE 1.5.97 - UPDATE to 0.4.19.14
+	Rain Extinguishes Fires - OK - may have bugs with Embers XD, possibly other mods
+	Read Or Take SKSE 1.3 by po3 - REINSTALL for AE
+	Reading is Good SE - UPDATE 1.1. -> 1.1.2
+	Recursion Monitor - OK
+	Regional Save Names 1.3.1 by po3 - for SSE 1.5.97 - reinstall for AE
+	Sales Overflow Solved - DISABLE - This mod is obsolete and should no longer be used. Please use this mod instead: Barter Limit Fix
+	Savage Offspring SKSE 2.1.0 by po3 - for SSE 1.5.97 reinstall for AE
+	Scaleform Translation Plus Plus 1.4.1 for SSE 1.5.97 - UPDATE to 1.6
+	SCAR - Skyrim Combos AI Revolution 1.06b - for SSE 1.5.97 - needs to add SCAR AE Support
+	SCAR AE Support 1.06.1 - NEW INSTALL - https://www.nexusmods.com/skyrimspecialedition/mods/77285
+	Schlongs of Skyrim SE 1.1.4 for SSE 1.5.97 aka SOS - DISABLE
+	Schlongs of Skyrim AE - No DLL Version 1.1.4 - NEW INSTALL - https://www.loverslab.com/files/file/23433-schlongs-of-skyrim-ae-no-dll-version/
+	Scrambled Bugs v17.0 for SSE 1.5.97 - UPDATE to v21
+	Security Overhaul SKSE - Lock Variations 3.2 - REINSTALL for AE
+	Shadow Diffusion - UPDATE 1.0 -> 1.1
+	Simple Activate SKSE 1.4.1 by po3 - REINSTALL for AE
+	Simple Dual Sheath - UPDATE to AE version
+	Simple Offence Suppression 2.2.1 by po3 - for SSE 1.5.97 - reinstall for AE
+	Simple Weapon Swing Parry - NG 1.04 by doodlum - for SE and AE - UPDATE 1.02 -> 1.04
+	Simply Knock SKSE64 DLL - UPDATE 4.0 -> 5.4
+	Sky Flip for Beyond Reach 1.0 by po3 - for SSE 1.5.97 - reinstall for AE
+	Skyrim Souls RE - Updated  - UPDATE 2.2.2 - > 2.3.2
+	Skyrim Skill Uncapper 1.1.0 - DISABLE - OBSOLETE - use Skyrim Skill Uncapper for SE and AE
+	Skyrim Skill Uncapper for SE and AE 2.2.0 - NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/82558
+	Slayable Offspring SKSE 2.1.0 by po3 for SSE 1.5.97 reinstall for AE
+	Soaking Wet - Character Wetness Effect - INSTALL AE version
+	Spell Perk Item Distributor (SPID) 6.6.1 by po3 - for SSE 1.5.97 - reinstall for AE
+	Splashes of Storms 1.3.0 by po3 for SSE 1.5.97 reinstall for AE
+	SSE Engine Fixes for 1.5.39 - 1.5.97 (Part 1) v5.9.1 - UPDATE -> 6.1.1
+	SSE FPS Stabilizer 1.1.9 for SSE 1.5.97 - Medium Quality Config - REINSTALL for AE			-- this is probably the cause of my low FPS outdoors!  it has a target FPS = 58!!!!
+	Stagger Direction Fix - SSE - for 1.5.97 only - KEEP - add Stagger Direction Fix - NG
+	Stagger Direction Fix - NG 1.0.2 by doodlum for SE and AE  - INSTALL NEW - https://www.nexusmods.com/skyrimspecialedition/mods/69291
+	Behavior Data Injector 0.13 - NEW INSTALL - https://www.nexusmods.com/skyrimspecialedition/mods/78146  - SKSE plugin that allows you to add new animation variables & events via config files without nemesis patch.
+	Behavior Data Injector Universal Support v0.13.0.1 - NEW INSTALL - https://www.nexusmods.com/skyrimspecialedition/mods/78159 - The latest Behavior Data Injector SKSE plugin with added AE and VR support with a PDB for debugging.
+	Stay At The System Page - Updated 1.5.0 - for SSE 1.5.97 - use NG for AE
+	Stay At The System Page NG 1.6 by VersuchDrei for SE and AE - NEW INSTALL - https://www.nexusmods.com/skyrimspecialedition/mods/76927
+	Storm Lightning for SSE and VR (Minty Lightning 2019) - REINSTALL for AE
+	Survival Control Panel 1.0.3 for SSE 1.5.97 by Parapets - UPDATE 1.0.3 - > 1.1.2
+	Take a Peek - New Stealth Mechanic 1.15 by jayserpa - OK for SE and AE
+	To Your Face SE v1.0h - for SSE 1.5.97 - UPDATE 1.0h -> 1.0s
+	Crash Logger SSE AE VR - PDB support 1.8.0 - NEW INSTALL - https://www.nexusmods.com/skyrimspecialedition/mods/59818
+	UNDERDOG Animations 1.9.1 - KZ 2023-05-02 all installed - should work for SE and AE
+	Use or Take SKSE 1.2 by po3 for SSE 1.5.97 reinstall for AE
+	Vampires Cast No Shadow 1.2.1 by po3 for SSE 1.5.97 - reinstall for AE
+	Whose Quest Is It Anyway 1.3 for SSE 1.5.97 - UPDATE -> 1.5
+	Yes Im Sure 1.5.0 for SSE 1.5.97 - UPDATE -> 1.7.0
+	zxlice's Ultimate Potion Animation - DISABLE - only for SSE 1.5.97 - Try Animated Potions https://www.nexusmods.com/skyrimspecialedition/mods/73819
+	Address Library for SKSE Plugins v2.0 by meh321 - for SSE 1.5.97 - update to v8
+
+NEW MODS:
+	Skyrim AE 1.6.640 Vanilla Data
+	Skyrim AE 1.6.640 RootBuilder
+	Skyrim SE 1.5.97 Base Vanilla Data
+	Skyrim SE 1.5.97 RootBuilder
+	SKSE64 2.2.3 for AE 1.6.640 - KZ edited data and RootBuilder
+
+TEST RUN with new 1.6.640 root and data
+	CTD - SCAR - address library issue
+		- due to typo in load order - AE update was in wrong place
+
+TEST RUN 2
+	Skyrim Uncapper - log files updated
+	Skyrim Uncapper - Failed to install the requested set of game patches.  See log for details.  It is safe to continue playing; none of this mods changes have been applied.
+	SKSE plugin loader - A DLL plugin has failed to load correctly.  if a new version of skyrim was just released, the plugin needs to be updated
+		HonedMetal.dll:  disabled, incompatible with current version of the game
+		ImprovementNamesCustomizedSSE.dll:  disabled, only compat with < 1.6.629
+		loki_POISE: ditto
+		MaxsulFrame: ditto
+		SkyrimUncapper: reported incompat during load
+
+MODS
+	Honed Metal Community AE Patch 1.6.640  				NEW INSTALL		https://www.nexusmods.com/skyrimspecialedition/mods/80705
+		Community Patch for Honed Metal - Skyrim AE/GOG latest version
+		total replacement for older versions of Honed Metal
+	
+	Improvement Names Customized AE 1.5.0 by colinswrath  	NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/59435
+		Replace vanilla customization strings with your own custom strings. Its the same as the older version, just updated for Skyrim Special Edition 1.6.X+ (AE) compatibility.
+	
+	Poisebreaker AE 0.7										DISABLE MOD
+		- only supports 1.6.353, not 1.6.640
+	
+	IFrame Generator RE AE Support 1.03.1 by doodlum 		NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/82737
+		The latest IFrame Generator RE plugin with added AE support (including 1.6.629+) and a PDB for debugging.
+	
+	CHADD Uncapper Preset Library 2.11  by Cheshyr  		NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/35366
+		DL: CHADD Uncapper 2.11 07 oct 2021
+	
+TEST RUN 3
+	Same Uncapper messages.  maybe i should look at log
+
+CONFIG
+	Skyrim Skill Uncapper for SE and AE
+		- Known compatibility issues:
+			meh321's Custom Skills Framework﻿ will not load unless you adjust the INI file for the uncapper.
+			Set bUseSkillFormulaCapsUIFix to false. Skills above the formula cap will display incorrectly in the skills menu.
+			Set bUseLegendarySettings to false. None of the settings in the INI file related to legendarying skills will be functional.
+	
+NEMESIS
+	Build hanging at 99%
+	After computer reboot and a few tries, finally it works.
+
+TEST RUN
+	working fine!  FPS still 60-ish, no great improvement
+	standing in fire doesn't bother me
+
+MODS
+	Mea -Nord- High-Poly Head Racemenu Face Preset 1.0		NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/93265
+	Nord Female Preset (High Poly Head) - Elfwyn 1.0		NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/68330
+	Nord Female Preset (High Poly Head) - Aeowyn 1.0		NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/68329
+	Belethor's Sister - Quest 0.2.5  						UPDATE  https://www.nexusmods.com/skyrimspecialedition/mods/92381?tab=files
+	Open Animations RE for OStim NG (former OpenSex) 1.34 	UPDATE https://www.nexusmods.com/skyrimspecialedition/mods/61167?tab=files
+	
+	Dragons Use Thu'um 1.4									NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/87085
+		This mod adds a variety of new shouts for dragons. All the shouts are fully voiced and immersive! No longer the dragons will merely roar when they use the Thu'um, instead just like the Dragonborn they will use the proper Words of Power.
+	
+	Enigma Series -All In One- SSE 2.1						NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/34620
+		The total Remake of every unique dragons voiceline, All in one package!
+		Enigma Series -All In One- SSE 2.0 - all dragons revoiced
+		Enigma Series -Odahviing v2- update 2.1 - less whiny
+		
+	Enigma Series Compatibility Patches (Official)			NEW INSTALL	https://www.nexusmods.com/skyrimspecialedition/mods/33084
+	
+	Fortune's Tradehouse 2.0								UPDATE RADAR https://www.nexusmods.com/skyrimspecialedition/mods/22755
+		- Updated with new fixes from robertgk2017 & Kulharin.  Previous navmesh issues have been addressed.
+		- just don't have space for it right now
+	
+	Gaia BodySlide Preset for CBBE 3BA and BHUNP 1.0 s4rMs	NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/72321
+	Juno Bodyslide Preset 1.0 s4rMs							NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/76777
+	Lusty Maid - A CBBE 3BBB 3BA Bodyslide Preset for SE 1.0 gerdzofficial		NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/93269
+	Finnine Flute BodySlide Preset for 3BA BHUNP CBBE and UNP 1.0 s4rMs			NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/82997
+	Binibini Skin for CBBE 3BA COCO 1.0 s4rMS				NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/64536
+	Athena Bombshell Body Preset for 3BA-BHUNP-CBBE-COCO-3BBB BodySlides 1.0 	NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/63290
+	Hestia Model CBBE 3BA Bodyslide Preset 1.0 s4rMs		NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/55884
+	Softie CBBE Normal Map									NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/59873
+	Sarya's Body - A CBBE 3BBB 3BA Bodyslide Preset for SE	NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/56899
+	Lusty Vampire - A CBBE 3BBB 3BA Bodyslide Preset for SE	NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/83675
+	
+	Snazzy Items for Interesting NPCs (3DNPC) 1.0			NEW INSTALL https://www.nexusmods.com/skyrimspecialedition/mods/58811
+		﻿DO NOT download this if you use my mod Legacy of the Dragonborn - Interesting NPCs Patch!!
+		DO NOT INSTALL!!!
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
